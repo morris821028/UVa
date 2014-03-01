@@ -1,0 +1,24 @@
+*** Transaction 102 is out of balance ***
+111 Cash                                 1.00
+121 Accounts Receivable                -10.00
+211 Accounts Payable                    -0.10
+241 Sales Tax Payable                   -0.01
+401 Sales                                0.02
+555 Office Supplies                     -0.20
+666 A                                    1.55
+777 A very long account nameeeeeee      -0.44
+778 Foo                                 -0.27
+779 Blarg                                4.01
+999 Out of Balance                       4.44
+
+*** Transaction 105 is out of balance ***
+121 Accounts Receivable                  1.05
+241 Sales Tax Payable                   -0.07
+401 Sales                               -1.00
+999 Out of Balance                       0.02
+
+*** Transaction 106 is out of balance ***
+211 Accounts Payable                  -700.00
+555 Office Supplies                    400.00
+999 Out of Balance                     300.00
+

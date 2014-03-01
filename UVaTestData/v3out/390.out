@@ -1,0 +1,40 @@
+Analysis for Letter Sequences of Length 1
+-----------------------------------------
+Frequency = 504, Sequence(s) = (O)
+Frequency = 462, Sequence(s) = (E)
+Frequency = 445, Sequence(s) = (T)
+Frequency = 407, Sequence(s) = (N)
+Frequency = 375, Sequence(s) = (I)
+
+Analysis for Letter Sequences of Length 2
+-----------------------------------------
+Frequency = 166, Sequence(s) = (IN)
+Frequency = 90, Sequence(s) = (ND)
+Frequency = 79, Sequence(s) = (OU)
+Frequency = 73, Sequence(s) = (ON)
+Frequency = 72, Sequence(s) = (TH)
+
+Analysis for Letter Sequences of Length 3
+-----------------------------------------
+Frequency = 61, Sequence(s) = (WIN)
+Frequency = 59, Sequence(s) = (THE)
+Frequency = 53, Sequence(s) = (YOU)
+Frequency = 50, Sequence(s) = (IND)
+Frequency = 49, Sequence(s) = (DOW)
+
+Analysis for Letter Sequences of Length 4
+-----------------------------------------
+Frequency = 47, Sequence(s) = (INDO,NDOW,WIND)
+Frequency = 46, Sequence(s) = (DOWS)
+Frequency = 31, Sequence(s) = (TION)
+Frequency = 27, Sequence(s) = (FILE)
+Frequency = 26, Sequence(s) = (INST,NSTA,STAL)
+
+Analysis for Letter Sequences of Length 5
+-----------------------------------------
+Frequency = 47, Sequence(s) = (INDOW,WINDO)
+Frequency = 46, Sequence(s) = (NDOWS)
+Frequency = 26, Sequence(s) = (INSTA,NSTAL)
+Frequency = 24, Sequence(s) = (STALL)
+Frequency = 20, Sequence(s) = (ATION)
+

@@ -1,0 +1,36 @@
+const int MaxN=150010;
+
+int n,p;
+char s[MaxN],t[MaxN];
+int v[MaxN];
+
+int main()
+{
+	while (scanf("%d%d",&n,&p)!=EOF)
+	{
+		if (!n) break;
+		p=100-p;
+		scanf("%s%s",s+1,t+1);
+		vector<pii> w;
+		w.push_back(pii(0,0));
+		for (int i=1;i<=n;++i)
+		{
+			v[i]=v[i-1]+(s[i]==t[i])*100-p;
+			w.push_back(pii(v[i],i));
+		}
+		sort(w.begin(),w.end());
+		for (int i=1;i<w.size();++i)
+			w[i].Y=min(w[i].Y,w[i-1].Y);
+		int ans=0;
+		for (int i=1;i<=n;++i)
+		{
+			int t=lower_bound(w.begin(),w.end(),pii(v[i],MaxN))-w.begin()-1;
+			ans=max(ans,i-w[t].Y);
+		}
+		if (!ans)
+			puts("No solution.");
+		else
+			printf("%d\n",ans);
+	}
+	return 0;
+}

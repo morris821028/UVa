@@ -1,0 +1,93 @@
+11
+BEGIN
+  LOOP n
+    OP 4
+    LOOP 3
+      LOOP n
+        OP 1
+      END
+      OP 2
+    END
+    OP 1
+  END
+  OP 17
+END
+
+BEGIN
+  OP 1997 LOOP n LOOP n OP 1 END END
+END
+
+BEGIN
+  LOOP 0 OP 17 END
+END
+
+BEGIN
+  LOOP n OP 0 END
+END
+
+BEGIN
+  OP 1 LOOP n LOOP n OP 3 LOOP n OP 2 END END END
+END
+
+BEGIN
+  LOOP n OP 1
+  LOOP n OP 2
+  LOOP n OP 3
+  LOOP n OP 4
+  LOOP n OP 5
+  LOOP n OP 6
+  LOOP n OP 7
+  LOOP n OP 8
+  LOOP n OP 9
+  LOOP n OP 10
+  END END END END END
+  LOOP 17 LOOP n LOOP n OP 3 END END END
+  END END END END END
+END
+
+BEGIN LOOP 1 LOOP 2 LOOP 3 OP 1 LOOP 4 LOOP 5 LOOP 6 LOOP 7 LOOP 8 OP 1
+END END END END OP 2 END END END END OP 17 END
+
+BEGIN OP 1 OP 2 OP 3 OP 4 OP 5 OP 6 OP 7 OP 8 OP 9 OP 10 OP 11 OP 12 END
+
+BEGIN LOOP n LOOP n LOOP n LOOP n LOOP n LOOP n LOOP n LOOP n LOOP n LOOP n
+OP 12345 END END END END END END END END END END END
+
+     BEGIN               OP
+                 17
+   LOOP 2
+     LOOP n
+
+          LOOP
+ 2 OP
+
+ 4 LOOP
+
+
+         n OP 4
+  LOOP n OP 5
+
+
+              END
+
+  END OP 4                END
+
+     END     END        
+
+END
+
+
+
+                      BEGIN
+    OP 0       LOOP          n       LOOP 
+  n
+
+OP 88     OP  0   LOOP n LOOP 0 OP 17 END END
+
+
+
+                     END                         END
+
+OP 0                     LOOP n LOOP 3 OP 0 END
+END OP 8
+END

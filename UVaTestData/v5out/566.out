@@ -1,0 +1,23 @@
+clone WILLIAM from ADAM is consistent and safe 
+clone BOB from ADAM is consistent and safe 
+clone SAM from ADAM is consistent and safe 
+clone BILL from ANN has no connection to ADAM 
+clone ANN from ADAM is consistent and safe 
+clone WILL from ANN was at least twice mutated with EYE 
+clone SUE from SAM was at least twice mutated with LEG 
+clone HILDEGARDE from SUE has no connection to ADAM 
+clone JERRY from ADAM is consistent and safe 
+clone CHARLES from HILDEGARDE has no connection to ADAM 
+clone ABEL from JERRY was at least twice mutated with LEG 
+clone CAIN from WILL has no connection to ADAM 
+clone GEORGE from SID has no connection to ADAM 
+clone SID from CAIN has no connection to ADAM 
+clone ENOS from ABEL has no connection to ADAM 
+clone ISRAEL from ENOS has no connection to ADAM 
+clone HAIFA from ENOS has no connection to ADAM 
+clone ABC from ENOS has no connection to ADAM 
+clone BCD from ABC has no connection to ADAM 
+clone CDE from BCD has no connection to ADAM 
+clone EFD from BCD has no connection to ADAM 
+clone EFG from BCD has no connection to ADAM 
+clone  from BCD has no connection to ADAM 

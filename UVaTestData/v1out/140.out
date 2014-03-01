@@ -1,0 +1,6 @@
+A B C D -> 1
+A B C N T S U Z -> 4
+A B C F G D H E -> 3
+A B H C G D F E -> 2
+A B C D E F G H -> 1
+A B C D E F G H -> 7

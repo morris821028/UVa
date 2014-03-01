@@ -1,0 +1,36 @@
+Scenario # 1
+1 -- unable to route at HOUSTON
+2 -- delivered to HOUSTON
+3 -- delivered to NAULINS
+4 -- unable to route at NAULINS
+5 -- circular routing detected by DALLAs
+6 -- circular routing detected by DALLAs
+7 -- unable to route at DALLAs
+
+Scenario # 2
+1 -- delivered to foo
+2 -- delivered to bar
+3 -- delivered to foo
+
+Scenario # 3
+
+Scenario # 4
+1 -- unable to route at q
+
+Scenario # 5
+
+Scenario # 6
+
+Scenario # 7
+
+Scenario # 8
+
+Scenario # 9
+
+Scenario # 10
+
+Scenario # 11
+
+Scenario # 12
+
+

@@ -1,0 +1,12 @@
+A:B;C:BDE;F:EG;G:H. A H
+A:B;C:BDE;F:EG;G:H. A G
+A:B;C:BE;F:EG;G:H. A G
+A:B;C:BDE;F:EG;G:H. H C
+A:B;C:BDE;F:EG;G:H. B H
+A:B;C:BDE;F:EG;G:H. B E
+A:B;C:BDE;F:EG;G:H. C B
+A:BD;C:BD;F:E;G:DEH;H:EG. A H
+E:AB. A B
+B:ACD.B D
+A:B;B:C;D:E. A D
+#

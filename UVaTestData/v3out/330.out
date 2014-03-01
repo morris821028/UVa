@@ -1,0 +1,32 @@
+                  INVENTORY REPORT
+Item Name     Buy At      Sell At      On Hand        Value
+---------     ------      -------      -------        -----
+BluBlock        1.00         4.98           96        96.00
+Shade01         0.50         3.79          123        61.50
+Shade02         0.63         4.29          135        85.05
+Towel01         1.47         6.98          478       702.66
+------------------------
+Total value of inventory                             945.21
+Profit since last report                             198.62
+
+                  INVENTORY REPORT
+Item Name     Buy At      Sell At      On Hand        Value
+---------     ------      -------      -------        -----
+BluBlock        1.00         4.98           91        91.00
+Shade02         0.63         4.29          125        78.75
+Shade03         0.51         1.98          246       125.46
+Towel01         1.47         6.98          473       695.31
+------------------------
+Total value of inventory                             990.52
+Profit since last report                              28.43
+
+                  INVENTORY REPORT
+Item Name     Buy At      Sell At      On Hand        Value
+---------     ------      -------      -------        -----
+BluBlock        1.00         4.98           91        91.00
+Shade02         0.63         4.29          130        81.90
+Shade03         0.51         1.98          256       130.56
+Towel01         1.47         6.98          470       690.90
+------------------------
+Total value of inventory                             994.36
+Profit since last report                            -151.82

@@ -1,0 +1,122 @@
+S = {c,o,m,p,u,t,e,r}
+ #|computer
+ -+--------
+ c|computer
+ o|omputerc
+ m|mputerco
+ p|putercom
+ u|utercomp
+ t|tercompu
+ e|ercomput
+ r|rcompute
+
+COMMUTATIVE SEMIGROUP
+------------------------------
+
+S = {a,b,c}
+ #|abc
+ -+---
+ a|abc
+ b|bca
+ c|cad
+
+NOT A SEMIGROUP: c#c = d  WHICH IS NOT AN ELEMENT OF THE SET
+------------------------------
+
+S = {a,c,d,b}
+ #|acdb
+ -+----
+ a|aaaa
+ c|aaca
+ d|aada
+ b|aaab
+
+SEMIGROUP BUT NOT COMMUTATIVE  (c#d IS NOT EQUAL TO d#c)
+------------------------------
+
+S = {a,b,c,d,e}
+ #|abcde
+ -+-----
+ a|aaaaa
+ b|bbabb
+ c|cccbc
+ d|ddddd
+ e|eeeee
+
+NOT A SEMIGROUP: (b#a)#c IS NOT EQUAL TO b#(a#c)
+------------------------------
+
+S = {a}
+ #|a
+ -+-
+ a|a
+
+COMMUTATIVE SEMIGROUP
+------------------------------
+
+S = {a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+ #|abcdefghijklmnopqrstuvwxyz
+ -+--------------------------
+ a|abcdefghijklmnopqrstuvwxyz
+ b|abcdefghijklmnopqrstuvwxyz
+ c|abcdefghijklmnopqrstuvwxyz
+ d|abcdefghijklmnopqrstuvwxyz
+ e|abcdefghijklmnopqrstuvwxyz
+ f|abcdefghijklmnopqrstuvwxyz
+ g|abcdefghijklmnopqrstuvwxyz
+ h|abcdefghijklmnopqrstuvwxyz
+ i|abcdefghijklmnopqrstuvwxyz
+ j|abcdefghijklmnopqrstuvwxyz
+ k|abcdefghijklmnopqrstuvwxyz
+ l|abcdefghijklmnopqrstuvwxyz
+ m|abcdefghijklmnopqrstuvwxyz
+ n|abcdefghijklmnopqrstuvwxyz
+ o|abcdefghijklmnopqrstuvwxyz
+ p|abcdefghijklmnopqrstuvwxyz
+ q|abcdefghijklmnopqrstuvwxyz
+ r|abcdefghijklmnopqrstuvwxyz
+ s|abcdefghijklmnopqrstuvwxyz
+ t|abcdefghijklmnopqrstuvwxyz
+ u|abcdefghijklmnopqrstuvwxyz
+ v|abcdefghijklmnopqrstuvwxyz
+ w|abcdefghijklmnopqrstuvwxyz
+ x|abcdefghijklmnopqrstuvwxyz
+ y|abcdefghijklmnopqrstuvwxyz
+ z|abcdefghijklmnopqrstuvwxyz
+
+SEMIGROUP BUT NOT COMMUTATIVE  (a#b IS NOT EQUAL TO b#a)
+------------------------------
+
+S = {a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+ #|abcdefghijklmnopqrstuvwxyz
+ -+--------------------------
+ a|abcdefghijklmnopqrstuvwxyz
+ b|bcdefghijklmnopqrstuvwxyza
+ c|cdefghijklmnopqrstuvwxyzab
+ d|defghijklmnopqrstuvwxyzabc
+ e|efghijklmnopqrstuvwxyzabcd
+ f|fghijklmnopqrstuvwxyzabcde
+ g|ghijklmnopqrstuvwxyzabcdef
+ h|hijklmnopqrstuvwxyzabcdefg
+ i|ijklmnopqrstuvwxyzabcdefgh
+ j|jklmnopqrstuvwxyzabcdefghi
+ k|klmnopqrstuvwxyzabcdefghij
+ l|lmnopqrstuvwxyzabcdefghijk
+ m|mnopqrstuvwxyzabcdefghijkl
+ n|nopqrstuvwxyzabcdefghijklm
+ o|opqrstuvwxyzabcdefghijklmn
+ p|pqrstuvwxyzabcdefghijklmno
+ q|qrstuvwxyzabcdefghijklmnop
+ r|rstuvwxyzabcdefghijklmnopq
+ s|stuvwxyzabcdefghijklmnopqr
+ t|tuvwxyzabcdefghijklmnopqrs
+ u|uvwxyzabcdefghijklmnopqrst
+ v|vwxyzabcdefghijklmnopqrstu
+ w|wxyzabcdefghijklmnopqrstuv
+ x|xyzabcdefghijklmnopqrstuvw
+ y|yzabcdefghijklmnopqrstuvwx
+ z|zabcdefghijklmnopqrstuvwxy
+
+COMMUTATIVE SEMIGROUP
+------------------------------
+

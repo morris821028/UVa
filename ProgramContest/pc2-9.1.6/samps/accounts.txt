@@ -1,0 +1,12 @@
+#
+# Account load sample file
+#
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/samps/accounts.txt $
+#
+site	account	password	displayname	permlogin
+1	team1	first	Team ONE from CSUS	true
+1	team3	first	Team THREE from CSUS	true
+1	team4	first	Team FOUR from CSUS	false
+1	administrator1	hookie	root	true
+1	judge4	jfour	I am THE Judge	true
+# eof $Id: accounts.txt 544 2007-05-03 18:52:13Z laned $

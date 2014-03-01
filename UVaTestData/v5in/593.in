@@ -1,0 +1,314 @@
+3
+Nuremberg 3
+T 8 Munich
+H 3768
+H 3669
+Munich 6
+H 721
+H 722
+H 723
+T 6 Nuremberg
+H 857
+T 9 Ulm
+Ulm 5
+H 51225
+H 51226
+H 51227
+T 15 Nuremberg
+T 9 Munich
+14
+J 51227 26
+J 3768 27
+J 723 26
+J 3768 26
+S 3768 26 1000 17
+J 857 26
+S 3768 26 320 16
+J 722 26
+L 857 26
+S 51227 26 1001 37
+S 723 26 533 5
+L 51227 26
+L 3768 27
+L 723 26 
+2
+Berlin 2
+H 1
+T 9 Munich
+Munich 2
+H 2
+T 9 Berlin
+0
+2
+Berlin 2
+T 9 Munich
+T 10 Munich
+Munich 1
+T 9 Berlin
+0
+2
+Berlin 2
+H 1
+T 9 Munich
+Munich 2
+H 2
+T 9 Berlin
+7
+J 1 10
+J 1 11
+J 2 12
+J 2 10
+L 1 10
+L 1 11
+J 1 12
+2
+Berlin 2
+T 2 Munich
+H 1
+Munich 1
+T 2 Berlin
+2
+J 1 10
+S 1 10 20 5
+2
+Berlin 2
+H 1
+H 2
+Munich 2
+H 3
+H 4
+6
+J 1 10
+J 2 10
+J 3 10
+J 4 10
+S 1 10 20 5
+S 4 10 21 5
+4
+Berlin 3
+T 2 Cologne
+T 2 Nuremberg
+H 1
+Cologne 2
+T 2 Munich
+T 2 Berlin
+Munich 3
+T 2 Nuremberg
+T 2 Cologne
+H 2
+Nuremberg 2
+T 2 Berlin
+T 2 Munich
+3
+J 1 10
+J 2 10
+S 1 10 20 4
+1
+Berlin 1
+H 1
+2
+J 1 10
+S 1 10 20 1
+4
+Berlin 3
+T 4 Cologne
+T 1 Nuremberg
+H 1
+Nuremberg 1
+T 1 Munich
+Munich 1
+T 1 Cologne
+Cologne 1
+H 2
+3
+J 1 10
+J 2 10
+S 1 10 20 4
+2
+Berlin 2
+T 1 Munich
+H 1
+Munich 0
+2
+J 1 10
+S 1 10 20 2
+10
+Berlin 8
+T 3 Hannover
+T 3 Nuremberg
+H 1
+H 2
+H 3
+H 4
+H 5
+H 6
+Cologne 9
+T 6 Berlin
+T 2 Frankfurt
+T 2 Freiburg
+T 3 Hamburg
+T 4 Hannover
+H 7
+H 8
+H 9
+H 10
+Frankfurt 9
+T 2 Cologne
+T 1 Freiburg
+T 3 Hamburg
+T 3 Hannover
+T 2 Nuremberg
+T 2 Stuttgart
+H 11
+H 12
+H 13
+Freiburg 7
+T 2 Cologne
+T 1 Frankfurt
+T 4 Stuttgart
+T 5 Munich
+H 14
+H 15
+H 16
+Hamburg 8
+T 3 Cologne
+T 3 Hannover
+T 7 Munich
+H 17
+H 18
+H 19
+H 20
+H 21
+Hannover 5
+T 3 Berlin
+T 4 Frankfurt
+H 22
+H 23
+H 24
+Munich 9
+T 5 Frankfurt
+T 2 Nuremberg
+T 2 Stuttgart
+T 4 Ulm
+H 25
+H 26
+H 27
+H 28
+H 29
+Nuremberg 4
+T 3 Berlin
+T 2 Munich
+H 30
+H 31
+Stuttgart 7
+T 2 Frankfurt
+T 5 Freiburg
+T 2 Munich
+T 1 Ulm
+H 32
+H 33
+H 34
+Ulm 3
+T 4 Munich
+T 4 Nuremberg
+H 35
+97
+J 1 10
+J 30 10
+J 17 10
+J 14 10
+J 14 11
+J 14 12
+J 14 13
+J 14 14
+J 14 15
+J 14 16
+J 14 17
+J 14 18
+J 14 19
+J 14 20
+S 14 10 100 5
+J 25 10
+J 26 11
+J 27 12
+J 28 13
+J 7 10
+J 8 11
+J 8 12
+J 8 13
+J 11 14
+J 12 15
+J 12 16
+S 14 11 101 10
+J 35 10
+J 35 11
+J 15 11
+J 16 21
+J 11 21
+J 11 22
+J 11 23
+J 11 24
+J 11 25
+J 11 26
+J 11 27
+J 11 28
+J 11 29
+J 22 10
+J 23 11
+J 24 12
+S 14 10 102 100
+S 35 11 103 7
+J 1 11
+J 2 12
+J 3 13
+J 4 14
+J 5 15
+J 6 16
+L 11 25
+L 11 26
+J 2 10
+J 3 10
+J 4 10
+J 5 10
+J 6 10
+J 8 10
+J 9 10
+J 10 10
+J 11 10
+J 12 10
+J 13 10
+J 15 10
+J 16 10
+J 18 10
+J 19 10
+J 20 10
+J 21 10
+J 23 10
+J 24 10
+J 26 10
+J 27 10
+J 28 10
+J 29 10
+J 31 10
+J 32 10
+J 33 10
+J 34 10
+S 1 10 104 20
+L 35 10
+S 1 10 105 1000
+L 1 10
+L 2 10
+L 3 10
+L 7 10
+L 9 10
+L 17 10
+L 23 10
+L 24 10
+L 27 10
+L 28 10
+L 30 10
+L 33 10
+L 34 10
+S 32 10 106 8
+0
+

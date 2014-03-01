@@ -1,0 +1,120 @@
+1
+START 2
+    \n   END   This_is_the_output_from_the_first_FSM.\n
+    \c   START \0
+If this appears, the program failed for the first fsm.
+
+1
+START 2
+    \n   END   Testing\bfor\bproper\bhandling\bof\b\\b\band\b\\\\.\n
+    \c   START \0
+If this appears, the program failed for the second fsm.
+
+1
+START 2
+    \n   END   \n
+    \c   START \c
+The third FSM is correct (it handles \c correctly).
+
+1
+START 3
+      AEIOUaeiou  START *
+      \n          END   \n
+      \c          START \c
+This is an example from the problem statement, with different text.
+
+2
+START 3
+      \c    START \c
+      Xx    SKIP  \c
+      \n    END   \n
+SKIP  4
+      AEIOU START \0
+      aeiou START \0
+      Xx    SKIP  \c
+      \n    END   \n
+XaXxe     Test   XIo  iXixO (This is also from the problem statement).
+3
+START 12
+   \c START \c    !     FINIS \0
+   A  TWO   a     E     TWO   e
+   I  TWO   i     O     TWO   o
+   U  TWO   u     a     TWO   A
+   e  TWO   E     i     TWO   I
+   o  TWO   O     u     TWO   U
+TWO   4
+   \c TWO   \c    AEIOU START \c
+   aeiou  START \c  !  FINIS  \0
+FINIS 2
+   \c  FINIS \0   \n    END   \n
+This is some data for the FSM. There will be two lines of output.
+The last word on this line is FINIS.!    IGNORED.
+
+22
+AA 2
+   \n   FAIL \0
+   \c   AB   T
+AB 2
+   \n   FAIL \0
+   \c   AC   h
+AC 2
+   \n   FAIL \0
+   \c   AD   i
+AD 2
+   \n   FAIL \0
+   \c   AE   s
+AE 2
+   \n   FAIL \0
+   \c   AF   \b
+AF 2
+   \n   FAIL \0
+   \c   AG   F
+AG 2
+   \n   FAIL \0
+   \c   AH   S
+AH 2
+   \n   FAIL \0
+   \c   AI   M
+AI 2
+   \n   FAIL \0
+   \c   AJ   \b
+AJ 2
+   \n   FAIL \0
+   \c   AK   d
+AK 2
+   \n   FAIL \0
+   \c   AL   o
+AL 2
+   \n   FAIL \0
+   \c   AM   e
+AM 2
+   \n   FAIL \0
+   \c   AN   s
+AN 2
+   \n   FAIL \0
+   \c   AO   \b
+AO 2
+   \n   FAIL \0
+   \c   AP   w
+AP 2
+   \n   FAIL \0
+   \c   AQ   o
+AQ 2
+   \n   FAIL \0
+   \c   AR   r
+AR 2
+   \n   FAIL \0
+   \c   AS   k
+AS 2
+   \n   FAIL \0
+   \c   AT   .
+AT 2
+   \n   END  \n
+   \c   FAIL \0
+FAIL 1
+   \c   END  THIS\bPROGRAM\bFAILED!
+START 1
+   \c   AA   \0
+FAILURE FAILURE BAD!
+
+0

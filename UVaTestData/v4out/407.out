@@ -1,0 +1,38 @@
+Simulation #1
+ 1: R 83.33
+ 2: L 187.50
+ 3: L 150.00
+ 4: R 281.25
+ 5: L 33.75
+
+Simulation #2
+Error -- Overlapping Gears
+
+Simulation #3
+ 1: R 83.33
+ 2: L 187.50
+ 3: L 150.00
+ 4: R 281.25
+ 5: Warning -- Idle Gear
+
+Simulation #4
+Error -- Conflicting Gear Rotation 
+
+Simulation #5
+ 1: L 15.00
+ 2: Warning -- Idle Gear
+ 3: Warning -- Idle Gear
+
+Simulation #6
+Error -- Conflicting Gear Rotation 
+
+Simulation #7
+ 1: L 0.01
+ 2: Warning -- Idle Gear
+
+Simulation #8
+ 1: L 0.02
+ 2: L 0.02
+ 3: R 0.02
+ 4: R 0.02
+

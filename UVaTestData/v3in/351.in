@@ -1,0 +1,47 @@
+5
+douser 2
+soaker 3 douser
+spray 1 soaker
+gusher 6 douser
+bucket 7
+1
+2
+3
+4
+5
+9
+0
+ 
+4
+foul 0
+freeshot 1 foul
+goal 2
+whopper 4
+1
+2
+3
+4
+5
+0
+ 
+5
+pat1 1 touchdown
+pat2 2 touchdown
+safety 2
+touchdown 6
+fieldgoal 3
+1
+2
+3
+6
+7
+8
+10
+20
+23
+39
+52
+59
+0
+ 
+0

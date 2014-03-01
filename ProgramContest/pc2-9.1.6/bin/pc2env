@@ -1,0 +1,37 @@
+#!/bin/sh
+# Purpose: to be called by the other scripts to setup the environment
+# Author : pc2@ecs.csus.edu
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/bin/pc2env $
+
+# Change these (& uncomment) for non-standard installations
+libdir=../lib
+mclbdir=../lib
+
+basedir=`dirname $0`/..
+# try development locations first
+if [ -f $basedir/dist/pc2.jar ]; then
+    libdir=$basedir/dist
+fi
+if [ -f $basedir/vendor/lib/mclb.jar ]; then
+    mclbdir=$basedir/vendor/lib
+fi
+
+# then try the distribution locations
+if [ -f $basedir/lib/pc2.jar ]; then
+    libdir=$basedir/lib
+fi
+if [ -f $basedir/lib/mclb.jar ]; then
+    mclbdir=$basedir/lib
+fi
+
+if [ x$libdir = x ]; then
+    echo Could not find pc2.jar, please check your installation
+    exit
+fi
+
+if [ x$mclbdir = x ]; then
+    echo Could not find mclb.jar, please check your installation
+    exit
+fi
+
+# eof pc2env $Id: pc2env 1369 2008-03-14 16:10:51Z boudreat $

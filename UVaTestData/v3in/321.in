@@ -1,0 +1,267 @@
+3 3 4  // sample input
+1 2
+1 3
+3 2
+1 2
+1 3
+2 1
+3 2
+
+2 1 2  // sample input
+2 1
+1 1
+1 2
+
+1 0 1  // one room I - no exits
+1 1
+
+1 0 0  // one room II - no exits, no lights
+
+2 0 0  // two rooms I - no exits, no lights
+
+2 0 4  // two rooms II - no exits
+1 1
+1 2
+2 1
+2 2
+
+2 1 0 // two rooms III - no lights
+1 2
+
+2 1 1 // two rooms IV - no switch to turn off light in room 1
+1 2
+1 2
+
+2 1 2 // two rooms V - solvable!
+1 2
+1 2
+2 1
+
+2 1 4 // two rooms VI - maximum number of light switches
+2 1
+1 1
+1 2
+2 1
+2 2
+
+4 3 5 // four rooms, detour to room 2
+1 2
+1 3
+3 4
+1 2
+2 3
+3 1
+3 4
+4 3
+
+4 3 5 // four rooms: it does NOT suffice to reach the 
+1 2   // bedroom, all other lights have to be turned off
+2 4   // as well!
+3 4
+1 2
+2 3
+2 4
+3 1
+4 2
+
+4 3 4 // one example where there is exactly one light 
+1 4   // switch per room!
+2 4
+3 4
+1 4
+4 2
+2 3
+3 1
+
+
+5 4 7 // five rooms: sometimes there are several parts of the
+1 2   // house where lights are turned on, that are not connected
+2 5   // to each other via a lighted path.
+3 5
+4 5
+1 2
+1 3
+2 1
+2 5
+3 2
+4 3
+5 4
+
+5 4 8 // this house is just a long corridor
+1 2
+2 3
+3 4
+4 5
+1 2
+1 3
+1 4
+1 5
+5 1
+5 2
+5 3
+5 4
+
+5 4 5  // here is a small problem for all you test case
+1 2    // designers: which villa with five room requires the
+1 3    // maximum number of steps?
+1 4    // this one has 19!
+1 5
+1 2
+2 3
+3 4
+4 5
+5 1
+
+5 4 5   // this one requires 21!
+1 2
+1 3
+2 4
+1 5
+1 2
+2 3
+3 4
+4 5
+5 1
+
+5 4 6 // once in a while, there is problem that cannot be solved
+1 2
+1 3
+2 4
+3 5
+1 2
+1 3
+2 3
+3 4
+4 5
+5 1
+
+6 6 7 // this again takes quite long
+1 2
+2 3
+3 1
+1 4
+2 5
+3 6
+1 2
+1 5
+2 3
+3 1
+5 4
+4 6
+6 3
+
+10 9 14 // a large corridor villa. Again: what is the maximum
+1 2     // number of steps needed for a 10-room villa?
+1 6     // this one has 55.
+2 3
+3 4
+4 5
+6 7
+7 8
+8 9
+9 10
+1 2
+2 6
+3 7
+4 8
+5 9
+6 3
+7 4
+7 6
+8 5
+8 7
+9 1
+9 8
+9 10
+10 9
+
+10 9 13 // this one requires 70 moves!
+1 2
+2 3
+3 4
+1 5
+4 6
+1 7
+4 8
+1 9
+4 10
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+2 1
+3 2
+4 3
+10 4
+
+10 31 31 // another large villa to finish this off (random generated)
+9 7
+6 8
+8 5
+6 10
+2 9
+7 3
+9 1
+2 10
+1 8
+10 9
+4 1
+7 10
+2 6
+5 4
+10 5
+7 5
+2 3
+6 7
+2 8
+9 4
+4 7
+5 1
+1 3
+9 8
+10 8
+4 8
+3 6
+8 7
+1 2
+5 6
+3 9
+4 9
+7 6
+3 6
+8 2
+2 6
+7 3
+2 8
+3 1
+3 7
+1 2
+2 10
+9 10
+7 8
+5 7
+6 10
+9 7
+4 5
+9 3
+8 6
+5 3
+6 7
+9 8
+6 8
+3 2
+10 5
+1 10
+2 7
+7 1
+6 9
+10 7
+3 8
+
+0 0 0
+

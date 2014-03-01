@@ -1,0 +1,15 @@
+14
+If the voltage is U=200V and the current is I=4.5A, which power is generated?
+A light-bulb yields P=100W and the voltage is U=220V. Compute the electrical current, please.
+bla bla bla lightning strike I=2A bla bla bla P=2.5MW bla bla voltage?
+A lightning strike with I=2A and P=2.5MW. Figure out the voltage.
+A big Transistor has a current of I=1mA and a voltage of U=700V. What power is consumed?
+Voltage U=1000kV -- Ok. Current I=50A -- Ok. Gimme the power!
+The 1st case is AV: this means I=12A, U=15V and P should be calculated.
+The 2nd case is AW: this means I=12A, P=15W and U should be calculated.
+The 3rd case is VA: this means U=12V, I=15A and P should be calculated.
+The 4th case is VW: this means U=12V, P=15W and I should be calculated.
+The 5th case is WA: this means P=12W, I=15A and U should be calculated.
+The 6th case is WV: this means P=12W, U=15V and I should be calculated.
+The modifiers for the voltage U=1MV and current I=1kA are leading to what power?
+Fractal values for voltage U=1.111kV and current I=1.111kA are leading to what power?

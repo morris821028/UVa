@@ -1,0 +1,25 @@
+#!/bin/csh
+#
+# File:    compilePerl
+# Purpose: Used to compile/use Perl with PC^2
+# Author:  pc2@ecs.csus.edu
+#
+# Dependencies:  perl 
+#
+# pc2 language settings:
+# 
+# Display Name                       : Perl
+# Compile Command Line               : compilePerl {:mainfile} 
+# Executable Filename specification  : OK 
+# Program Execution Command Line     : perl {:mainfile}
+#
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/samps/compilePerl $
+#
+
+perl -c $*
+
+if ($? == 0) then
+    touch OK
+endif 
+
+# eof compilePerl $Id: compilePerl 575 2007-05-04 23:28:56Z laned $

@@ -1,0 +1,86 @@
+5
+NAULINS    3
+HOUSTON       US            SHIP            *              UHDOWNTOWN
+NAULINS       US            SHIP            *              UNO
+DALLAs        US            AIR             UT             *
+HOUSTON    4
+HOUSTON       US            *               UH             UHDT
+SANANTONIO    US            BUS             UT             UTSA
+DALLAs        US            AIR             UT             *
+NAULINS       US            SHIP            *              UNO
+DALLAs     7
+DALLAs        US            *               UT             UTD
+DALLAs        US            *               UT             UTA
+HOUSTON       US            *               UH             *
+SANANTONIO    US            AIR             UT             UTSA
+OKLAHOMA      US            BUS             *              OU
+NAULINS       US            AIR             *              UNO
+HOUSTON       US            SHIP            *              *
+OKLAHOMA   3
+OKLAHOMA      US            *               *              OU
+DALLAs        US            AIR             *              *
+SANANTONIO    US            BUS             *              *
+SANANTONIO 5
+HOUSTON       *             *               *              UNO
+HOUSTON       US            BUS             UH             *
+DALLAs        US            AIR             *              *
+SANANTONIO    US            *               UT             UTSA
+OKLAHOMA      US            BUS             *              *
+7
+SANANTONIO    US            AIR             COLLEGE        UNO
+OKLAHOMA      US            BUS             UH             UHDT
+DALLAs        US            SHIP            COLLEGE        UNO
+NAULINS       US            AIR             COLLEGE        OU
+HOUSTON       US            AIR             UT             UTSA
+DALLAs        US            AIR             UT             UTSA
+DALLAs        a             a               a              a
+3
+foo 3
+foo           able          *               *              *
+FOO           baker         *               *              *
+bar           ABLE          *               *              *
+FOO 3
+foo           able          *               *              *
+FOO           baker         *               *              *
+bar           ABLE          *               *              *
+bar 3
+foo           able          *               *              *
+FOO           baker         *               *              *
+bar           ABLE          *               *              *
+3
+bar           able          a               a              a
+bar           ABLE          a               a              a
+FOO           able          b               b              b
+1
+q 0
+0
+1
+q 0
+1
+q             a             a               a              a
+1
+q 0
+0
+1
+q 0
+0
+1
+q 0
+0
+1
+q 0
+0
+1
+q 0
+0
+1
+q 0
+0
+1
+q 0
+0
+1
+q 0
+0
+                                                            
+

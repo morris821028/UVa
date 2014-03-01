@@ -1,0 +1,69 @@
+Program 1
+DUP DUP MUL SUB 
+
+Program 2
+Impossible
+
+Program 3
+Empty sequence
+
+Program 4
+DUP MUL 
+
+Program 5
+DUP DUP ADD SUB 
+
+Program 6
+DUP DUP MUL ADD 
+
+Program 7
+DUP DUP MUL DUP MUL MUL 
+
+Program 8
+DUP DUP DIV DUP ADD DIV 
+
+Program 9
+DUP DUP ADD DUP DUP DIV SUB SUB 
+
+Program 10
+DUP DUP MUL ADD DUP DUP DIV DUP ADD DIV 
+
+Program 11
+DUP DUP DIV DUP DUP ADD ADD DUP MUL DIV 
+
+Program 12
+DUP DUP ADD DUP DUP ADD DUP ADD ADD ADD 
+
+Program 13
+Impossible
+
+Program 14
+Impossible
+
+Program 15
+Impossible
+
+Program 16
+Impossible
+
+Program 17
+Impossible
+
+Program 18
+Empty sequence
+
+Program 19
+DUP DUP DUP MUL SUB ADD 
+
+Program 20
+DUP DUP DUP DUP DIV SUB DUP ADD SUB MUL 
+
+Program 21
+DUP DUP ADD SUB 
+
+Program 22
+DUP DUP DIV DUP DUP ADD SUB DIV 
+
+Program 23
+Impossible
+

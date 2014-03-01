@@ -1,0 +1,41 @@
+From                 To                   Route      Miles
+-------------------- -------------------- ---------- -----
+Santa Barbara        Los Angeles          US-101        95
+Los Angeles          San Bernardino       I-10          65
+San Bernardino       Barstow              I-15          73
+Barstow              Baker                I-15          62
+Baker                Las Vegas            I-15          92
+                                                     -----
+                                          Total        387
+
+
+From                 To                   Route      Miles
+-------------------- -------------------- ---------- -----
+San Diego            Los Angeles          I-5          121
+                                                     -----
+                                          Total        121
+
+
+From                 To                   Route      Miles
+-------------------- -------------------- ---------- -----
+San Luis Obispo      Santa Barbara        US-101       106
+Santa Barbara        Los Angeles          US-101        95
+                                                     -----
+                                          Total        201
+
+
+From                 To                   Route      Miles
+-------------------- -------------------- ---------- -----
+12345678901234567890 Los Angeles          1             20
+Los Angeles          Mojave               CA-14         94
+Mojave               Los Angeles 2        NZL-20        15
+Los Angeles 2        A                    1234567890    30
+                                                     -----
+                                          Total        159
+
+
+From                 To                   Route      Miles
+-------------------- -------------------- ---------- -----
+Mojave               Los Angeles 2        NZL-20        15
+                                                     -----
+                                          Total         15

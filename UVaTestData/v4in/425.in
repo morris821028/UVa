@@ -1,0 +1,240 @@
+ngs9lIDtNPJEg
+dynamical systems are typically stiff) and then solving the resulting
+matrix problem at each time step.  This approach can be
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+disadvantageous for a parallel implementation, especially for MIMD
+parallel computers having a high communication latency, since the
+processors will have to synchronize repeatedly for each timestep.  A
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+effective approach to solving the IVP with a parallel computer is
+to decompose the problem at the ODE level.  That is, the large system
+is decomposed into smaller subsystems, each of which is assigned to a
+single processor.  The IVP is solved iteratively by solving the
+smaller IVP's for each subsystem, using fixed values from previous
+iterations for the variables from other subsystems.  This dynamic
+iteration process is known as waveform relaxation (WR) or sometimes as
+the Picard-Lindelof iteration.  In this section, conjugate-direction
+methods are considered for accelerating the classical dynamic
+iteration methods.  The approach is to first convert the IVP to a
+system of second-kind Volterra integral equations by using a ``dynamic
+preconditioner.''  Next, it is shown that the classical dynamic
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+iteration methods are obtained by applying the Richardson iteration to
+the integral equation system.  Finally, conjugate-direction methods
+are developed for accelerating the classical dynamic iteration
+methods.  This development is approached by considering
+conjugate-direction methods as Galerkin methods.  Remark: Theorem only
+provides a description of the asymptotic behavior of the dynamic
+iteration.  In Miekkala and Nevanlinna examine the dynamic iteration
+on the infinite interval.  In that case, intuition about the
+convergence rate of the dynamic iteration can be obtained, although
+the extent to which that intuition applies for a given dynamic
+iteration on a finite interval depends on the stiffness of the
+problem.  Another approach to solving is to apply a Galerkin method to
+solving a variational formulation of the problem.  This approach leads
+directly to the conjugate-direction methods.
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+Consider the problem of numerically solving the linear time-varying
+initial value problem (IVP), is a given right-hand side, and computed
+over the simulation interval. There are several approaches to solving
+the IVP.  The traditional numerical approach is to begin by
+discretizing a in time with an implicit integration rule (since large
+dynamical systems are typically stiff) and then solving the resulting
+matrix problem at each time step.  This approach can be
+disadvantageous for a parallel implementation, especially for MIMD
+parallel computers having a high communication latency, since the
+processors will have to synchronize repeatedly for each timestep.  A
+effective approach to solving the IVP with a parallel computer is
+to decompose the problem at the ODE level.  That is, the large system
+is decomposed into smaller subsystems, each of which is assigned to a
+single processor.  The IVP is solved iteratively by solving the
+smaller IVP's for each subsystem, using fixed values from previous
+iterations for the variables from other subsystems.  This dynamic
+iteration process is known as waveform relaxation (WR) or sometimes as
+the Picard-Lindelof iteration.  In this section, conjugate-direction
+methods are considered for accelerating the classical dynamic
+iteration methods.  The approach is to first convert the IVP to a
+system of second-kind Volterra integral equations by using a ``dynamic
+preconditioner.''  Next, it is shown that the classical dynamic
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+this this this this this this 
+iteration methods are obtained by applying the Richardson iteration to
+the integral equation system.  Finally, conjugate-direction methods
+are developed for accelerating the classical dynamic iteration
+methods.  This development is approached by considering
+conjugate-direction methods as Galerkin methods.  Remark: Theorem only
+provides a description of the asymptotic behavior of the dynamic
+iteration.  In Miekkala and Nevanlinna examine the dynamic iteration
+on the infinite interval.  In that case, intuition about the
+convergence rate of the dynamic iteration can be obtained, although
+the extent to which that intuition applies for a given dynamic
+iteration on a finite interval depends on the stiffness of the
+problem.  Another approach to solving is to apply a Galerkin method to
+solving a variational formulation of the problem.  This approach leads
+directly to the conjugate-direction methods.
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+ivp ivP iVp Ivp iVP IVp IVP
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+this this this this this this this this this this this this this 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+more more more more more more more moremore more more more more more 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+ISIS ISI IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+ISIS ISI IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+ISIS ISI IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+isis isi is is is is is is is is is is is is is is is is is is is is is is 
+ISIS ISI IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS IS 

@@ -1,0 +1,33 @@
+Program #1
+Runtime = 3*n^2+11*n+17
+
+Program #2
+Runtime = n^2+1997
+
+Program #3
+Runtime = 0
+
+Program #4
+Runtime = 0
+
+Program #5
+Runtime = 2*n^3+3*n^2+1
+
+Program #6
+Runtime = 10*n^10+9*n^9+8*n^8+58*n^7+6*n^6+5*n^5+4*n^4+3*n^3+2*n^2+n
+
+Program #7
+Runtime = 40391
+
+Program #8
+Runtime = 78
+
+Program #9
+Runtime = 12345*n^10
+
+Program #10
+Runtime = 20*n^3+16*n^2+32*n+17
+
+Program #11
+Runtime = 88*n^2+8
+

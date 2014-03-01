@@ -1,0 +1,14 @@
+#!/bin/csh
+
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/samps/compilegcc $
+
+set e=
+set mainfile=$1
+set basename=`echo $mainfile | sed 's/\.[^\.]*$//'`
+set ext=`echo $mainfile | awk -F. '{print $NF}'`
+
+if ("x$ext" == "xcpp") then
+  $e g++ -lm -o $basename $mainfile
+else 
+  $e gcc -lm -o $basename $mainfile
+endif

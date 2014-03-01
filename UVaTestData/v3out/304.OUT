@@ -1,0 +1,275 @@
+A
+10:00:00 10:00:30 Entry
+10:00:30 10:02:10 Stay in room 0101
+10:02:10 10:02:20 Transfer from room 0101 to room 0110
+10:02:20 10:03:10 Stay in room 0110
+10:03:10 10:03:20 Transfer from room 0110 to elevator
+10:03:20 10:03:50 Stay in elevator
+10:03:50 10:04:00 Transfer from elevator ro room 0202
+10:04:00 10:05:30 Stay in room 0202
+10:05:30 10:05:40 Transfer from room 0202 to room 0205
+10:05:40 10:07:40 Waiting in front of room 0205
+10:07:40 10:08:30 Stay in room 0205
+10:08:30 10:08:40 Transfer from room 0205 to elevator
+10:08:40 10:09:10 Stay in elevator
+10:09:10 10:09:40 Exit
+
+B
+10:01:00 10:01:30 Entry
+10:01:30 10:03:10 Stay in room 0105
+10:03:10 10:03:20 Transfer from room 0105 to elevator
+10:03:20 10:03:25 Waiting in elevator queue
+10:03:25 10:03:55 Stay in elevator
+10:03:55 10:04:05 Transfer from elevator ro room 0201
+10:04:05 10:04:10 Stay in room 0201
+10:04:10 10:04:20 Transfer from room 0201 to room 0205
+10:04:20 10:07:40 Stay in room 0205
+10:07:40 10:07:50 Transfer from room 0205 to elevator
+10:07:50 10:08:20 Stay in elevator
+10:08:20 10:08:50 Exit
+
+D
+02:00:00 02:00:30 Entry
+02:00:30 02:00:31 Stay in room 0101
+02:00:31 02:01:01 Exit
+
+K
+11:00:00 11:00:30 Entry
+11:00:30 11:00:42 Stay in room 0101
+11:00:42 11:00:52 Transfer from room 0101 to elevator
+11:00:52 11:00:55 Waiting in elevator queue
+11:00:55 11:01:25 Stay in elevator
+11:01:25 11:01:35 Transfer from elevator ro room 0202
+11:01:35 11:01:48 Stay in room 0202
+11:01:48 11:01:58 Transfer from room 0202 to elevator
+11:01:58 11:02:00 Waiting in elevator queue
+11:02:00 11:02:30 Stay in elevator
+11:02:30 11:02:40 Transfer from elevator ro room 0303
+11:02:40 11:02:54 Stay in room 0303
+11:02:54 11:03:04 Transfer from room 0303 to elevator
+11:03:04 11:03:05 Waiting in elevator queue
+11:03:05 11:03:35 Stay in elevator
+11:03:35 11:03:45 Transfer from elevator ro room 0404
+11:03:45 11:04:00 Stay in room 0404
+11:04:00 11:04:10 Transfer from room 0404 to elevator
+11:04:10 11:04:40 Stay in elevator
+11:04:40 11:04:50 Transfer from elevator ro room 0505
+11:04:50 11:05:06 Stay in room 0505
+11:05:06 11:05:16 Transfer from room 0505 to elevator
+11:05:16 11:05:20 Waiting in elevator queue
+11:05:20 11:05:50 Stay in elevator
+11:05:50 11:06:00 Transfer from elevator ro room 0606
+11:06:00 11:06:17 Stay in room 0606
+11:06:17 11:06:27 Transfer from room 0606 to elevator
+11:06:27 11:06:30 Waiting in elevator queue
+11:06:30 11:07:00 Stay in elevator
+11:07:00 11:07:10 Transfer from elevator ro room 0707
+11:07:10 11:07:28 Stay in room 0707
+11:07:28 11:07:38 Transfer from room 0707 to elevator
+11:07:38 11:07:40 Waiting in elevator queue
+11:07:40 11:08:10 Stay in elevator
+11:08:10 11:08:20 Transfer from elevator ro room 0808
+11:08:20 11:08:39 Stay in room 0808
+11:08:39 11:08:49 Transfer from room 0808 to elevator
+11:08:49 11:08:50 Waiting in elevator queue
+11:08:50 11:09:20 Stay in elevator
+11:09:20 11:09:30 Transfer from elevator ro room 0909
+11:09:30 11:09:50 Stay in room 0909
+11:09:50 11:10:00 Transfer from room 0909 to elevator
+11:10:00 11:10:30 Stay in elevator
+11:10:30 11:10:40 Transfer from elevator ro room 1010
+11:10:40 11:11:01 Stay in room 1010
+11:11:01 11:11:11 Transfer from room 1010 to elevator
+11:11:11 11:11:15 Waiting in elevator queue
+11:11:15 11:06:45 Stay in elevator
+11:06:45 11:07:15 Exit
+
+M
+11:00:00 11:00:30 Entry
+11:00:30 11:00:42 Waiting in front of room 0101
+11:00:42 11:00:54 Stay in room 0101
+11:00:54 11:01:04 Transfer from room 0101 to elevator
+11:01:04 11:01:05 Waiting in elevator queue
+11:01:05 11:01:35 Stay in elevator
+11:01:35 11:01:45 Transfer from elevator ro room 0202
+11:01:45 11:01:48 Waiting in front of room 0202
+11:01:48 11:02:01 Stay in room 0202
+11:02:01 11:02:11 Transfer from room 0202 to elevator
+11:02:11 11:02:15 Waiting in elevator queue
+11:02:15 11:02:45 Stay in elevator
+11:02:45 11:02:55 Transfer from elevator ro room 0303
+11:02:55 11:03:09 Stay in room 0303
+11:03:09 11:03:19 Transfer from room 0303 to elevator
+11:03:19 11:03:20 Waiting in elevator queue
+11:03:20 11:03:50 Stay in elevator
+11:03:50 11:04:00 Transfer from elevator ro room 0404
+11:04:00 11:04:15 Stay in room 0404
+11:04:15 11:04:25 Transfer from room 0404 to elevator
+11:04:25 11:04:55 Stay in elevator
+11:04:55 11:05:05 Transfer from elevator ro room 0505
+11:05:05 11:05:06 Waiting in front of room 0505
+11:05:06 11:05:22 Stay in room 0505
+11:05:22 11:05:32 Transfer from room 0505 to elevator
+11:05:32 11:05:35 Waiting in elevator queue
+11:05:35 11:06:05 Stay in elevator
+11:06:05 11:06:15 Transfer from elevator ro room 0606
+11:06:15 11:06:17 Waiting in front of room 0606
+11:06:17 11:06:34 Stay in room 0606
+11:06:34 11:06:44 Transfer from room 0606 to elevator
+11:06:44 11:06:45 Waiting in elevator queue
+11:06:45 11:07:15 Stay in elevator
+11:07:15 11:07:25 Transfer from elevator ro room 0707
+11:07:25 11:07:28 Waiting in front of room 0707
+11:07:28 11:07:46 Stay in room 0707
+11:07:46 11:07:56 Transfer from room 0707 to elevator
+11:07:56 11:08:00 Waiting in elevator queue
+11:08:00 11:08:30 Stay in elevator
+11:08:30 11:08:40 Transfer from elevator ro room 0808
+11:08:40 11:08:59 Stay in room 0808
+11:08:59 11:09:09 Transfer from room 0808 to elevator
+11:09:09 11:09:10 Waiting in elevator queue
+11:09:10 11:09:40 Stay in elevator
+11:09:40 11:09:50 Transfer from elevator ro room 0909
+11:09:50 11:10:10 Stay in room 0909
+11:10:10 11:10:20 Transfer from room 0909 to elevator
+11:10:20 11:10:50 Stay in elevator
+11:10:50 11:11:00 Transfer from elevator ro room 1010
+11:11:00 11:11:01 Waiting in front of room 1010
+11:11:01 11:11:22 Stay in room 1010
+11:11:22 11:11:32 Transfer from room 1010 to elevator
+11:11:32 11:11:35 Waiting in elevator queue
+11:11:35 11:07:05 Stay in elevator
+11:07:05 11:07:35 Exit
+
+N
+11:00:00 11:00:30 Entry
+11:00:30 11:00:54 Waiting in front of room 0101
+11:00:54 11:01:05 Stay in room 0101
+11:01:05 11:01:15 Transfer from room 0101 to elevator
+11:01:15 11:01:45 Stay in elevator
+11:01:45 11:01:55 Transfer from elevator ro room 0202
+11:01:55 11:02:01 Waiting in front of room 0202
+11:02:01 11:02:13 Stay in room 0202
+11:02:13 11:02:23 Transfer from room 0202 to elevator
+11:02:23 11:02:25 Waiting in elevator queue
+11:02:25 11:02:55 Stay in elevator
+11:02:55 11:03:05 Transfer from elevator ro room 0303
+11:03:05 11:03:09 Waiting in front of room 0303
+11:03:09 11:03:22 Stay in room 0303
+11:03:22 11:03:32 Transfer from room 0303 to elevator
+11:03:32 11:03:35 Waiting in elevator queue
+11:03:35 11:04:05 Stay in elevator
+11:04:05 11:04:15 Transfer from elevator ro room 0404
+11:04:15 11:04:29 Stay in room 0404
+11:04:29 11:04:39 Transfer from room 0404 to elevator
+11:04:39 11:04:40 Waiting in elevator queue
+11:04:40 11:05:10 Stay in elevator
+11:05:10 11:05:20 Transfer from elevator ro room 0505
+11:05:20 11:05:22 Waiting in front of room 0505
+11:05:22 11:05:37 Stay in room 0505
+11:05:37 11:05:47 Transfer from room 0505 to elevator
+11:05:47 11:05:50 Waiting in elevator queue
+11:05:50 11:06:20 Stay in elevator
+11:06:20 11:06:30 Transfer from elevator ro room 0606
+11:06:30 11:06:34 Waiting in front of room 0606
+11:06:34 11:06:50 Stay in room 0606
+11:06:50 11:07:00 Transfer from room 0606 to elevator
+11:07:00 11:07:30 Stay in elevator
+11:07:30 11:07:40 Transfer from elevator ro room 0707
+11:07:40 11:07:46 Waiting in front of room 0707
+11:07:46 11:08:03 Stay in room 0707
+11:08:03 11:08:13 Transfer from room 0707 to elevator
+11:08:13 11:08:15 Waiting in elevator queue
+11:08:15 11:08:45 Stay in elevator
+11:08:45 11:08:55 Transfer from elevator ro room 0808
+11:08:55 11:08:59 Waiting in front of room 0808
+11:08:59 11:09:17 Stay in room 0808
+11:09:17 11:09:27 Transfer from room 0808 to elevator
+11:09:27 11:09:30 Waiting in elevator queue
+11:09:30 11:10:00 Stay in elevator
+11:10:00 11:10:10 Transfer from elevator ro room 0909
+11:10:10 11:10:29 Stay in room 0909
+11:10:29 11:10:39 Transfer from room 0909 to elevator
+11:10:39 11:10:40 Waiting in elevator queue
+11:10:40 11:11:10 Stay in elevator
+11:11:10 11:11:20 Transfer from elevator ro room 1010
+11:11:20 11:11:22 Waiting in front of room 1010
+11:11:22 11:11:42 Stay in room 1010
+11:11:42 11:11:52 Transfer from room 1010 to elevator
+11:11:52 11:11:55 Waiting in elevator queue
+11:11:55 11:07:25 Stay in elevator
+11:07:25 11:07:55 Exit
+
+P
+11:00:00 11:00:30 Entry
+11:00:30 11:01:05 Waiting in front of room 0101
+11:01:05 11:01:16 Stay in room 0101
+11:01:16 11:01:26 Transfer from room 0101 to elevator
+11:01:26 11:01:30 Waiting in elevator queue
+11:01:30 11:02:00 Stay in elevator
+11:02:00 11:02:10 Transfer from elevator ro room 0202
+11:02:10 11:02:13 Waiting in front of room 0202
+11:02:13 11:02:25 Stay in room 0202
+11:02:25 11:02:35 Transfer from room 0202 to elevator
+11:02:35 11:03:05 Stay in elevator
+11:03:05 11:03:15 Transfer from elevator ro room 0303
+11:03:15 11:03:22 Waiting in front of room 0303
+11:03:22 11:03:35 Stay in room 0303
+11:03:35 11:03:45 Transfer from room 0303 to elevator
+11:03:45 11:04:15 Stay in elevator
+11:04:15 11:04:25 Transfer from elevator ro room 0404
+11:04:25 11:04:29 Waiting in front of room 0404
+11:04:29 11:04:43 Stay in room 0404
+11:04:43 11:04:53 Transfer from room 0404 to elevator
+11:04:53 11:04:55 Waiting in elevator queue
+11:04:55 11:05:25 Stay in elevator
+11:05:25 11:05:35 Transfer from elevator ro room 0505
+11:05:35 11:05:37 Waiting in front of room 0505
+11:05:37 11:05:52 Stay in room 0505
+11:05:52 11:06:02 Transfer from room 0505 to elevator
+11:06:02 11:06:05 Waiting in elevator queue
+11:06:05 11:06:35 Stay in elevator
+11:06:35 11:06:45 Transfer from elevator ro room 0606
+11:06:45 11:06:50 Waiting in front of room 0606
+11:06:50 11:07:06 Stay in room 0606
+11:07:06 11:07:16 Transfer from room 0606 to elevator
+11:07:16 11:07:20 Waiting in elevator queue
+11:07:20 11:07:50 Stay in elevator
+11:07:50 11:08:00 Transfer from elevator ro room 0707
+11:08:00 11:08:03 Waiting in front of room 0707
+11:08:03 11:08:20 Stay in room 0707
+11:08:20 11:08:30 Transfer from room 0707 to elevator
+11:08:30 11:09:00 Stay in elevator
+11:09:00 11:09:10 Transfer from elevator ro room 0808
+11:09:10 11:09:17 Waiting in front of room 0808
+11:09:17 11:09:35 Stay in room 0808
+11:09:35 11:09:45 Transfer from room 0808 to elevator
+11:09:45 11:10:15 Stay in elevator
+11:10:15 11:10:25 Transfer from elevator ro room 0909
+11:10:25 11:10:29 Waiting in front of room 0909
+11:10:29 11:10:48 Stay in room 0909
+11:10:48 11:10:58 Transfer from room 0909 to elevator
+11:10:58 11:11:00 Waiting in elevator queue
+11:11:00 11:11:30 Stay in elevator
+11:11:30 11:11:40 Transfer from elevator ro room 1010
+11:11:40 11:11:42 Waiting in front of room 1010
+11:11:42 11:12:02 Stay in room 1010
+11:12:02 11:12:12 Transfer from room 1010 to elevator
+11:12:12 11:12:15 Waiting in elevator queue
+11:12:15 11:07:45 Stay in elevator
+11:07:45 11:08:15 Exit
+
+Z
+12:00:01 12:00:31 Entry
+12:00:31 12:00:35 Waiting in elevator queue
+12:00:35 12:04:05 Stay in elevator
+12:04:05 12:04:15 Transfer from elevator ro room 0802
+12:04:15 12:20:55 Stay in room 0802
+12:20:55 12:21:05 Transfer from room 0802 to room 0803
+12:21:05 12:37:45 Stay in room 0803
+12:37:45 12:37:55 Transfer from room 0803 to room 0804
+12:37:55 12:54:35 Stay in room 0804
+12:54:35 12:54:45 Transfer from room 0804 to elevator
+12:54:45 12:58:15 Stay in elevator
+12:58:15 12:58:45 Exit
+

@@ -1,0 +1,195 @@
+5 189
+HAPPY     1000 4  4   4 8  1 6  2 5  3 4
+GO        8000 3  1   1 9
+LUCKY     8300 1  2   1 9  2 8
+GUY       9000 4  3   4 8  2 9  3 6
+RON       1000 1  2   -1 1  -1 1
+HAPPY             4 1 2 3
+HAPPY             4 1 2 4
+HAPPY             4 1 3 3
+HAPPY             4 1 3 4
+HAPPY             4 1 4 3
+HAPPY             4 1 4 4
+HAPPY             4 1 5 3
+HAPPY             4 1 5 4
+HAPPY             4 2 2 3
+HAPPY             4 2 2 4
+HAPPY             4 2 3 3
+HAPPY             4 2 3 4
+HAPPY             4 2 4 3
+HAPPY             4 2 4 4
+HAPPY             4 2 5 3
+HAPPY             4 2 5 4
+HAPPY             4 3 2 3
+HAPPY             4 3 2 4
+HAPPY             4 3 3 3
+HAPPY             4 3 3 4
+HAPPY             4 3 4 3
+HAPPY             4 3 4 4
+HAPPY             4 3 5 3
+HAPPY             4 3 5 4
+HAPPY             4 4 2 3
+HAPPY             4 4 2 4
+HAPPY             4 4 3 3
+HAPPY             4 4 3 4
+HAPPY             8 3 5 3
+HAPPY             8 4 2 3
+HAPPY             8 4 2 4
+HAPPY             8 4 3 3
+HAPPY             8 4 3 4
+HAPPY             8 4 4 3
+HAPPY             8 4 4 4
+HAPPY             8 4 5 3
+HAPPY             8 4 5 4
+HAPPY             8 5 2 3
+HAPPY             8 5 2 4
+HAPPY             8 5 3 3
+HAPPY             8 5 3 4
+HAPPY             8 5 4 3
+HAPPY             8 5 4 4
+HAPPY             8 5 5 3
+HAPPY             8 5 5 4
+HAPPY             8 6 2 3
+HAPPY             8 6 2 4
+HAPPY             8 6 3 3
+HAPPY             8 6 3 4
+HAPPY             8 6 4 3
+HAPPY             8 6 4 4
+HAPPY             8 6 5 3
+HAPPY             8 6 5 4
+LUCKY             3 5
+LUCKY             3 6
+LUCKY             3 7
+LUCKY             3 8
+LUCKY             7 2
+LUCKY             7 3
+LUCKY             7 4
+LUCKY             7 5
+LUCKY             7 6
+LUCKY             7 7
+LUCKY             7 8
+LUCKY             9 2
+LUCKY             9 3
+LUCKY             9 4
+LUCKY             9 5
+LUCKY             9 6
+LUCKY             9 7
+LUCKY             9 8
+GUY               4 2 3
+GUY               4 2 4
+GUY               4 2 5
+GUY               4 2 6
+GUY               4 3 3
+GUY               4 3 4
+GUY               4 3 5
+GUY               4 3 6
+GUY               4 4 3
+HAPPY             4 4 4 3
+HAPPY             4 4 4 4
+HAPPY             4 4 5 3
+HAPPY             4 4 5 4
+HAPPY             4 5 2 3
+HAPPY             4 5 2 4
+HAPPY             4 5 3 3
+HAPPY             4 5 3 4
+HAPPY             4 5 4 3
+HAPPY             4 5 4 4
+HAPPY             4 5 5 3
+HAPPY             4 5 5 4
+HAPPY             4 6 2 3
+HAPPY             4 6 2 4
+HAPPY             4 6 3 3
+HAPPY             4 6 3 4
+HAPPY             4 6 4 3
+HAPPY             4 6 4 4
+HAPPY             4 6 5 3
+HAPPY             4 6 5 4
+HAPPY             8 3 2 3
+HAPPY             8 3 2 4
+HAPPY             8 3 3 3
+HAPPY             8 3 3 4
+HAPPY             8 3 4 3
+HAPPY             8 3 4 4
+GO                1
+GO                2
+GO                3
+GO                4
+GO                5
+GO                6
+GO                7
+GO                8
+GO                9
+LUCKY             1 2
+LUCKY             1 3
+LUCKY             1 4
+LUCKY             1 5
+LUCKY             1 6
+LUCKY             1 7
+LUCKY             1 8
+LUCKY             2 2
+LUCKY             2 3
+LUCKY             2 4
+LUCKY             2 5
+LUCKY             2 6
+LUCKY             2 7
+LUCKY             2 8
+LUCKY             3 2
+LUCKY             3 3
+LUCKY             3 4
+GUY               4 4 4
+GUY               4 4 5
+GUY               4 4 6
+GUY               4 5 3
+GUY               4 5 4
+GUY               4 5 5
+GUY               4 5 6
+GUY               4 6 3
+GUY               4 6 4
+GUY               4 6 5
+GUY               4 6 6
+GUY               4 7 3
+GUY               4 7 4
+GUY               4 7 5
+GUY               4 7 6
+GUY               4 8 3
+GUY               4 8 4
+GUY               4 8 5
+GUY               4 8 6
+GUY               4 9 3
+GUY               4 9 4
+GUY               4 9 5
+GUY               4 9 6
+GUY               8 4 3
+GUY               8 4 4
+GUY               8 4 5
+GUY               8 4 6
+GUY               8 5 3
+GUY               8 5 4
+GUY               8 5 5
+GUY               8 5 6
+GUY               8 6 3
+GUY               8 6 4
+GUY               8 6 5
+GUY               8 6 6
+GUY               8 7 3
+GUY               8 7 4
+GUY               8 7 5
+GUY               8 7 6
+GUY               8 8 3
+GUY               8 8 4
+GUY               8 8 5
+GUY               8 8 6
+GUY               8 9 3
+GUY               8 9 4
+GUY               8 9 5
+GUY               8 9 6
+GUY               8 3 3
+RON -1 -1
+RON -1 0
+RON -1 1
+RON 0 -1
+RON 0 0
+RON 0 1
+RON 1 -1
+RON 1 0
+RON 1 1

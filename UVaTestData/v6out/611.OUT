@@ -1,0 +1,94 @@
+B finishes at t=4
+C never finishes because of P
+I never finishes because of B and C
+P finishes at t=5
+
+A finishes at t=4
+B finishes at t=2
+C finishes at t=3
+D finishes at t=4
+E finishes at t=6
+F finishes at t=9
+G finishes at t=5
+H never finishes because of E and G
+I finishes at t=1
+J finishes at t=1
+K finishes at t=1
+L finishes at t=1
+M never finishes because of N
+N never finishes because of M
+O never finishes because of P
+P never finishes because of O
+Q never finishes because of R
+R never finishes because of Q
+S never finishes because of T
+T never finishes because of S
+U finishes at t=2
+Z never finishes because of A
+
+A never finishes because of B and C
+B finishes at t=1
+C finishes at t=1
+
+Y finishes at t=6
+Z never finishes because of Y
+
+A finishes at t=4
+B never finishes because of A
+
+D finishes at t=6
+E never finishes because of F
+F never finishes because of D
+
+J finishes at t=1
+K finishes at t=1
+
+A never finishes because of B and C and D
+B finishes at t=100
+C finishes at t=100
+D finishes at t=100
+E finishes at t=100
+F finishes at t=100
+G finishes at t=100
+H finishes at t=100
+I finishes at t=100
+J finishes at t=100
+K finishes at t=100
+L finishes at t=130
+M finishes at t=100
+N finishes at t=100
+O finishes at t=100
+P finishes at t=100
+Q finishes at t=100
+R finishes at t=100
+S finishes at t=100
+T finishes at t=100
+U finishes at t=100
+V finishes at t=100
+W finishes at t=100
+X finishes at t=100
+Y finishes at t=118
+Z never finishes because of A and B and C and D and E and F and G and H and I and J and K and L and M and N and O and P and Q and R and S and T and U and V and W and X and Y
+
+A finishes at t=2
+B never finishes because of X
+C never finishes because of Y
+D never finishes because of X and Y
+X finishes at t=1
+Y finishes at t=2
+
+A finishes at t=6
+B finishes at t=4
+C finishes at t=6
+D finishes at t=7
+E finishes at t=7
+F finishes at t=7
+W finishes at t=7
+X finishes at t=7
+Y finishes at t=7
+Z finishes at t=6
+
+A finishes at t=10
+B finishes at t=11
+C finishes at t=11
+

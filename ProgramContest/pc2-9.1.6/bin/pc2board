@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Purpose: start pc2
+# Author : pc2@ecs.csus.edu
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/bin/pc2board $
+#
+
+. `dirname $0`/pc2env
+
+java -Xms64M -Xmx768M -cp $libdir/pc2.jar:$mclbdir/mclb.jar edu.csus.ecs.pc2.Starter $*
+
+# eof pc2board $Id: pc2board 1117 2007-11-29 20:55:33Z boudreat $ 

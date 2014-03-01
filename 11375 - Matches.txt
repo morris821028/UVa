@@ -1,0 +1,31 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		BigInteger[] dp = new BigInteger[2001];
+		int[] m = {6,2,5,5,4,5,6,3,7,6};
+		for(int i = 1; i = 2000; i++) {
+			dp[i] = BigInteger.valueOf(0);
+		}
+		for(int i = 1; i  10; i++) {
+			dp[m[i]] = dp[m[i]].add(BigInteger.valueOf(1));
+		}
+		for(int i = 1; i = 2000; i++) {
+			for(int j = 0; j  10; j++) {
+				if(i-m[j] = 1)
+					dp[i] = dp[i].add(dp[i-m[j]]);
+			}
+		}
+		dp[6] = dp[6].add(BigInteger.valueOf(1));
+		for(int i = 2; i = 2000; i++) {
+			dp[i] = dp[i].add(dp[i-1]);
+		}
+		Scanner cin = new Scanner(System.in);
+		int n;
+		while(cin.hasNextInt()) {
+			n = cin.nextInt();
+			System.out.println(dp[n].toString());
+		}
+	}
+}

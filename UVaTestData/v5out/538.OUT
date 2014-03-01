@@ -1,0 +1,67 @@
+Case #1
+Tc Ta 7099
+Tc Tb 15533
+Te Tb 1041
+Te Td 1944
+Te Tg 1207
+Te Ti 1115
+Tf Ti 10048
+Tf Tj 1537
+Th Tj 6787
+
+Case #2
+Td Ta 3886
+Tf Ta 3324
+Tf Tb 16655
+Tg Tb 7097
+Tg Tc 1183
+Tg Te 11650
+Tk Te 7138
+Tl Te 15392
+Tm Te 4364
+Tm Th 5940
+Tm Ti 3004
+Tm Tj 1218
+Tn Tj 10757
+To Tj 15883
+
+Case #3
+Tb Ta 6336
+Tc Ta 8357
+Td Ta 11265
+Tf Ta 1980
+Tf Te 12516
+Tf Tg 16215
+Th Tg 727
+Tj Tg 519
+Tj Ti 2371
+Tk Ti 25398
+Tl Ti 13608
+Tl Tn 1550
+Tm Tn 15176
+Tm Tr 648
+To Tr 29426
+Tp Tr 6930
+Tq Tr 17624
+
+Case #4
+Tc Ta 9478
+Td Ta 7373
+Td Tb 10625
+Td Te 14397
+Td Tf 2465
+Tk Tf 26523
+Tn Tf 4937
+To Tf 45243
+To Tg 6182
+To Th 37040
+Tp Th 1818
+Tp Ti 309
+Tr Ti 81236
+Tt Ti 3719
+Tt Tj 56455
+Tt Tl 33424
+Tt Tm 9744
+Tt Tq 2863
+Tt Ts 6991
+

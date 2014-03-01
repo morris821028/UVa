@@ -1,0 +1,325 @@
+120829 162923.088|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120829 162923.089|INFO|AWT-EventQueue-0|info|
+120829 162923.089|INFO|AWT-EventQueue-0|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120829 162923.089|INFO|AWT-EventQueue-0|info|Login: team21 (aka team21)
+120829 162923.089|INFO|AWT-EventQueue-0|login|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120829 162923.089|INFO|AWT-EventQueue-0|info|Contacting server at 140.116.82.173:50002 as TEAM21 @ site 0
+120829 162923.089|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM21 @ site 0
+120829 162923.093|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM21 @ site 0 -> SERVER0 @ site 0
+120829 162923.094|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM21 @ site 0 -> SERVER0 @ site 0
+120829 162923.095|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+120829 162923.095|INFO|Thread-4|run|send(Serializable)
+120829 162923.592|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 162923.626|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #275 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 162923.626|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #275 ) recieveObject
+120829 162923.626|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1
+120829 162923.627|INFO|Thread-5|dumpPacket|    To: TEAM21 @ site 1
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@ed723b
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@e68f59
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@cd590b
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1346229001843,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2012,MONTH=7,WEEK_OF_YEAR=35,WEEK_OF_MONTH=5,DAY_OF_MONTH=29,DAY_OF_YEAR=242,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=5,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=30,SECOND=1,MILLISECOND=843,ZONE_OFFSET=0,DST_OFFSET=0]
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@190eeec
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@35d824
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@10156e2
+120829 162923.627|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM21 @ site 1
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@ef1513
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@5094ec
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@614982
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@1210563
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@e8a936
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@bd3671
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@413518
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@104bddd
+120829 162923.628|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@4d0a21
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@1d402d6
+120829 162923.629|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #275 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 162923.629|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #275 ) handlePacket
+120829 162923.629|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1
+120829 162923.629|INFO|Thread-5|dumpPacket|    To: TEAM21 @ site 1
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@ed723b
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@e68f59
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@cd590b
+120829 162923.629|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1346229001843,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2012,MONTH=7,WEEK_OF_YEAR=35,WEEK_OF_MONTH=5,DAY_OF_MONTH=29,DAY_OF_YEAR=242,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=5,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=30,SECOND=1,MILLISECOND=843,ZONE_OFFSET=0,DST_OFFSET=0]
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@190eeec
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@35d824
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@10156e2
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM21 @ site 1
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@ef1513
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@5094ec
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@614982
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@1210563
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@e8a936
+120829 162923.630|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@bd3671
+120829 162923.631|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@413518
+120829 162923.631|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@104bddd
+120829 162923.631|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+120829 162923.631|INFO|Thread-5|dumpPacket|   key: LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@4d0a21
+120829 162923.631|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@1d402d6
+120829 162923.631|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS before 
+120829 162923.652|INFO|Thread-5|info|addSitesToModel Site 1
+120829 162923.683|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+120829 162923.706|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+120829 162923.905|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+120829 162923.906|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #275 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 162923.906|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #275 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 175918.571|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 175918.575|INFO|Thread-6|info| receiveObject(S) start got Packet[CLOCK_STARTED] #801 SERVER0 @ site 1 -> SERVER0 @ site 0
+120829 175918.576|INFO|Thread-6|dumpPacket|Packet CLOCK_STARTED (Seq #801 ) recieveObject
+120829 175918.576|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1
+120829 175918.576|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+120829 175918.576|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+120829 175918.577|INFO|Thread-6|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+120829 175918.577|INFO|Thread-6|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1346234402453,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2012,MONTH=7,WEEK_OF_YEAR=35,WEEK_OF_MONTH=5,DAY_OF_MONTH=29,DAY_OF_YEAR=242,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=5,AM_PM=0,HOUR=10,HOUR_OF_DAY=10,MINUTE=0,SECOND=2,MILLISECOND=453,ZONE_OFFSET=0,DST_OFFSET=0]
+120829 175918.578|INFO|Thread-6|info|handlePacket start Packet[CLOCK_STARTED] #801 SERVER0 @ site 1 -> SERVER0 @ site 0
+120829 175918.579|INFO|Thread-6|dumpPacket|Packet CLOCK_STARTED (Seq #801 ) handlePacket
+120829 175918.580|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1
+120829 175918.580|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+120829 175918.580|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+120829 175918.581|INFO|Thread-6|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+120829 175918.581|INFO|Thread-6|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1346234402453,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2012,MONTH=7,WEEK_OF_YEAR=35,WEEK_OF_MONTH=5,DAY_OF_MONTH=29,DAY_OF_YEAR=242,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=5,AM_PM=0,HOUR=10,HOUR_OF_DAY=10,MINUTE=0,SECOND=2,MILLISECOND=453,ZONE_OFFSET=0,DST_OFFSET=0]
+120829 175918.582|INFO|Thread-6|contestStarted|debug ContestTime site 1 STARTED 0:00:00
+120829 175918.583|INFO|Thread-6|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+120829 175918.583|INFO|Thread-6|info|handlePacket end Packet[CLOCK_STARTED] #801 SERVER0 @ site 1 -> SERVER0 @ site 0
+120829 175918.583|INFO|Thread-6|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #801 SERVER0 @ site 1 -> SERVER0 @ site 0
+120829 180325.808|WARNING|AWT-EventQueue-0|selectMainFile|Problem reading new main file selection C:\Users\owner\Documents\p1.cpp, main file not changed
+120829 180341.884|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 1 GNU C++ file: C:\Users\owner\Desktop\p1.cpp
+120829 180341.887|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 180341.888|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 180341.888|INFO|Thread-8|run|send(Serializable)
+120829 180342.044|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 180342.047|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #859 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180342.047|INFO|Thread-9|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #859 ) recieveObject
+120829 180342.047|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1
+120829 180342.047|INFO|Thread-9|dumpPacket|    To: TEAM21 @ site 1
+120829 180342.048|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 NEW from TEAM21 @ site 1 id Run--8996438154859659855
+120829 180342.048|INFO|Thread-9|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #859 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180342.048|INFO|Thread-9|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #859 ) handlePacket
+120829 180342.048|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1
+120829 180342.049|INFO|Thread-9|dumpPacket|    To: TEAM21 @ site 1
+120829 180342.049|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 NEW from TEAM21 @ site 1 id Run--8996438154859659855
+120829 180342.929|INFO|Thread-9|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #859 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180342.930|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #859 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180515.617|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 180515.622|INFO|Thread-10|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #876 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180515.622|INFO|Thread-10|dumpPacket|Packet RUN_JUDGEMENT (Seq #876 ) recieveObject
+120829 180515.623|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1
+120829 180515.623|INFO|Thread-10|dumpPacket|    To: TEAM21 @ site 1
+120829 180515.623|INFO|Thread-10|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 180515.623|INFO|Thread-10|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--4056171134251075341 id JudgementRecord--6891615540048908109
+120829 180515.624|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 JUDGED from TEAM21 @ site 1 id Run--8996438154859659855
+120829 180515.624|INFO|Thread-10|info|handlePacket start Packet[RUN_JUDGEMENT] #876 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180515.624|INFO|Thread-10|dumpPacket|Packet RUN_JUDGEMENT (Seq #876 ) handlePacket
+120829 180515.624|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1
+120829 180515.624|INFO|Thread-10|dumpPacket|    To: TEAM21 @ site 1
+120829 180515.625|INFO|Thread-10|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 180515.625|INFO|Thread-10|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--4056171134251075341 id JudgementRecord--6891615540048908109
+120829 180515.625|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 JUDGED from TEAM21 @ site 1 id Run--8996438154859659855
+120829 180518.359|INFO|Thread-10|info|handlePacket end Packet[RUN_JUDGEMENT] #876 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180518.360|INFO|Thread-10|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #876 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180657.837|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 1 GNU C++ file: C:\Users\owner\Desktop\p1.cpp
+120829 180657.838|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 180657.839|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 180657.839|INFO|Thread-11|run|send(Serializable)
+120829 180657.904|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 180657.906|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #906 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180657.907|INFO|Thread-12|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #906 ) recieveObject
+120829 180657.907|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1
+120829 180657.907|INFO|Thread-12|dumpPacket|    To: TEAM21 @ site 1
+120829 180657.907|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 31 NEW from TEAM21 @ site 1 id Run-4417554814002315563
+120829 180657.908|INFO|Thread-12|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #906 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180657.908|INFO|Thread-12|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #906 ) handlePacket
+120829 180657.908|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1
+120829 180657.908|INFO|Thread-12|dumpPacket|    To: TEAM21 @ site 1
+120829 180657.909|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 31 NEW from TEAM21 @ site 1 id Run-4417554814002315563
+120829 180658.924|INFO|Thread-12|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #906 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180658.924|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #906 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180740.718|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 180740.722|INFO|Thread-13|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #914 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180740.722|INFO|Thread-13|dumpPacket|Packet RUN_JUDGEMENT (Seq #914 ) recieveObject
+120829 180740.722|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1
+120829 180740.722|INFO|Thread-13|dumpPacket|    To: TEAM21 @ site 1
+120829 180740.722|INFO|Thread-13|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 180740.723|INFO|Thread-13|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--4056171134251075341 id JudgementRecord--4883925851795901224
+120829 180740.723|INFO|Thread-13|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 31 JUDGED from TEAM21 @ site 1 id Run-4417554814002315563
+120829 180740.723|INFO|Thread-13|info|handlePacket start Packet[RUN_JUDGEMENT] #914 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180740.723|INFO|Thread-13|dumpPacket|Packet RUN_JUDGEMENT (Seq #914 ) handlePacket
+120829 180740.724|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1
+120829 180740.724|INFO|Thread-13|dumpPacket|    To: TEAM21 @ site 1
+120829 180740.724|INFO|Thread-13|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 180740.724|INFO|Thread-13|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--4056171134251075341 id JudgementRecord--4883925851795901224
+120829 180740.724|INFO|Thread-13|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 31 JUDGED from TEAM21 @ site 1 id Run-4417554814002315563
+120829 180744.796|INFO|Thread-13|info|handlePacket end Packet[RUN_JUDGEMENT] #914 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 180744.796|INFO|Thread-13|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #914 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181327.540|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 3 GNU C++ file: C:\Users\owner\Desktop\p3.cpp
+120829 181327.541|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 181327.541|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 181327.542|INFO|Thread-14|run|send(Serializable)
+120829 181327.603|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 181327.606|INFO|Thread-15|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #959 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181327.606|INFO|Thread-15|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #959 ) recieveObject
+120829 181327.606|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1
+120829 181327.607|INFO|Thread-15|dumpPacket|    To: TEAM21 @ site 1
+120829 181327.607|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 NEW from TEAM21 @ site 1 id Run-4232274168666389497
+120829 181327.607|INFO|Thread-15|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #959 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181327.607|INFO|Thread-15|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #959 ) handlePacket
+120829 181327.607|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1
+120829 181327.608|INFO|Thread-15|dumpPacket|    To: TEAM21 @ site 1
+120829 181327.608|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 NEW from TEAM21 @ site 1 id Run-4232274168666389497
+120829 181328.397|INFO|Thread-15|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #959 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181328.397|INFO|Thread-15|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #959 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181335.017|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 181335.020|INFO|Thread-16|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #962 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181335.021|INFO|Thread-16|dumpPacket|Packet RUN_JUDGEMENT (Seq #962 ) recieveObject
+120829 181335.021|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1
+120829 181335.021|INFO|Thread-16|dumpPacket|    To: TEAM21 @ site 1
+120829 181335.021|INFO|Thread-16|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 181335.021|INFO|Thread-16|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord--2478229715193642856
+120829 181335.022|INFO|Thread-16|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 JUDGED from TEAM21 @ site 1 id Run-4232274168666389497
+120829 181335.022|INFO|Thread-16|info|handlePacket start Packet[RUN_JUDGEMENT] #962 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181335.022|INFO|Thread-16|dumpPacket|Packet RUN_JUDGEMENT (Seq #962 ) handlePacket
+120829 181335.022|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1
+120829 181335.022|INFO|Thread-16|dumpPacket|    To: TEAM21 @ site 1
+120829 181335.023|INFO|Thread-16|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 181335.023|INFO|Thread-16|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord--2478229715193642856
+120829 181335.023|INFO|Thread-16|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 JUDGED from TEAM21 @ site 1 id Run-4232274168666389497
+120829 181337.668|INFO|Thread-16|info|handlePacket end Packet[RUN_JUDGEMENT] #962 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181337.668|INFO|Thread-16|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #962 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181821.837|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 1 GNU C++ file: C:\Users\owner\Desktop\p1.cpp
+120829 181821.838|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 181821.839|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 181821.839|INFO|Thread-17|run|send(Serializable)
+120829 181821.901|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 181821.903|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #979 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181821.903|INFO|Thread-18|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #979 ) recieveObject
+120829 181821.903|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1
+120829 181821.903|INFO|Thread-18|dumpPacket|    To: TEAM21 @ site 1
+120829 181821.904|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 NEW from TEAM21 @ site 1 id Run--1746100694367107835
+120829 181821.904|INFO|Thread-18|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #979 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181821.904|INFO|Thread-18|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #979 ) handlePacket
+120829 181821.904|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1
+120829 181821.904|INFO|Thread-18|dumpPacket|    To: TEAM21 @ site 1
+120829 181821.904|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 NEW from TEAM21 @ site 1 id Run--1746100694367107835
+120829 181822.765|INFO|Thread-18|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #979 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181822.765|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #979 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181838.390|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 181838.392|INFO|Thread-19|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #982 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181838.392|INFO|Thread-19|dumpPacket|Packet RUN_JUDGEMENT (Seq #982 ) recieveObject
+120829 181838.392|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1
+120829 181838.392|INFO|Thread-19|dumpPacket|    To: TEAM21 @ site 1
+120829 181838.392|INFO|Thread-19|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 181838.392|INFO|Thread-19|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE4 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord-4015245713685231798
+120829 181838.392|INFO|Thread-19|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 JUDGED from TEAM21 @ site 1 id Run--1746100694367107835
+120829 181838.392|INFO|Thread-19|info|handlePacket start Packet[RUN_JUDGEMENT] #982 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181838.393|INFO|Thread-19|dumpPacket|Packet RUN_JUDGEMENT (Seq #982 ) handlePacket
+120829 181838.393|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1
+120829 181838.393|INFO|Thread-19|dumpPacket|    To: TEAM21 @ site 1
+120829 181838.393|INFO|Thread-19|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 181838.393|INFO|Thread-19|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE4 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord-4015245713685231798
+120829 181838.393|INFO|Thread-19|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 JUDGED from TEAM21 @ site 1 id Run--1746100694367107835
+120829 181841.276|INFO|Thread-19|info|handlePacket end Packet[RUN_JUDGEMENT] #982 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 181841.277|INFO|Thread-19|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #982 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182312.839|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 4 GNU C++ file: C:\Users\owner\Desktop\p4.cpp
+120829 182312.840|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #6 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 182312.840|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #6 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 182312.840|INFO|Thread-20|run|send(Serializable)
+120829 182312.920|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 182312.922|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1040 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182312.923|INFO|Thread-21|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1040 ) recieveObject
+120829 182312.923|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1
+120829 182312.923|INFO|Thread-21|dumpPacket|    To: TEAM21 @ site 1
+120829 182312.923|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 45 NEW from TEAM21 @ site 1 id Run-1175258224968629856
+120829 182312.923|INFO|Thread-21|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1040 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182312.923|INFO|Thread-21|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1040 ) handlePacket
+120829 182312.923|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1
+120829 182312.924|INFO|Thread-21|dumpPacket|    To: TEAM21 @ site 1
+120829 182312.924|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 45 NEW from TEAM21 @ site 1 id Run-1175258224968629856
+120829 182313.874|INFO|Thread-21|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #1040 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182313.874|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1040 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182326.442|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 182326.445|INFO|Thread-22|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1043 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182326.445|INFO|Thread-22|dumpPacket|Packet RUN_JUDGEMENT (Seq #1043 ) recieveObject
+120829 182326.445|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1
+120829 182326.446|INFO|Thread-22|dumpPacket|    To: TEAM21 @ site 1
+120829 182326.446|INFO|Thread-22|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 182326.446|INFO|Thread-22|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord-8780714993247191306
+120829 182326.446|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 45 JUDGED from TEAM21 @ site 1 id Run-1175258224968629856
+120829 182326.446|INFO|Thread-22|info|handlePacket start Packet[RUN_JUDGEMENT] #1043 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182326.447|INFO|Thread-22|dumpPacket|Packet RUN_JUDGEMENT (Seq #1043 ) handlePacket
+120829 182326.447|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1
+120829 182326.447|INFO|Thread-22|dumpPacket|    To: TEAM21 @ site 1
+120829 182326.447|INFO|Thread-22|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 182326.447|INFO|Thread-22|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord-8780714993247191306
+120829 182326.448|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 45 JUDGED from TEAM21 @ site 1 id Run-1175258224968629856
+120829 182329.057|INFO|Thread-22|info|handlePacket end Packet[RUN_JUDGEMENT] #1043 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 182329.058|INFO|Thread-22|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1043 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183530.644|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 2 GNU C++ file: C:\Users\owner\Desktop\p2.cpp
+120829 183530.645|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #7 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 183530.645|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #7 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 183530.646|INFO|Thread-23|run|send(Serializable)
+120829 183530.691|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 183530.693|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1263 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183530.693|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1263 ) recieveObject
+120829 183530.694|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1
+120829 183530.694|INFO|Thread-24|dumpPacket|    To: TEAM21 @ site 1
+120829 183530.694|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 74 NEW from TEAM21 @ site 1 id Run--8662824064469600851
+120829 183530.694|INFO|Thread-24|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1263 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183530.694|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1263 ) handlePacket
+120829 183530.694|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1
+120829 183530.695|INFO|Thread-24|dumpPacket|    To: TEAM21 @ site 1
+120829 183530.695|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 74 NEW from TEAM21 @ site 1 id Run--8662824064469600851
+120829 183531.511|INFO|Thread-24|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #1263 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183531.511|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1263 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183541.500|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 183541.503|INFO|Thread-25|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1266 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183541.503|INFO|Thread-25|dumpPacket|Packet RUN_JUDGEMENT (Seq #1266 ) recieveObject
+120829 183541.503|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1
+120829 183541.503|INFO|Thread-25|dumpPacket|    To: TEAM21 @ site 1
+120829 183541.504|INFO|Thread-25|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 183541.504|INFO|Thread-25|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE5 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord-4008738454857707383
+120829 183541.504|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 74 JUDGED from TEAM21 @ site 1 id Run--8662824064469600851
+120829 183541.504|INFO|Thread-25|info|handlePacket start Packet[RUN_JUDGEMENT] #1266 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183541.504|INFO|Thread-25|dumpPacket|Packet RUN_JUDGEMENT (Seq #1266 ) handlePacket
+120829 183541.505|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1
+120829 183541.505|INFO|Thread-25|dumpPacket|    To: TEAM21 @ site 1
+120829 183541.505|INFO|Thread-25|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 183541.505|INFO|Thread-25|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE5 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord-4008738454857707383
+120829 183541.505|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 74 JUDGED from TEAM21 @ site 1 id Run--8662824064469600851
+120829 183545.384|INFO|Thread-25|info|handlePacket end Packet[RUN_JUDGEMENT] #1266 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 183545.384|INFO|Thread-25|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1266 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184250.133|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem 5 GNU C++ file: C:\Users\owner\Desktop\p5.cpp
+120829 184250.133|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #8 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 184250.134|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #8 TEAM21 @ site 1 -> SERVER0 @ site 1
+120829 184250.142|INFO|Thread-26|run|send(Serializable)
+120829 184250.209|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 184250.211|INFO|Thread-27|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1380 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184250.211|INFO|Thread-27|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1380 ) recieveObject
+120829 184250.211|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1
+120829 184250.211|INFO|Thread-27|dumpPacket|    To: TEAM21 @ site 1
+120829 184250.211|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 90 NEW from TEAM21 @ site 1 id Run--5914199176766429504
+120829 184250.211|INFO|Thread-27|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1380 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184250.211|INFO|Thread-27|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1380 ) handlePacket
+120829 184250.211|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1
+120829 184250.211|INFO|Thread-27|dumpPacket|    To: TEAM21 @ site 1
+120829 184250.212|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 90 NEW from TEAM21 @ site 1 id Run--5914199176766429504
+120829 184251.071|INFO|Thread-27|info|handlePacket end Packet[RUN_SUBMISSION_CONFIRM] #1380 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184251.071|INFO|Thread-27|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1380 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184334.497|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120829 184334.500|INFO|Thread-28|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1391 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184334.500|INFO|Thread-28|dumpPacket|Packet RUN_JUDGEMENT (Seq #1391 ) recieveObject
+120829 184334.501|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1
+120829 184334.501|INFO|Thread-28|dumpPacket|    To: TEAM21 @ site 1
+120829 184334.501|INFO|Thread-28|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 184334.501|INFO|Thread-28|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord--6238933871826337323
+120829 184334.501|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 90 JUDGED from TEAM21 @ site 1 id Run--5914199176766429504
+120829 184334.502|INFO|Thread-28|info|handlePacket start Packet[RUN_JUDGEMENT] #1391 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184334.502|INFO|Thread-28|dumpPacket|Packet RUN_JUDGEMENT (Seq #1391 ) handlePacket
+120829 184334.502|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1
+120829 184334.502|INFO|Thread-28|dumpPacket|    To: TEAM21 @ site 1
+120829 184334.502|INFO|Thread-28|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+120829 184334.502|INFO|Thread-28|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-1327123688215950474 id JudgementRecord--6238933871826337323
+120829 184334.503|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 90 JUDGED from TEAM21 @ site 1 id Run--5914199176766429504
+120829 184340.150|INFO|Thread-28|info|handlePacket end Packet[RUN_JUDGEMENT] #1391 SERVER0 @ site 1 -> TEAM21 @ site 1
+120829 184340.150|INFO|Thread-28|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1391 SERVER0 @ site 1 -> TEAM21 @ site 1

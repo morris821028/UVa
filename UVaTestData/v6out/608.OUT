@@ -1,0 +1,12 @@
+K is the counterfeit coin and it is light.
+I is the counterfeit coin and it is heavy.
+I is the counterfeit coin and it is light.
+L is the counterfeit coin and it is light.
+B is the counterfeit coin and it is light.
+A is the counterfeit coin and it is heavy.
+A is the counterfeit coin and it is light.
+L is the counterfeit coin and it is heavy.
+A is the counterfeit coin and it is light.
+A is the counterfeit coin and it is heavy.
+L is the counterfeit coin and it is light.
+K is the counterfeit coin and it is heavy.

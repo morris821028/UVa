@@ -1,0 +1,2858 @@
+11
+
+4
+I 5
+B S B P C
+N S B P C
+N R B
+B R P
+B R C
+B 2
+B R I
+B S I
+P 3
+N S I
+N R I
+B R I
+C 4
+N S I
+B R I
+B S P
+B R I
+
+22
+A 2
+B S B
+B R D
+B 2
+B R A
+B S C
+C 2
+B R B
+B S D
+D 2
+B R C
+B S A
+E 4
+N R F G
+B R F
+B R G
+B R F
+F 4
+N S H E
+N S G E
+N S G E
+N S H
+G 4
+B R F
+B R F
+B S H E
+N S E
+H 8
+N R F
+N R E
+B R G
+N S E
+N S E
+N S E
+N S E
+N R G F
+I 1
+N S J
+J 1
+N R I
+K 1
+B S L
+L 1
+B R K
+M 1
+B S N
+N 1
+B S M
+O 1
+B R P
+P 1
+B R O
+Q 1
+N S R
+R 1
+N S Q
+S 1
+B S T
+T 1
+B S S
+U 1
+N R Z
+Z 2
+N R A
+B S U
+
+3
+A 3
+N S B
+B R C
+N S C
+C 1
+B S B
+B 1
+B R C
+
+2
+Y 4
+N R Z
+B S Z
+B R Z
+B S Z
+Z 5
+N R Y
+B S Y
+N R Y
+N R Y
+B S Y
+
+2
+A 2
+B S B
+N R B
+B 3
+N S A
+N S A
+B R A
+
+3
+D 2
+B R E
+B S F
+E 5
+N R F
+N R F
+N R F
+N R F
+B S D
+F 7
+N R D
+N R D
+B R D
+B S E
+B S E
+B S E
+B S E
+
+2
+J 1
+B S K
+K 1
+N R J
+
+26
+B 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+C 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+D 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+A 100
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S B C D E F G H I J K L M N O P Q R S T U V W X Y
+B S B C D E F G H I J K L M N O P Q R S T U V W X Y
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+N R B C D Z
+E 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+F 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B S L
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+G 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+H 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+V 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+I 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+N S Y
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+J 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+K 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+M 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+N 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+O 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+P 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+Q 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+R 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+S 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+T 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+U 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+W 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+X 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+Y 100
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R I
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+Z 100
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+B S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+B S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+N S A B C D E F G H I J K L M N O P Q R S T U V W X Y
+L 100
+B R Z
+B R F
+B R Z
+B R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+N R Z
+B R Z
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+B R A
+B R A
+B R A
+N R A
+B R A
+B R A
+N R A
+B R A
+B R A
+B R A
+
+6
+A 1
+B S X Y
+B 1
+B S X Y
+C 1
+B S X Y
+D 1
+B S X Y
+X 1
+N R A C
+Y 2
+B R B
+N R A
+
+10
+C 3
+N R W X
+N R Y Z
+B S A
+D 3
+N R W Y
+N R X Z
+B S A
+E 2
+N R W X Y Z
+B S A
+F 3
+N R W Z
+N R X Y
+B S A
+W 3
+B R A
+N S C D
+N S E F
+X 3
+B R A
+N S C E
+N S D F
+Y 3
+B R A
+N S C F
+N S D E
+Z 2
+B R A
+N S C D E F
+A 6
+N R B
+N R B
+N R B
+N R B
+B S W X Y Z
+B R C D E F
+B 4
+B S A
+B S A
+B S A
+B S A
+
+3
+A 1
+N R B
+B 10
+B S C
+B S C
+B S C
+B S C
+N S C
+N R C
+B R C
+B R C
+B S A
+B R C
+C 9
+B R B
+B R B
+B R B
+B R B
+B S B
+B R B
+B S B
+B S B
+B S B
+

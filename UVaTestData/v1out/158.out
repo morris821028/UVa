@@ -1,0 +1,58 @@
+Today is: 20 12
+ 20 12 *TODAY* Unspecified        Anniversary
+ 23 12 ***     Partner's birthday
+ 25 12 ***     Christmas
+
+Today is: 25 12
+ 25 12 *TODAY* Christmas
+  1  1 *       New Year's Day
+
+Today is: 31 12
+  1  1 ******* New Year's Day
+  1  1 ******  January
+  1  1 *       Little priority on first day of year
+
+Today is:  1  1
+  1  1 *TODAY* Little priority on first day of year
+  1  1 *TODAY* New Year's Day
+  1  1 *TODAY* January
+
+Today is: 14  6
+ 16  6 ******  John's birthday
+
+Today is: 27  1
+  1  2 **      February
+
+Today is: 27  2
+  1  3 *****   March with indent!
+
+Today is: 27  3
+  1  4 **      April
+
+Today is: 27  4
+  1  5 ***     May
+
+Today is: 27  5
+  1  6 **      June
+
+Today is: 27  6
+  1  7 ***     July
+
+Today is: 27  7
+  1  8 **      August
+
+Today is: 27  8
+  1  9 **      September
+
+Today is: 27  9
+  1 10 ***     October
+
+Today is: 27 10
+  1 11 **      November
+
+Today is: 27 11
+  1 12 ***     December
+
+Today is: 27 12
+  1  1 ***     New Year's Day
+  1  1 **      January
