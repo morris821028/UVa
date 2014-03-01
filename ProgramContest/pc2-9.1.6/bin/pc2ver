@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Purpose: print version number
+# Author : pc2@ecs.csus.edu
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/bin/pc2ver $
+#
+
+. `dirname $0`/pc2env
+
+java  -cp $libdir/pc2.jar edu.csus.ecs.pc2.VersionInfo
+
+# eof pc2ver $Id: pc2ver 421 2007-04-26 23:32:29Z boudreat $ 

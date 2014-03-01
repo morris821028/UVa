@@ -1,0 +1,171 @@
+Map #1
+
+Triangulum occurs 2 time(s) in the map.
+Brightest occurrence: (1,2) (4,1) (4,3)
+
+Cancer occurs 0 time(s) in the map.
+-----
+Map #2
+
+Triangle occurs 23 time(s) in the map.
+Brightest occurrence: (10,-4) (10,2) (16,2)
+
+Square occurs 5 time(s) in the map.
+Brightest occurrence: (10,-4) (10,2) (16,-4) (16,2)
+-----
+Map #3
+
+Long_Triangle occurs 1 time(s) in the map.
+Brightest occurrence: (0,0) (0,1) (2,1)
+
+Rectangle occurs 0 time(s) in the map.
+-----
+Map #4
+
+Asymetric_Constellation_original occurs 4 time(s) in the map.
+Brightest occurrence: (-15,0) (-11,-4) (-11,0) (-11,4) (-7,-4)
+
+Asymetric_Constellation_flipped occurs 0 time(s) in the map.
+-----
+Map #5
+
+Point_1 occurs 10 time(s) in the map.
+Brightest occurrence: (-2,9)
+
+Point_2 occurs 10 time(s) in the map.
+Brightest occurrence: (-2,9)
+
+Point_3 occurs 10 time(s) in the map.
+Brightest occurrence: (-2,9)
+-----
+Map #6
+
+Line_1 occurs 45 time(s) in the map.
+Brightest occurrence: (-7,3) (7,2)
+
+Line_2 occurs 45 time(s) in the map.
+Brightest occurrence: (-7,3) (7,2)
+
+Line_3 occurs 45 time(s) in the map.
+Brightest occurrence: (-7,3) (7,2)
+-----
+Map #7
+
+4_Points_On_A_Line occurs 7 time(s) in the map.
+Brightest occurrence: (1,-11) (1,-8) (1,-6) (1,-5)
+
+4_Points_On_A_Line_(again) occurs 7 time(s) in the map.
+Brightest occurrence: (1,-11) (1,-8) (1,-6) (1,-5)
+-----
+Map #8
+
+Triangle1 occurs 146 time(s) in the map.
+Brightest occurrence: (-1,0) (1,2) (3,0)
+
+Triangle2 occurs 0 time(s) in the map.
+
+Triangle3 occurs 0 time(s) in the map.
+
+Triangle4 occurs 0 time(s) in the map.
+
+Triangle5 occurs 0 time(s) in the map.
+-----
+Map #9
+
+Point_with_a_very_long_name_901234567890 occurs 5 time(s) in the map.
+Brightest occurrence: (3,-4)
+
+Line_with_a_name_of_the_maximum_length_! occurs 10 time(s) in the map.
+Brightest occurrence: (3,-4) (9,6)
+-----
+Map #10
+
+Point occurs 1 time(s) in the map.
+Brightest occurrence: (1,1)
+
+Line occurs 0 time(s) in the map.
+
+Triangulum occurs 0 time(s) in the map.
+
+Cancer occurs 0 time(s) in the map.
+-----
+Map #11
+
+Point occurs 2 time(s) in the map.
+Brightest occurrence: (5,6)
+
+Line occurs 1 time(s) in the map.
+Brightest occurrence: (1,1) (5,6)
+
+Triangulum occurs 0 time(s) in the map.
+
+Cancer occurs 0 time(s) in the map.
+-----
+Map #12
+
+Point occurs 3 time(s) in the map.
+Brightest occurrence: (3,7)
+
+Line occurs 3 time(s) in the map.
+Brightest occurrence: (3,7) (5,1)
+
+Triangulum occurs 1 time(s) in the map.
+Brightest occurrence: (1,1) (3,7) (5,1)
+
+Cancer occurs 0 time(s) in the map.
+-----
+Map #13
+
+Big_Constellation occurs 5 time(s) in the map.
+Brightest occurrence: (-78,84) (-69,-42) (-33,57) (-24,-69) (-15,-6) (-15,30) (-15,48) (-6,-6) (-6,30) (3,-6) (3,3) (3,12) (12,-6) (30,57) (48,48) (57,-15) (75,-6) (75,21) (75,48) (84,39)
+
+Part_of_Big_Constellation occurs 5 time(s) in the map.
+Brightest occurrence: (-4,-4) (-3,-6) (-3,-4) (-3,0) (-2,7)
+-----
+Map #14
+
+Lonely_Point occurs 150 time(s) in the map.
+Brightest occurrence: (-42,51)
+
+Cuddly_Line occurs 11175 time(s) in the map.
+Brightest occurrence: (-42,51) (-17,31)
+
+Pytagoras'_Triangle occurs 587 time(s) in the map.
+Brightest occurrence: (-42,71) (-17,21) (-2,51)
+
+Triangulum occurs 2637 time(s) in the map.
+Brightest occurrence: (-42,51) (-42,76) (-27,56)
+
+Triangle1 occurs 8061 time(s) in the map.
+Brightest occurrence: (-37,51) (-17,31) (-17,71)
+
+Triangle2 occurs 0 time(s) in the map.
+
+Triangle3 occurs 0 time(s) in the map.
+
+Triangle4 occurs 0 time(s) in the map.
+
+Triangle5 occurs 0 time(s) in the map.
+
+Cancer occurs 226 time(s) in the map.
+Brightest occurrence: (-42,71) (-27,36) (-27,56) (-2,51)
+
+Little_Square occurs 1415 time(s) in the map.
+Brightest occurrence: (-37,51) (-17,31) (-17,71) (3,51)
+
+Rotated_Square occurs 1415 time(s) in the map.
+Brightest occurrence: (-37,51) (-17,31) (-17,71) (3,51)
+
+Another_Rotated_Square occurs 1415 time(s) in the map.
+Brightest occurrence: (-37,51) (-17,31) (-17,71) (3,51)
+
+Part_of_Big_Constellation occurs 0 time(s) in the map.
+
+Asymetric_Constellation_original occurs 1907 time(s) in the map.
+Brightest occurrence: (-37,51) (-37,71) (-27,41) (-27,61) (-17,71)
+
+Asymetric_Constellation_flipped occurs 1905 time(s) in the map.
+Brightest occurrence: (-42,21) (-27,56) (-17,31) (8,41) (18,16)
+
+Big_Constellation occurs 0 time(s) in the map.
+-----

@@ -1,0 +1,153 @@
+Printing order for 1 pages:
+Sheet 1, front: Blank, 1
+Printing order for 2 pages:
+Sheet 1, front: Blank, 1
+Sheet 1, back : 2, Blank
+Printing order for 3 pages:
+Sheet 1, front: Blank, 1
+Sheet 1, back : 2, 3
+Printing order for 4 pages:
+Sheet 1, front: 4, 1
+Sheet 1, back : 2, 3
+Printing order for 9 pages:
+Sheet 1, front: Blank, 1
+Sheet 1, back : 2, Blank
+Sheet 2, front: Blank, 3
+Sheet 2, back : 4, 9
+Sheet 3, front: 8, 5
+Sheet 3, back : 6, 7
+Printing order for 100 pages:
+Sheet 1, front: 100, 1
+Sheet 1, back : 2, 99
+Sheet 2, front: 98, 3
+Sheet 2, back : 4, 97
+Sheet 3, front: 96, 5
+Sheet 3, back : 6, 95
+Sheet 4, front: 94, 7
+Sheet 4, back : 8, 93
+Sheet 5, front: 92, 9
+Sheet 5, back : 10, 91
+Sheet 6, front: 90, 11
+Sheet 6, back : 12, 89
+Sheet 7, front: 88, 13
+Sheet 7, back : 14, 87
+Sheet 8, front: 86, 15
+Sheet 8, back : 16, 85
+Sheet 9, front: 84, 17
+Sheet 9, back : 18, 83
+Sheet 10, front: 82, 19
+Sheet 10, back : 20, 81
+Sheet 11, front: 80, 21
+Sheet 11, back : 22, 79
+Sheet 12, front: 78, 23
+Sheet 12, back : 24, 77
+Sheet 13, front: 76, 25
+Sheet 13, back : 26, 75
+Sheet 14, front: 74, 27
+Sheet 14, back : 28, 73
+Sheet 15, front: 72, 29
+Sheet 15, back : 30, 71
+Sheet 16, front: 70, 31
+Sheet 16, back : 32, 69
+Sheet 17, front: 68, 33
+Sheet 17, back : 34, 67
+Sheet 18, front: 66, 35
+Sheet 18, back : 36, 65
+Sheet 19, front: 64, 37
+Sheet 19, back : 38, 63
+Sheet 20, front: 62, 39
+Sheet 20, back : 40, 61
+Sheet 21, front: 60, 41
+Sheet 21, back : 42, 59
+Sheet 22, front: 58, 43
+Sheet 22, back : 44, 57
+Sheet 23, front: 56, 45
+Sheet 23, back : 46, 55
+Sheet 24, front: 54, 47
+Sheet 24, back : 48, 53
+Sheet 25, front: 52, 49
+Sheet 25, back : 50, 51
+Printing order for 99 pages:
+Sheet 1, front: Blank, 1
+Sheet 1, back : 2, 99
+Sheet 2, front: 98, 3
+Sheet 2, back : 4, 97
+Sheet 3, front: 96, 5
+Sheet 3, back : 6, 95
+Sheet 4, front: 94, 7
+Sheet 4, back : 8, 93
+Sheet 5, front: 92, 9
+Sheet 5, back : 10, 91
+Sheet 6, front: 90, 11
+Sheet 6, back : 12, 89
+Sheet 7, front: 88, 13
+Sheet 7, back : 14, 87
+Sheet 8, front: 86, 15
+Sheet 8, back : 16, 85
+Sheet 9, front: 84, 17
+Sheet 9, back : 18, 83
+Sheet 10, front: 82, 19
+Sheet 10, back : 20, 81
+Sheet 11, front: 80, 21
+Sheet 11, back : 22, 79
+Sheet 12, front: 78, 23
+Sheet 12, back : 24, 77
+Sheet 13, front: 76, 25
+Sheet 13, back : 26, 75
+Sheet 14, front: 74, 27
+Sheet 14, back : 28, 73
+Sheet 15, front: 72, 29
+Sheet 15, back : 30, 71
+Sheet 16, front: 70, 31
+Sheet 16, back : 32, 69
+Sheet 17, front: 68, 33
+Sheet 17, back : 34, 67
+Sheet 18, front: 66, 35
+Sheet 18, back : 36, 65
+Sheet 19, front: 64, 37
+Sheet 19, back : 38, 63
+Sheet 20, front: 62, 39
+Sheet 20, back : 40, 61
+Sheet 21, front: 60, 41
+Sheet 21, back : 42, 59
+Sheet 22, front: 58, 43
+Sheet 22, back : 44, 57
+Sheet 23, front: 56, 45
+Sheet 23, back : 46, 55
+Sheet 24, front: 54, 47
+Sheet 24, back : 48, 53
+Sheet 25, front: 52, 49
+Sheet 25, back : 50, 51
+Printing order for 24 pages:
+Sheet 1, front: 24, 1
+Sheet 1, back : 2, 23
+Sheet 2, front: 22, 3
+Sheet 2, back : 4, 21
+Sheet 3, front: 20, 5
+Sheet 3, back : 6, 19
+Sheet 4, front: 18, 7
+Sheet 4, back : 8, 17
+Sheet 5, front: 16, 9
+Sheet 5, back : 10, 15
+Sheet 6, front: 14, 11
+Sheet 6, back : 12, 13
+Printing order for 14 pages:
+Sheet 1, front: Blank, 1
+Sheet 1, back : 2, Blank
+Sheet 2, front: 14, 3
+Sheet 2, back : 4, 13
+Sheet 3, front: 12, 5
+Sheet 3, back : 6, 11
+Sheet 4, front: 10, 7
+Sheet 4, back : 8, 9
+Printing order for 19 pages:
+Sheet 1, front: Blank, 1
+Sheet 1, back : 2, 19
+Sheet 2, front: 18, 3
+Sheet 2, back : 4, 17
+Sheet 3, front: 16, 5
+Sheet 3, back : 6, 15
+Sheet 4, front: 14, 7
+Sheet 4, back : 8, 13
+Sheet 5, front: 12, 9
+Sheet 5, back : 10, 11

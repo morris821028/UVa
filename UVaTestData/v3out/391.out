@@ -1,0 +1,10 @@
+This is a test file for MARKUP.C
+abcde
+\b no translation should occur *\\ \b*\s3.*
+/i/b/sbis
+*\**\*
+
+\\
+
+\ no problems
+ close literal text by end-of-file\

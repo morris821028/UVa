@@ -1,0 +1,35 @@
+new Shade01 0.50 3.79
+new Towel01 1.47 6.98
+new Shade02 0.63 4.29
+new BluBlock 1.00 4.98
+buy BluBlock 100
+sell BluBlock 2
+buy Towel01 500
+buy Shade01 100
+buy Shade02 150
+buy Shade01 25
+sell Towel01 1
+sell Shade02 15
+sell Towel01 1
+sell BluBlock 2
+sell Shade01 2
+sell Towel01 20
+report
+delete Shade01
+sell BluBlock 5
+new Shade03 0.51 1.98
+buy Shade03 250
+sell Towel01 5
+sell Shade03 4
+sell Shade02 10
+report
+new Towel02 1.93 9.95
+buy Towel02 100
+sell Shade03 10
+buy Shade03 20
+buy Shade02 5
+sell Towel01 3
+sell Towel02 1
+delete Towel02
+report
+*

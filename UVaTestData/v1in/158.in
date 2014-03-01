@@ -1,0 +1,37 @@
+1993
+A 23 12 5 Partner's birthday
+A 25 12 7 Christmas
+A 20 12 1 Unspecified        Anniversary
+A 1 1 1 Little priority on first day of year
+A 1 1 7 New Year's Day
+A 16 6 7 John's birthday
+A 1 1 6 January
+A 1 2 6 February
+A 1 3 6    March with indent!
+A 1 4 6 April
+A 1 5 6 May
+A 1 6 6 June
+A 1 7 6 July
+A 1 8 6 August
+A    1    9    6     September
+A 1 10 6 October
+A 1 11 6 November
+A 1 12 6 December
+D 20 12
+D 25 12
+D 31 12
+D 1 1
+D 14 6
+D    27    1
+D 27 2
+D 27 3
+D 27 4
+D 27 5
+D 27 6
+D 27 7
+D 27 8
+D 27 9
+D 27 10
+D 27 11
+D 27 12
+#

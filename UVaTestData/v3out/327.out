@@ -1,0 +1,41 @@
+Expression: a
+    value = 1
+    a = 1
+Expression: z
+    value = 26
+    z = 26
+Expression: a+z
+    value = 27
+    a = 1
+    z = 26
+Expression:                a    -    z
+    value = -25
+    a = 1
+    z = 26
+Expression: a++
+    value = 1
+    a = 2
+Expression:          ++a
+    value = 2
+    a = 2
+Expression:               f --
+value = 6
+    f = 5
+Expression:         g -- + f++
+    value = 13
+    f = 7
+    g = 6
+Expression:      ++e + f + g-- + b++ - d
+    value = 17
+    b = 3
+    d = 4
+    e = 6
+    f = 6
+    g = 6
+Expression:    -- c + b ++ - ++f - ++ d - a++
+    value = -9
+    a = 2
+    b = 3
+    c = 2
+    d = 5
+    f = 7

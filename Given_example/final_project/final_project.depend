@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1322883063 source:c:\users\scott\desktop\final_project_v3\heap.cpp
+	<iostream>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1323180559 c:\users\scott\desktop\final_project_v3\node.h
+
+1323180558 c:\users\scott\desktop\final_project_v3\heap.h
+	"node.h"
+
+1322754076 source:c:\users\scott\desktop\final_project_v3\node.cpp
+	"node.h"
+
+1323760841 source:c:\users\scott\desktop\final_project_v3\board.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	"board.h"
+	"node.h"
+
+1323758519 c:\users\scott\desktop\final_project_v3\board.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1323758778 source:c:\users\scott\desktop\final_project_v3\main.cpp
+	<iostream>
+	"board.h"
+
+1322883063 source:c:\users\scott\desktop\final_project_v3.1\heap.cpp
+	<iostream>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1323180559 c:\users\scott\desktop\final_project_v3.1\node.h
+
+1323180558 c:\users\scott\desktop\final_project_v3.1\heap.h
+	"node.h"
+
+1324130604 source:c:\users\scott\desktop\final_project_v3.1\main.cpp
+	<iostream>
+	"board.h"
+
+1324130454 c:\users\scott\desktop\final_project_v3.1\board.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1322754076 source:c:\users\scott\desktop\final_project_v3.1\node.cpp
+	"node.h"
+
+1324130669 source:c:\users\scott\desktop\final_project_v3.1\board.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	"board.h"
+	"node.h"
+
+1322883063 source:c:\documents and settings\user\桌面\final_project_v3.1\heap.cpp
+	<iostream>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1323180559 c:\documents and settings\user\桌面\final_project_v3.1\node.h
+
+1323180558 c:\documents and settings\user\桌面\final_project_v3.1\heap.h
+	"node.h"
+
+1323840684 source:c:\documents and settings\user\桌面\final_project_v3.1\main.cpp
+	<iostream>
+	"board.h"
+
+1323840638 c:\documents and settings\user\桌面\final_project_v3.1\board.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1322754076 source:c:\documents and settings\user\桌面\final_project_v3.1\node.cpp
+	"node.h"
+
+1323840656 source:c:\documents and settings\user\桌面\final_project_v3.1\board.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	"board.h"
+	"node.h"
+
+1324184118 source:c:\users\scott\desktop\final_project\heap.cpp
+	<iostream>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1324192659 c:\users\scott\desktop\final_project\node.h
+
+1324184118 c:\users\scott\desktop\final_project\heap.h
+	"node.h"
+
+1324182380 source:c:\users\scott\desktop\final_project\node.cpp
+	"node.h"
+
+1324481138 source:c:\users\scott\desktop\final_project\board.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	"board.h"
+	"node.h"
+
+1324483282 c:\users\scott\desktop\final_project\board.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<iomanip>
+	"node.h"
+	"heap.h"
+
+1324480149 source:c:\users\scott\desktop\final_project\main.cpp
+	<conio.h>
+	"board.h"
+

@@ -1,0 +1,3000 @@
+|                                 ||||||||| nnnn 999 8888888 rrrrrr 
+||                                |||||||| nnnnnnnnn 999999 8888 rrr 
+||||                              |||||| nnnnnnnnn 999 888888888 rrrrrr 
+||||||||                          || nnnnnnnnn 9999999 88888888 rrr 
+|||||| n *                        |||| nnnnnnnn 99999 8888888 rrrrrrr 
+|| nnn                            |||||||| nnnnnn 9 88888 rrrrr 
+|||| nnnnnn                       |||||| nnn 999 r 
+|||||||| nn 9 *                   || nnnnnnn 999999 rr 
+|||||| nnnnn 99                   |||| nnnn 999 8 rrrr 
+|| n 99999                        |||||||| nnnnnnnn 999999 88 rrrrrrrr 
+|||| nn 8                         |||||| nnnnnnn 999 88888 rrrrrr 
+|||||||| nnnn 88 *                || nnnnn 9999999 rrr 
+|||||| nnnnnnnnn 8888 *           |||| 99999 8 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| 888 rr 
+The solution is: nn 99999 888 r 
+|                                 |||| nn 9 888888888 rrrrrr 
+||                                |||||||| nnnn 99 88888888 rrr 
+||||                              |||||| nnnnnnnnn 9999 888888 rrrrrrr 
+||||||||                          || nnnnnnnnn 999999999 88 rrrrr 
+|||||| n *                        |||| nnnnnnnn 999999999 88888 
+|| nnn                            |||||||| nnnnnn 999999999 8 r 
+|||| nnnnnn                       |||||| nnn 999999999 888 rr 
+|||||||| nn 9 *                   || nnnnnnn 99999999 8888888 rrrr 
+|||||| nnnnn 99                   |||| nnnn 9999999 88888 rrrrrrrrr 
+|| n 99999                        |||||||| nnnnnnnn 9999 8 rrrrrrrrr 
+|||| nn 8                         |||||| nnnnnnn 999999999 88 rrrrrrrr 
+|||||||| nnnn 88 *                || nnnnn 999999999 88888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| 999999999 8 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| 99999999 888 rrrrrr 
+The solution is: nn 99999 88888 r 
+|                                 | nnnn 99999 8 rrrrrr 
+||                                || nnnnnnnn 888 rr 
+||||                              |||| nnnnnn 9 888888 rrrr 
+||||||||                          |||||||| nn 999 88 rrrrrrrrr 
+|||||| n *                        |||||| nnnnn 999999 8888 rrrrrrrr 
+|| nnn                            || n 999 888888888 rrrrrr 
+|||| nnnnnn                       |||| nn 999999 88888888 rrr 
+|||||||| nn 9 *                   |||||||| nnnn 99 8888888 rrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 9999 8888 rrrrr 
+|| n 99999                        || nnnnnnnnn 999999999 88888888 
+|||| nn 8                         |||| nnnnnnnn 999999999 8888888 r 
+|||||||| nnnn 88 *                |||||||| nnnnnn 999999999 88888 rrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 999999999 8 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 99999999 888 rrrr 
+The solution is: nnnnnnnn 999999 888 r 
+|                                 |||||||| nnnnnnn 999999999 888 r 
+||                                |||||| nnnnn 999999999 8888888 rr 
+||||                              || n 999999999 88888 rrrrr 
+||||||||                          |||| nn 99999999 8 r 
+|||||| n *                        |||||||| nnnn 999999 888 rr 
+|| nnn                            |||||| nnnnnnnnn 99 8888888 rrrr 
+|||| nnnnnn                       || nnnnnnnnn 99999 8888 rrrrrrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 9 888888888 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnn 999 88888888 rrrrrrr 
+|| n 99999                        |||||| nnn 9999999 888888 rrrrr 
+|||| nn 8                         || nnnnnnn 9999 888 r 
+|||||||| nnnn 88 *                |||| nnnn 999999999 888888 rr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 99999999 888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9999999 8888888 
+The solution is: nnnn 9999 8 
+|                                 ||||||| nnnnn 9999 8888888 rrrrrrr 
+||                                |||| n 999999999 8888 rrrrr 
+||||                              |||||||| nn 99999999 888888888 
+||||||||                          |||||| nnnnn 999999 888888888 r 
+|||||| n *                        || n 999 888888888 rrr 
+|| nnn                            |||| nn 999999 88888888 rrrrrrr 
+|||| nnnnnn                       |||||||| nnnn 99 8888888 rrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 9999 8888 r 
+|||||| nnnnn 99                   || nnnnnnnnn 999999999 88888888 rr 
+|| n 99999                        |||| nnnnnnnn 999999999 8888888 rrrrr 
+|||| nn 8                         |||||||| nnnnnn 999999999 88888 r 
+|||||||| nnnn 88 *                |||||| nnn 999999999 8 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 99999999 888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 9999999 8888888 rr 
+The solution is: nnnnnn 999 8888888 rrrrrrr 
+|                                 ||||| nnnnnn 99999 88888888 rr 
+||                                nnn 9 8888888 rrrrr 
+||||                              nnnnnn 99 8888 r 
+||||||||                          nn 99999 88888888 rr 
+|||||| n *                        nnnn 8888888 rrrrr 
+|| nnn                            nnnnnnnn 8888 r 
+|||| nnnnnn                       nnnnnn 9 88888888 rr 
+|||||||| nn 9 *                   nn 999 888888 rrrrr 
+|||||| nnnnn 99                   nnnn 999999 88 r 
+|| n 99999                        nnnnnnnn 99 88888 rr 
+|||| nn 8                         nnnnnn 99999 rrrrr 
+|||||||| nnnn 88 *                nn 9 8 
+|||||| nnnnnnnnn 8888 *           nnnn 99 88 
+|| nnnnnnnnn 9 88888888 *         nnnnnnnn 9999 8888 
+The solution is: 99 8 rr 
+|                                 || nnnn 999999999 8 r 
+||                                |||| nnnnnnnn 99999999 888 rr 
+||||                              |||||||| nnnnnn 9999999 8888888 rrrr 
+||||||||                          |||||| nnn 99999 88888 rrrrrrrrr 
+|||||| n *                        || nnnnnnn 8 rrrrrrrrr 
+|| nnn                            |||| nnnn 9 88 rrrrrrrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 99 8888 rrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 99999 88888888 rr 
+|||||| nnnnn 99                   || nnnnn 9 8888888 rrrrr 
+|| n 99999                        |||| 999 8888 r 
+|||| nn 8                         |||||||| 999999 88888888 rr 
+|||||||| nnnn 88 *                |||||| n 99 8888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           || nnn 9999 8888 r 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 99999999 88888888 rr 
+The solution is: nnnnnn 9 rr 
+|                                 ||| n 999 888888888 r 
+||                                |||||| nn 999999 88888888 rrr 
+||||                              || nnnnn 99 8888888 rrrrrrr 
+||||||||                          |||| 99999 8888 rrrrr 
+|||||| n *                        |||||||| 888888888 
+|| nnn                            |||||| n 88888888 r 
+|||| nnnnnn                       || nnn 888888 rrr 
+|||||||| nn 9 *                   |||| nnnnnn 88 rrrrrrr 
+|||||| nnnnn 99                   |||||||| nn 9 8888 rrrr 
+|| n 99999                        |||||| nnnnn 99 88888888 rrrrrrrr 
+|||| nn 8                         || n 99999 888888 rrrrrrr 
+|||||||| nnnn 88 *                |||| nn 888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 888888 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 88 r 
+The solution is: nnnn 99 88 rrrrr 
+|                                 ||| nnnnnnnn 99999 88 r 
+||                                |||||| nnnnnn 9 88888 rr 
+||||                              || nnn 999 rrrrr 
+||||||||                          |||| nnnnnn 999999 
+|||||| n *                        |||||||| nn 999 8 
+|| nnn                            |||||| nnnnn 999999 88 
+|||| nnnnnn                       || n 999 88888 
+|||||||| nn 9 *                   |||| nn 999999 r 
+|||||| nnnnn 99                   |||||||| nnnn 99 8 rr 
+|| n 99999                        |||||| nnnnnnnnn 9999 88 rrrr 
+|||| nn 8                         || nnnnnnnnn 999999999 8888 rrrrrrrr 
+|||||||| nnnn 88 *                |||| nnnnnnnn 999999999 888888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnn 999999999 888888888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnn 999999999 888888888 rrrrrrr 
+The solution is: nnnn 99999999 8 
+|                                 |||||||| nnnnnnnn 99 8 
+||                                |||||| nnnnnnn 99999 88 
+||||                              || nnnnn 9 88888 
+||||||||                          |||| 999 r 
+|||||| n *                        |||||||| 999999 rr 
+|| nnn                            |||||| n 99 8 rrrr 
+|||| nnnnnn                       || nnn 9999 88 rrrrrrrr 
+|||||||| nn 9 *                   |||| nnnnnn 99999999 8888 rrrrrr 
+|||||| nnnnn 99                   |||||||| nn 9999999 888888888 rr 
+|| n 99999                        |||||| nnnnn 9999 888888888 rrrrr 
+|||| nn 8                         || n 999999999 88888888 r 
+|||||||| nnnn 88 *                |||| nn 99999999 8888888 rrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 999999 88888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 99 8 rrrrr 
+The solution is: nnnn 99 rrrrr 
+|                                 | nn 888 
+||                                || nnnn 888888 
+||||                              |||| nnnnnnnn 88 r 
+||||||||                          |||||||| nnnnnn 9 8888 rr 
+|||||| n *                        |||||| nnn 999 88888888 rrrr 
+|| nnn                            || nnnnnnn 999999 888888 rrrrrrrrr 
+|||| nnnnnn                       |||| nnnn 999 888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 999999 888888 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 999 888 rrrrrrr 
+|| n 99999                        || nnnnn 9999999 888888 rrrr 
+|||| nn 8                         |||| 99999 888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||||| 8888888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n 8888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 88888888 rrrr 
+The solution is: nnnnnnnn 8888 rrrr 
+|                                 ||||| nn 99 rrrrrrr 
+||                                nnnnn 9999 rrrr 
+||||                              999999999 rrrrrrrr 
+||||||||                          99999999 8 rrrrrr 
+|||||| n *                        999999 888 rr 
+|| nnn                            99 8888888 rrrr 
+|||| nnnnnn                       9999 8888 rrrrrrrrr 
+|||||||| nn 9 *                   99999999 88888888 rrrrrrrr 
+|||||| nnnnn 99                   999999 8888888 rrrrrrr 
+|| n 99999                        99 88888 rrrrr 
+|||| nn 8                         9999 r 
+|||||||| nnnn 88 *                99999999 rr 
+|||||| nnnnnnnnn 8888 *           999999 8 rrrr 
+|| nnnnnnnnn 9 88888888 *         99 888 rrrrrrrr 
+The solution is: 88888888 rrrrr 
+|                                 ||||||| 999 888 rrrr 
+||                                |||| n 999999 888888 rrrrrrrr 
+||||                              |||||||| nn 99 888 rrrrrrr 
+||||||||                          |||||| nnnnn 9999 888888 rrrr 
+|||||| n *                        || n 999999999 88 rrrrrrrrr 
+|| nnn                            |||| nn 99999999 88888 rrrrrrrr 
+|||| nnnnnn                       |||||||| nnnn 999999 8 rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 99 888 rrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 99999 888888 rrrrrrrr 
+|| n 99999                        |||| nnnnnnnn 9 888 rrrrrrr 
+|||| nn 8                         |||||||| nnnnnn 999 888888 rrrr 
+|||||||| nnnn 88 *                |||||| nnn 9999999 88 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 9999 88888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 999999999 rrrrrrr 
+The solution is: nnnnnn 999 88888 rrrrrrrr 
+|                                 |||||| nnnn 99 rrr 
+||                                || nnnnnnnnn 9999 rrrrrr 
+||||                              |||| nnnnnnnn 999999999 rr 
+||||||||                          |||||||| nnnnnn 999999999 8 rrrr 
+|||||| n *                        |||||| nnn 999999999 888 rrrrrrrr 
+|| nnn                            || nnnnnnn 99999999 8888888 rrrrrr 
+|||| nnnnnn                       |||| nnnn 9999999 88888 rrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 9999 8 rrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 999999999 88 rrrr 
+|| n 99999                        || nnnnn 999999999 88888 rrrrrrrr 
+|||| nn 8                         |||| 999999999 8 rrrrrrr 
+|||||||| nnnn 88 *                |||||||| 99999999 888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n 999999 8888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 99 88888 rrrrrrr 
+The solution is: nnnnnnnn 88 rrrrrr 
+|                                 ||||||| nnnnnnnnn 9 88 rrr 
+||                                |||| nnnnnnnnn 999 8888 rrrrrr 
+||||                              |||||||| nnnnnnnn 9999999 88888888 rr 
+||||||||                          |||||| nnnnnnn 99999 8888888 rrrrr 
+|||||| n *                        || nnnnn 9 88888 r 
+|| nnn                            |||| 999 rrr 
+|||| nnnnnn                       |||||||| 999999 rrrrrr 
+|||||||| nn 9 *                   |||||| n 99 8 rr 
+|||||| nnnnn 99                   || nnn 9999 88 rrrr 
+|| n 99999                        |||| nnnnnn 99999999 8888 rrrrrrrr 
+|||| nn 8                         |||||||| nn 9999999 888888888 rrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnn 9999 888888888 rrr 
+|||||| nnnnnnnnn 8888 *           || n 999999999 88888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nn 99999999 8888888 rrrrr 
+The solution is: nnnnnn 99999 88 r 
+|                                 ||||| 99999 8888 r 
+||                                n 888888888 rr 
+||||                              nn 88888888 rrrrr 
+||||||||                          nnnn 888888 r 
+|||||| n *                        nnnnnnnn 88 rrr 
+|| nnn                            nnnnnn 9 8888 rrrrrr 
+|||| nnnnnn                       nn 999 88888888 rr 
+|||||||| nn 9 *                   nnnn 999999 888888 rrrrr 
+|||||| nnnnn 99                   nnnnnnnn 99 888 r 
+|| n 99999                        nnnnnn 99999 888888 rr 
+|||| nn 8                         nn 9 888 rrrrr 
+|||||||| nnnn 88 *                nnnn 99 888888 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 9999 88 r 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 999999999 8888 rr 
+The solution is: 9999 88 rrr 
+|                                 ||| 999 888888888 r 
+||                                |||||| 999999 88888888 rrr 
+||||                              || n 99 8888888 rrrrrrr 
+||||||||                          |||| nn 9999 8888 rrrrr 
+|||||| n *                        |||||||| nnnn 99999999 88888888 
+|| nnn                            |||||| nnnnnnnnn 999999 8888888 r 
+|||| nnnnnn                       || nnnnnnnnn 999 88888 rrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 9999999 rrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnn 99999 8 rrrr 
+|| n 99999                        |||||| nnn 9 888 rrrrrrrr 
+|||| nn 8                         || nnnnnnn 99 888888 rrrrrr 
+|||||||| nnnn 88 *                |||| nnnn 99999 88 rrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 88888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9 rrr 
+The solution is: nnnn 9999 8888888 
+|                                 || nnnnnnnnn 999 88 rrr 
+||                                |||| nnnnnnnn 9999999 8888 rrrrrr 
+||||                              |||||||| nnnnnn 99999 888888888 rr 
+||||||||                          |||||| nnn 9 888888888 rrrrr 
+|||||| n *                        || nnnnnnn 99 88888888 r 
+|| nnn                            |||| nnnn 99999 888888 rrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 888 rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 9 888888 rrrr 
+|||||| nnnnn 99                   || nnnnn 999 88 rrrrrrrrr 
+|| n 99999                        |||| 9999999 8888 rrrrrrrr 
+|||| nn 8                         |||||||| 9999 888888888 rrrrrr 
+|||||||| nnnn 88 *                |||||| n 99999999 88888888 rrr 
+|||||| nnnnnnnnn 8888 *           || nnn 999999 8888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 99 88888 rrrrr 
+The solution is: nnnnnn 9 888888 rrr 
+|                                 |||| n 9999 r 
+||                                |||||||| nn 99999999 rr 
+||||                              |||||| nnnnn 999999 8 rrrr 
+||||||||                          || n 999 888 rrrrrrrr 
+|||||| n *                        |||| nn 999999 888888 rrrrrr 
+|| nnn                            |||||||| nnnn 99 888 rrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 9999 888888 rrrrrr 
+|||||||| nn 9 *                   || nnnnnnnnn 999999999 88 rrr 
+|||||| nnnnn 99                   |||| nnnnnnnn 999999999 88888 rrrrrr 
+|| n 99999                        |||||||| nnnnnn 999999999 8 rrr 
+|||| nn 8                         |||||| nnn 999999999 888 rrrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 99999999 8888888 rr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 9999999 88888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 9999 8 r 
+The solution is: nn 9999999 8888 rrrrrrrrr 
+|                                 |||||| n 99999 888888888 rrrrrr 
+||                                || nnn 888888888 rrr 
+||||                              |||| nnnnnn 88888888 rrrrrrr 
+||||||||                          |||||||| nn 9 888888 rrrrr 
+|||||| n *                        |||||| nnnnn 99 88 r 
+|| nnn                            || n 99999 8888 rr 
+|||| nnnnnn                       |||| nn 888888888 rrrr 
+|||||||| nn 9 *                   |||||||| nnnn 88888888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 888888 rrrrrrrrr 
+|| n 99999                        || nnnnnnnnn 9 88 rrrrrrrrr 
+|||| nn 8                         |||| nnnnnnnn 999 8888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 9999999 88888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 99999 8888888 rrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 88888 rrrrrrr 
+The solution is: nnnnnnnn 999999 8 rrrrrrrrr 
+|                                 |||||| nnnnnnnnn 99999 888888 r 
+||                                || nnnnnnnnn 9 888 rrr 
+||||                              |||| nnnnnnnn 999 888888 rrrrrr 
+||||||||                          |||||||| nnnnnn 9999999 88 rrr 
+|||||| n *                        |||||| nnn 99999 88888 rrrrrr 
+|| nnn                            || nnnnnnn 8 rrr 
+|||| nnnnnn                       |||| nnnn 9 88 rrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 99 8888 rr 
+|||||| nnnnn 99                   |||||| nnnnnnn 99999 88888888 rrrr 
+|| n 99999                        || nnnnn 9 8888888 rrrrrrrrr 
+|||| nn 8                         |||| 999 8888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||||| 999999 88888888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n 99 8888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 9999 8888 rrrrr 
+The solution is: nnnnnnnn r 
+|                                 ||| n 9999 888888 r 
+||                                |||||| nn 99999999 88 rrr 
+||||                              || nnnnn 999999 88888 rrrrrr 
+||||||||                          |||| 999 8 rrr 
+|||||| n *                        |||||||| 999999 88 rrrrrr 
+|| nnn                            |||||| n 99 88888 rr 
+|||| nnnnnn                       || nnn 9999 rrrrr 
+|||||||| nn 9 *                   |||| nnnnnn 99999999 
+|||||| nnnnn 99                   |||||||| nn 9999999 8 
+|| n 99999                        |||||| nnnnn 9999 888 
+|||| nn 8                         || n 999999999 888888 
+|||||||| nnnn 88 *                |||| nn 99999999 888 r 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 999999 8888888 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 99 88888 rrrrr 
+The solution is: nnnn 99 rrrrrr 
+|                                 |||| nnnn 99999 888888888 rr 
+||                                |||||||| nnnnnnnn 888888888 rrrrr 
+||||                              |||||| nnnnnnn 9 88888888 r 
+||||||||                          || nnnnn 999 888888 rrr 
+|||||| n *                        |||| 9999999 88 rrrrrrr 
+|| nnn                            |||||||| 9999 88888 rrrr 
+|||| nnnnnn                       |||||| n 99999999 rrrrrrrrr 
+|||||||| nn 9 *                   || nnn 999999 8 rrrrrrrr 
+|||||| nnnnn 99                   |||| nnnnnn 99 888 rrrrrr 
+|| n 99999                        |||||||| nn 99999 888888 rr 
+|||| nn 8                         |||||| nnnnn 888 rrrrr 
+|||||||| nnnn 88 *                || n 9 888888 
+|||||| nnnnnnnnn 8888 *           |||| nn 99 88 r 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnn 9999 8888 rr 
+The solution is: nn 9 8888888 rrrrrrrrr 
+|                                 |||||||| nnnn 9999 88 r 
+||                                |||||| nnnnnnnnn 99999999 8888 rr 
+||||                              || nnnnnnnnn 9999999 888888888 rrrr 
+||||||||                          |||| nnnnnnnn 99999 888888888 rrrrrrrrr 
+|||||| n *                        |||||||| nnnnnn 9 888888888 rrrrrrrrr 
+|| nnn                            |||||| nnn 999 88888888 rrrrrrrrr 
+|||| nnnnnn                       || nnnnnnn 999999 888888 rrrrrrrrr 
+|||||||| nn 9 *                   |||| nnnn 999 888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 999999 888888 rrrrrrrr 
+|| n 99999                        |||||| nnnnnnn 999 888 rrrrrrr 
+|||| nn 8                         || nnnnn 9999999 888888 rrrr 
+|||||||| nnnn 88 *                |||| 99999 888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| 8888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 8888 rrrrrrr 
+The solution is: nnnn 8888888 rrrr 
+|                                 ||||| nnn 88888 rrrrrr 
+||                                nnnnnnn rrr 
+||||                              nnnn 9 rrrrrr 
+||||||||                          nnnnnnnn 99 rr 
+|||||| n *                        nnnnnn 99999 rrrr 
+|| nnn                            nn 9 8 rrrrrrrr 
+|||| nnnnnn                       nnnn 99 88 rrrrrr 
+|||||||| nn 9 *                   nnnnnnnn 9999 8888 rr 
+|||||| nnnnn 99                   nnnnnn 999999999 88888888 rrrr 
+|| n 99999                        nn 999999999 8888888 rrrrrrrrr 
+|||| nn 8                         nnnn 99999999 88888 rrrrrrrrr 
+|||||||| nnnn 88 *                nnnnnnnn 999999 8 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnn 999 888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         nn 9999999 888888 rrrrrr 
+The solution is: 99999999 888888 
+|                                 | 9999 8 rrr 
+||                                || 99999999 88 rrrrrr 
+||||                              |||| 999999 88888 rr 
+||||||||                          |||||||| 99 8 rrrrr 
+|||||| n *                        |||||| n 9999 88 
+|| nnn                            || nnn 99999999 8888 
+|||| nnnnnn                       |||| nnnnnn 999999 888888888 
+|||||||| nn 9 *                   |||||||| nn 999 888888888 r 
+|||||| nnnnn 99                   |||||| nnnnn 999999 88888888 rrr 
+|| n 99999                        || n 999 8888888 rrrrrrr 
+|||| nn 8                         |||| nn 999999 8888 rrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 99 888888888 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 9999 88888888 r 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 999999999 888888 rrr 
+The solution is: nnnnnnnn 9999 888888 rrrrrrrr 
+|                                 ||| nnnnnn 999 888 rrrrrr 
+||                                |||||| nn 9999999 888888 rr 
+||||                              || nnnnn 9999 888 rrrrr 
+||||||||                          |||| 999999999 888888 
+|||||| n *                        |||||||| 99999999 888 r 
+|| nnn                            |||||| n 999999 8888888 rr 
+|||| nnnnnn                       || nnn 99 88888 rrrrr 
+|||||||| nn 9 *                   |||| nnnnnn 9999 r 
+|||||| nnnnn 99                   |||||||| nn 999999999 rr 
+|| n 99999                        |||||| nnnnn 99999999 8 rrrr 
+|||| nn 8                         || n 9999999 888 rrrrrrrr 
+|||||||| nnnn 88 *                |||| nn 9999 8888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 99999999 8888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 999999 888888888 rrrrrr 
+The solution is: nnnn 99 888888 rrrrrrrrr 
+|                                 ||||||| 99 888888 
+||                                |||| n 9999 88 r 
+||||                              |||||||| nn 99999999 8888 rr 
+||||||||                          |||||| nnnnn 999999 888888888 rrrr 
+|||||| n *                        || n 999 888888888 rrrrrrrrr 
+|| nnn                            |||| nn 999999 88888888 rrrrrrrrr 
+|||| nnnnnn                       |||||||| nnnn 99 8888888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 9999 8888 rrrrrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 999999999 88888888 rrrrrrrr 
+|| n 99999                        |||| nnnnnnnn 999999999 8888888 rrrrrrr 
+|||| nn 8                         |||||||| nnnnnn 999999999 88888 rrrrr 
+|||||||| nnnn 88 *                |||||| nnn 999999999 8 r 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 99999999 888 rr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 9999999 8888888 rrrr 
+The solution is: nnnnnn 999 8888888 rrrrrrr 
+|                                 |||||||| 999999999 88888888 rrrr 
+||                                |||||| n 99999999 8888888 rrrrrrrrr 
+||||                              || nnn 999999 88888 rrrrrrrrr 
+||||||||                          |||| nnnnnn 99 8 rrrrrrrrr 
+|||||| n *                        |||||||| nn 99999 88 rrrrrrrr 
+|| nnn                            |||||| nnnnn 88888 rrrrrr 
+|||| nnnnnn                       || n 9 rrr 
+|||||||| nn 9 *                   |||| nn 99 rrrrrr 
+|||||| nnnnn 99                   |||||||| nnnn 9999 rr 
+|| n 99999                        |||||| nnnnnnnnn 99999999 rrrr 
+|||| nn 8                         || nnnnnnnnn 9999999 8 rrrrrrrr 
+|||||||| nnnn 88 *                |||| nnnnnnnn 99999 888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnn 9 8888888 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnn 999 8888 rrrrr 
+The solution is: nnnn 99999999 8888888 rrrrrrrr 
+|                                 ||||||||| nnnn 99 rrr 
+||                                |||||||| nnnnnnnnn 9999 rrrrrr 
+||||                              |||||| nnnnnnnnn 999999999 rr 
+||||||||                          || nnnnnnnnn 999999999 8 rrrr 
+|||||| n *                        |||| nnnnnnnn 999999999 888 rrrrrrrr 
+|| nnn                            |||||||| nnnnnn 999999999 8888888 rrrrrr 
+|||| nnnnnn                       |||||| nnn 999999999 88888 rrr 
+|||||||| nn 9 *                   || nnnnnnn 99999999 8 rrrrrrr 
+|||||| nnnnn 99                   |||| nnnn 9999999 888 rrrr 
+|| n 99999                        |||||||| nnnnnnnn 9999 8888888 rrrrrrrr 
+|||| nn 8                         |||||| nnnnnnn 999999999 8888 rrrrrrr 
+|||||||| nnnn 88 *                || nnnnn 999999999 888888888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||| 999999999 888888888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| 99999999 888888888 rrrrrrrrr 
+The solution is: nn 99999 88888 
+|                                 nn 99 88 rrrrr 
+||                                nnnn 9999 8888 
+||||                              nnnnnnnn 99999999 88888888 
+||||||||                          nnnnnn 9999999 8888888 r 
+|||||| n *                        nn 99999 88888 rrr 
+|| nnn                            nnnn 8 rrrrrrr 
+|||| nnnnnn                       nnnnnnnn 88 rrrr 
+|||||||| nn 9 *                   nnnnnn 9 8888 rrrrrrrr 
+|||||| nnnnn 99                   nn 999 88888888 rrrrrr 
+|| n 99999                        nnnn 999999 888888 rrr 
+|||| nn 8                         nnnnnnnn 99 888 rrrrrrr 
+|||||||| nnnn 88 *                nnnnnn 99999 888888 rrrr 
+|||||| nnnnnnnnn 8888 *           nn 9 888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         nnnn 99 888888 rrrrrrrr 
+The solution is: 999999 88888 rrrr 
+|                                 ||||||| nnnnn 99 888888 rr 
+||                                |||| n 99999 88 rrrrr 
+||||                              |||||||| nn 88888 
+||||||||                          |||||| nnnnn r 
+|||||| n *                        || n 9 rr 
+|| nnn                            |||| nn 99 rrrr 
+|||| nnnnnn                       |||||||| nnnn 9999 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 99999999 rrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 9999999 8 rr 
+|| n 99999                        |||| nnnnnnnn 99999 888 rrrr 
+|||| nn 8                         |||||||| nnnnnn 9 8888888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||| nnn 999 8888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 999999 88888888 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 999 8888888 rrrrrrrrr 
+The solution is: nnnnnn 999 8 
+|                                 ||| nnnnnnn 999 888888888 
+||                                |||||| nnnn 9999999 88888888 r 
+||||                              || nnnnnnnnn 9999 8888888 rrr 
+||||||||                          |||| nnnnnnnn 999999999 8888 rrrrrrr 
+|||||| n *                        |||||||| nnnnnn 999999999 888888888 rrrr 
+|| nnn                            |||||| nnn 999999999 888888888 rrrrrrrrr 
+|||| nnnnnn                       || nnnnnnn 99999999 888888888 rrrrrrrrr 
+|||||||| nn 9 *                   |||| nnnn 9999999 888888888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 9999 888888888 rrrrrrrrr 
+|| n 99999                        |||||| nnnnnnn 999999999 88888888 rrrrrrrrr 
+|||| nn 8                         || nnnnn 999999999 8888888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||| 999999999 88888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| 99999999 8 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 999999 888 rrrrrrrr 
+The solution is: nnnn 8 rr 
+|                                 |||| n 9 rrr 
+||                                |||||||| nn 99 rrrrrr 
+||||                              |||||| nnnnn 9999 rr 
+||||||||                          || n 999999999 rrrr 
+|||||| n *                        |||| nn 99999999 8 rrrrrrrr 
+|| nnn                            |||||||| nnnn 999999 888 rrrrrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 99 8888888 rr 
+|||||||| nn 9 *                   || nnnnnnnnn 99999 8888 rrrrr 
+|||||| nnnnn 99                   |||| nnnnnnnn 9 888888888 
+|| n 99999                        |||||||| nnnnnn 999 88888888 r 
+|||| nn 8                         |||||| nnn 9999999 888888 rrr 
+|||||||| nnnn 88 *                || nnnnnnn 9999 888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 999999999 888888 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 99999999 888 rrrrrrrrr 
+The solution is: nn 9999999 rrrrr 
+|                                 |||||||| nnnnnnnn 99999 888888 rrrr 
+||                                |||||| nnnnnnn 9 888 rrrrrrrrr 
+||||                              || nnnnn 999 888888 rrrrrrrr 
+||||||||                          |||| 9999999 88 rrrrrrr 
+|||||| n *                        |||||||| 9999 88888 rrrr 
+|| nnn                            |||||| n 99999999 rrrrrrrrr 
+|||| nnnnnn                       || nnn 999999 8 rrrrrrrr 
+|||||||| nn 9 *                   |||| nnnnnn 99 888 rrrrrr 
+|||||| nnnnn 99                   |||||||| nn 99999 888888 rr 
+|| n 99999                        |||||| nnnnn 888 rrrrr 
+|||| nn 8                         || n 9 888888 
+|||||||| nnnn 88 *                |||| nn 99 88 r 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 9999 8888 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 99999999 88888888 rrrr 
+The solution is: nnnn 99 8888 rrrrrrrrr 
+|                                 ||| nnnnnnnn 9 888 
+||                                |||||| nnnnnn 999 888888 
+||||                              || nnn 9999999 88 r 
+||||||||                          |||| nnnnnn 9999 88888 rr 
+|||||| n *                        |||||||| nn 999999999 rrrrr 
+|| nnn                            |||||| nnnnn 99999999 8 
+|||| nnnnnn                       || n 9999999 888 
+|||||||| nn 9 *                   |||| nn 9999 8888888 
+|||||| nnnnn 99                   |||||||| nnnn 99999999 8888 r 
+|| n 99999                        |||||| nnnnnnnnn 999999 888888888 rr 
+|||| nn 8                         || nnnnnnnnn 999 888888888 rrrrr 
+|||||||| nnnn 88 *                |||| nnnnnnnn 9999999 88888888 r 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnn 99999 8888888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnn 9 88888 rrrrrrr 
+The solution is: nnnn 99999999 888888888 rrrrrrrr 
+|                                 | nnn 88888 rrrrrr 
+||                                || nnnnnn rrr 
+||||                              |||| nn 9 rrrrrr 
+||||||||                          |||||||| nnnn 99 rr 
+|||||| n *                        |||||| nnnnnnnnn 9999 rrrr 
+|| nnn                            || nnnnnnnnn 999999999 rrrrrrrr 
+|||| nnnnnn                       |||| nnnnnnnn 999999999 8 rrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnn 999999999 888 rr 
+|||||| nnnnn 99                   |||||| nnn 999999999 8888888 rrrr 
+|| n 99999                        || nnnnnnn 99999999 88888 rrrrrrrrr 
+|||| nn 8                         |||| nnnn 9999999 8 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 9999 888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 999999999 888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 999999999 888 rrr 
+The solution is: nnnnnnnn 99999999 88888888 rrrr 
+|                                 nnn 99999 88888888 rrrrr 
+||                                nnnnnn 8888888 r 
+||||                              nn 9 8888 rrr 
+||||||||                          nnnn 99 88888888 rrrrrr 
+|||||| n *                        nnnnnnnn 9999 888888 rrr 
+|| nnn                            nnnnnn 999999999 88 rrrrrrr 
+|||| nnnnnn                       nn 999999999 88888 rrrr 
+|||||||| nn 9 *                   nnnn 99999999 8 rrrrrrrrr 
+|||||| nnnnn 99                   nnnnnnnn 999999 888 rrrrrrrr 
+|| n 99999                        nnnnnn 999 8888888 rrrrrr 
+|||| nn 8                         nn 9999999 8888 rrr 
+|||||||| nnnn 88 *                nnnn 9999 888888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 99999999 88888888 rrr 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 9999999 8888888 rrrrrrr 
+The solution is: 9999 8888 r 
+|                                 |||||| nnnnnnnnn 9999 88 rr 
+||                                || nnnnnnnnn 999999999 8888 rrrr 
+||||                              |||| nnnnnnnn 999999999 888888888 rrrrrrrr 
+||||||||                          |||||||| nnnnnn 999999999 888888888 rrrrrrr 
+|||||| n *                        |||||| nnn 999999999 888888888 rrrrr 
+|| nnn                            || nnnnnnn 99999999 888888888 r 
+|||| nnnnnn                       |||| nnnn 9999999 888888888 rrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 9999 888888888 rrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 999999999 88888888 rrrrr 
+|| n 99999                        || nnnnn 999999999 8888888 r 
+|||| nn 8                         |||| 999999999 88888 rrr 
+|||||||| nnnn 88 *                |||||||| 99999999 8 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n 999999 888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 99 8888888 rrrrrrrr 
+The solution is: nnnnnnnn 88 rrrr 
+|                                 |||| n 999999 8888888 rrrrrrr 
+||                                |||||||| nn 99 88888 rrrrr 
+||||                              |||||| nnnnn 9999 r 
+||||||||                          || n 999999999 rr 
+|||||| n *                        |||| nn 99999999 8 rrrr 
+|| nnn                            |||||||| nnnn 999999 888 rrrrrrrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 99 8888888 rrrrrr 
+|||||||| nn 9 *                   || nnnnnnnnn 99999 8888 rrr 
+|||||| nnnnn 99                   |||| nnnnnnnn 9 888888888 rrrrrr 
+|| n 99999                        |||||||| nnnnnn 999 88888888 rrr 
+|||| nn 8                         |||||| nnn 9999999 888888 rrrrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 9999 888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 999999999 888888 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 99999999 888 r 
+The solution is: nn 9999999 rrrrr 
+|                                 nnnnnnn 9 888888 rrrrrr 
+||                                nnnn 999 88 rrr 
+||||                              nnnnnnnn 999999 8888 rrrrrr 
+||||||||                          nnnnnn 999 888888888 rr 
+|||||| n *                        nn 9999999 88888888 rrrrr 
+|| nnn                            nnnn 9999 8888888 r 
+|||| nnnnnn                       nnnnnnnn 99999999 8888 rrr 
+|||||||| nn 9 *                   nnnnnn 9999999 888888888 rrrrrr 
+|||||| nnnnn 99                   nn 99999 888888888 rrr 
+|| n 99999                        nnnn 888888888 rrrrrrr 
+|||| nn 8                         nnnnnnnn 88888888 rrrrr 
+|||||||| nnnn 88 *                nnnnnn 9 888888 r 
+|||||| nnnnnnnnn 8888 *           nn 999 88 rrr 
+|| nnnnnnnnn 9 88888888 *         nnnn 999999 8888 rrrrrr 
+The solution is: 999999 8 rrrr 
+|                                 ||||||||| nnnnnn 99999999 8 rrr 
+||                                |||||||| nnn 9999999 888 rrrrrr 
+||||                              |||||| nnnnnnn 9999 8888888 rr 
+||||||||                          || nnnnn 999999999 8888 rrrrr 
+|||||| n *                        |||| 999999999 888888888 
+|| nnn                            |||||||| 99999999 888888888 r 
+|||| nnnnnn                       |||||| n 999999 888888888 rrr 
+|||||||| nn 9 *                   || nnn 99 888888888 rrrrrrr 
+|||||| nnnnn 99                   |||| nnnnnn 9999 88888888 rrrrr 
+|| n 99999                        |||||||| nn 999999999 888888 r 
+|||| nn 8                         |||||| nnnnn 99999999 888 rrr 
+|||||||| nnnn 88 *                || n 9999999 8888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nn 9999 88888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnn 99999999 rrrrrrr 
+The solution is: nn 9 888 rrrrrr 
+|                                 | nnnnnnnnn 9 8888 rrrrrr 
+||                                || nnnnnnnn 999 88888888 rr 
+||||                              |||| nnnnnn 9999999 888888 rrrrr 
+||||||||                          |||||||| nn 99999 888 r 
+|||||| n *                        |||||| nnnnn 8888888 rr 
+|| nnn                            || n 9 8888 rrrrr 
+|||| nnnnnn                       |||| nn 99 88888888 
+|||||||| nn 9 *                   |||||||| nnnn 9999 888888 r 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 99999999 88 rrr 
+|| n 99999                        || nnnnnnnnn 9999999 88888 rrrrrr 
+|||| nn 8                         |||| nnnnnnnn 99999 8 rrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 9 888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 999 888888 rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 999999 88 rrrrr 
+The solution is: nnnnnnnn 999999 88888 rrrrrrrr 
+|                                 ||||||| nnnnnnn 9999 888888888 r 
+||                                |||| nnnnn 999999999 88888888 rrr 
+||||                              |||||||| 999999999 8888888 rrrrrrr 
+||||||||                          |||||| n 99999999 88888 rrrrr 
+|||||| n *                        || nnn 999999 8 r 
+|| nnn                            |||| nnnnnn 99 888 rr 
+|||| nnnnnn                       |||||||| nn 99999 888888 rrrr 
+|||||||| nn 9 *                   |||||| nnnnn 888 rrrrrrrrr 
+|||||| nnnnn 99                   || n 9 888888 rrrrrrrr 
+|| n 99999                        |||| nn 99 88 rrrrrrr 
+|||| nn 8                         |||||||| nnnn 9999 8888 rrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 99999999 88888888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 9999999 8888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 99999 88888 rrrrr 
+The solution is: nnnnnn 999999999 888888 rr 
+|                                 ||||| n 9 88 rrrrrr 
+||                                nnn 99 8888 rr 
+||||                              nnnnnn 9999 88888888 rrrr 
+||||||||                          nn 999999999 888888 rrrrrrrrr 
+|||||| n *                        nnnn 99999999 888 rrrrrrrrr 
+|| nnn                            nnnnnnnn 999999 8888888 rrrrrrrr 
+|||| nnnnnn                       nnnnnn 999 88888 rrrrrrr 
+|||||||| nn 9 *                   nn 9999999 rrrrr 
+|||||| nnnnn 99                   nnnn 9999 8 
+|| n 99999                        nnnnnnnn 99999999 88 
+|||| nn 8                         nnnnnn 9999999 88888 
+|||||||| nnnn 88 *                nn 99999 8 r 
+|||||| nnnnnnnnn 8888 *           nnnn 888 rr 
+|| nnnnnnnnn 9 88888888 *         nnnnnnnn 888888 rrrr 
+The solution is: 99 88888 rr 
+|                                 |||||||| nnnnnnnn 999 888888 
+||                                |||||| nnnnnnn 9999999 88 r 
+||||                              || nnnnn 99999 88888 rr 
+||||||||                          |||| 9 8 rrrrr 
+|||||| n *                        |||||||| 99 88 
+|| nnn                            |||||| n 9999 8888 
+|||| nnnnnn                       || nnn 99999999 88888888 
+|||||||| nn 9 *                   |||| nnnnnn 999999 8888888 r 
+|||||| nnnnn 99                   |||||||| nn 999 88888 rrr 
+|| n 99999                        |||||| nnnnn 999999 rrrrrrr 
+|||| nn 8                         || n 999 8 rrrr 
+|||||||| nnnn 88 *                |||| nn 999999 88 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 99 88888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 9999 rrr 
+The solution is: nnnn 99 88888888 rrrrrrrrr 
+|                                 ||||| nnn 999 rrrr 
+||                                nnnnnnn 999999 rrrrrrrr 
+||||                              nnnn 999 8 rrrrrr 
+||||||||                          nnnnnnnn 999999 88 rr 
+|||||| n *                        nnnnnn 999 88888 rrrr 
+|| nnn                            nn 9999999 rrrrrrrrr 
+|||| nnnnnn                       nnnn 9999 8 rrrrrrrr 
+|||||||| nn 9 *                   nnnnnnnn 99999999 88 rrrrrr 
+|||||| nnnnn 99                   nnnnnn 9999999 88888 rr 
+|| n 99999                        nn 99999 8 rrrrr 
+|||| nn 8                         nnnn 888 
+|||||||| nnnn 88 *                nnnnnnnn 888888 
+|||||| nnnnnnnnn 8888 *           nnnnnn 9 88 r 
+|| nnnnnnnnn 9 88888888 *         nn 999 8888 rr 
+The solution is: 99999999 rrrrr 
+|                                 ||||||||| n 9999 8 rrrrrrrr 
+||                                |||||||| nnn 99999999 88 rrrrrr 
+||||                              |||||| nnnnnnn 999999 88888 rr 
+||||||||                          || nnnnn 999 8 rrrrr 
+|||||| n *                        |||| 9999999 88 
+|| nnn                            |||||||| 9999 88888 
+|||| nnnnnn                       |||||| n 99999999 r 
+|||||||| nn 9 *                   || nnn 999999 8 rr 
+|||||| nnnnn 99                   |||| nnnnnn 99 888 rrrr 
+|| n 99999                        |||||||| nn 99999 888888 rrrrrrrr 
+|||| nn 8                         |||||| nnnnn 888 rrrrrrr 
+|||||||| nnnn 88 *                || n 9 888888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||| nn 99 88 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnn 9999 8888 rrrrrrrr 
+The solution is: nn 9 8888888 rrrr 
+|                                 || nnn 9 88888 rrrr 
+||                                |||| nnnnnn 99 rrrrrrrrr 
+||||                              |||||||| nn 99999 rrrrrrrr 
+||||||||                          |||||| nnnnn 8 rrrrrr 
+|||||| n *                        || n 9 88 rr 
+|| nnn                            |||| nn 99 8888 rrrr 
+|||| nnnnnn                       |||||||| nnnn 9999 88888888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 99999999 888888 rrrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 9999999 888 rrrrr 
+|| n 99999                        |||| nnnnnnnn 99999 8888888 
+|||| nn 8                         |||||||| nnnnnn 9 88888 r 
+|||||||| nnnn 88 *                |||||| nnn 999 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 999999 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 999 8 rr 
+The solution is: nnnnnn 999 8 r 
+|                                 ||||||||| nnnn 9999999 rrrrr 
+||                                |||||||| nnnnnnnnn 9999 8 
+||||                              |||||| nnnnnnnnn 999999999 88 
+||||||||                          || nnnnnnnnn 999999999 88888 
+|||||| n *                        |||| nnnnnnnn 999999999 8 r 
+|| nnn                            |||||||| nnnnnn 999999999 888 rr 
+|||| nnnnnn                       |||||| nnn 999999999 8888888 rrrr 
+|||||||| nn 9 *                   || nnnnnnn 99999999 88888 rrrrrrrrr 
+|||||| nnnnn 99                   |||| nnnn 9999999 8 rrrrrrrrr 
+|| n 99999                        |||||||| nnnnnnnn 9999 888 rrrrrrrr 
+|||| nn 8                         |||||| nnnnnnn 999999999 888888 rrrrrr 
+|||||||| nnnn 88 *                || nnnnn 999999999 888 rrr 
+|||||| nnnnnnnnn 8888 *           |||| 999999999 8888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| 99999999 88888 rrr 
+The solution is: nn 99999 88888 rrrr 
+|                                 ||||| nnn 999999999 rrrrrr 
+||                                nnnnnnn 99999999 8 rr 
+||||                              nnnn 9999999 888 rrrr 
+||||||||                          nnnnnnnn 9999 8888888 rrrrrrrr 
+|||||| n *                        nnnnnn 999999999 8888 rrrrrrr 
+|| nnn                            nn 999999999 888888888 rrrr 
+|||| nnnnnn                       nnnn 99999999 888888888 rrrrrrrrr 
+|||||||| nn 9 *                   nnnnnnnn 999999 888888888 rrrrrrrrr 
+|||||| nnnnn 99                   nnnnnn 999 888888888 rrrrrrrrr 
+|| n 99999                        nn 9999999 88888888 rrrrrrrrr 
+|||| nn 8                         nnnn 9999 8888888 rrrrrrrrr 
+|||||||| nnnn 88 *                nnnnnnnn 99999999 8888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnn 9999999 888888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         nn 99999 888888888 rrrrrrr 
+The solution is: 99999999 88888888 rrr 
+|                                 |||||||| nn 9999999 8 rrrrrr 
+||                                |||||| nnnnn 9999 888 rr 
+||||                              || n 999999999 888888 rrrr 
+||||||||                          |||| nn 99999999 888 rrrrrrrrr 
+|||||| n *                        |||||||| nnnn 999999 8888888 rrrrrrrr 
+|| nnn                            |||||| nnnnnnnnn 99 88888 rrrrrrr 
+|||| nnnnnn                       || nnnnnnnnn 99999 rrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 9 8 
+|||||| nnnnn 99                   |||||||| nnnnnn 999 88 
+|| n 99999                        |||||| nnn 9999999 8888 
+|||| nn 8                         || nnnnnnn 9999 888888888 
+|||||||| nnnn 88 *                |||| nnnn 999999999 88888888 r 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 99999999 8888888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9999999 88888 rrrrrrr 
+The solution is: nnnn 9999 8 rr 
+|                                 |||| n 99999 888 rrrrrrr 
+||                                |||||||| nn 8888888 rrrr 
+||||                              |||||| nnnnn 8888 rrrrrrrrr 
+||||||||                          || n 9 88888888 rrrrrrrr 
+|||||| n *                        |||| nn 99 888888 rrrrrrr 
+|| nnn                            |||||||| nnnn 9999 88 rrrrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 99999999 8888 
+|||||||| nn 9 *                   || nnnnnnnnn 9999999 888888888 
+|||||| nnnnn 99                   |||| nnnnnnnn 99999 888888888 r 
+|| n 99999                        |||||||| nnnnnn 9 888888888 rrr 
+|||| nn 8                         |||||| nnn 999 88888888 rrrrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 999999 888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 999 888 r 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 999999 888888 rr 
+The solution is: nn 9999999 88 rrrrrrrr 
+|                                 || nnn 99999999 888888 
+||                                |||| nnnnnn 999999 888 r 
+||||                              |||||||| nn 999 8888888 rr 
+||||||||                          |||||| nnnnn 999999 8888 rrrrr 
+|||||| n *                        || n 999 888888888 
+|| nnn                            |||| nn 999999 88888888 r 
+|||| nnnnnn                       |||||||| nnnn 99 8888888 rrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 9999 8888 rrrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 999999999 88888888 rrrr 
+|| n 99999                        |||| nnnnnnnn 999999999 8888888 rrrrrrrrr 
+|||| nn 8                         |||||||| nnnnnn 999999999 88888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||| nnn 999999999 8 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 99999999 888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 9999999 8888888 rrrrrr 
+The solution is: nnnnnn 999 8888888 rr 
+|                                 |||||||| nn 99999 rrrrrrrr 
+||                                |||||| nnnnn 8 rrrrrr 
+||||                              || n 9 88 rr 
+||||||||                          |||| nn 99 8888 rrrr 
+|||||| n *                        |||||||| nnnn 9999 88888888 rrrrrrrr 
+|| nnn                            |||||| nnnnnnnnn 99999999 888888 rrrrrrr 
+|||| nnnnnn                       || nnnnnnnnn 9999999 888 rrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 99999 8888888 
+|||||| nnnnn 99                   |||||||| nnnnnn 9 88888 r 
+|| n 99999                        |||||| nnn 999 rrr 
+|||| nn 8                         || nnnnnnn 999999 rrrrrr 
+|||||||| nnnn 88 *                |||| nnnn 999 8 rr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 999999 88 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 999 88888 rrrrrrrr 
+The solution is: nnnn 9999 88888 rrrr 
+|                                 | 999999999 8888 rrrrr 
+||                                || 99999999 888888888 
+||||                              |||| 999999 888888888 r 
+||||||||                          |||||||| 99 888888888 rrr 
+|||||| n *                        |||||| n 9999 88888888 rrrrrrr 
+|| nnn                            || nnn 99999999 888888 rrrrr 
+|||| nnnnnn                       |||| nnnnnn 999999 888 r 
+|||||||| nn 9 *                   |||||||| nn 999 8888888 rr 
+|||||| nnnnn 99                   |||||| nnnnn 999999 8888 rrrrr 
+|| n 99999                        || n 999 888888888 
+|||| nn 8                         |||| nn 999999 88888888 r 
+|||||||| nnnn 88 *                |||||||| nnnn 99 8888888 rrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 9999 8888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 999999999 88888888 rrrr 
+The solution is: nnnnnnnn 9999 888888 rrrrrr 
+|                                 ||||| nnnnnnnn 99999 8888 rrrr 
+||                                nnnnnnn 9 888888888 rrrrrrrr 
+||||                              nnnn 999 88888888 rrrrrrr 
+||||||||                          nnnnnnnn 999999 888888 rrrrr 
+|||||| n *                        nnnnnn 999 888 r 
+|| nnn                            nn 9999999 888888 rr 
+|||| nnnnnn                       nnnn 9999 888 rrrrr 
+|||||||| nn 9 *                   nnnnnnnn 99999999 888888 
+|||||| nnnnn 99                   nnnnnn 9999999 888 r 
+|| n 99999                        nn 99999 8888888 rr 
+|||| nn 8                         nnnn 88888 rrrrr 
+|||||||| nnnn 88 *                nnnnnnnn r 
+|||||| nnnnnnnnn 8888 *           nnnnnn 9 rr 
+|| nnnnnnnnn 9 88888888 *         nn 999 rrrr 
+The solution is: 99999999 rrrrrrrrr 
+|                                 || nnnnnnnnn 99999999 888 rrrrr 
+||                                |||| nnnnnnnn 9999999 8888888 
+||||                              |||||||| nnnnnn 99999 88888 r 
+||||||||                          |||||| nnn 9 8 rrr 
+|||||| n *                        || nnnnnnn 99 88 rrrrrr 
+|| nnn                            |||| nnnn 99999 8888 rr 
+|||| nnnnnn                       |||||||| nnnnnnnn 888888888 rrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 9 88888888 rrrrrrrrr 
+|||||| nnnnn 99                   || nnnnn 999 888888 rrrrrrrrr 
+|| n 99999                        |||| 9999999 88 rrrrrrrrr 
+|||| nn 8                         |||||||| 9999 88888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||| n 99999999 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnn 999999 8 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 99 888 rrrrrrrr 
+The solution is: nnnnnn 9 888888 rrrrr 
+|                                 ||||||||| 9 8 rrrrrr 
+||                                |||||||| n 99 88 rr 
+||||                              |||||| nnn 9999 8888 rrrr 
+||||||||                          || nnnnnnn 99999999 88888888 rrrrrrrr 
+|||||| n *                        |||| nnnn 9999999 8888888 rrrrrrr 
+|| nnn                            |||||||| nnnnnnnn 9999 88888 rrrrr 
+|||| nnnnnn                       |||||| nnnnnnn 999999999 r 
+|||||||| nn 9 *                   || nnnnn 999999999 8 rr 
+|||||| nnnnn 99                   |||| 999999999 888 rrrr 
+|| n 99999                        |||||||| 99999999 8888888 rrrrrrrr 
+|||| nn 8                         |||||| n 999999 88888 rrrrrrr 
+|||||||| nnnn 88 *                || nnn 99 8 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnn 9999 88 
+|| nnnnnnnnn 9 88888888 *         |||||||| nn 999999999 8888 
+The solution is: nn 999 88888888 rrrrr 
+|                                 ||||| nnnn 99999999 888888888 
+||                                nnnnnnnnn 999999 888888888 r 
+||||                              nnnnnnnn 999 888888888 rrr 
+||||||||                          nnnnnn 9999999 88888888 rrrrrrr 
+|||||| n *                        nn 99999 8888888 rrrrr 
+|| nnn                            nnnn 88888 r 
+|||| nnnnnn                       nnnnnnnn rrr 
+|||||||| nn 9 *                   nnnnnn 9 rrrrrr 
+|||||| nnnnn 99                   nn 999 rr 
+|| n 99999                        nnnn 999999 rrrr 
+|||| nn 8                         nnnnnnnn 99 8 rrrrrrrr 
+|||||||| nnnn 88 *                nnnnnn 99999 88 rrrrrr 
+|||||| nnnnnnnnn 8888 *           nn 9 88888 rr 
+|| nnnnnnnnn 9 88888888 *         nnnn 99 rrrrr 
+The solution is: 999999 88888 rrrrr 
+|                                 | nnnn 9 8888 rrrrrrrr 
+||                                || nnnnnnnn 99 88888888 rrrrrr 
+||||                              |||| nnnnnn 99999 888888 rrr 
+||||||||                          |||||||| nn 9 888 rrrrrrr 
+|||||| n *                        |||||| nnnnn 99 888888 rrrr 
+|| nnn                            || n 99999 88 rrrrrrrrr 
+|||| nnnnnn                       |||| nn 88888 rrrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnn rrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnnnn rrrr 
+|| n 99999                        || nnnnnnnnn 9 rrrrrrrr 
+|||| nn 8                         |||| nnnnnnnn 999 rrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 9999999 rr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 99999 8 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 888 rrrrrrrr 
+The solution is: nnnnnnnn 999999 8 rrrrrr 
+|                                 | nnnnnnnn 999999 888888888 rr 
+||                                || nnnnnn 999 888888888 rrrrr 
+||||                              |||| nn 9999999 88888888 r 
+||||||||                          |||||||| nnnn 9999 8888888 rrr 
+|||||| n *                        |||||| nnnnnnnnn 99999999 8888 rrrrrrr 
+|| nnn                            || nnnnnnnnn 9999999 888888888 rrrr 
+|||| nnnnnn                       |||| nnnnnnnn 99999 888888888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnn 9 888888888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||| nnn 999 88888888 rrrrrrrrr 
+|| n 99999                        || nnnnnnn 999999 888888 rrrrrrrrr 
+|||| nn 8                         |||| nnnn 999 888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 999999 888888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 999 888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 9999999 888888 rrrr 
+The solution is: nnnnnnnn 99999999 rrrrrrrr 
+|                                 ||| 9 888888 rrr 
+||                                |||||| 99 88 rrrrrrr 
+||||                              || n 9999 8888 rrrr 
+||||||||                          |||| nn 99999999 88888888 rrrrrrrr 
+|||||| n *                        |||||||| nnnn 999999 8888888 rrrrrrr 
+|| nnn                            |||||| nnnnnnnnn 99 88888 rrrrr 
+|||| nnnnnn                       || nnnnnnnnn 99999 r 
+|||||||| nn 9 *                   |||| nnnnnnnn 9 8 rr 
+|||||| nnnnn 99                   |||||||| nnnnnn 999 88 rrrr 
+|| n 99999                        |||||| nnn 9999999 8888 rrrrrrrr 
+|||| nn 8                         || nnnnnnn 9999 888888888 rrrrrr 
+|||||||| nnnn 88 *                |||| nnnn 999999999 88888888 rrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 99999999 8888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9999999 88888 rrrrr 
+The solution is: nnnn 9999 8 rrrrrrr 
+|                                 ||||||| nnnnnn 99999999 888888888 
+||                                |||| nnn 9999999 888888888 r 
+||||                              |||||||| nnnnnn 9999 888888888 rrr 
+||||||||                          |||||| nnn 999999999 88888888 rrrrrrr 
+|||||| n *                        || nnnnnnn 99999999 8888888 rrrrr 
+|| nnn                            |||| nnnn 9999999 88888 r 
+|||| nnnnnn                       |||||||| nnnnnnnn 9999 8 rrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 999999999 88 rrrrrr 
+|||||| nnnnn 99                   || nnnnn 999999999 88888 rr 
+|| n 99999                        |||| 999999999 8 rrrrr 
+|||| nn 8                         |||||||| 99999999 888 
+|||||||| nnnn 88 *                |||||| n 999999 8888888 
+|||||| nnnnnnnnn 8888 *           || nnn 99 88888 r 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 9999 rrr 
+The solution is: nnnnnn 9 8888 rrrrrrr 
+|                                 ||||| nnnnnnnnn 9999999 888888888 rrrrr 
+||                                nnnnnnnnn 99999 888888888 r 
+||||                              nnnnnnnn 9 888888888 rrr 
+||||||||                          nnnnnn 999 88888888 rrrrrrr 
+|||||| n *                        nn 9999999 888888 rrrrr 
+|| nnn                            nnnn 9999 888 r 
+|||| nnnnnn                       nnnnnnnn 99999999 888888 rr 
+|||||||| nn 9 *                   nnnnnn 9999999 888 rrrrr 
+|||||| nnnnn 99                   nn 99999 8888888 
+|| n 99999                        nnnn 88888 r 
+|||| nn 8                         nnnnnnnn rrr 
+|||||||| nnnn 88 *                nnnnnn 9 rrrrrr 
+|||||| nnnnnnnnn 8888 *           nn 999 rr 
+|| nnnnnnnnn 9 88888888 *         nnnn 999999 rrrr 
+The solution is: 999999 8 rrr 
+|                                 ||| nnnn 888888888 rrrrrrrr 
+||                                |||||| nnnnnnnn 88888888 rrrrrrr 
+||||                              || nnnnnnn 9 888888 rrrrr 
+||||||||                          |||| nnnn 999 88 r 
+|||||| n *                        |||||||| nnnnnnnn 999999 8888 rr 
+|| nnn                            |||||| nnnnnnn 999 888888888 rrrr 
+|||| nnnnnn                       || nnnnn 9999999 88888888 rrrrrrrrr 
+|||||||| nn 9 *                   |||| 99999 8888888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||||| 88888 rrrrrrrrr 
+|| n 99999                        |||||| n rrrrrrrrr 
+|||| nn 8                         || nnn rrrrrrrr 
+|||||||| nnnn 88 *                |||| nnnnnn rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nn 9 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnn 99 rrrr 
+The solution is: nnnn 999999 88 rrrr 
+|                                 || 9999 888888888 r 
+||                                |||| 99999999 88888888 rrr 
+||||                              |||||||| 999999 8888888 rrrrrrr 
+||||||||                          |||||| n 99 88888 rrrrr 
+|||||| n *                        || nnn 9999 r 
+|| nnn                            |||| nnnnnn 99999999 rr 
+|||| nnnnnn                       |||||||| nn 9999999 8 rrrr 
+|||||||| nn 9 *                   |||||| nnnnn 9999 888 rrrrrrrr 
+|||||| nnnnn 99                   || n 999999999 888888 rrrrrr 
+|| n 99999                        |||| nn 99999999 888 rrr 
+|||| nn 8                         |||||||| nnnn 999999 8888888 rrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 99 88888 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 99999 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 9 8 rrrr 
+The solution is: nnnnnn 999999999 rrrr 
+|                                 |||||| nn 99999999 8888 rrr 
+||                                || nnnnn 999999 888888888 rrrrrr 
+||||                              |||| 999 888888888 rrr 
+||||||||                          |||||||| 999999 88888888 rrrrrrr 
+|||||| n *                        |||||| n 99 8888888 rrrrr 
+|| nnn                            || nnn 9999 8888 r 
+|||| nnnnnn                       |||| nnnnnn 99999999 88888888 rr 
+|||||||| nn 9 *                   |||||||| nn 9999999 8888888 rrrrr 
+|||||| nnnnn 99                   |||||| nnnnn 9999 88888 r 
+|| n 99999                        || n 999999999 rrr 
+|||| nn 8                         |||| nn 99999999 8 rrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 999999 888 rr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 99 8888888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 99999 8888 rrrrrrrrr 
+The solution is: nnnnnnnn 9999 rrrrrrrr 
+|                                 ||||| nn 999999999 888 rrrrrr 
+||                                nnnnn 99999999 8888888 rr 
+||||                              9999999 88888 rrrrr 
+||||||||                          9999 8 r 
+|||||| n *                        99999999 88 rr 
+|| nnn                            999999 88888 rrrr 
+|||| nnnnnn                       99 8 rrrrrrrrr 
+|||||||| nn 9 *                   9999 88 rrrrrrrr 
+|||||| nnnnn 99                   99999999 8888 rrrrrr 
+|| n 99999                        999999 888888888 rr 
+|||| nn 8                         99 888888888 rrrrr 
+|||||||| nnnn 88 *                9999 88888888 r 
+|||||| nnnnnnnnn 8888 *           99999999 888888 rrr 
+|| nnnnnnnnn 9 88888888 *         999999 888 rrrrrrr 
+The solution is: 8888 rrr 
+|                                 |||||||| nnnnnnnnn 99999999 8 rrrr 
+||                                |||||| nnnnnnnnn 9999999 888 rrrrrrrr 
+||||                              || nnnnnnnnn 99999 8888888 rrrrrr 
+||||||||                          |||| nnnnnnnn 9 88888 rrr 
+|||||| n *                        |||||||| nnnnnn 999 rrrrrrr 
+|| nnn                            |||||| nnn 9999999 rrrr 
+|||| nnnnnn                       || nnnnnnn 9999 8 rrrrrrrr 
+|||||||| nn 9 *                   |||| nnnn 999999999 88 rrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 99999999 88888 rr 
+|| n 99999                        |||||| nnnnnnn 9999999 8 rrrrr 
+|||| nn 8                         || nnnnn 99999 888 
+|||||||| nnnn 88 *                |||| 9 8888888 
+|||||| nnnnnnnnn 8888 *           |||||||| 99 8888 r 
+|| nnnnnnnnn 9 88888888 *         |||||| n 9999 88888888 rr 
+The solution is: nnnn 888 rrrrrrrr 
+|                                 | nnnn 9999 88 rr 
+||                                || nnnnnnnn 99999999 8888 rrrr 
+||||                              |||| nnnnnn 9999999 888888888 rrrrrrrr 
+||||||||                          |||||||| nn 99999 888888888 rrrrrrr 
+|||||| n *                        |||||| nnnnn 888888888 rrrrr 
+|| nnn                            || n 9 88888888 r 
+|||| nnnnnn                       |||| nn 99 888888 rrr 
+|||||||| nn 9 *                   |||||||| nnnn 9999 88 rrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 99999999 8888 rrrr 
+|| n 99999                        || nnnnnnnnn 9999999 888888888 rrrrrrrr 
+|||| nn 8                         |||| nnnnnnnn 99999 888888888 rrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 9 888888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 999 88888888 r 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 999999 888888 rrr 
+The solution is: nnnnnnnn 999999 88888 rrrr 
+|                                 |||||| nnnnnnnnn rrrr 
+||                                || nnnnnnnnn 9 rrrrrrrr 
+||||                              |||| nnnnnnnn 999 rrrrrr 
+||||||||                          |||||||| nnnnnn 9999999 rr 
+|||||| n *                        |||||| nnn 99999 8 rrrr 
+|| nnn                            || nnnnnnn 888 rrrrrrrr 
+|||| nnnnnn                       |||| nnnn 9 888888 rrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 99 88 rrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 99999 8888 rrrrrr 
+|| n 99999                        || nnnnn 9 888888888 rr 
+|||| nn 8                         |||| 999 88888888 rrrrr 
+|||||||| nnnn 88 *                |||||||| 999999 888888 r 
+|||||| nnnnnnnnn 8888 *           |||||| n 99 888 rrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 9999 888888 rrrrrr 
+The solution is: nnnnnnnn rrrrrrrrr 
+|                                 |||||||| nnnnnn 9999999 888 rrrrrrr 
+||                                |||||| nnn 99999 8888888 rrrr 
+||||                              || nnnnnnn 88888 rrrrrrrrr 
+||||||||                          |||| nnnn 9 rrrrrrrrr 
+|||||| n *                        |||||||| nnnnnnnn 99 rrrrrrrr 
+|| nnn                            |||||| nnnnnnn 99999 rrrrrr 
+|||| nnnnnn                       || nnnnn 9 8 rr 
+|||||||| nn 9 *                   |||| 999 88 rrrr 
+|||||| nnnnn 99                   |||||||| 999999 8888 rrrrrrrr 
+|| n 99999                        |||||| n 99 888888888 rrrrrr 
+|||| nn 8                         || nnn 9999 88888888 rrr 
+|||||||| nnnn 88 *                |||| nnnnnn 99999999 888888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nn 9999999 888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnn 9999 8888888 
+The solution is: nnnn 999999 rrrrrr 
+|                                 |||| nnnnnnnn 999999999 88 
+||                                |||||||| nnnnnn 999999999 88888 
+||||                              |||||| nnn 999999999 8 r 
+||||||||                          || nnnnnnn 99999999 888 rr 
+|||||| n *                        |||| nnnn 9999999 8888888 rrrr 
+|| nnn                            |||||||| nnnnnnnn 9999 88888 rrrrrrrrr 
+|||| nnnnnn                       |||||| nnnnnnn 999999999 rrrrrrrrr 
+|||||||| nn 9 *                   || nnnnn 999999999 8 rrrrrrrr 
+|||||| nnnnn 99                   |||| 999999999 888 rrrrrr 
+|| n 99999                        |||||||| 99999999 8888888 rr 
+|||| nn 8                         |||||| n 999999 88888 rrrrr 
+|||||||| nnnn 88 *                || nnn 99 8 r 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnn 9999 88 rr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nn 999999999 8888 rrrr 
+The solution is: nn 999 88888888 
+|                                 ||||| nn 999999999 88888 rrrrrr 
+||                                nnnnn 99999999 8 rrr 
+||||                              9999999 888 rrrrrr 
+||||||||                          9999 8888888 rr 
+|||||| n *                        99999999 8888 rrrrr 
+|| nnn                            999999 888888888 
+|||| nnnnnn                       99 888888888 r 
+|||||||| nn 9 *                   9999 88888888 rrr 
+|||||| nnnnn 99                   99999999 888888 rrrrrrr 
+|| n 99999                        999999 888 rrrrr 
+|||| nn 8                         99 8888888 
+|||||||| nnnn 88 *                9999 8888 r 
+|||||| nnnnnnnnn 8888 *           99999999 88888888 rr 
+|| nnnnnnnnn 9 88888888 *         999999 8888888 rrrrr 
+The solution is: 8888 rrrrrrrrr 
+|                                 ||||| nnn 99 88 rrrrr 
+||                                nnnnnnn 9999 8888 
+||||                              nnnn 999999999 88888888 
+||||||||                          nnnnnnnn 99999999 8888888 r 
+|||||| n *                        nnnnnn 9999999 88888 rrr 
+|| nnn                            nn 99999 8 rrrrrrr 
+|||| nnnnnn                       nnnn 888 rrrr 
+|||||||| nn 9 *                   nnnnnnnn 888888 rrrrrrrr 
+|||||| nnnnn 99                   nnnnnn 9 88 rrrrrrr 
+|| n 99999                        nn 999 8888 rrrr 
+|||| nn 8                         nnnn 999999 88888888 rrrrrrrr 
+|||||||| nnnn 88 *                nnnnnnnn 99 8888888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnn 99999 8888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         nn 9 888888888 
+The solution is: 99999999 88 rrrrrr 
+|                                 ||||| nn 9999999 88888 r 
+||                                nnnnn 9999 8 rrr 
+||||                              999999999 88 rrrrrr 
+||||||||                          99999999 88888 rr 
+|||||| n *                        999999 8 rrrrr 
+|| nnn                            99 888 
+|||| nnnnnn                       9999 888888 
+|||||||| nn 9 *                   99999999 88 r 
+|||||| nnnnn 99                   999999 88888 rr 
+|| n 99999                        99 8 rrrrr 
+|||| nn 8                         9999 88 
+|||||||| nnnn 88 *                99999999 8888 
+|||||| nnnnnnnnn 8888 *           999999 888888888 
+|| nnnnnnnnn 9 88888888 *         99 888888888 r 
+The solution is: 88888888 rrrrrrrrr 
+|                                 nnnnnn 99 888888 r 
+||                                nn 99999 88 rrr 
+||||                              nnnn 88888 rrrrrr 
+||||||||                          nnnnnnnn rrr 
+|||||| n *                        nnnnnn 9 rrrrrr 
+|| nnn                            nn 999 rr 
+|||| nnnnnn                       nnnn 999999 rrrr 
+|||||||| nn 9 *                   nnnnnnnn 99 8 rrrrrrrr 
+|||||| nnnnn 99                   nnnnnn 99999 88 rrrrrr 
+|| n 99999                        nn 9 88888 rr 
+|||| nn 8                         nnnn 99 rrrrr 
+|||||||| nnnn 88 *                nnnnnnnn 9999 
+|||||| nnnnnnnnn 8888 *           nnnnnn 999999999 
+|| nnnnnnnnn 9 88888888 *         nn 999999999 8 
+The solution is: 99999999 8888 rrrr 
+|                                 |||||| rrrrr 
+||                                || n 
+||||                              |||| nn 
+||||||||                          |||||||| nnnn 
+|||||| n *                        |||||| nnnnnnnnn 
+|| nnn                            || nnnnnnnnn 9 
+|||| nnnnnn                       |||| nnnnnnnn 999 
+|||||||| nn 9 *                   |||||||| nnnnnn 9999999 
+|||||| nnnnn 99                   |||||| nnn 99999 8 
+|| n 99999                        || nnnnnnn 888 
+|||| nn 8                         |||| nnnn 9 888888 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 99 88 r 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 99999 8888 rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 9 888888888 rrrr 
+The solution is: nnnnnnnn 99999999 888888 rrrrrrrr 
+|                                 ||||||| nnnnn 99999999 rrrrrr 
+||                                |||| n 9999999 8 rr 
+||||                              |||||||| nn 9999 888 rrrr 
+||||||||                          |||||| nnnnn 99999999 888888 rrrrrrrr 
+|||||| n *                        || n 9999999 888 rrrrrrr 
+|| nnn                            |||| nn 9999 8888888 rrrr 
+|||| nnnnnn                       |||||||| nnnn 99999999 8888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 999999 888888888 rrrrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 999 888888888 rrrrrrr 
+|| n 99999                        |||| nnnnnnnn 9999999 88888888 rrrrr 
+|||| nn 8                         |||||||| nnnnnn 99999 8888888 r 
+|||||||| nnnn 88 *                |||||| nnn 9 88888 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 99 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 99999 rrrr 
+The solution is: nnnnnn 999 888888888 
+|                                 | nnnnnn 999 888 rrrrrrr 
+||                                || nn 9999999 888888 rrrr 
+||||                              |||| nnnn 9999 888 rrrrrrrrr 
+||||||||                          |||||||| nnnnnnnn 99999999 888888 rrrrrrrr 
+|||||| n *                        |||||| nnnnnnn 9999999 888 rrrrrrr 
+|| nnn                            || nnnnn 99999 8888888 rrrr 
+|||| nnnnnn                       |||| 9 88888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| 99 rrrrrrrrr 
+|||||| nnnnn 99                   |||||| n 9999 rrrrrrrr 
+|| n 99999                        || nnn 99999999 rrrrrr 
+|||| nn 8                         |||| nnnnnn 999999 8 rr 
+|||||||| nnnn 88 *                |||||||| nn 999 888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnn 999999 888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || n 999 888 rrrrrrr 
+The solution is: nnnnnnnn 99 8888888 rrrrrr 
+|                                 |||| nnnnnnnnn 99 8888888 rr 
+||                                |||||||| nnnnnnnn 99999 8888 rrrrr 
+||||                              |||||| nnnnnnn 9 888888888 
+||||||||                          || nnnnn 999 88888888 r 
+|||||| n *                        |||| 9999999 888888 rrr 
+|| nnn                            |||||||| 9999 888 rrrrrrr 
+|||| nnnnnn                       |||||| n 99999999 888888 rrrr 
+|||||||| nn 9 *                   || nnn 999999 888 rrrrrrrrr 
+|||||| nnnnn 99                   |||| nnnnnn 99 8888888 rrrrrrrr 
+|| n 99999                        |||||||| nn 99999 8888 rrrrrrr 
+|||| nn 8                         |||||| nnnnn 888888888 rrrr 
+|||||||| nnnn 88 *                || n 9 88888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nn 99 888888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnn 9999 88 rrrrrrrrr 
+The solution is: nn 9 8888888 r 
+|                                 |||||||| nnn 999999999 88888888 rrr 
+||                                |||||| nnnnnnn 99999999 8888888 rrrrrrr 
+||||                              || nnnnn 9999999 88888 rrrrr 
+||||||||                          |||| 99999 8 r 
+|||||| n *                        |||||||| 888 rr 
+|| nnn                            |||||| n 888888 rrrr 
+|||| nnnnnn                       || nnn 88 rrrrrrrrr 
+|||||||| nn 9 *                   |||| nnnnnn 8888 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nn 9 88888888 rrrrrr 
+|| n 99999                        |||||| nnnnn 99 888888 rrr 
+|||| nn 8                         || n 99999 88 rrrrrrr 
+|||||||| nnnn 88 *                |||| nn 88888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn rrrrrrrr 
+The solution is: nnnn 99 88 rr 
+|                                 |||||||| nn 99 888 rrrrrr 
+||                                |||||| nnnnn 9999 888888 rr 
+||||                              || n 999999999 88 rrrrr 
+||||||||                          |||| nn 99999999 88888 
+|||||| n *                        |||||||| nnnn 999999 8 r 
+|| nnn                            |||||| nnnnnnnnn 99 888 rr 
+|||| nnnnnn                       || nnnnnnnnn 99999 888888 rrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 9 888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnn 999 888888 rrrrrrrr 
+|| n 99999                        |||||| nnn 9999999 88 rrrrrrr 
+|||| nn 8                         || nnnnnnn 9999 88888 rrrr 
+|||||||| nnnn 88 *                |||| nnnn 999999999 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 99999999 8 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9999999 888 rrrrrr 
+The solution is: nnnn 9999 8 rrrr 
+|                                 |||||||| nnnnnnn 9999 rrrr 
+||                                |||||| nnnnn 999999999 rrrrrrrr 
+||||                              || n 999999999 8 rrrrrr 
+||||||||                          |||| nn 99999999 888 rr 
+|||||| n *                        |||||||| nnnn 999999 8888888 rrrr 
+|| nnn                            |||||| nnnnnnnnn 99 88888 rrrrrrrrr 
+|||| nnnnnn                       || nnnnnnnnn 99999 rrrrrrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 9 8 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnn 999 88 rrrrrr 
+|| n 99999                        |||||| nnn 9999999 8888 rr 
+|||| nn 8                         || nnnnnnn 9999 888888888 rrrr 
+|||||||| nnnn 88 *                |||| nnnn 999999999 88888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 99999999 8888888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9999999 88888 rrrrrrrrr 
+The solution is: nnnn 9999 8 rr 
+|                                 |||||| nnnnnn 9999 888888888 rr 
+||                                || nnn 999999999 88888888 rrrrr 
+||||                              |||| nnnnnn 99999999 8888888 r 
+||||||||                          |||||||| nn 9999999 88888 rrr 
+|||||| n *                        |||||| nnnnn 9999 8 rrrrrrr 
+|| nnn                            || n 999999999 88 rrrr 
+|||| nnnnnn                       |||| nn 99999999 88888 rrrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnn 999999 8 rrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 99 888 rrrr 
+|| n 99999                        || nnnnnnnnn 99999 888888 rrrrrrrr 
+|||| nn 8                         |||| nnnnnnnn 9 888 rrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 999 888888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 9999999 88 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 9999 88888 rrrrrrrr 
+The solution is: nnnnnnnn 999999 8888888 rrrrrr 
+|                                 ||||||||| nn 9 88888888 rr 
+||                                |||||||| nnnnn 99 888888 rrrrr 
+||||                              |||||| n 99999 88 r 
+||||||||                          || nnn 88888 rr 
+|||||| n *                        |||| nnnnnn rrrrr 
+|| nnn                            |||||||| nn 9 
+|||| nnnnnn                       |||||| nnnnn 99 
+|||||||| nn 9 *                   || n 99999 
+|||||| nnnnn 99                   |||| nn 8 
+|| n 99999                        |||||||| nnnn 88 
+|||| nn 8                         |||||| nnnnnnnnn 8888 
+|||||||| nnnn 88 *                || nnnnnnnnn 9 88888888 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 999 888888 r 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 9999999 88 rrr 
+The solution is: nn 999999999 8888888 
+|                                 ||| nnnnnn 88888 rrrrrrrr 
+||                                |||||| nn 9 rrrrrrr 
+||||                              || nnnnn 99 rrrr 
+||||||||                          |||| 99999 rrrrrrrr 
+|||||| n *                        |||||||| 8 rrrrrr 
+|| nnn                            |||||| n 88 rr 
+|||| nnnnnn                       || nnn 8888 rrrr 
+|||||||| nn 9 *                   |||| nnnnnn 88888888 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nn 9 888888 rrrrrrr 
+|| n 99999                        |||||| nnnnn 99 88 rrrrr 
+|||| nn 8                         || n 99999 8888 
+|||||||| nnnn 88 *                |||| nn 888888888 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 88888888 r 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 888888 rrr 
+The solution is: nnnn 99 88 r 
+|                                 n 9999999 888888888 rrrrrrrr 
+||                                nn 9999 888888888 rrrrrrr 
+||||                              nnnn 99999999 88888888 rrrrr 
+||||||||                          nnnnnnnn 999999 8888888 r 
+|||||| n *                        nnnnnn 999 88888 rrr 
+|| nnn                            nn 9999999 rrrrrrr 
+|||| nnnnnn                       nnnn 9999 8 rrrr 
+|||||||| nn 9 *                   nnnnnnnn 99999999 88 rrrrrrrr 
+|||||| nnnnn 99                   nnnnnn 9999999 88888 rrrrrr 
+|| n 99999                        nn 99999 8 rrr 
+|||| nn 8                         nnnn 888 rrrrrr 
+|||||||| nnnn 88 *                nnnnnnnn 888888 rr 
+|||||| nnnnnnnnn 8888 *           nnnnnn 9 88 rrrrr 
+|| nnnnnnnnn 9 88888888 *         nn 999 8888 
+The solution is: 99999999 
+|                                 |||||||| nnn 99 888888888 rrrrrrrr 
+||                                |||||| nnnnnnn 9999 88888888 rrrrrrr 
+||||                              || nnnnn 999999999 888888 rrrrr 
+||||||||                          |||| 999999999 888 r 
+|||||| n *                        |||||||| 99999999 8888888 rr 
+|| nnn                            |||||| n 999999 88888 rrrrr 
+|||| nnnnnn                       || nnn 99 8 r 
+|||||||| nn 9 *                   |||| nnnnnn 9999 88 rr 
+|||||| nnnnn 99                   |||||||| nn 999999999 8888 rrrr 
+|| n 99999                        |||||| nnnnn 99999999 888888888 rrrrrrrr 
+|||| nn 8                         || n 9999999 888888888 rrrrrrr 
+|||||||| nnnn 88 *                |||| nn 9999 888888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 99999999 88888888 r 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 999999 8888888 rrr 
+The solution is: nnnn 99 888888 rrrrrr 
+|                                 ||||||||| 999999999 8888 
+||                                |||||||| n 99999999 888888888 
+||||                              |||||| nnn 999999 888888888 r 
+||||||||                          || nnnnnnn 99 888888888 rrr 
+|||||| n *                        |||| nnnn 99999 88888888 rrrrrrr 
+|| nnn                            |||||||| nnnnnnnn 8888888 rrrrr 
+|||| nnnnnn                       |||||| nnnnnnn 9 8888 r 
+|||||||| nn 9 *                   || nnnnn 999 88888888 rr 
+|||||| nnnnn 99                   |||| 9999999 888888 rrrrr 
+|| n 99999                        |||||||| 9999 888 r 
+|||| nn 8                         |||||| n 99999999 888888 rr 
+|||||||| nnnn 88 *                || nnn 999999 888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnn 99 8888888 
+|| nnnnnnnnn 9 88888888 *         |||||||| nn 99999 8888 r 
+The solution is: nn 999 88 rrrrrrrr 
+|                                 |||| 99 
+||                                |||||||| 9999 
+||||                              |||||| n 99999999 
+||||||||                          || nnn 999999 8 
+|||||| n *                        |||| nnnnnn 99 888 
+|| nnn                            |||||||| nn 99999 888888 
+|||| nnnnnn                       |||||| nnnnn 888 r 
+|||||||| nn 9 *                   || n 9 888888 rr 
+|||||| nnnnn 99                   |||| nn 99 88 rrrrr 
+|| n 99999                        |||||||| nnnn 9999 8888 
+|||| nn 8                         |||||| nnnnnnnnn 99999999 88888888 
+|||||||| nnnn 88 *                || nnnnnnnnn 9999999 8888888 r 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 99999 88888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 9 8 rrrrrrr 
+The solution is: nn 999999999 888 rrrrr 
+|                                 || nnnnnnn 99 88888 rrr 
+||                                |||| nnnn 99999 rrrrrrr 
+||||                              |||||||| nnnnnnnn 8 rrrr 
+||||||||                          |||||| nnnnnnn 9 88 rrrrrrrr 
+|||||| n *                        || nnnnn 999 8888 rrrrrr 
+|| nnn                            |||| 9999999 88888888 rr 
+|||| nnnnnn                       |||||||| 9999 8888888 rrrrr 
+|||||||| nn 9 *                   |||||| n 99999999 8888 r 
+|||||| nnnnn 99                   || nnn 999999 888888888 rr 
+|| n 99999                        |||| nnnnnn 99 888888888 rrrrr 
+|||| nn 8                         |||||||| nn 99999 88888888 r 
+|||||||| nnnn 88 *                |||||| nnnnn 8888888 rrr 
+|||||| nnnnnnnnn 8888 *           || n 9 8888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nn 99 88888888 rrrr 
+The solution is: nnnnnn 99999 88888888 rrr 
+|                                 |||| nnnnnn 999 8888888 rrrr 
+||                                |||||||| nn 9999999 8888 rrrrrrrrr 
+||||                              |||||| nnnnn 9999 888888888 rrrrrrrr 
+||||||||                          || n 999999999 88888888 rrrrrrr 
+|||||| n *                        |||| nn 99999999 8888888 rrrrr 
+|| nnn                            |||||||| nnnn 999999 88888 r 
+|||| nnnnnn                       |||||| nnnnnnnnn 99 8 rrr 
+|||||||| nn 9 *                   || nnnnnnnnn 99999 88 rrrrrr 
+|||||| nnnnn 99                   |||| nnnnnnnn 9 88888 rr 
+|| n 99999                        |||||||| nnnnnn 999 rrrrr 
+|||| nn 8                         |||||| nnn 9999999 
+|||||||| nnnn 88 *                || nnnnnnn 9999 8 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 999999999 88 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 99999999 88888 
+The solution is: nn 9999999 rrr 
+|                                 | nnnnnnn r 
+||                                || nnnn 9 rr 
+||||                              |||| nnnnnnnn 99 rrrr 
+||||||||                          |||||||| nnnnnn 99999 rrrrrrrr 
+|||||| n *                        |||||| nnn 9 8 rrrrrr 
+|| nnn                            || nnnnnnn 99 88 rr 
+|||| nnnnnn                       |||| nnnn 99999 8888 rrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 888888888 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 9 88888888 rrrrrrr 
+|| n 99999                        || nnnnn 999 888888 rrrrr 
+|||| nn 8                         |||| 9999999 88 r 
+|||||||| nnnn 88 *                |||||||| 9999 88888 rr 
+|||||| nnnnnnnnn 8888 *           |||||| n 99999999 rrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 999999 8 
+The solution is: nnnnnnnn 88888888 rr 
+|                                 ||||||| nnnnnn 88888 
+||                                |||| nnn 9 r 
+||||                              |||||||| nnnnnn 99 rr 
+||||||||                          |||||| nnn 99999 rrrr 
+|||||| n *                        || nnnnnnn 8 rrrrrrrr 
+|| nnn                            |||| nnnn 9 88 rrrrrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 99 8888 rr 
+|||||||| nn 9 *                   |||||| nnnnnnn 99999 88888888 rrrr 
+|||||| nnnnn 99                   || nnnnn 9 8888888 rrrrrrrrr 
+|| n 99999                        |||| 999 8888 rrrrrrrrr 
+|||| nn 8                         |||||||| 999999 88888888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||| n 99 8888888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnn 9999 8888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 99999999 88888888 
+The solution is: nnnnnn 9 rrrrrrr 
+|                                 ||||||| 9999 888888 rrrr 
+||                                |||| n 99999999 88 rrrrrrrrr 
+||||                              |||||||| nn 999999 88888 rrrrrrrr 
+||||||||                          |||||| nnnnn 99 8 rrrrrrr 
+|||||| n *                        || n 99999 88 rrrr 
+|| nnn                            |||| nn 88888 rrrrrrrr 
+|||| nnnnnn                       |||||||| nnnn rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn rrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 9 rrrrrrrr 
+|| n 99999                        |||| nnnnnnnn 999 rrrrrr 
+|||| nn 8                         |||||||| nnnnnn 9999999 rr 
+|||||||| nnnn 88 *                |||||| nnn 99999 8 rrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 9 888888 rrrrrr 
+The solution is: nnnnnn 999 888 rrrrrrr 
+|                                 ||||| nn 99999999 88888 rrr 
+||                                nnnnn 999999 8 rrrrrrr 
+||||                              999 888 rrrr 
+||||||||                          999999 888888 rrrrrrrr 
+|||||| n *                        99 888 rrrrrrr 
+|| nnn                            9999 888888 rrrr 
+|||| nnnnnn                       99999999 88 rrrrrrrrr 
+|||||||| nn 9 *                   999999 88888 rrrrrrrr 
+|||||| nnnnn 99                   99 8 rrrrrrr 
+|| n 99999                        9999 88 rrrr 
+|||| nn 8                         99999999 8888 rrrrrrrr 
+|||||||| nnnn 88 *                999999 888888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           99 888888888 rrr 
+|| nnnnnnnnn 9 88888888 *         9999 88888888 rrrrrrr 
+The solution is: 888888 rrrr 
+|                                 |||| nnnnnnnnn 99999999 888888888 rrr 
+||                                |||||||| nnnnnnnn 9999999 888888888 rrrrrrr 
+||||                              |||||| nnnnnnn 99999 888888888 rrrrr 
+||||||||                          || nnnnn 9 888888888 r 
+|||||| n *                        |||| 999 88888888 rrr 
+|| nnn                            |||||||| 999999 888888 rrrrrrr 
+|||| nnnnnn                       |||||| n 99 888 rrrrr 
+|||||||| nn 9 *                   || nnn 9999 888888 
+|||||| nnnnn 99                   |||| nnnnnn 99999999 88 r 
+|| n 99999                        |||||||| nn 9999999 88888 rr 
+|||| nn 8                         |||||| nnnnn 9999 8 rrrrr 
+|||||||| nnnn 88 *                || n 999999999 88 
+|||||| nnnnnnnnn 8888 *           |||| nn 99999999 88888 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnn 999999 8 r 
+The solution is: nn 9 88888 rrrrrr 
+|                                 || nnn 999 rr 
+||                                |||| nnnnnn 999999 rrrr 
+||||                              |||||||| nn 999 8 rrrrrrrr 
+||||||||                          |||||| nnnnn 999999 88 rrrrrr 
+|||||| n *                        || n 999 88888 rr 
+|| nnn                            |||| nn 999999 rrrrr 
+|||| nnnnnn                       |||||||| nnnn 99 8 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 9999 88 
+|||||| nnnnn 99                   || nnnnnnnnn 999999999 8888 
+|| n 99999                        |||| nnnnnnnn 999999999 888888888 
+|||| nn 8                         |||||||| nnnnnn 999999999 888888888 r 
+|||||||| nnnn 88 *                |||||| nnn 999999999 888888888 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 99999999 888888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 9999999 888888888 rrrrr 
+The solution is: nnnnnn 999 8888888 
+|                                 ||| nn 9999999 8888888 rrrrrrr 
+||                                |||||| nnnn 9999 88888 rrrrr 
+||||                              || nnnnnnnnn 99999999 r 
+||||||||                          |||| nnnnnnnn 9999999 8 rr 
+|||||| n *                        |||||||| nnnnnn 99999 888 rrrr 
+|| nnn                            |||||| nnn 9 8888888 rrrrrrrr 
+|||| nnnnnn                       || nnnnnnn 99 8888 rrrrrrr 
+|||||||| nn 9 *                   |||| nnnn 99999 88888888 rrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 8888888 rrrrrrrrr 
+|| n 99999                        |||||| nnnnnnn 9 8888 rrrrrrrrr 
+|||| nn 8                         || nnnnn 999 88888888 rrrrrrrr 
+|||||||| nnnn 88 *                |||| 9999999 888888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| 9999 888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 99999999 888888 
+The solution is: nnnn 888888888 rr 
+|                                 ||||||| nnnnnnnn 999999 88888888 rrrrrr 
+||                                |||| nnnnnnn 999 8888888 rrr 
+||||                              |||||||| nnnn 9999999 8888 rrrrrrr 
+||||||||                          |||||| nnnnnnnnn 9999 888888888 rrrr 
+|||||| n *                        || nnnnnnnnn 999999999 88888888 rrrrrrrrr 
+|| nnn                            |||| nnnnnnnn 999999999 8888888 rrrrrrrrr 
+|||| nnnnnn                       |||||||| nnnnnn 999999999 88888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||| nnn 999999999 8 rrrrrrrrr 
+|||||| nnnnn 99                   || nnnnnnn 99999999 888 rrrrrrrr 
+|| n 99999                        |||| nnnn 9999999 8888888 rrrrrr 
+|||| nn 8                         |||||||| nnnnnnnn 9999 88888 rrr 
+|||||||| nnnn 88 *                |||||| nnnnnnn 999999999 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnn 999999999 8 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||| 999999999 888 rrrrrrrr 
+The solution is: nnnnnn 9999999 8888888 rrrrrrrr 
+|                                 |||||||| nn 9999 rrrrrr 
+||                                |||||| nnnnn 99999999 rr 
+||||                              || n 9999999 8 rrrr 
+||||||||                          |||| nn 9999 888 rrrrrrrr 
+|||||| n *                        |||||||| nnnn 99999999 888888 rrrrrr 
+|| nnn                            |||||| nnnnnnnnn 999999 888 rrr 
+|||| nnnnnn                       || nnnnnnnnn 999 8888888 rrrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 9999999 8888 rrr 
+|||||| nnnnn 99                   |||||||| nnnnnn 99999 888888888 rrrrrr 
+|| n 99999                        |||||| nnn 9 888888888 rrr 
+|||| nn 8                         || nnnnnnn 99 88888888 rrrrrrr 
+|||||||| nnnn 88 *                |||| nnnn 99999 888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 888 r 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 9 888888 rr 
+The solution is: nnnn 9999 8888888 rrrrrrrrr 
+|                                 ||| nnnn 99999999 8888888 rrrrrr 
+||                                |||||| nnnnnnnn 999999 88888 rrr 
+||||                              || nnnnnnn 999 8 rrrrrrr 
+||||||||                          |||| nnnn 9999999 88 rrrr 
+|||||| n *                        |||||||| nnnnnnnn 9999 88888 rrrrrrrr 
+|| nnn                            |||||| nnnnnnn 999999999 rrrrrrr 
+|||| nnnnnn                       || nnnnn 999999999 8 rrrr 
+|||||||| nn 9 *                   |||| 999999999 888 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| 99999999 8888888 rrrrrr 
+|| n 99999                        |||||| n 999999 88888 rrr 
+|||| nn 8                         || nnn 99 8 rrrrrrr 
+|||||||| nnnn 88 *                |||| nnnnnn 9999 88 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nn 999999999 8888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnn 99999999 888888888 rrrrrr 
+The solution is: nnnn 999999 888888 rrrrrr 
+|                                 ||| nn 88888888 rrrrrrr 
+||                                |||||| nnnn 888888 rrrrr 
+||||                              || nnnnnnnnn 88 r 
+||||||||                          |||| nnnnnnnn 9 8888 rr 
+|||||| n *                        |||||||| nnnnnn 999 88888888 rrrr 
+|| nnn                            |||||| nnn 9999999 888888 rrrrrrrrr 
+|||| nnnnnn                       || nnnnnnn 9999 888 rrrrrrrrr 
+|||||||| nn 9 *                   |||| nnnn 999999999 888888 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 99999999 888 rrrrrrr 
+|| n 99999                        |||||| nnnnnnn 9999999 8888888 rrrr 
+|||| nn 8                         || nnnnn 99999 88888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||| 9 8 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| 99 88 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 9999 8888 rrrrrr 
+The solution is: nnnn 888 rrrrrrr 
+|                                 |||| nnnnn 999 888888 rrr 
+||                                |||||||| 9999999 88 rrrrrrr 
+||||                              |||||| n 9999 88888 rrrr 
+||||||||                          || nnn 99999999 rrrrrrrrr 
+|||||| n *                        |||| nnnnnn 999999 8 rrrrrrrr 
+|| nnn                            |||||||| nn 999 888 rrrrrr 
+|||| nnnnnn                       |||||| nnnnn 999999 888888 rr 
+|||||||| nn 9 *                   || n 999 888 rrrrr 
+|||||| nnnnn 99                   |||| nn 999999 888888 
+|| n 99999                        |||||||| nnnn 99 888 r 
+|||| nn 8                         |||||| nnnnnnnnn 9999 888888 rr 
+|||||||| nnnn 88 *                || nnnnnnnnn 999999999 88 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 999999999 88888 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 999999999 8 r 
+The solution is: nn 999999999 88888 
+|                                 | nnn 9999 888888 rrr 
+||                                || nnnnnn 99999999 88 rrrrrrr 
+||||                              |||| nn 9999999 88888 rrrr 
+||||||||                          |||||||| nnnn 9999 8 rrrrrrrrr 
+|||||| n *                        |||||| nnnnnnnnn 99999999 88 rrrrrrrr 
+|| nnn                            || nnnnnnnnn 9999999 88888 rrrrrr 
+|||| nnnnnn                       |||| nnnnnnnn 99999 8 rrr 
+|||||||| nn 9 *                   |||||||| nnnnnn 9 888 rrrrrr 
+|||||| nnnnn 99                   |||||| nnn 999 888888 rr 
+|| n 99999                        || nnnnnnn 999999 88 rrrrr 
+|||| nn 8                         |||| nnnn 999 88888 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 999999 r 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 999 8 rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 9999999 88 rrrr 
+The solution is: nnnnnnnn 99999999 rr 
+|                                 |||||||| nnnn 9999999 888 
+||                                |||||| nnnnnnnnn 9999 8888888 
+||||                              || nnnnnnnnn 999999999 8888 r 
+||||||||                          |||| nnnnnnnn 999999999 888888888 rr 
+|||||| n *                        |||||||| nnnnnn 999999999 888888888 rrrrr 
+|| nnn                            |||||| nnn 999999999 888888888 r 
+|||| nnnnnn                       || nnnnnnn 99999999 888888888 rrr 
+|||||||| nn 9 *                   |||| nnnn 9999999 888888888 rrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 9999 888888888 rrrrr 
+|| n 99999                        |||||| nnnnnnn 999999999 88888888 r 
+|||| nn 8                         || nnnnn 999999999 8888888 rrr 
+|||||||| nnnn 88 *                |||| 999999999 88888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| 99999999 8 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 999999 888 
+The solution is: nnnn 8 rrrrrrr 
+|                                 |||||| nnnnnn 999999999 88888888 rrrrr 
+||                                || nnn 999999999 8888888 r 
+||||                              |||| nnnnnn 99999999 88888 rrr 
+||||||||                          |||||||| nn 9999999 8 rrrrrrr 
+|||||| n *                        |||||| nnnnn 9999 888 rrrr 
+|| nnn                            || n 999999999 888888 rrrrrrrr 
+|||| nnnnnn                       |||| nn 99999999 888 rrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnn 999999 8888888 rrrr 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 99 88888 rrrrrrrrr 
+|| n 99999                        || nnnnnnnnn 99999 rrrrrrrrr 
+|||| nn 8                         |||| nnnnnnnn 9 8 rrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 999 88 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 9999999 8888 rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 9999 888888888 rrrr 
+The solution is: nnnnnnnn 999999 8888888 rr 
+|                                 ||||||| nnn 9999 888888 rrrrrrrr 
+||                                |||| nnnnnnn 99999999 88 rrrrrrr 
+||||                              |||||||| nnnn 9999999 88888 rrrr 
+||||||||                          |||||| nnnnnnnnn 9999 8 rrrrrrrrr 
+|||||| n *                        || nnnnnnnnn 999999999 88 rrrrrrrr 
+|| nnn                            |||| nnnnnnnn 999999999 88888 rrrrrr 
+|||| nnnnnn                       |||||||| nnnnnn 999999999 8 rrr 
+|||||||| nn 9 *                   |||||| nnn 999999999 888 rrrrrr 
+|||||| nnnnn 99                   || nnnnnnn 99999999 8888888 rr 
+|| n 99999                        |||| nnnn 9999999 88888 rrrrr 
+|||| nn 8                         |||||||| nnnnnnnn 9999 8 r 
+|||||||| nnnn 88 *                |||||| nnnnnnn 999999999 88 rr 
+|||||| nnnnnnnnn 8888 *           || nnnnn 999999999 88888 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||| 999999999 8 rrrrrrrrr 
+The solution is: nnnnnn 9999999 8888888 
+|                                 |||||| 999999 8888 rrrrrr 
+||                                || n 99 888888888 rr 
+||||                              |||| nn 9999 88888888 rrrrr 
+||||||||                          |||||||| nnnn 99999999 888888 r 
+|||||| n *                        |||||| nnnnnnnnn 999999 888 rrr 
+|| nnn                            || nnnnnnnnn 999 8888888 rrrrrr 
+|||| nnnnnn                       |||| nnnnnnnn 9999999 8888 rrr 
+|||||||| nn 9 *                   |||||||| nnnnnn 99999 888888888 rrrrrr 
+|||||| nnnnn 99                   |||||| nnn 9 888888888 rrr 
+|| n 99999                        || nnnnnnn 99 88888888 rrrrrrr 
+|||| nn 8                         |||| nnnn 99999 888888 rrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 888 r 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 9 888888 rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 999 88 rrrrr 
+The solution is: nnnnnnnn 99999999 8888 rrrrrrrrr 
+|                                 nnnnnnnn 999999 88888888 rrrr 
+||                                nnnnnn 999 8888888 rrrrrrrrr 
+||||                              nn 9999999 8888 rrrrrrrrr 
+||||||||                          nnnn 9999 888888888 rrrrrrrr 
+|||||| n *                        nnnnnnnn 99999999 88888888 rrrrrrr 
+|| nnn                            nnnnnn 9999999 8888888 rrrrr 
+|||| nnnnnn                       nn 99999 88888 r 
+|||||||| nn 9 *                   nnnn 8 rrr 
+|||||| nnnnn 99                   nnnnnnnn 88 rrrrrr 
+|| n 99999                        nnnnnn 9 8888 rr 
+|||| nn 8                         nn 999 88888888 rrrr 
+|||||||| nnnn 88 *                nnnn 999999 888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 99 888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 99999 888888 rrrrrrrr 
+The solution is: 9999 888888 rrrrrrrr 
+|                                 ||| nnnnnnnn rrr 
+||                                |||||| nnnnnn 9 rrrrrr 
+||||                              || nnn 999 rr 
+||||||||                          |||| nnnnnn 999999 rrrr 
+|||||| n *                        |||||||| nn 999 8 rrrrrrrr 
+|| nnn                            |||||| nnnnn 999999 88 rrrrrr 
+|||| nnnnnn                       || n 999 88888 rr 
+|||||||| nn 9 *                   |||| nn 999999 rrrrr 
+|||||| nnnnn 99                   |||||||| nnnn 99 8 
+|| n 99999                        |||||| nnnnnnnnn 9999 88 
+|||| nn 8                         || nnnnnnnnn 999999999 8888 
+|||||||| nnnn 88 *                |||| nnnnnnnn 999999999 888888888 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnn 999999999 888888888 r 
+|| nnnnnnnnn 9 88888888 *         |||||| nnn 999999999 888888888 rrr 
+The solution is: nnnn 99999999 8 
+|                                 |||||| nnnnnnnnn 99999999 888888888 r 
+||                                || nnnnnnnnn 9999999 888888888 rrr 
+||||                              |||| nnnnnnnn 99999 888888888 rrrrrrr 
+||||||||                          |||||||| nnnnnn 9 888888888 rrrrr 
+|||||| n *                        |||||| nnn 999 88888888 r 
+|| nnn                            || nnnnnnn 999999 888888 rrr 
+|||| nnnnnn                       |||| nnnn 999 888 rrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 999999 888888 rrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 999 888 rrrrrrrrr 
+|| n 99999                        || nnnnn 9999999 888888 rrrrrrrr 
+|||| nn 8                         |||| 99999 888 rrrrrrr 
+|||||||| nnnn 88 *                |||||||| 8888888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n 8888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 88888888 rrrrrrrr 
+The solution is: nnnnnnnn 8888 rrrrrrrrr 
+|                                 |||||||| 999999999 8 rr 
+||                                |||||| n 99999999 888 rrrr 
+||||                              || nnn 999999 8888888 rrrrrrrr 
+||||||||                          |||| nnnnnn 99 88888 rrrrrrr 
+|||||| n *                        |||||||| nn 99999 rrrrr 
+|| nnn                            |||||| nnnnn 8 
+|||| nnnnnn                       || n 9 88 
+|||||||| nn 9 *                   |||| nn 99 8888 
+|||||| nnnnn 99                   |||||||| nnnn 9999 88888888 
+|| n 99999                        |||||| nnnnnnnnn 99999999 888888 r 
+|||| nn 8                         || nnnnnnnnn 9999999 888 rrr 
+|||||||| nnnn 88 *                |||| nnnnnnnn 99999 8888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnn 9 88888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnn 999 rrrrrrr 
+The solution is: nnnn 99999999 8888888 rr 
+|                                 | nnnnnn 99999 rrrrrrr 
+||                                || nn 9 8 rrrr 
+||||                              |||| nnnn 99 88 rrrrrrrr 
+||||||||                          |||||||| nnnnnnnn 9999 8888 rrrrrr 
+|||||| n *                        |||||| nnnnnnn 999999999 88888888 rr 
+|| nnn                            || nnnnn 999999999 8888888 rrrrr 
+|||| nnnnnn                       |||| 999999999 88888 r 
+|||||||| nn 9 *                   |||||||| 99999999 8 rrr 
+|||||| nnnnn 99                   |||||| n 999999 888 rrrrrr 
+|| n 99999                        || nnn 99 8888888 rr 
+|||| nn 8                         |||| nnnnnn 9999 8888 rrrrr 
+|||||||| nnnn 88 *                |||||||| nn 999999999 88888888 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnn 99999999 8888888 r 
+|| nnnnnnnnn 9 88888888 *         || n 9999999 88888 rrr 
+The solution is: nnnnnnnn 99 888 rr 
+|                                 |||| n 9999999 88888 rrrrr 
+||                                |||||||| nn 9999 8 r 
+||||                              |||||| nnnnn 99999999 88 rr 
+||||||||                          || n 9999999 88888 rrrr 
+|||||| n *                        |||| nn 9999 8 rrrrrrrrr 
+|| nnn                            |||||||| nnnn 99999999 88 rrrrrrrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 999999 88888 rrrrrr 
+|||||||| nn 9 *                   || nnnnnnnnn 999 8 rrr 
+|||||| nnnnn 99                   |||| nnnnnnnn 9999999 88 rrrrrr 
+|| n 99999                        |||||||| nnnnnn 99999 88888 rr 
+|||| nn 8                         |||||| nnn 9 8 rrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 99 88 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 99999 8888 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 888888888 
+The solution is: nn 9999999 88888888 rrr 
+|                                 ||||||| nnn rrrrr 
+||                                |||| nnnnnnn 
+||||                              |||||||| nnnn 9 
+||||||||                          |||||| nnnnnnnnn 99 
+|||||| n *                        || nnnnnnnnn 99999 
+|| nnn                            |||| nnnnnnnn 9 8 
+|||| nnnnnn                       |||||||| nnnnnn 999 88 
+|||||||| nn 9 *                   |||||| nnn 9999999 8888 
+|||||| nnnnn 99                   || nnnnnnn 9999 888888888 
+|| n 99999                        |||| nnnn 999999999 88888888 r 
+|||| nn 8                         |||||||| nnnnnnnn 99999999 8888888 rrr 
+|||||||| nnnn 88 *                |||||| nnnnnnn 9999999 88888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnn 99999 8 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| 9 888 
+The solution is: nnnnnn 9999999 88888 rrr 
+|                                 ||||| nn 999999 88888 rrrrrr 
+||                                nnnnn 99 8 rrr 
+||||                              99999 88 rrrrrr 
+||||||||                          88888 rr 
+|||||| n *                        rrrrr 
+|| nnn                            
+|||| nnnnnn                       
+|||||||| nn 9 *                   
+|||||| nnnnn 99                   
+|| n 99999                        
+|||| nn 8                         
+|||||||| nnnn 88 *                
+|||||| nnnnnnnnn 8888 *           
+|| nnnnnnnnn 9 88888888 *         
+The solution is: rrrrr 
+|                                 ||||| nn 9999 88888 rrrrr 
+||                                nnnnn 99999999 r 
+||||                              9999999 8 rr 
+||||||||                          9999 888 rrrr 
+|||||| n *                        99999999 888888 rrrrrrrr 
+|| nnn                            999999 888 rrrrrrr 
+|||| nnnnnn                       99 8888888 rrrr 
+|||||||| nn 9 *                   9999 8888 rrrrrrrrr 
+|||||| nnnnn 99                   99999999 88888888 rrrrrrrr 
+|| n 99999                        999999 8888888 rrrrrrr 
+|||| nn 8                         99 88888 rrrrr 
+|||||||| nnnn 88 *                9999 r 
+|||||| nnnnnnnnn 8888 *           99999999 rr 
+|| nnnnnnnnn 9 88888888 *         999999 8 rrrr 
+The solution is: 8888 rrrrr 
+|                                 |||||||| nn 999999 88888 rrrrr 
+||                                |||||| nnnnn 99 8 r 
+||||                              || n 99999 88 rr 
+||||||||                          |||| nn 88888 rrrr 
+|||||| n *                        |||||||| nnnn rrrrrrrrr 
+|| nnn                            |||||| nnnnnnnnn rrrrrrrr 
+|||| nnnnnn                       || nnnnnnnnn 9 rrrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 999 rr 
+|||||| nnnnn 99                   |||||||| nnnnnn 9999999 rrrr 
+|| n 99999                        |||||| nnn 99999 8 rrrrrrrr 
+|||| nn 8                         || nnnnnnn 888 rrrrrr 
+|||||||| nnnn 88 *                |||| nnnn 9 888888 rr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 99 88 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 99999 8888 
+The solution is: nnnn 9999 888 rrrrrrrrr 
+|                                 |||||| nnnnnnnn 99999999 888888 rrrrrrr 
+||                                || nnnnnnn 9999999 888 rrrrr 
+||||                              |||| nnnn 99999 8888888 
+||||||||                          |||||||| nnnnnnnn 88888 r 
+|||||| n *                        |||||| nnnnnnn 9 rrr 
+|| nnn                            || nnnnn 999 rrrrrr 
+|||| nnnnnn                       |||| 9999999 rr 
+|||||||| nn 9 *                   |||||||| 9999 8 rrrr 
+|||||| nnnnn 99                   |||||| n 99999999 88 rrrrrrrr 
+|| n 99999                        || nnn 999999 88888 rrrrrr 
+|||| nn 8                         |||| nnnnnn 99 8 rrr 
+|||||||| nnnn 88 *                |||||||| nn 99999 88 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnn 88888 rr 
+|| nnnnnnnnn 9 88888888 *         || n 9 rrrrr 
+The solution is: nnnnnnnn 99 888888888 
+|                                 ||||||||| nn 999999 88888 rrrrr 
+||                                |||||||| nnnnn 99 8 r 
+||||                              |||||| n 99999 88 rr 
+||||||||                          || nnn 88888 rrrr 
+|||||| n *                        |||| nnnnnn rrrrrrrrr 
+|| nnn                            |||||||| nn 9 rrrrrrrr 
+|||| nnnnnn                       |||||| nnnnn 99 rrrrrr 
+|||||||| nn 9 *                   || n 99999 rr 
+|||||| nnnnn 99                   |||| nn 8 rrrr 
+|| n 99999                        |||||||| nnnn 88 rrrrrrrr 
+|||| nn 8                         |||||| nnnnnnnnn 8888 rrrrrr 
+|||||||| nnnn 88 *                || nnnnnnnnn 9 88888888 rr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 999 888888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 9999999 88 r 
+The solution is: nn 999999999 8888888 
+|                                 999999999 
+||                                99999999 8 
+||||                              999999 888 
+||||||||                          99 8888888 
+|||||| n *                        9999 8888 r 
+|| nnn                            99999999 88888888 rr 
+|||| nnnnnn                       999999 8888888 rrrrr 
+|||||||| nn 9 *                   99 88888 r 
+|||||| nnnnn 99                   9999 rrr 
+|| n 99999                        99999999 rrrrrr 
+|||| nn 8                         999999 8 rr 
+|||||||| nnnn 88 *                99 888 rrrr 
+|||||| nnnnnnnnn 8888 *           9999 888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         99999999 88 rrrrrrr 
+The solution is: 88 rrr 
+|                                 nnnnn 99 8888 rrr 
+||                                99999 88888888 rrrrrr 
+||||                              8888888 rrr 
+||||||||                          8888 rrrrrrr 
+|||||| n *                        88888888 rrrr 
+|| nnn                            888888 rrrrrrrrr 
+|||| nnnnnn                       88 rrrrrrrrr 
+|||||||| nn 9 *                   8888 rrrrrrrr 
+|||||| nnnnn 99                   88888888 rrrrrr 
+|| n 99999                        888888 rrr 
+|||| nn 8                         88 rrrrrrr 
+|||||||| nnnn 88 *                8888 rrrr 
+|||||| nnnnnnnnn 8888 *           88888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         888888 rrrrrrr 
+The solution is: rrrr 
+|                                 || nnnnn 88 rrrrrrr 
+||                                |||| 9 8888 rrrr 
+||||                              |||||||| 99 88888888 rrrrrrrr 
+||||||||                          |||||| n 9999 888888 rrrrrrr 
+|||||| n *                        || nnn 99999999 88 rrrrr 
+|| nnn                            |||| nnnnnn 999999 88888 
+|||| nnnnnn                       |||||||| nn 999 8 r 
+|||||||| nn 9 *                   |||||| nnnnn 999999 88 rr 
+|||||| nnnnn 99                   || n 999 88888 rrrr 
+|| n 99999                        |||| nn 999999 rrrrrrrrr 
+|||| nn 8                         |||||||| nnnn 99 8 rrrrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 9999 88 rrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 999999999 8888 rr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 999999999 888888888 rrrr 
+The solution is: nnnnnn 999999999 88 r 
+|                                 ||||||| nnnnnn 999999999 88888 
+||                                |||| nnn 999999999 8 r 
+||||                              |||||||| nnnnnn 99999999 888 rr 
+||||||||                          |||||| nnn 9999999 8888888 rrrr 
+|||||| n *                        || nnnnnnn 9999 88888 rrrrrrrrr 
+|| nnn                            |||| nnnn 999999999 rrrrrrrrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 99999999 8 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 9999999 888 rrrrrr 
+|||||| nnnnn 99                   || nnnnn 99999 8888888 rr 
+|| n 99999                        |||| 9 88888 rrrrr 
+|||| nn 8                         |||||||| 99 r 
+|||||||| nnnn 88 *                |||||| n 9999 rr 
+|||||| nnnnnnnnn 8888 *           || nnn 99999999 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 999999 8 rrrrrrrr 
+The solution is: nnnnnn 9 88 
+|                                 ||||||||| 8888888 rrrrrrrr 
+||                                |||||||| n 8888 rrrrrrr 
+||||                              |||||| nnn 88888888 rrrr 
+||||||||                          || nnnnnnn 888888 rrrrrrrrr 
+|||||| n *                        |||| nnnn 9 88 rrrrrrrrr 
+|| nnn                            |||||||| nnnnnnnn 99 8888 rrrrrrrr 
+|||| nnnnnn                       |||||| nnnnnnn 99999 88888888 rrrrrr 
+|||||||| nn 9 *                   || nnnnn 9 8888888 rrr 
+|||||| nnnnn 99                   |||| 999 8888 rrrrrrr 
+|| n 99999                        |||||||| 999999 88888888 rrrr 
+|||| nn 8                         |||||| n 99 8888888 rrrrrrrrr 
+|||||||| nnnn 88 *                || nnn 9999 8888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnn 99999999 88888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nn 9999999 8888888 rrrrrrr 
+The solution is: nn 999 rrrrrrrrr 
+|                                 ||||||| nnnnnnn 99999999 8888888 r 
+||                                |||| nnnnn 9999999 88888 rrr 
+||||                              |||||||| 99999 8 rrrrrrr 
+||||||||                          |||||| n 888 rrrr 
+|||||| n *                        || nnn 888888 rrrrrrrr 
+|| nnn                            |||| nnnnnn 88 rrrrrrr 
+|||| nnnnnn                       |||||||| nn 9 8888 rrrr 
+|||||||| nn 9 *                   |||||| nnnnn 99 88888888 rrrrrrrr 
+|||||| nnnnn 99                   || n 99999 888888 rrrrrrr 
+|| n 99999                        |||| nn 888 rrrrr 
+|||| nn 8                         |||||||| nnnn 888888 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 88 r 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 9 8888 rr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 999 88888888 rrrr 
+The solution is: nnnnnn 999999999 88888888 rrrrr 
+|                                 ||| n 99 88 rrrrr 
+||                                |||||| nn 9999 8888 
+||||                              || nnnnn 99999999 88888888 
+||||||||                          |||| 9999999 8888888 r 
+|||||| n *                        |||||||| 9999 88888 rrr 
+|| nnn                            |||||| n 99999999 rrrrrrr 
+|||| nnnnnn                       || nnn 999999 8 rrrr 
+|||||||| nn 9 *                   |||| nnnnnn 99 888 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nn 99999 888888 rrrrrr 
+|| n 99999                        |||||| nnnnn 888 rrr 
+|||| nn 8                         || n 9 888888 rrrrrr 
+|||||||| nnnn 88 *                |||| nn 99 88 rrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 9999 8888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 99999999 88888888 rr 
+The solution is: nnnn 99 8888 rrrr 
+|                                 | nnnn 999 8888888 r 
+||                                || nnnnnnnn 999999 8888 rrr 
+||||                              |||| nnnnnn 999 888888888 rrrrrr 
+||||||||                          |||||||| nn 9999999 88888888 rrr 
+|||||| n *                        |||||| nnnnn 9999 8888888 rrrrrrr 
+|| nnn                            || n 999999999 8888 rrrrr 
+|||| nnnnnn                       |||| nn 99999999 888888888 
+|||||||| nn 9 *                   |||||||| nnnn 999999 888888888 r 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 99 888888888 rrr 
+|| n 99999                        || nnnnnnnnn 99999 88888888 rrrrrrr 
+|||| nn 8                         |||| nnnnnnnn 9 8888888 rrrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnn 999 8888 r 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 9999999 88888888 rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 9999 8888888 rrrrr 
+The solution is: nnnnnnnn 999999 8888888 rrrrrrrrr 
+|                                 999999 88888 
+||                                99 8 r 
+||||                              9999 88 rr 
+||||||||                          99999999 8888 rrrr 
+|||||| n *                        999999 888888888 rrrrrrrr 
+|| nnn                            99 888888888 rrrrrrr 
+|||| nnnnnn                       9999 88888888 rrrrr 
+|||||||| nn 9 *                   99999999 888888 r 
+|||||| nnnnn 99                   999999 888 rrr 
+|| n 99999                        99 8888888 rrrrrr 
+|||| nn 8                         9999 8888 rrr 
+|||||||| nnnn 88 *                99999999 88888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           999999 8888888 rrr 
+|| nnnnnnnnn 9 88888888 *         99 88888 rrrrrrr 
+The solution is: 88888888 rrrrrrrr 
+|                                 || nnnnn 99 8888888 rrr 
+||                                |||| 99999 8888 rrrrrrr 
+||||                              |||||||| 888888888 rrrr 
+||||||||                          |||||| n 88888888 rrrrrrrrr 
+|||||| n *                        || nnn 888888 rrrrrrrrr 
+|| nnn                            |||| nnnnnn 88 rrrrrrrrr 
+|||| nnnnnn                       |||||||| nn 9 8888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnn 99 88888888 rrrrrr 
+|||||| nnnnn 99                   || n 99999 888888 rrr 
+|| n 99999                        |||| nn 888 rrrrrrr 
+|||| nn 8                         |||||||| nnnn 888888 rrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 88 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 9 8888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 999 88888888 rrrrrr 
+The solution is: nnnnnn 999999999 88888888 
+|                                 || nn 9 8888 rrrrrrrr 
+||                                |||| nnnn 99 88888888 rrrrrr 
+||||                              |||||||| nnnnnnnn 9999 888888 rrr 
+||||||||                          |||||| nnnnnnn 999999999 88 rrrrrrr 
+|||||| n *                        || nnnnn 999999999 88888 rrrr 
+|| nnn                            |||| 999999999 8 rrrrrrrrr 
+|||| nnnnnn                       |||||||| 99999999 888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| n 999999 8888888 rrrrrr 
+|||||| nnnnn 99                   || nnn 99 88888 rrr 
+|| n 99999                        |||| nnnnnn 9999 rrrrrrr 
+|||| nn 8                         |||||||| nn 999999999 rrrr 
+|||||||| nnnn 88 *                |||||| nnnnn 99999999 8 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || n 9999999 888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nn 9999 8888888 rr 
+The solution is: nnnnnn 99999 888888 rrrrrrrr 
+|                                 |||||| nnnnnnnnn 9999999 888888888 rrrrrrr 
+||                                || nnnnnnnnn 99999 888888888 rrrrr 
+||||                              |||| nnnnnnnn 9 888888888 r 
+||||||||                          |||||||| nnnnnn 999 88888888 rrr 
+|||||| n *                        |||||| nnn 9999999 888888 rrrrrrr 
+|| nnn                            || nnnnnnn 9999 888 rrrrr 
+|||| nnnnnn                       |||| nnnn 999999999 888888 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 99999999 888 r 
+|||||| nnnnn 99                   |||||| nnnnnnn 9999999 8888888 rr 
+|| n 99999                        || nnnnn 99999 88888 rrrrr 
+|||| nn 8                         |||| 9 8 r 
+|||||||| nnnn 88 *                |||||||| 99 88 rr 
+|||||| nnnnnnnnn 8888 *           |||||| n 9999 8888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 99999999 88888888 rrrrrrrr 
+The solution is: nnnnnnnn 888888 rrrr 
+|                                 |||||| nnnnnnn 99 88888 rr 
+||                                || nnnnn 99999 rrrrr 
+||||                              |||| 9 8 
+||||||||                          |||||||| 99 88 
+|||||| n *                        |||||| n 9999 8888 
+|| nnn                            || nnn 99999999 88888888 
+|||| nnnnnn                       |||| nnnnnn 999999 8888888 r 
+|||||||| nn 9 *                   |||||||| nn 999 88888 rrr 
+|||||| nnnnn 99                   |||||| nnnnn 999999 rrrrrrr 
+|| n 99999                        || n 999 8 rrrr 
+|||| nn 8                         |||| nn 999999 88 rrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 99 88888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 9999 rrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 999999999 rrrrrr 
+The solution is: nnnnnnnn 9999 888888 rrrrrrrrr 
+|                                 |||||||| nn 99999999 888888 rrr 
+||                                |||||| nnnnn 999999 888 rrrrrrr 
+||||                              || n 999 8888888 rrrr 
+||||||||                          |||| nn 999999 8888 rrrrrrrrr 
+|||||| n *                        |||||||| nnnn 99 888888888 rrrrrrrr 
+|| nnn                            |||||| nnnnnnnnn 9999 88888888 rrrrrrr 
+|||| nnnnnn                       || nnnnnnnnn 999999999 888888 rrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 999999999 888 r 
+|||||| nnnnn 99                   |||||||| nnnnnn 999999999 8888888 rr 
+|| n 99999                        |||||| nnn 999999999 88888 rrrrr 
+|||| nn 8                         || nnnnnnn 99999999 8 r 
+|||||||| nnnn 88 *                |||| nnnn 9999999 888 rr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 9999 8888888 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 999999999 8888 rrrrrrrrr 
+The solution is: nnnn 9999 888888888 rrrrrr 
+|                                 ||||||| nn 99 888888 rr 
+||                                |||| nnnnn 9999 88 rrrrr 
+||||                              |||||||| 999999999 8888 
+||||||||                          |||||| n 99999999 888888888 
+|||||| n *                        || nnn 999999 888888888 r 
+|| nnn                            |||| nnnnnn 99 888888888 rrr 
+|||| nnnnnn                       |||||||| nn 99999 88888888 rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnn 8888888 rrrrr 
+|||||| nnnnn 99                   || n 9 8888 r 
+|| n 99999                        |||| nn 99 88888888 rr 
+|||| nn 8                         |||||||| nnnn 9999 888888 rrrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 99999999 88 r 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 9999999 88888 rr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 99999 8 rrrrr 
+The solution is: nnnnnn 999999999 888888 rrrrrr 
+|                                 |||| nn 888888888 rr 
+||                                |||||||| nnnn 88888888 rrrrr 
+||||                              |||||| nnnnnnnnn 888888 r 
+||||||||                          || nnnnnnnnn 9 88 rrr 
+|||||| n *                        |||| nnnnnnnn 999 8888 rrrrrr 
+|| nnn                            |||||||| nnnnnn 9999999 88888888 rr 
+|||| nnnnnn                       |||||| nnn 99999 8888888 rrrrr 
+|||||||| nn 9 *                   || nnnnnnn 88888 r 
+|||||| nnnnn 99                   |||| nnnn 9 rrr 
+|| n 99999                        |||||||| nnnnnnnn 99 rrrrrr 
+|||| nn 8                         |||||| nnnnnnn 99999 rr 
+|||||||| nnnn 88 *                || nnnnn 9 8 rrrr 
+|||||| nnnnnnnnn 8888 *           |||| 999 88 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| 999999 8888 rrrrrr 
+The solution is: nn 99999 8888888 rrrrrr 
+|                                 |||||| nnnn 9 88 r 
+||                                || nnnnnnnnn 99 8888 rr 
+||||                              |||| nnnnnnnn 99999 88888888 rrrr 
+||||||||                          |||||||| nnnnnn 9 8888888 rrrrrrrrr 
+|||||| n *                        |||||| nnn 999 8888 rrrrrrrrr 
+|| nnn                            || nnnnnnn 999999 88888888 rrrrrrrr 
+|||| nnnnnn                       |||| nnnn 999 8888888 rrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 999999 8888 rrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 999 888888888 
+|| n 99999                        || nnnnn 9999999 88888888 r 
+|||| nn 8                         |||| 99999 8888888 rrr 
+|||||||| nnnn 88 *                |||||||| 88888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n rrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 
+The solution is: nnnnnnnn 8888 rrrrrrr 
+|                                 |||||| n 888888888 rr 
+||                                || nnn 88888888 rrrrr 
+||||                              |||| nnnnnn 888888 r 
+||||||||                          |||||||| nn 9 88 rrr 
+|||||| n *                        |||||| nnnnn 99 8888 rrrrrr 
+|| nnn                            || n 99999 88888888 rr 
+|||| nnnnnn                       |||| nn 8888888 rrrrr 
+|||||||| nn 9 *                   |||||||| nnnn 8888 r 
+|||||| nnnnn 99                   |||||| nnnnnnnnn 88888888 rr 
+|| n 99999                        || nnnnnnnnn 9 888888 rrrrr 
+|||| nn 8                         |||| nnnnnnnn 999 88 r 
+|||||||| nnnn 88 *                |||||||| nnnnnn 9999999 8888 rr 
+|||||| nnnnnnnnn 8888 *           |||||| nnn 99999 888888888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnn 888888888 rrrrrrrrr 
+The solution is: nnnnnnnn 999999 8 rrrrr 
+|                                 || nnnnnnnn 999999999 888888888 
+||                                |||| nnnnnn 999999999 888888888 r 
+||||                              |||||||| nn 999999999 888888888 rrr 
+||||||||                          |||||| nnnnn 99999999 888888888 rrrrrrr 
+|||||| n *                        || n 9999999 888888888 rrrrr 
+|| nnn                            |||| nn 9999 888888888 r 
+|||| nnnnnn                       |||||||| nnnn 99999999 88888888 rrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 999999 8888888 rrrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 999 88888 rrrrr 
+|| n 99999                        |||| nnnnnnnn 9999999 r 
+|||| nn 8                         |||||||| nnnnnn 99999 8 rr 
+|||||||| nnnn 88 *                |||||| nnn 9 888 rrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 99 888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 99999 88 rrrrrrr 
+The solution is: nnnnnn 999 888888888 rrr 
+|                                 |||||| nn 99999999 rrrrrr 
+||                                || nnnnn 999999 8 rr 
+||||                              |||| 999 888 rrrr 
+||||||||                          |||||||| 999999 888888 rrrrrrrr 
+|||||| n *                        |||||| n 99 888 rrrrrrr 
+|| nnn                            || nnn 9999 888888 rrrr 
+|||| nnnnnn                       |||| nnnnnn 99999999 88 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nn 9999999 88888 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnn 9999 8 rrrrrrr 
+|| n 99999                        || n 999999999 88 rrrr 
+|||| nn 8                         |||| nn 99999999 88888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 999999 8 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 99 888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 99999 888888 rrrrrrrr 
+The solution is: nnnnnnnn 9999 rrrrrr 
+|                                 9 888888888 rrrrr 
+||                                99 88888888 r 
+||||                              9999 888888 rrr 
+||||||||                          99999999 88 rrrrrrr 
+|||||| n *                        999999 88888 rrrr 
+|| nnn                            99 8 rrrrrrrrr 
+|||| nnnnnn                       9999 88 rrrrrrrr 
+|||||||| nn 9 *                   99999999 8888 rrrrrr 
+|||||| nnnnn 99                   999999 888888888 rr 
+|| n 99999                        99 888888888 rrrrr 
+|||| nn 8                         9999 88888888 r 
+|||||||| nnnn 88 *                99999999 888888 rrr 
+|||||| nnnnnnnnn 8888 *           999999 888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         99 8888888 rrrr 
+The solution is: 88888888 rrrrrr 
+|                                 nnn 99 888888 rrr 
+||                                nnnnnn 9999 88 rrrrrrr 
+||||                              nn 999999999 8888 rrrr 
+||||||||                          nnnn 99999999 888888888 rrrrrrrr 
+|||||| n *                        nnnnnnnn 999999 888888888 rrrrrrr 
+|| nnn                            nnnnnn 999 888888888 rrrrr 
+|||| nnnnnn                       nn 9999999 88888888 r 
+|||||||| nn 9 *                   nnnn 9999 8888888 rrr 
+|||||| nnnnn 99                   nnnnnnnn 99999999 8888 rrrrrrr 
+|| n 99999                        nnnnnn 9999999 888888888 rrrr 
+|||| nn 8                         nn 99999 888888888 rrrrrrrrr 
+|||||||| nnnn 88 *                nnnn 888888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 88888888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 9 888888 rrrrrrrrr 
+The solution is: 9999 r 
+|                                 |||| nnn 9999999 88 rrrrrrrr 
+||                                |||||||| nnnnnn 9999 88888 rrrrrr 
+||||                              |||||| nnn 999999999 rrr 
+||||||||                          || nnnnnnn 99999999 8 rrrrrr 
+|||||| n *                        |||| nnnn 9999999 888 rr 
+|| nnn                            |||||||| nnnnnnnn 9999 8888888 rrrr 
+|||| nnnnnn                       |||||| nnnnnnn 999999999 8888 rrrrrrrrr 
+|||||||| nn 9 *                   || nnnnn 999999999 888888888 rrrrrrrr 
+|||||| nnnnn 99                   |||| 999999999 888888888 rrrrrrr 
+|| n 99999                        |||||||| 99999999 888888888 rrrrr 
+|||| nn 8                         |||||| n 999999 888888888 r 
+|||||||| nnnn 88 *                || nnn 99 888888888 rrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnn 9999 88888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nn 999999999 888888 rrrrr 
+The solution is: nn 999 88888888 rrrrrrrr 
+|                                 | nnnnnn 999999 888888888 rrr 
+||                                || nn 999 888888888 rrrrrrr 
+||||                              |||| nnnn 999999 88888888 rrrrr 
+||||||||                          |||||||| nnnnnnnn 99 8888888 r 
+|||||| n *                        |||||| nnnnnnn 99999 8888 rrr 
+|| nnn                            || nnnnn 9 888888888 rrrrrr 
+|||| nnnnnn                       |||| 999 88888888 rrr 
+|||||||| nn 9 *                   |||||||| 999999 888888 rrrrrrr 
+|||||| nnnnn 99                   |||||| n 99 888 rrrrr 
+|| n 99999                        || nnn 9999 888888 
+|||| nn 8                         |||| nnnnnn 99999999 88 r 
+|||||||| nnnn 88 *                |||||||| nn 9999999 88888 rr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnn 9999 8 rrrrr 
+|| nnnnnnnnn 9 88888888 *         || n 999999999 88 
+The solution is: nnnnnnnn 99 8 rrrrrrrrr 
+|                                 ||||| nnnn 999999999 8 
+||                                nnnnnnnnn 99999999 888 
+||||                              nnnnnnnn 9999999 8888888 
+||||||||                          nnnnnn 99999 88888 r 
+|||||| n *                        nn 9 8 rrr 
+|| nnn                            nnnn 99 88 rrrrrr 
+|||| nnnnnn                       nnnnnnnn 9999 8888 rr 
+|||||||| nn 9 *                   nnnnnn 999999999 88888888 rrrr 
+|||||| nnnnn 99                   nn 999999999 8888888 rrrrrrrrr 
+|| n 99999                        nnnn 99999999 88888 rrrrrrrrr 
+|||| nn 8                         nnnnnnnn 999999 8 rrrrrrrrr 
+|||||||| nnnn 88 *                nnnnnn 999 888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nn 9999999 888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         nnnn 9999 888 rrr 
+The solution is: 999999 888 rrrrrr 
+|                                 || nnnnnnn 9999999 88 rrrr 
+||                                |||| nnnn 99999 88888 rrrrrrrr 
+||||                              |||||||| nnnnnnnn 8 rrrrrrr 
+||||||||                          |||||| nnnnnnn 9 88 rrrr 
+|||||| n *                        || nnnnn 999 8888 rrrrrrrr 
+|| nnn                            |||| 9999999 88888888 rrrrrr 
+|||| nnnnnn                       |||||||| 9999 8888888 rrr 
+|||||||| nn 9 *                   |||||| n 99999999 8888 rrrrrrr 
+|||||| nnnnn 99                   || nnn 999999 888888888 rrrr 
+|| n 99999                        |||| nnnnnn 99 888888888 rrrrrrrrr 
+|||| nn 8                         |||||||| nn 99999 88888888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnn 8888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || n 9 8888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nn 99 88888888 rrrrrrrr 
+The solution is: nnnnnn 99999 88888888 rrr 
+|                                 |||||| nnnnnnnn 99 88888 r 
+||                                || nnnnnnn 99999 rrr 
+||||                              |||| nnnn 9 8 rrrrrr 
+||||||||                          |||||||| nnnnnnnn 99 88 rr 
+|||||| n *                        |||||| nnnnnnn 99999 8888 rrrr 
+|| nnn                            || nnnnn 9 888888888 rrrrrrrr 
+|||| nnnnnn                       |||| 999 88888888 rrrrrrr 
+|||||||| nn 9 *                   |||||||| 999999 888888 rrrrr 
+|||||| nnnnn 99                   |||||| n 99 888 r 
+|| n 99999                        || nnn 9999 888888 rr 
+|||| nn 8                         |||| nnnnnn 99999999 88 rrrrr 
+|||||||| nnnn 88 *                |||||||| nn 9999999 88888 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnn 9999 8 r 
+|| nnnnnnnnn 9 88888888 *         || n 999999999 88 rr 
+The solution is: nnnnnnnn 99 8 rrrr 
+|                                 nnnnnnn 999 8888888 rrrrr 
+||                                nnnn 9999999 8888 r 
+||||                              nnnnnnnn 9999 888888888 rr 
+||||||||                          nnnnnn 999999999 88888888 rrrrr 
+|||||| n *                        nn 999999999 8888888 r 
+|| nnn                            nnnn 99999999 88888 rrr 
+|||| nnnnnn                       nnnnnnnn 999999 8 rrrrrrr 
+|||||||| nn 9 *                   nnnnnn 999 888 rrrr 
+|||||| nnnnn 99                   nn 9999999 888888 rrrrrrrr 
+|| n 99999                        nnnn 9999 888 rrrrrrr 
+|||| nn 8                         nnnnnnnn 99999999 888888 rrrr 
+|||||||| nnnn 88 *                nnnnnn 9999999 888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nn 99999 8888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         nnnn 88888 rrrrrrr 
+The solution is: 999999 8888888 r 
+|                                 || nnnnn 9999999 8888 r 
+||                                |||| 99999 888888888 rr 
+||||                              |||||||| 888888888 rrrrr 
+||||||||                          |||||| n 88888888 r 
+|||||| n *                        || nnn 888888 rrr 
+|| nnn                            |||| nnnnnn 88 rrrrrrr 
+|||| nnnnnn                       |||||||| nn 9 8888 rrrr 
+|||||||| nn 9 *                   |||||| nnnnn 99 88888888 rrrrrrrr 
+|||||| nnnnn 99                   || n 99999 888888 rrrrrrr 
+|| n 99999                        |||| nn 888 rrrrr 
+|||| nn 8                         |||||||| nnnn 888888 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 88 r 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 9 8888 rr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 999 88888888 rrrr 
+The solution is: nnnnnn 999999999 88888888 
+|                                 |||| nn 99999 88888888 
+||                                |||||||| nnnn 8888888 r 
+||||                              |||||| nnnnnnnnn 8888 rrr 
+||||||||                          || nnnnnnnnn 9 88888888 rrrrrr 
+|||||| n *                        |||| nnnnnnnn 999 888888 rrr 
+|| nnn                            |||||||| nnnnnn 9999999 88 rrrrrrr 
+|||| nnnnnn                       |||||| nnn 99999 88888 rrrr 
+|||||||| nn 9 *                   || nnnnnnn 8 rrrrrrrrr 
+|||||| nnnnn 99                   |||| nnnn 9 88 rrrrrrrr 
+|| n 99999                        |||||||| nnnnnnnn 99 8888 rrrrrr 
+|||| nn 8                         |||||| nnnnnnn 99999 88888888 rr 
+|||||||| nnnn 88 *                || nnnnn 9 8888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| 999 8888 r 
+|| nnnnnnnnn 9 88888888 *         |||||||| 999999 88888888 rr 
+The solution is: nn 99999 8888888 rr 
+|                                 ||||||||| nnnnnnnnn 999999999 88 rr 
+||                                |||||||| nnnnnnnnn 999999999 88888 rrrr 
+||||                              |||||| nnnnnnnnn 999999999 8 rrrrrrrrr 
+||||||||                          || nnnnnnnnn 999999999 888 rrrrrrrr 
+|||||| n *                        |||| nnnnnnnn 999999999 8888888 rrrrrr 
+|| nnn                            |||||||| nnnnnn 999999999 88888 rrr 
+|||| nnnnnn                       |||||| nnn 999999999 8 rrrrrrr 
+|||||||| nn 9 *                   || nnnnnnn 99999999 888 rrrr 
+|||||| nnnnn 99                   |||| nnnn 9999999 8888888 rrrrrrrr 
+|| n 99999                        |||||||| nnnnnnnn 9999 88888 rrrrrrr 
+|||| nn 8                         |||||| nnnnnnn 999999999 rrrrr 
+|||||||| nnnn 88 *                || nnnnn 999999999 8 
+|||||| nnnnnnnnn 8888 *           |||| 999999999 888 
+|| nnnnnnnnn 9 88888888 *         |||||||| 99999999 8888888 
+The solution is: nn 99999 88888 rr 
+|                                 || nnnnn 999999 88888 r 
+||                                |||| 999 8 rrr 
+||||                              |||||||| 999999 88 rrrrrr 
+||||||||                          |||||| n 99 88888 rr 
+|||||| n *                        || nnn 9999 rrrrr 
+|| nnn                            |||| nnnnnn 99999999 
+|||| nnnnnn                       |||||||| nn 9999999 8 
+|||||||| nn 9 *                   |||||| nnnnn 9999 888 
+|||||| nnnnn 99                   || n 999999999 888888 
+|| n 99999                        |||| nn 99999999 888 r 
+|||| nn 8                         |||||||| nnnn 999999 8888888 rr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 99 88888 rrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 99999 r 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 9 8 rr 
+The solution is: nnnnnn 999999999 rrrr 
+|                                 |||||| nn 9 888888888 rrrr 
+||                                || nnnnn 99 88888888 rrrrrrrrr 
+||||                              |||| 99999 888888 rrrrrrrrr 
+||||||||                          |||||||| 888 rrrrrrrrr 
+|||||| n *                        |||||| n 888888 rrrrrrrr 
+|| nnn                            || nnn 88 rrrrrrr 
+|||| nnnnnn                       |||| nnnnnn 8888 rrrr 
+|||||||| nn 9 *                   |||||||| nn 9 88888888 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnn 99 888888 rrrrrrr 
+|| n 99999                        || n 99999 88 rrrrr 
+|||| nn 8                         |||| nn 88888 
+|||||||| nnnn 88 *                |||||||| nnnn r 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn rr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 9 rrrr 
+The solution is: nnnnnnnn 9999 8888 rrrr 
+|                                 | nnnnn 88888 
+||                                || 9 r 
+||||                              |||| 99 rr 
+||||||||                          |||||||| 9999 rrrr 
+|||||| n *                        |||||| n 99999999 rrrrrrrr 
+|| nnn                            || nnn 999999 8 rrrrrr 
+|||| nnnnnn                       |||| nnnnnn 99 888 rr 
+|||||||| nn 9 *                   |||||||| nn 99999 888888 rrrr 
+|||||| nnnnn 99                   |||||| nnnnn 888 rrrrrrrrr 
+|| n 99999                        || n 9 888888 rrrrrrrr 
+|||| nn 8                         |||| nn 99 88 rrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 9999 8888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 99999999 88888888 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 9999999 8888888 rrrrrrr 
+The solution is: nnnnnnnn 9999 88888888 rrr 
+|                                 | nnnnnnn 999999999 8888888 rr 
+||                                || nnnn 999999999 88888 rrrrr 
+||||                              |||| nnnnnnnn 99999999 8 r 
+||||||||                          |||||||| nnnnnn 9999999 888 rr 
+|||||| n *                        |||||| nnn 99999 8888888 rrrr 
+|| nnn                            || nnnnnnn 88888 rrrrrrrrr 
+|||| nnnnnn                       |||| nnnn 9 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnnnn 99 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnnnn 99999 rrrrrr 
+|| n 99999                        || nnnnn 9 8 rr 
+|||| nn 8                         |||| 999 88 rrrr 
+|||||||| nnnn 88 *                |||||||| 999999 8888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| n 99 888888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnn 9999 88888888 rrr 
+The solution is: nnnnnnnn rr 
+|                                 ||||| nnn 9 888888 rrrr 
+||                                nnnnnnn 99 88 rrrrrrrrr 
+||||                              nnnn 99999 8888 rrrrrrrr 
+||||||||                          nnnnnnnn 888888888 rrrrrr 
+|||||| n *                        nnnnnn 9 88888888 rrr 
+|| nnn                            nn 999 888888 rrrrrrr 
+|||| nnnnnn                       nnnn 999999 88 rrrrr 
+|||||||| nn 9 *                   nnnnnnnn 99 88888 
+|||||| nnnnn 99                   nnnnnn 99999 r 
+|| n 99999                        nn 9 8 rr 
+|||| nn 8                         nnnn 99 88 rrrr 
+|||||||| nnnn 88 *                nnnnnnnn 9999 8888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnn 999999999 88888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         nn 999999999 8888888 rrr 
+The solution is: 99999999 8888 rrr 
+|                                 nnnnnnnn 99 888888888 rr 
+||                                nnnnnn 99999 88888888 rrrrr 
+||||                              nn 9 8888888 r 
+||||||||                          nnnn 99 8888 rrr 
+|||||| n *                        nnnnnnnn 9999 88888888 rrrrrr 
+|| nnn                            nnnnnn 999999999 888888 rrr 
+|||| nnnnnn                       nn 999999999 888 rrrrrrr 
+|||||||| nn 9 *                   nnnn 99999999 8888888 rrrr 
+|||||| nnnnn 99                   nnnnnnnn 999999 88888 rrrrrrrrr 
+|| n 99999                        nnnnnn 999 8 rrrrrrrrr 
+|||| nn 8                         nn 9999999 88 rrrrrrrr 
+|||||||| nnnn 88 *                nnnn 9999 88888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 99999999 rrr 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 9999999 8 rrrrrr 
+The solution is: 9999 8888 rrrrrrr 
+|                                 ||||||| nnn 99999 888888 rrrrrrrr 
+||                                |||| nnnnnnn 888 rrrrrrr 
+||||                              |||||||| nnnn 9 888888 rrrr 
+||||||||                          |||||| nnnnnnnnn 99 88 rrrrrrrrr 
+|||||| n *                        || nnnnnnnnn 99999 8888 rrrrrrrr 
+|| nnn                            |||| nnnnnnnn 9 888888888 rrrrrr 
+|||| nnnnnn                       |||||||| nnnnnn 999 88888888 rrr 
+|||||||| nn 9 *                   |||||| nnn 9999999 888888 rrrrrrr 
+|||||| nnnnn 99                   || nnnnnnn 9999 888 rrrrr 
+|| n 99999                        |||| nnnn 999999999 888888 
+|||| nn 8                         |||||||| nnnnnnnn 99999999 888 r 
+|||||||| nnnn 88 *                |||||| nnnnnnn 9999999 8888888 rr 
+|||||| nnnnnnnnn 8888 *           || nnnnn 99999 88888 rrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| 9 8 r 
+The solution is: nnnnnn 9999999 88888 rrrrr 
+|                                 ||||||||| nn 99999999 888888888 rrrrrr 
+||                                |||||||| nnnnn 999999 888888888 rrr 
+||||                              |||||| n 999 888888888 rrrrrrr 
+||||||||                          || nnn 999999 88888888 rrrrr 
+|||||| n *                        |||| nnnnnn 99 8888888 r 
+|| nnn                            |||||||| nn 99999 8888 rrr 
+|||| nnnnnn                       |||||| nnnnn 888888888 rrrrrr 
+|||||||| nn 9 *                   || n 9 88888888 rrr 
+|||||| nnnnn 99                   |||| nn 99 888888 rrrrrrr 
+|| n 99999                        |||||||| nnnn 9999 88 rrrrr 
+|||| nn 8                         |||||| nnnnnnnnn 99999999 8888 
+|||||||| nnnn 88 *                || nnnnnnnnn 9999999 888888888 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 99999 888888888 r 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 9 888888888 rrr 
+The solution is: nn 999999999 888 rr 
+|                                 nnnnnnnn 99999999 8888 rrr 
+||                                nnnnnn 9999999 888888888 rrrrrr 
+||||                              nn 99999 888888888 rrr 
+||||||||                          nnnn 888888888 rrrrrrr 
+|||||| n *                        nnnnnnnn 88888888 rrrrr 
+|| nnn                            nnnnnn 9 888888 r 
+|||| nnnnnn                       nn 999 88 rrr 
+|||||||| nn 9 *                   nnnn 999999 8888 rrrrrr 
+|||||| nnnnn 99                   nnnnnnnn 99 888888888 rr 
+|| n 99999                        nnnnnn 99999 88888888 rrrrr 
+|||| nn 8                         nn 9 8888888 r 
+|||||||| nnnn 88 *                nnnn 99 8888 rrr 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 9999 88888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 999999999 888888 rrr 
+The solution is: 9999 88 rrrrrr 
+|                                 ||||||||| nnnnnnnn 9999999 888 rrr 
+||                                |||||||| nnnnnnn 99999 8888888 rrrrrr 
+||||                              |||||| nnnnn 9 88888 rrr 
+||||||||                          || n 999 rrrrrrr 
+|||||| n *                        |||| nn 999999 rrrr 
+|| nnn                            |||||||| nnnn 99 8 rrrrrrrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 9999 88 rrrrrr 
+|||||||| nn 9 *                   || nnnnnnnnn 999999999 8888 rr 
+|||||| nnnnn 99                   |||| nnnnnnnn 999999999 888888888 rrrr 
+|| n 99999                        |||||||| nnnnnn 999999999 888888888 rrrrrrrrr 
+|||| nn 8                         |||||| nnn 999999999 888888888 rrrrrrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 99999999 888888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 9999999 888888888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 9999 888888888 rrrrrrrrr 
+The solution is: nn 9999999 8888 rrrrrr 
+|                                 | nnnnn 999999999 888 rrrrrr 
+||                                || 999999999 8888888 rr 
+||||                              |||| 99999999 88888 rrrrr 
+||||||||                          |||||||| 999999 8 r 
+|||||| n *                        |||||| n 99 888 rr 
+|| nnn                            || nnn 9999 888888 rrrr 
+|||| nnnnnn                       |||| nnnnnn 99999999 88 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nn 9999999 88888 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnn 9999 8 rrrrrrr 
+|| n 99999                        || n 999999999 88 rrrr 
+|||| nn 8                         |||| nn 99999999 88888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 999999 8 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 99 888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 99999 888888 rrrrrrrr 
+The solution is: nnnnnnnn 9999 r 
+|                                 |||||||| nn 8 rrr 
+||                                |||||| nnnnn 88 rrrrrr 
+||||                              || n 9 8888 rr 
+||||||||                          |||| nn 99 88888888 rrrr 
+|||||| n *                        |||||||| nnnn 9999 888888 rrrrrrrrr 
+|| nnn                            |||||| nnnnnnnnn 99999999 88 rrrrrrrrr 
+|||| nnnnnn                       || nnnnnnnnn 9999999 88888 rrrrrrrr 
+|||||||| nn 9 *                   |||| nnnnnnnn 99999 8 rrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnn 9 888 rrrr 
+|| n 99999                        |||||| nnn 999 888888 rrrrrrrr 
+|||| nn 8                         || nnnnnnn 999999 88 rrrrrrr 
+|||||||| nnnn 88 *                |||| nnnn 999 88888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnnnnnn 999999 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnn 999 8 rrrrrrrr 
+The solution is: nnnn 9999 88888 rrrrrrrr 
+|                                 ||||||| n 9999 88888 rrrrrr 
+||                                |||| nnn 99999999 rrr 
+||||                              |||||||| nnnnnn 999999 8 rrrrrr 
+||||||||                          |||||| nnn 999 888 rr 
+|||||| n *                        || nnnnnnn 999999 888888 rrrr 
+|| nnn                            |||| nnnn 999 888 rrrrrrrrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 999999 888888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 999 888 rrrrrrr 
+|||||| nnnnn 99                   || nnnnn 9999999 888888 rrrr 
+|| n 99999                        |||| 99999 888 rrrrrrrrr 
+|||| nn 8                         |||||||| 8888888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||| n 8888 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnn 88888888 rrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 888888 rrrrrrrrr 
+The solution is: nnnnnn 9 88888888 rrr 
+|                                 | nnn 9 8888888 r 
+||                                || nnnnnn 99 8888 rrr 
+||||                              |||| nn 99999 88888888 rrrrrr 
+||||||||                          |||||||| nnnn 8888888 rrr 
+|||||| n *                        |||||| nnnnnnnnn 8888 rrrrrrr 
+|| nnn                            || nnnnnnnnn 9 88888888 rrrr 
+|||| nnnnnn                       |||| nnnnnnnn 999 888888 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nnnnnn 9999999 88 rrrrrrrrr 
+|||||| nnnnn 99                   |||||| nnn 99999 88888 rrrrrrrr 
+|| n 99999                        || nnnnnnn 8 rrrrrrr 
+|||| nn 8                         |||| nnnn 9 88 rrrr 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 99 8888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 99999 88888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 9 8888888 rrr 
+The solution is: nnnnnnnn 99999999 888888 rrrrr 
+|                                 ||||| nnnnn 99 8888888 rrrrr 
+||                                n 99999 8888 r 
+||||                              nn 888888888 rr 
+||||||||                          nnnn 88888888 rrrrr 
+|||||| n *                        nnnnnnnn 888888 r 
+|| nnn                            nnnnnn 9 88 rrr 
+|||| nnnnnn                       nn 999 8888 rrrrrr 
+|||||||| nn 9 *                   nnnn 999999 88888888 rr 
+|||||| nnnnn 99                   nnnnnnnn 99 8888888 rrrrr 
+|| n 99999                        nnnnnn 99999 8888 r 
+|||| nn 8                         nn 9 888888888 rr 
+|||||||| nnnn 88 *                nnnn 99 88888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnnnn 9999 888888 r 
+|| nnnnnnnnn 9 88888888 *         nnnnnn 999999999 88 rrr 
+The solution is: 9999 88 rrrrr 
+|                                 || nnnn 9999 8888 
+||                                |||| nnnnnnnn 99999999 88888888 
+||||                              |||||||| nnnnnn 9999999 8888888 r 
+||||||||                          |||||| nnn 99999 88888 rrr 
+|||||| n *                        || nnnnnnn 8 rrrrrrr 
+|| nnn                            |||| nnnn 9 88 rrrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 99 8888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 99999 88888888 rrrrrr 
+|||||| nnnnn 99                   || nnnnn 9 8888888 rrr 
+|| n 99999                        |||| 999 8888 rrrrrrr 
+|||| nn 8                         |||||||| 999999 88888888 rrrr 
+|||||||| nnnn 88 *                |||||| n 99 8888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnn 9999 8888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 99999999 88888888 rrrrrrrr 
+The solution is: nnnnnn 9 rr 
+|                                 ||||||| nnnnnnn 99 888888888 rr 
+||                                |||| nnnnn 99999 88888888 rrrrr 
+||||                              |||||||| 9 8888888 r 
+||||||||                          |||||| n 99 8888 rrr 
+|||||| n *                        || nnn 9999 88888888 rrrrrr 
+|| nnn                            |||| nnnnnn 99999999 888888 rrr 
+|||| nnnnnn                       |||||||| nn 9999999 888 rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnn 9999 8888888 rrrr 
+|||||| nnnnn 99                   || n 999999999 8888 rrrrrrrrr 
+|| n 99999                        |||| nn 99999999 888888888 rrrrrrrr 
+|||| nn 8                         |||||||| nnnn 999999 888888888 rrrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 99 888888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 99999 88888888 r 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 9 8888888 rrr 
+The solution is: nnnnnn 999999999 rrr 
+|                                 || nnnnnnn 99 888888 rrrrrrrr 
+||                                |||| nnnn 99999 88 rrrrrrr 
+||||                              |||||||| nnnnnnnn 88888 rrrr 
+||||||||                          |||||| nnnnnnn 9 rrrrrrrrr 
+|||||| n *                        || nnnnn 999 rrrrrrrr 
+|| nnn                            |||| 9999999 rrrrrr 
+|||| nnnnnn                       |||||||| 9999 8 rr 
+|||||||| nn 9 *                   |||||| n 99999999 88 rrrr 
+|||||| nnnnn 99                   || nnn 999999 88888 rrrrrrrr 
+|| n 99999                        |||| nnnnnn 99 8 rrrrrrr 
+|||| nn 8                         |||||||| nn 99999 88 rrrr 
+|||||||| nnnn 88 *                |||||| nnnnn 88888 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || n 9 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nn 99 rrrr 
+The solution is: nnnnnn 99999 88888888 r 
+|                                 |||||| nnnnnnn 9999999 rr 
+||                                || nnnnn 99999 8 rrrr 
+||||                              |||| 9 888 rrrrrrrr 
+||||||||                          |||||||| 99 888888 rrrrrr 
+|||||| n *                        |||||| n 9999 88 rrr 
+|| nnn                            || nnn 99999999 8888 rrrrrr 
+|||| nnnnnn                       |||| nnnnnn 999999 888888888 rr 
+|||||||| nn 9 *                   |||||||| nn 999 888888888 rrrrr 
+|||||| nnnnn 99                   |||||| nnnnn 999999 88888888 r 
+|| n 99999                        || n 999 8888888 rrr 
+|||| nn 8                         |||| nn 999999 8888 rrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 99 888888888 rrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 9999 88888888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 999999999 888888 rrrrrrrrr 
+The solution is: nnnnnnnn 9999 888888 rrr 
+|                                 |||| 9 
+||                                |||||||| 99 
+||||                              |||||| n 9999 
+||||||||                          || nnn 99999999 
+|||||| n *                        |||| nnnnnn 999999 8 
+|| nnn                            |||||||| nn 999 888 
+|||| nnnnnn                       |||||| nnnnn 999999 888888 
+|||||||| nn 9 *                   || n 999 888 r 
+|||||| nnnnn 99                   |||| nn 999999 888888 rr 
+|| n 99999                        |||||||| nnnn 99 888 rrrrr 
+|||| nn 8                         |||||| nnnnnnnnn 9999 888888 
+|||||||| nnnn 88 *                || nnnnnnnnn 999999999 88 r 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 999999999 88888 rr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 999999999 8 rrrrr 
+The solution is: nn 999999999 88888 
+|                                 || nnnnnnn 999 88888 rrrrr 
+||                                |||| nnnn 9999999 r 
+||||                              |||||||| nnnnnnnn 9999 8 rr 
+||||||||                          |||||| nnnnnnn 999999999 88 rrrr 
+|||||| n *                        || nnnnn 999999999 88888 rrrrrrrr 
+|| nnn                            |||| 999999999 8 rrrrrrr 
+|||| nnnnnn                       |||||||| 99999999 888 rrrr 
+|||||||| nn 9 *                   |||||| n 999999 8888888 rrrrrrrr 
+|||||| nnnnn 99                   || nnn 99 88888 rrrrrrr 
+|| n 99999                        |||| nnnnnn 9999 rrrrr 
+|||| nn 8                         |||||||| nn 999999999 
+|||||||| nnnn 88 *                |||||| nnnnn 99999999 8 
+|||||| nnnnnnnnn 8888 *           || n 9999999 888 
+|| nnnnnnnnn 9 88888888 *         |||| nn 9999 8888888 
+The solution is: nnnnnn 99999 888888 rrrrrrrr 
+|                                 ||||||| 8888888 rrrrr 
+||                                |||| n 8888 r 
+||||                              |||||||| nn 88888888 rr 
+||||||||                          |||||| nnnnn 888888 rrrrr 
+|||||| n *                        || n 9 88 r 
+|| nnn                            |||| nn 99 8888 rr 
+|||| nnnnnn                       |||||||| nnnn 9999 88888888 rrrr 
+|||||||| nn 9 *                   |||||| nnnnnnnnn 99999999 888888 rrrrrrrrr 
+|||||| nnnnn 99                   || nnnnnnnnn 9999999 888 rrrrrrrrr 
+|| n 99999                        |||| nnnnnnnn 99999 8888888 rrrrrrrr 
+|||| nn 8                         |||||||| nnnnnn 9 88888 rrrrrrr 
+|||||||| nnnn 88 *                |||||| nnn 999 rrrrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnn 999999 
+|| nnnnnnnnn 9 88888888 *         |||| nnnn 999 8 
+The solution is: nnnnnn 999 8 rrrrrr 
+|                                 |||||||| nnn 99999999 88 rrrrrrrr 
+||                                |||||| nnnnnnn 999999 88888 rrrrrr 
+||||                              || nnnnn 999 8 rrr 
+||||||||                          |||| 9999999 88 rrrrrr 
+|||||| n *                        |||||||| 9999 88888 rr 
+|| nnn                            |||||| n 99999999 rrrrr 
+|||| nnnnnn                       || nnn 999999 8 
+|||||||| nn 9 *                   |||| nnnnnn 99 888 
+|||||| nnnnn 99                   |||||||| nn 99999 888888 
+|| n 99999                        |||||| nnnnn 888 r 
+|||| nn 8                         || n 9 888888 rr 
+|||||||| nnnn 88 *                |||| nn 99 88 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 9999 8888 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 99999999 88888888 
+The solution is: nnnn 99 8888 rrrrrrrrr 
+|                                 ||||| nnnnnnnn 999 8 r 
+||                                nnnnnnn 9999999 88 rr 
+||||                              nnnn 99999 88888 rrrr 
+||||||||                          nnnnnnnn 8 rrrrrrrrr 
+|||||| n *                        nnnnnn 9 88 rrrrrrrr 
+|| nnn                            nn 999 8888 rrrrrr 
+|||| nnnnnn                       nnnn 999999 88888888 rr 
+|||||||| nn 9 *                   nnnnnnnn 99 8888888 rrrrr 
+|||||| nnnnn 99                   nnnnnn 99999 8888 r 
+|| n 99999                        nn 9 888888888 rr 
+|||| nn 8                         nnnn 99 88888888 rrrrr 
+|||||||| nnnn 88 *                nnnnnnnn 9999 888888 r 
+|||||| nnnnnnnnn 8888 *           nnnnnn 999999999 88 rrr 
+|| nnnnnnnnn 9 88888888 *         nn 999999999 88888 rrrrrr 
+The solution is: 99999999 8888 rrrrr 
+|                                 || nnnnn 999999999 88888888 rrrrr 
+||                                |||| 999999999 8888888 r 
+||||                              |||||||| 99999999 88888 rrr 
+||||||||                          |||||| n 999999 8 rrrrrrr 
+|||||| n *                        || nnn 99 888 rrrr 
+|| nnn                            |||| nnnnnn 9999 888888 rrrrrrrr 
+|||| nnnnnn                       |||||||| nn 999999999 88 rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnn 99999999 88888 rrrr 
+|||||| nnnnn 99                   || n 9999999 8 rrrrrrrrr 
+|| n 99999                        |||| nn 9999 888 rrrrrrrr 
+|||| nn 8                         |||||||| nnnn 99999999 888888 rrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnnnn 999999 888 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnnnnnn 999 8888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnnnn 9999999 8888 rrr 
+The solution is: nnnnnn 999999999 8888 rr 
+|                                 || nnnnnn 999999999 8 rrrr 
+||                                |||| nn 999999999 888 rrrrrrrr 
+||||                              |||||||| nnnn 99999999 8888888 rrrrrr 
+||||||||                          |||||| nnnnnnnnn 999999 88888 rrr 
+|||||| n *                        || nnnnnnnnn 999 8 rrrrrrr 
+|| nnn                            |||| nnnnnnnn 9999999 88 rrrr 
+|||| nnnnnn                       |||||||| nnnnnn 99999 88888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| nnn 9 8 rrrrrrr 
+|||||| nnnnn 99                   || nnnnnnn 99 88 rrrr 
+|| n 99999                        |||| nnnn 99999 8888 rrrrrrrr 
+|||| nn 8                         |||||||| nnnnnnnn 888888888 rrrrrr 
+|||||||| nnnn 88 *                |||||| nnnnnnn 9 88888888 rrr 
+|||||| nnnnnnnnn 8888 *           || nnnnn 999 888888 rrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| 9999999 88 rrrrr 
+The solution is: nnnnnn 9999999 888888888 
+|                                 |||| nn 888 rrr 
+||                                |||||||| nnnn 888888 rrrrrr 
+||||                              |||||| nnnnnnnnn 88 rrr 
+||||||||                          || nnnnnnnnn 9 8888 rrrrrr 
+|||||| n *                        |||| nnnnnnnn 999 88888888 rr 
+|| nnn                            |||||||| nnnnnn 9999999 888888 rrrrr 
+|||| nnnnnn                       |||||| nnn 99999 888 r 
+|||||||| nn 9 *                   || nnnnnnn 8888888 rr 
+|||||| nnnnn 99                   |||| nnnn 9 8888 rrrrr 
+|| n 99999                        |||||||| nnnnnnnn 99 88888888 
+|||| nn 8                         |||||| nnnnnnn 99999 888888 r 
+|||||||| nnnn 88 *                || nnnnn 9 888 rrr 
+|||||| nnnnnnnnn 8888 *           |||| 999 888888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| 999999 88 rrr 
+The solution is: nn 99999 8888888 rrrrrrrr 
+|                                 || nn 999 888888 rr 
+||                                |||| nnnn 999999 88 rrrrr 
+||||                              |||||||| nnnnnnnn 99 88888 
+||||||||                          |||||| nnnnnnn 99999 r 
+|||||| n *                        || nnnnn 9 8 rr 
+|| nnn                            |||| 999 88 rrrr 
+|||| nnnnnn                       |||||||| 999999 8888 rrrrrrrr 
+|||||||| nn 9 *                   |||||| n 99 888888888 rrrrrr 
+|||||| nnnnn 99                   || nnn 9999 88888888 rrr 
+|| n 99999                        |||| nnnnnn 99999999 888888 rrrrrrr 
+|||| nn 8                         |||||||| nn 9999999 888 rrrrr 
+|||||||| nnnn 88 *                |||||| nnnnn 9999 8888888 
+|||||| nnnnnnnnn 8888 *           || n 999999999 8888 r 
+|| nnnnnnnnn 9 88888888 *         |||| nn 99999999 888888888 rr 
+The solution is: nnnnnn 99999 88 rrrr 
+|                                 |||| n 9999999 888888 rrrrr 
+||                                |||||||| nn 9999 888 r 
+||||                              |||||| nnnnn 99999999 888888 rr 
+||||||||                          || n 9999999 888 rrrrr 
+|||||| n *                        |||| nn 9999 8888888 
+|| nnn                            |||||||| nnnn 99999999 8888 r 
+|||| nnnnnn                       |||||| nnnnnnnnn 999999 888888888 rr 
+|||||||| nn 9 *                   || nnnnnnnnn 999 888888888 rrrrr 
+|||||| nnnnn 99                   |||| nnnnnnnn 9999999 88888888 r 
+|| n 99999                        |||||||| nnnnnn 99999 8888888 rrr 
+|||| nn 8                         |||||| nnn 9 88888 rrrrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 99 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 99999 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 8 
+The solution is: nn 9999999 88888888 r 
+|                                 |||||||| nnnn 99999 8 rrrr 
+||                                |||||| nnnnnnnnn 888 rrrrrrrr 
+||||                              || nnnnnnnnn 9 888888 rrrrrr 
+||||||||                          |||| nnnnnnnn 999 88 rrr 
+|||||| n *                        |||||||| nnnnnn 9999999 8888 rrrrrr 
+|| nnn                            |||||| nnn 99999 888888888 rr 
+|||| nnnnnn                       || nnnnnnn 888888888 rrrrr 
+|||||||| nn 9 *                   |||| nnnn 9 88888888 r 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 99 888888 rrr 
+|| n 99999                        |||||| nnnnnnn 99999 88 rrrrrrr 
+|||| nn 8                         || nnnnn 9 88888 rrrr 
+|||||||| nnnn 88 *                |||| 999 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| 999999 rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 99 8 rrrrrr 
+The solution is: nnnn 88888 r 
+|                                 ||| nnnnnnn 999999 88888 rrrrr 
+||                                |||||| nnnn 999 8 r 
+||||                              || nnnnnnnnn 999999 88 rr 
+||||||||                          |||| nnnnnnnn 999 88888 rrrr 
+|||||| n *                        |||||||| nnnnnn 9999999 rrrrrrrrr 
+|| nnn                            |||||| nnn 99999 8 rrrrrrrr 
+|||| nnnnnn                       || nnnnnnn 888 rrrrrr 
+|||||||| nn 9 *                   |||| nnnn 9 888888 rr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 99 88 rrrrr 
+|| n 99999                        |||||| nnnnnnn 99999 8888 
+|||| nn 8                         || nnnnn 9 888888888 
+|||||||| nnnn 88 *                |||| 999 88888888 r 
+|||||| nnnnnnnnn 8888 *           |||||||| 999999 888888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||||| n 99 888 rrrrrrr 
+The solution is: nnnn 88888 rrrr 
+|                                 |||||||| n 9999999 88888888 rrrrrrr 
+||                                |||||| nnn 9999 8888888 rrrrr 
+||||                              || nnnnnnn 99999999 8888 r 
+||||||||                          |||| nnnn 9999999 888888888 rr 
+|||||| n *                        |||||||| nnnnnnnn 9999 888888888 rrrrr 
+|| nnn                            |||||| nnnnnnn 999999999 88888888 r 
+|||| nnnnnn                       || nnnnn 999999999 8888888 rrr 
+|||||||| nn 9 *                   |||| 999999999 88888 rrrrrrr 
+|||||| nnnnn 99                   |||||||| 99999999 8 rrrrr 
+|| n 99999                        |||||| n 999999 888 
+|||| nn 8                         || nnn 99 8888888 
+|||||||| nnnn 88 *                |||| nnnnnn 9999 8888 r 
+|||||| nnnnnnnnn 8888 *           |||||||| nn 999999999 88888888 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnn 99999999 8888888 rrrrr 
+The solution is: nnnn 999999 888888 rrr 
+|                                 ||||| nnnnnnn 999999 
+||                                nnnnn 999 8 
+||||                              9999999 88 
+||||||||                          9999 88888 
+|||||| n *                        99999999 r 
+|| nnn                            999999 8 rr 
+|||| nnnnnn                       99 888 rrrr 
+|||||||| nn 9 *                   9999 888888 rrrrrrrr 
+|||||| nnnnn 99                   99999999 88 rrrrrrr 
+|| n 99999                        999999 88888 rrrr 
+|||| nn 8                         99 8 rrrrrrrrr 
+|||||||| nnnn 88 *                9999 88 rrrrrrrr 
+|||||| nnnnnnnnn 8888 *           99999999 8888 rrrrrr 
+|| nnnnnnnnn 9 88888888 *         999999 888888888 rr 
+The solution is: 8888 rrrrrrr 
+|                                 |||||| nnnnnnn 8888888 rrrrrr 
+||                                || nnnnn 9 8888 rrr 
+||||                              |||| 999 88888888 rrrrrr 
+||||||||                          |||||||| 999999 888888 rrr 
+|||||| n *                        |||||| n 99 888 rrrrrrr 
+|| nnn                            || nnn 9999 888888 rrrr 
+|||| nnnnnn                       |||| nnnnnn 99999999 88 rrrrrrrrr 
+|||||||| nn 9 *                   |||||||| nn 9999999 88888 rrrrrrrr 
+|||||| nnnnn 99                   |||||| nnnnn 9999 8 rrrrrrr 
+|| n 99999                        || n 999999999 88 rrrr 
+|||| nn 8                         |||| nn 99999999 88888 rrrrrrrr 
+|||||||| nnnn 88 *                |||||||| nnnn 999999 8 rrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnnnn 99 888 rrrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnnnnnn 99999 888888 rrrrrrrr 
+The solution is: nnnnnnnn 9999 rrrrrr 
+|                                 || nnnn 888 rr 
+||                                |||| nnnnnnnn 888888 rrrr 
+||||                              |||||||| nnnnnn 9 88 rrrrrrrrr 
+||||||||                          |||||| nnn 999 8888 rrrrrrrr 
+|||||| n *                        || nnnnnnn 999999 88888888 rrrrrr 
+|| nnn                            |||| nnnn 999 8888888 rrr 
+|||| nnnnnn                       |||||||| nnnnnnnn 999999 8888 rrrrrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 999 888888888 rrrr 
+|||||| nnnnn 99                   || nnnnn 9999999 88888888 rrrrrrrrr 
+|| n 99999                        |||| 99999 8888888 rrrrrrrrr 
+|||| nn 8                         |||||||| 88888 rrrrrrrrr 
+|||||||| nnnn 88 *                |||||| n rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           || nnn rrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn rrrrrr 
+The solution is: nnnnnn 9 88888888 rrrr 
+|                                 n 99999999 888888 rrrr 
+||                                nn 999999 888 rrrrrrrrr 
+||||                              nnnn 99 8888888 rrrrrrrr 
+||||||||                          nnnnnnnn 9999 8888 rrrrrrr 
+|||||| n *                        nnnnnn 999999999 88888888 rrrr 
+|| nnn                            nn 999999999 8888888 rrrrrrrrr 
+|||| nnnnnn                       nnnn 99999999 88888 rrrrrrrrr 
+|||||||| nn 9 *                   nnnnnnnn 999999 8 rrrrrrrrr 
+|||||| nnnnn 99                   nnnnnn 999 888 rrrrrrrr 
+|| n 99999                        nn 9999999 888888 rrrrrr 
+|||| nn 8                         nnnn 9999 888 rrr 
+|||||||| nnnn 88 *                nnnnnnnn 99999999 888888 rrrrrr 
+|||||| nnnnnnnnn 8888 *           nnnnnn 9999999 888 rrr 
+|| nnnnnnnnn 9 88888888 *         nn 99999 8888888 rrrrrr 
+The solution is: 99999999 88888888 
+|                                 |||||| nnnnn 999 888888 
+||                                || n 9999999 88 r 
+||||                              |||| nn 9999 88888 rr 
+||||||||                          |||||||| nnnn 99999999 rrrrr 
+|||||| n *                        |||||| nnnnnnnnn 999999 8 
+|| nnn                            || nnnnnnnnn 999 888 
+|||| nnnnnn                       |||| nnnnnnnn 9999999 888888 
+|||||||| nn 9 *                   |||||||| nnnnnn 99999 888 r 
+|||||| nnnnn 99                   |||||| nnn 9 8888888 rr 
+|| n 99999                        || nnnnnnn 99 8888 rrrrr 
+|||| nn 8                         |||| nnnn 99999 88888888 
+|||||||| nnnn 88 *                |||||||| nnnnnnnn 8888888 r 
+|||||| nnnnnnnnn 8888 *           |||||| nnnnnnn 9 8888 rrr 
+|| nnnnnnnnn 9 88888888 *         || nnnnn 999 88888888 rrrrrr 
+The solution is: nnnnnnnn 99999999 8888 rrr 
+|                                 ||||||||| nnnnnnn 99999 888888888 r 
+||                                |||||||| nnnnn 9 888888888 rrr 
+||||                              |||||| n 999 88888888 rrrrrrr 
+||||||||                          || nnn 999999 888888 rrrrr 
+|||||| n *                        |||| nnnnnn 99 888 r 
+|| nnn                            |||||||| nn 99999 888888 rr 
+|||| nnnnnn                       |||||| nnnnn 888 rrrrr 
+|||||||| nn 9 *                   || n 9 888888 
+|||||| nnnnn 99                   |||| nn 99 88 r 
+|| n 99999                        |||||||| nnnn 9999 8888 rr 
+|||| nn 8                         |||||| nnnnnnnnn 99999999 88888888 rrrr 
+|||||||| nnnn 88 *                || nnnnnnnnn 9999999 8888888 rrrrrrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnnnnnn 99999 88888 rrrrrrrrr 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnn 9 8 rrrrrrrrr 
+The solution is: nn 999999999 888 
+|                                 ||||||||| nnn 999999 888888 rr 
+||                                |||||||| nnnnnnn 99 888 rrrrr 
+||||                              |||||| nnnnn 99999 888888 
+||||||||                          || n 9 888 r 
+|||||| n *                        |||| nn 99 888888 rr 
+|| nnn                            |||||||| nnnn 9999 88 rrrrr 
+|||| nnnnnn                       |||||| nnnnnnnnn 99999999 8888 
+|||||||| nn 9 *                   || nnnnnnnnn 9999999 888888888 
+|||||| nnnnn 99                   |||| nnnnnnnn 99999 888888888 r 
+|| n 99999                        |||||||| nnnnnn 9 888888888 rrr 
+|||| nn 8                         |||||| nnn 999 88888888 rrrrrrr 
+|||||||| nnnn 88 *                || nnnnnnn 999999 888888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| nnnn 999 888 r 
+|| nnnnnnnnn 9 88888888 *         |||||||| nnnnnnnn 999999 888888 rr 
+The solution is: nn 9999999 88 rrr 
+|                                 |||||||| nnnnnnnn 99999 8888888 rrrr 
+||                                |||||| nnnnnnn 9 88888 rrrrrrrrr 
+||||                              || nnnnn 999 rrrrrrrrr 
+||||||||                          |||| 9999999 rrrrrrrr 
+|||||| n *                        |||||||| 9999 8 rrrrrr 
+|| nnn                            |||||| n 99999999 88 rr 
+|||| nnnnnn                       || nnn 999999 88888 rrrr 
+|||||||| nn 9 *                   |||| nnnnnn 99 8 rrrrrrrrr 
+|||||| nnnnn 99                   |||||||| nn 99999 88 rrrrrrrr 
+|| n 99999                        |||||| nnnnn 88888 rrrrrr 
+|||| nn 8                         || n 9 rrr 
+|||||||| nnnn 88 *                |||| nn 99 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 9999 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 99999999 rrrr 
+The solution is: nnnn 99 8888 rrrrrrr 
+|                                 nn 9999999 888888888 rrrrr 
+||                                nnnn 9999 888888888 r 
+||||                              nnnnnnnn 99999999 88888888 rrr 
+||||||||                          nnnnnn 9999999 8888888 rrrrrrr 
+|||||| n *                        nn 99999 88888 rrrrr 
+|| nnn                            nnnn 8 r 
+|||| nnnnnn                       nnnnnnnn 88 rr 
+|||||||| nn 9 *                   nnnnnn 9 8888 rrrr 
+|||||| nnnnn 99                   nn 999 88888888 rrrrrrrr 
+|| n 99999                        nnnn 999999 888888 rrrrrrr 
+|||| nn 8                         nnnnnnnn 99 888 rrrrr 
+|||||||| nnnn 88 *                nnnnnn 99999 888888 
+|||||| nnnnnnnnn 8888 *           nn 9 888 r 
+|| nnnnnnnnn 9 88888888 *         nnnn 99 888888 rr 
+The solution is: 999999 88888 rrrr 
+|                                 || nnnn 999999999 888888 
+||                                |||| nnnnnnnn 99999999 888 r 
+||||                              |||||||| nnnnnn 9999999 8888888 rr 
+||||||||                          |||||| nnn 99999 88888 rrrrr 
+|||||| n *                        || nnnnnnn 8 r 
+|| nnn                            |||| nnnn 9 88 rr 
+|||| nnnnnn                       |||||||| nnnnnnnn 99 8888 rrrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 99999 88888888 rrrrrrrr 
+|||||| nnnnn 99                   || nnnnn 9 8888888 rrrrrrr 
+|| n 99999                        |||| 999 8888 rrrrr 
+|||| nn 8                         |||||||| 999999 88888888 
+|||||||| nnnn 88 *                |||||| n 99 8888888 r 
+|||||| nnnnnnnnn 8888 *           || nnn 9999 8888 rrr 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 99999999 88888888 rrrrrr 
+The solution is: nnnnnn 9 rr 
+|                                 ||||||| n 999999 88888888 rrrrrrr 
+||                                |||| nnn 99 8888888 rrrrr 
+||||                              |||||||| nnnnnn 9999 8888 r 
+||||||||                          |||||| nnn 999999999 88888888 rr 
+|||||| n *                        || nnnnnnn 99999999 8888888 rrrrr 
+|| nnn                            |||| nnnn 9999999 88888 r 
+|||| nnnnnn                       |||||||| nnnnnnnn 9999 8 rrr 
+|||||||| nn 9 *                   |||||| nnnnnnn 999999999 88 rrrrrr 
+|||||| nnnnn 99                   || nnnnn 999999999 88888 rr 
+|| n 99999                        |||| 999999999 8 rrrrr 
+|||| nn 8                         |||||||| 99999999 888 
+|||||||| nnnn 88 *                |||||| n 999999 8888888 
+|||||| nnnnnnnnn 8888 *           || nnn 99 88888 r 
+|| nnnnnnnnn 9 88888888 *         |||| nnnnnn 9999 rrr 
+The solution is: nnnnnn 9 8888 rrrrrrr 
+|                                 |||||||| nnn 9 88888 rrr 
+||                                |||||| nnnnnnn 99 rrrrrrr 
+||||                              || nnnnn 99999 rrrr 
+||||||||                          |||| 9 8 rrrrrrrr 
+|||||| n *                        |||||||| 99 88 rrrrrr 
+|| nnn                            |||||| n 9999 8888 rr 
+|||| nnnnnn                       || nnn 99999999 88888888 rrrr 
+|||||||| nn 9 *                   |||| nnnnnn 999999 8888888 rrrrrrrrr 
+|||||| nnnnn 99                   |||||||| nn 999 88888 rrrrrrrrr 
+|| n 99999                        |||||| nnnnn 999999 rrrrrrrrr 
+|||| nn 8                         || n 999 8 rrrrrrrr 
+|||||||| nnnn 88 *                |||| nn 999999 88 rrrrrr 
+|||||| nnnnnnnnn 8888 *           |||||||| nnnn 99 88888 rr 
+|| nnnnnnnnn 9 88888888 *         |||||| nnnnnnnnn 9999 rrrrr 
+The solution is: nnnn 99 88888888 rrrrrrrrr 
+|                                 ||| nnnnnnn 8888 rr 
+||                                |||||| nnnn 9 88888888 rrrr 
+||||                              || nnnnnnnnn 99 888888 rrrrrrrrr 
+||||||||                          |||| nnnnnnnn 99999 88 rrrrrrrrr 
+|||||| n *                        |||||||| nnnnnn 9 88888 rrrrrrrr 
+|| nnn                            |||||| nnn 999 rrrrrrr 
+|||| nnnnnn                       || nnnnnnn 999999 rrrr 
+|||||||| nn 9 *                   |||| nnnn 999 8 rrrrrrrr 
+|||||| nnnnn 99                   |||||||| nnnnnnnn 999999 88 rrrrrr 
+|| n 99999                        |||||| nnnnnnn 999 88888 rr 
+|||| nn 8                         || nnnnn 9999999 rrrrr 
+|||||||| nnnn 88 *                |||| 99999 8 
+|||||| nnnnnnnnn 8888 *           |||||||| 888 
+|| nnnnnnnnn 9 88888888 *         |||||| n 888888 
+The solution is: nnnn 8888888 rrrrrrr 
+|                                 |||| nn 99 88 rrrrr 
+||                                |||||||| nnnn 9999 8888 
+||||                              |||||| nnnnnnnnn 99999999 88888888 
+||||||||                          || nnnnnnnnn 9999999 8888888 r 
+|||||| n *                        |||| nnnnnnnn 99999 88888 rrr 
+|| nnn                            |||||||| nnnnnn 9 8 rrrrrrr 
+|||| nnnnnn                       |||||| nnn 999 88 rrrr 
+|||||||| nn 9 *                   || nnnnnnn 999999 8888 rrrrrrrr 
+|||||| nnnnn 99                   |||| nnnn 999 888888888 rrrrrr 
+|| n 99999                        |||||||| nnnnnnnn 999999 88888888 rrr 
+|||| nn 8                         |||||| nnnnnnn 999 8888888 rrrrrrr 
+|||||||| nnnn 88 *                || nnnnn 9999999 8888 rrrrr 
+|||||| nnnnnnnnn 8888 *           |||| 99999 888888888 
+|| nnnnnnnnn 9 88888888 *         |||||||| 888888888 r 
+The solution is: nn 99999 888 

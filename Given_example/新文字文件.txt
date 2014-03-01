@@ -1,0 +1,126 @@
+/**********************************************************************************/
+/*  Problem: d446 "生成因數" from Math | Factorization                        */
+/*  Language: C                                                                   */
+/*  Result: Waiting... on ZeroJudge                                               */
+/*  Author: example at 2011-03-05 15:34:30                                        */
+/**********************************************************************************/
+
+
+#include <stdio.h>
+#define SIZE 46341
+
+void primeSieve(int*, int[]);
+void factorize(int, int, int[], int*, int[][2]);
+void genFactor(int, int, int[], int*, int, int[][2]);
+
+void quickSort(int, int, int[]);
+void swap(int*, int*);
+int cmp(int, int);
+
+int main() {
+	int i, n, primeCnt, factorCnt, primeFactorCnt;
+	int primeNumber[5200], factor[1000];
+	int primeFactor[5200][2];
+	
+	primeCnt = 0;
+	primeSieve(&primeCnt, primeNumber);
+
+	while(scanf("%d", &n) == 1) {
+		primeFactorCnt = factorCnt = 0;
+		factorize(n, primeCnt, primeNumber, &primeFactorCnt, primeFactor);
+		
+		genFactor(0, 1, factor, &factorCnt, primeFactorCnt, primeFactor);
+		
+		quickSort(0, factorCnt-1, factor);
+		for(i = 0; i < factorCnt; i++)
+			printf("%d ", factor[i]);
+		
+		putchar('\n');
+	}
+	
+	return 0;
+}
+
+void primeSieve(int *cnt, int prime[]) {
+	int i, j;
+	char isPrime[SIZE];
+	
+	for(i = 0; i < SIZE; i++)
+		isPrime[i] = 1;
+	
+	prime[(*cnt)++] = 2;
+	for(i = 3; i < SIZE; i += 2)
+		if(isPrime[i] == 1) {
+			prime[(*cnt)++] = i;
+			for(j = 1; i*j < SIZE; j++)
+				isPrime[i*j] = 0;
+		}
+}
+
+void factorize(int number, int primeCnt, int prime[], int *primeFactorCnt, int primeFactor[][2]) {
+	int i, j;
+	
+	*primeFactorCnt = 0;
+	for(i = 0; i < primeCnt&&number != 1; i++)
+		if(number%prime[i] == 0) {
+			primeFactor[*primeFactorCnt][0] = prime[i];
+			primeFactor[*primeFactorCnt][1] = 0;
+			while(number%prime[i] == 0) {
+				number /= prime[i];
+				primeFactor[*primeFactorCnt][1]++;
+			}
+			
+			(*primeFactorCnt)++;
+		}
+	
+	if(number != 1) {
+		primeFactor[*primeFactorCnt][0] = number;
+		primeFactor[*primeFactorCnt][1] = 1;
+		(*primeFactorCnt)++;
+	}
+}
+
+void genFactor(int index, int number, int factor[], int *factorCnt, int primeFactorCnt, int primeFactor[][2]) {
+	int i;
+	
+	if(index == primeFactorCnt) {
+		factor[(*factorCnt)++] = number;
+		return;
+	}
+	
+	for(i = 0; i <= primeFactor[index][1]; i++)
+		genFactor(index+1, number*pow(primeFactor[index][0], i), factor, factorCnt, primeFactorCnt, primeFactor);
+}
+
+void quickSort(int left, int right, int numbers[]) {
+	int i, j, s;
+
+    if(left < right) {
+        s = (left+right)/2;
+        i = left;
+        j = right+1;
+
+		swap(&numbers[left], &numbers[s]);
+        while(1) {
+            while(!cmp(numbers[++i], numbers[left])&&i < right);
+            while(cmp(numbers[--j], numbers[left])&&j > left);
+            if(i >= j)
+				break;
+            swap(&numbers[i], &numbers[j]);
+        }
+        swap(&numbers[left], &numbers[j]);
+
+        quickSort(left, j-1, numbers);
+        quickSort(j+1, right, numbers);
+    }
+}
+
+void swap(int *a, int *b) {
+	int tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+
+int cmp(int a, int b) {
+	return (a >= b);
+}

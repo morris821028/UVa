@@ -1,0 +1,15 @@
+Finite State Machine 1:
+This_is_the_output_from_the_first_FSM.
+Finite State Machine 2:
+Testing for proper handling of \b and \\.
+Finite State Machine 3:
+The third FSM is correct (it handles \c correctly).
+Finite State Machine 4:
+Th*s *s *n *x*mpl* fr*m th* pr*bl*m st*t*m*nt, w*th d*ff*r*nt t*xt.
+Finite State Machine 5:
+XXx     Test   Xo  iXx (This is also from the problem statement).
+Finite State Machine 6:
+ThIs is sOme dAta fOr the FSM. ThEre wIll be twO linEs of OutpUt.
+The lAst word On this lIne Is FINiS.
+Finite State Machine 7:
+This FSM does work.

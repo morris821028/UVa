@@ -1,0 +1,1008 @@
+120229 205913.617|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120229 205913.618|INFO|main|info|
+120229 205913.621|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120229 205913.622|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120229 205913.622|INFO|main|start|Starting ConnectionManager...
+120229 205913.717|INFO|main|start|Started ConnectionManager
+120229 205913.719|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120229 205913.720|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120229 205913.720|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120229 205913.720|INFO|main|info|Contacting server at 140.116.82.173:50002
+120229 205913.720|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120229 205913.819|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120229 205913.949|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=1982]--4874590618691054566)
+120229 205914.007|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=1982]--4874590618691054566 key is com.sun.crypto.provider.DESKey@1863c
+120229 205914.007|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120229 205914.008|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    bc891432 72fd1cf3 a3e94bb4 a284fd98 4c6e5c0a 0dea9025 9211bbe0 186a79c0
+    54dc1b51 338a84a5 fbc05fd5 7b228792 47adaaf4 d006a9ed c973778c ec95ccf7
+    7cea5750 94f2d389 d53562e0 fbc298d9 49879136 d2d0c413 582dcead ee88cc8c
+    6215e39e 439946e9 5b60ab23 93ba2d1b f1f3a298 fc446a18 63b74d31 dbf13f6e
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120229 205914.008|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@bc3ed6
+120229 210739.139|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120229 210739.140|INFO|main|info|
+120229 210739.148|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120229 210739.148|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120229 210739.148|INFO|main|start|Starting ConnectionManager...
+120229 210739.274|INFO|main|start|Started ConnectionManager
+120229 210739.280|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120229 210739.280|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120229 210739.280|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120229 210739.280|INFO|main|info|Contacting server at 140.116.82.173:50002
+120229 210739.281|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120229 210739.427|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120229 210739.511|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=2080]-7166040237303824020)
+120229 210739.581|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=2080]-7166040237303824020 key is com.sun.crypto.provider.DESKey@fffe7beb
+120229 210739.581|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120229 210739.582|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    e58b471e 18024d59 aadf849f b14dc587 4769b81d df4baa15 a6b54277 e2fa8549
+    bd289262 013590cb d0c61e9e 1e806153 096e11fd b5fb89c4 1ef03ba9 6520edaf
+    f031c3aa e8e66d43 cfe438ac eef1cecd e5ba434d 583e389e f14650f9 807a6c11
+    7d1aa04a 2a57f6b6 0701f59a 7483efb3 c15db1e8 a1f6a5b5 d20395b8 c8730b17
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120229 210739.583|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1ef5315
+120328 171046.644|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120328 171046.656|INFO|main|info|
+120328 171046.672|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120328 171046.672|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120328 171046.673|INFO|main|start|Starting ConnectionManager...
+120328 171046.903|INFO|main|start|Started ConnectionManager
+120328 171046.910|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120328 171046.911|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120328 171046.911|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120328 171046.912|INFO|main|info|Contacting server at 140.116.82.173:50002
+120328 171046.913|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120328 171047.217|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=1780]--8337778901140981106)
+120328 171047.503|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=1780]--8337778901140981106 key is com.sun.crypto.provider.DESKey@fffe7ac7
+120328 171047.504|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120328 171047.505|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    a8bc9512 df9a22a7 0c12eddd 9d2d2039 f0b4d87b af0117b8 30801a80 3c4a3273
+    5ab7fa14 f67cc31a 0a11548e e25c39d9 1f046f52 00f3c112 75d59629 0ed9b170
+    4203e5a6 9007a734 9ea1db65 33fb4780 8d1bfdd4 fbd2fe61 022059aa fed33010
+    4ff20df9 040d2012 8fafd62d bcc3d96a e1c40352 8175512a 2062f1e9 bf835ae4
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120328 171047.505|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@14709c6
+120328 171047.567|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120328 174945.183|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120328 174945.184|INFO|main|info|
+120328 174945.188|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120328 174945.188|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120328 174945.188|INFO|main|start|Starting ConnectionManager...
+120328 174945.277|INFO|main|start|Started ConnectionManager
+120328 174945.279|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120328 174945.279|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120328 174945.279|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120328 174945.279|INFO|main|info|Contacting server at 140.116.82.173:50002
+120328 174945.280|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120328 174945.401|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120328 174945.507|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=2726]--7695826295499345203)
+120328 174945.562|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=2726]--7695826295499345203 key is com.sun.crypto.provider.DESKey@186bf
+120328 174945.562|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120328 174945.563|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    9a573fda 5a9de1c4 e90475b2 ca32e431 21d185c4 05b2eee3 59b873f0 21e05b68
+    a96ed8ef 597dd629 c4624ee6 18d25e8e f6210a88 ea0a3356 c357614b c7eb4f6c
+    ee134ace facab17e bc0cc7d8 9f896233 068871df fef8874b e13ade07 f0a8fa9e
+    a7761a22 0fac8b6b a0824847 3386b6ba bb0f76cf 976b69a0 7bff758e 2e71767f
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120328 174945.563|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1d43d1e
+120328 193715.718|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120328 193715.719|INFO|main|info|
+120328 193715.722|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120328 193715.723|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120328 193715.723|INFO|main|start|Starting ConnectionManager...
+120328 193715.809|INFO|main|start|Started ConnectionManager
+120328 193715.811|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120328 193715.812|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120328 193715.812|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120328 193715.812|INFO|main|info|Contacting server at 140.116.82.173:50002
+120328 193715.812|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120328 193715.933|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120328 193716.038|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=3687]--87527088458659098)
+120328 193716.096|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=3687]--87527088458659098 key is com.sun.crypto.provider.DESKey@fffe7f4e
+120328 193716.097|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120328 193716.098|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    a6b883ad c8358e32 12f9966b 77b299e9 6e4c3efe 1eb42b62 251bf627 b890b209
+    4d61f9f9 18165c98 ccd6f55a 182653a1 27a9cfbd 1adc36e8 2e6ffe12 77ef345f
+    5497aaef 04feddcf c672cab6 f32421c1 7b62023b 3356db41 f78151b6 1ce66d40
+    883ea898 48775b07 94008868 e174a118 d6ddbdbb 8e5cf490 001d0b5a b48bf708
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120328 193716.098|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1ef5315
+120328 212620.121|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120328 212620.122|INFO|main|info|
+120328 212620.126|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120328 212620.126|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120328 212620.127|INFO|main|start|Starting ConnectionManager...
+120328 212620.213|INFO|main|start|Started ConnectionManager
+120328 212620.215|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120328 212620.216|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120328 212620.216|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120328 212620.216|INFO|main|info|Contacting server at 140.116.82.173:50002
+120328 212620.217|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120328 212620.338|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120328 212620.443|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=6338]--2955854973200267389)
+120328 212620.501|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=6338]--2955854973200267389 key is com.sun.crypto.provider.DESKey@1807b
+120328 212620.502|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120328 212620.503|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    b154365d b059a7af 9d05d728 4c7fa848 4e6485d3 a3d72deb 923b3835 b60f42cf
+    b8e8135f 970480de 50ab2b8e ee527b10 90a11e02 78b23e4f 8c66213b 6e5889c0
+    6be907a5 c1a8ba74 47e80979 7fb34c58 0d416f0d b5accc54 e143aa8c e2b62381
+    e99db55d 335fa8f5 49cfac69 ef0a8a14 62379191 8996f01a f853c08e 75705fb6
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120328 212620.503|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6a906f
+120328 212626.162|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120328 212626.163|INFO|main|info|
+120328 212626.167|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120328 212626.167|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120328 212626.168|INFO|main|start|Starting ConnectionManager...
+120328 212626.251|INFO|main|start|Started ConnectionManager
+120328 212626.253|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120328 212626.254|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120328 212626.254|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120328 212626.254|INFO|main|info|Contacting server at 140.116.82.173:50002
+120328 212626.254|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120328 212626.377|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120328 212626.483|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=6340]--439790679637262347)
+120328 212626.543|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=6340]--439790679637262347 key is com.sun.crypto.provider.DESKey@18d47
+120328 212626.544|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120328 212626.545|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    3d53521d c39ef1b2 a61715c0 7a8b0ad9 bfc1b0d5 ca28f93f 0be8adf6 210152ba
+    bcc0ece3 3fd2efa4 db50d1e2 e96ce167 edba370a 8028e524 f577c579 267126ea
+    55ea2213 5d6d6361 ba7a5e74 ab23f2b4 b3fbc54a acc674a5 05259d6c 993a2bbf
+    b3d7e034 35cf8446 4550585b a4930683 066f7f81 0e76f307 20758890 9817c85d
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120328 212626.545|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@15a941b
+120425 173919.497|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120425 173919.513|INFO|main|info|
+120425 173919.527|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120425 173919.528|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120425 173919.528|INFO|main|start|Starting ConnectionManager...
+120425 173920.000|INFO|main|start|Started ConnectionManager
+120425 173920.011|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120425 173920.011|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120425 173920.011|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120425 173920.011|INFO|main|info|Contacting server at 140.116.82.173:50002
+120425 173920.012|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120425 173920.317|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=2081]--6997488076779594276)
+120425 173920.619|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=2081]--6997488076779594276 key is com.sun.crypto.provider.DESKey@18351
+120425 173920.620|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120425 173920.620|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    a1649490 d4d6e000 7e42b5b6 1bfb7203 2e92164d 6074e116 e4587b0f 4b20a6d8
+    58e7736b c136c57c 75988672 7c05f848 4dd08dd2 b5d8a953 8196bc8c a5322152
+    205fb8c0 69bd3c4c 560b1526 87185580 c8862fe7 4accb7cf 4073586f a192fba6
+    749554e6 63880e1f cc7d8999 2033cf0c f7efa754 c84d9ca0 5160077c 780a4075
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120425 173920.621|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1bab54a
+120425 173920.718|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120529 151640.165|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120529 151640.190|INFO|main|info|
+120529 151640.205|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120529 151640.206|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120529 151640.206|INFO|main|start|Starting ConnectionManager...
+120529 151640.731|INFO|main|start|Started ConnectionManager
+120529 151640.738|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120529 151640.738|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120529 151640.739|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120529 151640.739|INFO|main|info|Contacting server at 140.116.82.173:50002
+120529 151640.739|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120529 151641.056|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=8898]--4310091841417681089)
+120529 151641.275|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=8898]--4310091841417681089 key is com.sun.crypto.provider.DESKey@18605
+120529 151641.275|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120529 151641.276|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    689cdc3b a523483f 87a45f6a 051b4466 b4b19785 2f892607 8d056ca6 d23bbb87
+    955cd454 0cbf6d63 c7279ad5 f4286261 bd4b56fb 7d33653f 80773266 ac88db05
+    846191d6 cea6e1f3 7e34753a 8d2d0600 1de9272f 1c58897b cb0dfb49 2510f879
+    8c0ce028 ddfeaf96 d85f73ce 21783e01 38ce8700 b86e3f70 cc18d1bb b3a94bb9
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120529 151641.277|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7ba13e
+120529 151641.512|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120530 155550.384|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120530 155550.401|INFO|main|info|
+120530 155550.448|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120530 155550.449|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120530 155550.449|INFO|main|start|Starting ConnectionManager...
+120530 155551.489|INFO|main|start|Started ConnectionManager
+120530 155551.503|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120530 155551.503|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120530 155551.504|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120530 155551.504|INFO|main|info|Contacting server at 140.116.82.173:50002
+120530 155551.505|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120530 155552.770|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=1311]-4517159384860822643)
+120530 155553.142|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=1311]-4517159384860822643 key is com.sun.crypto.provider.DESKey@fffe7972
+120530 155553.142|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120530 155553.143|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    5fd9d4a7 12718f07 ca068415 fa7c3cb2 ddc2da89 7c15c8e3 68619255 d05ced28
+    7577a86d 4dbec123 74887194 4dbbdf39 9842be65 45507f6b 129a7aff 189decec
+    937239ee 1c13585b e6b48bf8 00058dcc 73c94239 a684c4ee a0d1ffd6 8c7ef734
+    135907ca 9258b74a 3df2018a 61139230 52998e27 be2ea7ba b1d77604 fcc03500
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120530 155553.143|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1c7464a
+120530 155553.399|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120530 161814.162|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120530 161814.163|INFO|main|info|
+120530 161814.169|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120530 161814.169|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120530 161814.169|INFO|main|start|Starting ConnectionManager...
+120530 161814.343|INFO|main|start|Started ConnectionManager
+120530 161814.350|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120530 161814.350|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120530 161814.350|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120530 161814.350|INFO|main|info|Contacting server at 140.116.82.173:50002
+120530 161814.351|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120530 161814.537|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120530 161814.593|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=1264]--6303921171677264893)
+120530 161814.698|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=1264]--6303921171677264893 key is com.sun.crypto.provider.DESKey@185b7
+120530 161814.699|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120530 161814.700|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    e97f8899 cb7e5256 716fadf5 e7731f4c e26dd729 0d36ecfb a8984e8d 1aaced15
+    93e2e4cd 66a13fc2 502bdef3 38cf3b6e 7b268975 f39d4731 720636fb 6b57c050
+    6f0f5d2f 91a74d58 ad3c2caa 99520d39 e7e65adf 92ca16e4 820b384d 4b8709e0
+    72276b01 9f0d7f2e 90a5f1c3 b95355c1 999654b7 a8fe924d 42dfbff2 760d4349
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120530 161814.700|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@75c8f0
+120530 201719.155|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120530 201719.156|INFO|main|info|
+120530 201719.163|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120530 201719.164|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120530 201719.164|INFO|main|start|Starting ConnectionManager...
+120530 201719.302|INFO|main|start|Started ConnectionManager
+120530 201719.311|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120530 201719.311|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120530 201719.312|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120530 201719.312|INFO|main|info|Contacting server at 140.116.82.173:50002
+120530 201719.312|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120530 201719.472|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120530 201719.549|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=3550]-5854382198267369710)
+120530 201719.638|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=3550]-5854382198267369710 key is com.sun.crypto.provider.DESKey@fffe7881
+120530 201719.639|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120530 201719.640|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    18628a46 5297c61e e5c1b759 ca54896f 588fd9ec 925c2f85 66d43ff6 9a4243fb
+    aa8567f1 ed9ccef2 810ee657 fe414be0 c3a9fe74 9efe4355 0270db50 65ad2cf7
+    e85a1eeb 9e2f7ad1 2699e96d 99442fde 2579703d 3885ab78 a97cfab5 703a78fa
+    fcfea648 d2ebcd4b 630108d9 0abc5981 76db6f90 a9669c17 e45d4583 9b8b1a23
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120530 201719.640|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@75c8f0
+120530 214708.807|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120530 214708.813|INFO|main|info|
+120530 214708.835|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120530 214708.836|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120530 214708.836|INFO|main|start|Starting ConnectionManager...
+120530 214709.107|INFO|main|start|Started ConnectionManager
+120530 214709.115|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120530 214709.116|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120530 214709.116|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120530 214709.116|INFO|main|info|Contacting server at 140.116.82.173:50002
+120530 214709.117|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120530 214710.169|INFO|main|<init>|IO Exception:140.116.82.173
+120530 214710.170|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+120530 214710.170|INFO|main|start|Exception logged 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection refused: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:196)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2016)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:50)
+120530 214710.171|INFO|main|info|Unable to contact server at 140.116.82.173:0 Connection refused: connect
+120530 214710.441|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120829 162909.056|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120829 162909.079|INFO|main|info|
+120829 162909.122|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120829 162909.122|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120829 162909.123|INFO|main|start|Starting ConnectionManager...
+120829 162909.550|INFO|main|start|Started ConnectionManager
+120829 162909.557|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120829 162909.557|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120829 162909.558|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120829 162909.558|INFO|main|info|Contacting server at 140.116.82.173:50002
+120829 162909.558|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120829 162909.943|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=7792]-4969167161644795776)
+120829 162910.249|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=7792]-4969167161644795776 key is com.sun.crypto.provider.DESKey@fffe799b
+120829 162910.249|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120829 162910.250|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    75cd3953 7c79c7f8 9b8ba128 7cca223d 74d3b57d 185e261f 2622bb4e 77a2307d
+    13a7679d 703db14d 461f00dc 3521fe13 de4b7d09 ef1f3f8c ee5e514f be860135
+    e7a642bf d1b2da63 7645415f 2a7ef22b 79261bce 549ab95d 7c23312f 37221efe
+    c8c0137f a71914d8 6503297e 0aca27a2 97abe555 488f4ee4 8147daad 54771865
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120829 162910.250|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@a71733
+120829 162910.336|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 164132.887|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 164132.906|INFO|main|info|
+120926 164132.943|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 164132.944|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 164132.945|INFO|main|start|Starting ConnectionManager...
+120926 164133.307|INFO|main|start|Started ConnectionManager
+120926 164133.310|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 164133.310|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 164133.310|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 164133.311|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 164133.311|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 164133.674|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=5355]-5933654866651732622)
+120926 164133.927|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=5355]-5933654866651732622 key is com.sun.crypto.provider.DESKey@18542
+120926 164133.927|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120926 164133.929|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    0b7286fd 5d873d8a 04eda6fe 8577081e 9365e62a 273e84e4 01a8451d 784521ad
+    a73da5eb e4d7c7d9 54d40b1f e7a39bd3 aa711116 efa7d617 4e00a14c 898d7416
+    36daf21e b2c464de 7a906234 b1ae09b6 1bded0d0 90ee23c3 406a1204 e60244bd
+    8371e126 48647679 3f2cf77d c3909b0f 545e13a5 84748d17 e74e823c 3f137bef
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120926 164133.929|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@14709c6
+120926 164134.002|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 164216.956|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 164216.962|INFO|main|info|
+120926 164216.967|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 164216.968|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 164216.968|INFO|main|start|Starting ConnectionManager...
+120926 164217.060|INFO|main|start|Started ConnectionManager
+120926 164217.061|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 164217.062|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 164217.062|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 164217.062|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 164217.062|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 164217.337|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=5404]--4251585782442593115)
+120926 164217.381|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 164217.416|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=5404]--4251585782442593115 key is com.sun.crypto.provider.DESKey@18694
+120926 164217.416|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120926 164217.417|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    62f72d18 0b0e5691 bf553e6c 704d254e fc8f8a91 7dd67229 ff4e14d5 7860f733
+    31fa69a5 de3bffc6 fc1142bf 45ad2f1c c3462afa 9e260f1f ad7d96c7 9eab12b3
+    10872cfc 14c57529 109b2e07 02ebe25d d89d18a6 78f4a62f 097ac35d 536bb88d
+    20f64814 86de4b2b 8535b2d0 8c58e312 7703a091 ca25b9be 1bc0dd86 5a971a79
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120926 164217.417|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@185d3cc
+120926 164303.908|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 164303.909|INFO|main|info|
+120926 164303.912|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 164303.913|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 164303.913|INFO|main|start|Starting ConnectionManager...
+120926 164303.983|INFO|main|start|Started ConnectionManager
+120926 164303.985|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 164303.985|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 164303.985|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 164303.985|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 164303.986|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 164304.063|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 164304.223|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=5485]-2031390373426909534)
+120926 164304.280|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=5485]-2031390373426909534 key is com.sun.crypto.provider.DESKey@fffe7f5e
+120926 164304.280|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120926 164304.281|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    6fa2a1d6 d9ea9bc4 2bca8b1d e113f3ba d61a7cc1 9bf78469 69a8daba dbbf7db5
+    cd9ade3d d4e3fcb3 fc2baf5e 6a6e43a6 249b2889 2df729ae 40242d05 fd415a84
+    9a0ece23 54d5b75c cbefbb09 1358627a f8f8a39a 54d2d779 3a5327df 2488263c
+    8a5d7665 b20d4db3 5b0efbc8 11b486c3 5b55510a 3d93e602 f227a227 56a1c85d
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120926 164304.282|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@50d7c5
+120926 164645.069|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 164645.070|INFO|main|info|
+120926 164645.074|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 164645.074|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 164645.074|INFO|main|start|Starting ConnectionManager...
+120926 164645.149|INFO|main|start|Started ConnectionManager
+120926 164645.150|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 164645.151|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 164645.151|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 164645.151|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 164645.151|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 164645.266|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 164645.388|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=5567]--7871607293077316597)
+120926 164645.446|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=5567]--7871607293077316597 key is com.sun.crypto.provider.DESKey@187f6
+120926 164645.446|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120926 164645.447|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    b5c22648 f7e6a675 253741d5 f3fcd6cb 92cc29d8 6464d3f9 2c84d513 a01e268e
+    b6d967bb 46b56969 3c2c1c7a a63c3c1f b01d47e7 ec18e2c0 f4057d0e bc29e116
+    92d45bba b0a385bf 6d0da078 c9f37d31 aba0008a 537e329c 6738f744 eb9374c8
+    e78acaac 0b6e5a44 71c042fd 831b5302 35bc302f 4954159f e2116331 ce3347a3
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120926 164645.448|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@15c9b9c
+120926 165116.369|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 165116.370|INFO|main|info|
+120926 165116.373|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 165116.374|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 165116.374|INFO|main|start|Starting ConnectionManager...
+120926 165116.449|INFO|main|start|Started ConnectionManager
+120926 165116.451|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 165116.451|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 165116.451|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 165116.452|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 165116.452|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 165116.566|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 165116.679|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=5662]-7668298764497905310)
+120926 165116.735|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=5662]-7668298764497905310 key is com.sun.crypto.provider.DESKey@fffe7b6e
+120926 165116.736|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120926 165116.737|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    c9b508f1 c5863ee4 bdb9ae84 fe8f35e0 2a8de479 886842b5 de1582d9 ac46741f
+    cd120e50 df310a7a 12b76d5a 77c97644 69d6cb4f cf98098a 0d246086 f572965e
+    95ddd024 07e9a766 4f879ccd ce2d7809 0fdfaa84 0ccaeb18 6d957c9b 18144de5
+    d537db6e 44aff8bc 1c8a39a3 a8b9eb20 9793d59e 12a5d5e6 11606ff4 2179e01c
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120926 165116.737|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@f16719
+120926 165502.116|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 165502.156|INFO|main|info|
+120926 165502.166|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 165502.166|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 165502.166|INFO|main|start|Starting ConnectionManager...
+120926 165502.256|INFO|main|start|Started ConnectionManager
+120926 165502.256|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 165502.256|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 165502.256|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 165502.256|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 165502.256|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 165523.276|INFO|main|<init>|IO Exception:140.116.82.173
+120926 165523.276|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+120926 165523.276|INFO|main|start|Exception logged 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection timed out: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:196)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2016)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:50)
+120926 165523.276|INFO|main|info|Unable to contact server at 140.116.82.173:0 Connection timed out: connect
+120926 165523.456|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 165927.317|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 165927.317|INFO|main|info|
+120926 165927.317|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 165927.317|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 165927.317|INFO|main|start|Starting ConnectionManager...
+120926 165927.397|INFO|main|start|Started ConnectionManager
+120926 165927.397|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+120926 165927.397|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+120926 165927.397|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+120926 165927.397|INFO|main|info|Contacting server at 140.116.82.173:50002
+120926 165927.397|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+120926 165927.507|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+120926 165927.637|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=1815]-8321441301949344815)
+120926 165927.687|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=1815]-8321441301949344815 key is com.sun.crypto.provider.DESKey@1873c
+120926 165927.687|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+120926 165927.697|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    6f212de7 230da511 1854c7a6 ce510371 f769f49b 877570bc 8a3c8486 03a02f74
+    e01c6800 2ff21c44 2b8b1751 2592d809 b32a551e 6db8e5a2 2ed0d5af ad66935c
+    d0a3478f 7c30bbf7 9ad62ec4 4ed3508e 54dc8e8d 8a55b7e9 d9966158 3eb4b411
+    e5bee201 5d899079 695378c9 7ebd386a 2a5fe35a eac81154 b6562385 6a6ba29f
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+120926 165927.697|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6f08f0
+120926 201505.197|INFO|Thread-1|receive|EOFException in receive for Socket[addr=/140.116.82.173,port=50002,localport=1815]-8321441301949344815
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:2571)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1315)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:369)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:150)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+120926 201505.197|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:157)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+120926 201505.197|FINER|Thread-1|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:157)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+121031 124441.472|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121031 124441.482|INFO|main|info|
+121031 124441.512|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121031 124441.522|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121031 124441.522|INFO|main|start|Starting ConnectionManager...
+121031 124442.032|INFO|main|start|Started ConnectionManager
+121031 124442.032|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121031 124442.032|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121031 124442.032|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121031 124442.032|INFO|main|info|Contacting server at 140.116.82.173:50002
+121031 124442.032|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121031 124442.432|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=4908]--7747713336852875807)
+121031 124442.772|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121031 124442.802|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=4908]--7747713336852875807 key is com.sun.crypto.provider.DESKey@18032
+121031 124442.802|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121031 124442.802|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    e59e7760 4f146d59 611191ca 003392a2 a5265662 8ccd803e 25b0ad29 1904487a
+    a28a5151 5b6d8ccc 527e67c4 0dfcd6d4 c4102a57 992f4c78 202d7d36 213b6080
+    c1240073 e7ba713d de803602 d7fe247e 685343cc 50141de1 d977ee5c 4d697793
+    762a435b fd3f3e5b 64dcbf3d 3b22a4dd 7442a299 6afd4627 d2548018 2f5c2361
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121031 124442.802|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@e782a8
+121031 174346.742|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121031 174346.742|INFO|main|info|
+121031 174346.742|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121031 174346.742|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121031 174346.742|INFO|main|start|Starting ConnectionManager...
+121031 174346.812|INFO|main|start|Started ConnectionManager
+121031 174346.812|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121031 174346.812|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121031 174346.812|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121031 174346.812|INFO|main|info|Contacting server at 140.116.82.173:50002
+121031 174346.812|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121031 174346.892|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121031 174347.042|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=6743]--8517893464178621644)
+121031 174347.102|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=6743]--8517893464178621644 key is com.sun.crypto.provider.DESKey@fffe7f6f
+121031 174347.102|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121031 174347.102|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    cb4c8b58 61cbe41a dc8be4e0 c8586009 afddf7ff d01b63cc 8909db66 d076dd3f
+    f1a057eb 2413bdcf 1782bb17 cd29b674 b6e7b4a2 83a3ef8b d69150d6 91dd5f1a
+    7000ef40 3239a65e 65fc4d79 316ae78c a779c823 528e8b08 c5fb7bdb 5431514a
+    061c02b3 df7ac77c 32c59f6e e48d60b7 e2f0ce57 5ce5d00c adb278c5 cde803ea
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121031 174347.102|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6076c4
+121031 185918.532|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121031 185918.532|INFO|main|info|
+121031 185918.542|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121031 185918.542|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121031 185918.542|INFO|main|start|Starting ConnectionManager...
+121031 185918.612|INFO|main|start|Started ConnectionManager
+121031 185918.612|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121031 185918.612|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121031 185918.612|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121031 185918.612|INFO|main|info|Contacting server at 140.116.82.173:50002
+121031 185918.612|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121031 185918.692|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121031 185918.842|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=9042]-8470435531044161268)
+121031 185918.892|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=9042]-8470435531044161268 key is com.sun.crypto.provider.DESKey@fffe781f
+121031 185918.892|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121031 185918.892|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    35f95935 6f8c1ff3 43152b5a 7f43fec8 3c653ee9 87e7f091 810a9aae 6995441d
+    eddec8b3 d201e358 ee5255ca 22a10c47 a64b18cd 0b553855 f8e3c878 3c10fdf3
+    cc4ab878 47fe5f78 4cdf575e 915152e8 19d15a3a d914f995 c533fed2 d8b9bd44
+    f7ffc232 a3a66290 14cd9634 73bf1a34 8b5c5621 8094bd80 fb931997 a33359ea
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121031 185918.892|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7d5b6e
+121031 193451.327|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121031 193451.327|INFO|main|info|
+121031 193451.337|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121031 193451.337|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121031 193451.337|INFO|main|start|Starting ConnectionManager...
+121031 193451.417|INFO|main|start|Started ConnectionManager
+121031 193451.417|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121031 193451.417|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121031 193451.417|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121031 193451.417|INFO|main|info|Contacting server at 140.116.82.173:50002
+121031 193451.417|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121031 193451.567|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121031 193451.647|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=1837]--7454235307655157515)
+121031 193451.707|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=1837]--7454235307655157515 key is com.sun.crypto.provider.DESKey@18670
+121031 193451.707|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121031 193451.707|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    4981c8ff 61c18b65 750aac69 97d8783a 819aadbe 235574e3 2a04f946 853ead54
+    d62ea3b1 bea18412 99a13f1f 5753f39c 99276bab 18e3f5f7 1c85f486 63f363f7
+    af6cb3fe ee7550c0 cfcf8b45 101aa01c ae777cb2 ce64f838 8faf2e77 3f46fa8a
+    20caa39e d6e48549 a8f57fc9 e1ee393f b369aa1a f4e11fa1 061c6152 f7842271
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121031 193451.707|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@896e10
+121031 203522.312|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121031 203522.322|INFO|main|info|
+121031 203522.322|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121031 203522.322|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121031 203522.322|INFO|main|start|Starting ConnectionManager...
+121031 203522.392|INFO|main|start|Started ConnectionManager
+121031 203522.392|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121031 203522.392|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121031 203522.392|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121031 203522.392|INFO|main|info|Contacting server at 140.116.82.173:50002
+121031 203522.392|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121031 203522.472|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121031 203522.612|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=4212]-6759048291403614269)
+121031 203522.672|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=4212]-6759048291403614269 key is com.sun.crypto.provider.DESKey@18001
+121031 203522.672|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121031 203522.672|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    cc3adcfe e6995f70 d9f4d33c fcb22007 cb2b3382 3bed4b83 ea3d6a10 879aac87
+    bdd1278f e0595002 ecc8ff92 f0fd7fa9 4f6abce0 ae11eeb9 447938c8 581b012b
+    dd3037f3 3b0a71bb 65138814 54f8a403 c7595cf0 1b9d5ac4 287bafbd 98e50dd4
+    8c776fe2 e6d78fe1 8408cb7f 184c80ca bcb6fa13 df5b9b19 5cf19e96 37a4343f
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121031 203522.672|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3087f9
+121128 175026.059|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 175026.089|INFO|main|info|
+121128 175026.129|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 175026.139|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 175026.139|INFO|main|start|Starting ConnectionManager...
+121128 175026.739|INFO|main|start|Started ConnectionManager
+121128 175026.739|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 175026.739|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 175026.739|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 175026.739|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 175026.739|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 175027.169|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=2368]-6195865708624248082)
+121128 175027.449|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=2368]-6195865708624248082 key is com.sun.crypto.provider.DESKey@186c8
+121128 175027.449|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121128 175027.449|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    73fa482d 617f6f81 95319a26 9c6c1d57 f0980795 433ab12b 30ec8c36 4586e305
+    8493a299 b7765547 794034b7 e6699197 aca549dd 86b2416a 0327118a c41412aa
+    d0f7bbef 0ffd43c8 6a3db251 05eb67bb 8eaab031 8ad0ff2a b4f8b558 d4ea657c
+    d922ca98 caa3d93a 06660d10 1e77f3e3 ea892ad2 579d8150 0aed075a 377cd6b4
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121128 175027.449|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1e5d007
+121128 175027.509|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121128 193503.659|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 193503.659|INFO|main|info|
+121128 193503.659|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 193503.659|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 193503.659|INFO|main|start|Starting ConnectionManager...
+121128 193503.729|INFO|main|start|Started ConnectionManager
+121128 193503.729|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 193503.729|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 193503.729|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 193503.729|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 193503.729|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 193503.809|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121128 193503.959|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=3164]-2884807243851652876)
+121128 193504.019|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=3164]-2884807243851652876 key is com.sun.crypto.provider.DESKey@fffe7b36
+121128 193504.019|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121128 193504.019|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    d4d581ba f173186f bbe358a0 7d963fdd caeb8a5e 77ce60ed 0d770020 726c5b70
+    1cf28959 6792355a 96aaa839 ded1b832 f4a9c583 9d2bdb15 f37badc0 ef944f04
+    42ced01f 5ad0a1e7 1f5b2fad 1b5da2e8 7cf9ba3d b965207a cee931fa 9aef2c56
+    3159fb35 7e92bbdd 52a957ec 8d2d1964 44f0f3af 918f8cb6 321e071d bf476dc0
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121128 193504.019|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@451610
+121128 201606.422|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 201606.422|INFO|main|info|
+121128 201606.432|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 201606.432|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 201606.432|INFO|main|start|Starting ConnectionManager...
+121128 201606.512|INFO|main|start|Started ConnectionManager
+121128 201606.512|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 201606.512|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 201606.512|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 201606.512|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 201606.512|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 201606.592|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121128 201606.752|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=4183]--2562837080490843753)
+121128 201606.812|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=4183]--2562837080490843753 key is com.sun.crypto.provider.DESKey@fffe7f41
+121128 201606.812|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121128 201606.812|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    cb2adc04 08fa50d6 ed7fb301 6abb96a1 7d59bd38 9bfc101e 1db376bf 4d39dff2
+    e06b44a0 24b9bedb 6c04ff5b dee28d09 d8ccb040 940ac6a5 a39ee05a 08abdb0c
+    7a4cc37a 48267a66 22b80aba 5b7f7ef6 669e5283 f9209986 f5c89801 cae7ee74
+    301bc51a 1763f467 2e742ce4 6dbe320f bfe316e7 6360c652 c28f0a41 2e67d570
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121128 201606.812|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@18a4622
+121128 204248.730|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 204248.732|INFO|main|info|
+121128 204248.735|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 204248.735|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 204248.735|INFO|main|start|Starting ConnectionManager...
+121128 204248.808|INFO|main|start|Started ConnectionManager
+121128 204248.810|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 204248.810|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 204248.810|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 204248.811|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 204248.811|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 204248.920|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121128 204249.035|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=7324]-8211081274942813465)
+121128 204249.091|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=7324]-8211081274942813465 key is com.sun.crypto.provider.DESKey@18139
+121128 204249.092|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121128 204249.093|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    a4590f99 bea9a465 0b307762 59ba8e71 4a1b64c7 933a160f a4875629 e8287953
+    c7656523 6b1113cb 468bdd59 e209e830 f83be24c 9d4d5be9 67de0430 c75bd286
+    af005fbc c63d318c 480cd115 b768eda0 515ce345 5c0b350d b263dbfb 66b75e12
+    e376b123 2241fbed 0d23525a e8f62f2c c4ab6d9c 64c364ee 2ae78460 dbf0d726
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121128 204249.093|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@50cc63
+121128 204307.626|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 204307.627|INFO|main|info|
+121128 204307.630|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 204307.630|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 204307.631|INFO|main|start|Starting ConnectionManager...
+121128 204307.706|INFO|main|start|Started ConnectionManager
+121128 204307.707|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 204307.707|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 204307.708|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 204307.708|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 204307.708|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 204307.817|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121128 204307.943|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=7483]--8059707416075606241)
+121128 204308.001|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=7483]--8059707416075606241 key is com.sun.crypto.provider.DESKey@18512
+121128 204308.002|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121128 204308.003|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    8415e772 e69aa8c3 3f7ce178 7e24ee53 4f215c47 b03a6be1 6b01965c 0eceac31
+    8ba1baf0 b3a1b472 ccfc9973 50c8cd2f 6dcd763a a35f72ce 0e4dcd44 7aae1889
+    3e02f274 e26d770b 9f17a374 93bc5d58 f2e7c6d4 e1f2ea5d c90ddcc0 d9e46dfd
+    6736e583 5f4ca994 d09944bf 3e04df22 1bb5cc5c 1b3c658a fd77814c 883567f4
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121128 204308.003|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1c34b84
+121128 205415.624|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 205415.625|INFO|main|info|
+121128 205415.629|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 205415.629|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 205415.629|INFO|main|start|Starting ConnectionManager...
+121128 205415.703|INFO|main|start|Started ConnectionManager
+121128 205415.705|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 205415.705|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 205415.705|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 205415.706|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 205415.706|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 205415.819|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+121128 205415.931|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.173,port=50002,localport=4298]-6719992018860127509)
+121128 205415.988|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.173,port=50002,localport=4298]-6719992018860127509 key is com.sun.crypto.provider.DESKey@fffe79a9
+121128 205415.989|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+121128 205415.990|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    92a75846 371d11a9 cfd3c0ec c24bb465 241caa7d 1230cc3a c410e018 049be2f1
+    7d21a94e 682396ae b5424f68 4f77854d fb0799e5 29d72819 697a76ac 13c23fe6
+    98eb0bee ae27b1ca 0c488175 468a817e 76a1b135 cc978e8b c75ff69d b5dae8a5
+    ddc85144 5611d7b4 1b6722ae e0edb7c8 3eba08ec 7d3561ba 635a49c1 e9559901
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+121128 205415.991|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1ee8428
+121128 211221.789|CONFIG|main|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+121128 211221.789|INFO|main|info|
+121128 211221.799|INFO|main|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+121128 211221.799|INFO|main|start|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+121128 211221.799|INFO|main|start|Starting ConnectionManager...
+121128 211221.859|INFO|main|start|Started ConnectionManager
+121128 211221.859|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+121128 211221.859|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/bin/pc2v9.ini
+121128 211221.859|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.173 parsed as 140.116.82.173 port 50002
+121128 211221.859|INFO|main|info|Contacting server at 140.116.82.173:50002
+121128 211221.869|INFO|main|connectToMyServer|Connecting to 140.116.82.173:50002
+121128 211242.879|INFO|main|<init>|IO Exception:140.116.82.173
+121128 211242.879|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+121128 211242.879|INFO|main|start|Exception logged 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection timed out: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:196)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2016)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:50)
+121128 211242.879|INFO|main|info|Unable to contact server at 140.116.82.173:0 Connection timed out: connect
+121128 211242.949|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/owner/Desktop/ProgramContest/pc2-9.1.6/lib/pc2.jar!/images/icpc_banner.png) checksum failed

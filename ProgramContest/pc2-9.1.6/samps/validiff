@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# File:    validdiff
+# Purpose: to show gvim diff and also execute internal PC^2 Validator
+#
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/samps/validiff $
+# $Id: validiff 1052 2007-11-10 22:59:34Z laned $
+#
+# Directions
+# Add/Edit Problem | Validator Tab 
+# Select Use External Validator
+# Validator Command Line must be: {:infile} {:outfile} {:ansfile} {:resfile} 
+# 
+
+java -cp /usr/pc2v9/lib/pc2.jar edu.csus.ecs.pc2.validator.Validator $* -pc2 1 true
+
+gvim -d $2 $3 > /dev/null
+
+# eof validiff

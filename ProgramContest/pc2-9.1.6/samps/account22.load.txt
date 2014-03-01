@@ -1,0 +1,22 @@
+site	account	password	displayname	permdisplay
+1	team1	pass1	Team 1 Name	true
+1	team2	pass2	Team 2 Name	true
+1	team3	pass3	Team 3 Name	true
+1	team4	pass4	Team 4 Name	true
+1	team5	pass5	Team 5 Name	true
+1	team6	pass6	Team 6 Name	true
+1	team7	pass7	Team 7 Name	true
+1	team8	pass8	Team 8 Name	true
+1	team9	pass9	Team 9 Name	true
+1	team10	pass10	Team 10 Name	true
+1	team11	pass11	Team 11 Name	true
+1	team12	pass12	Team 12 Name	true
+1	team13	pass13	Team 13 Name	true
+1	team14	pass14	Team 14 Name	true
+1	team15	pass15	Team 15 Name	true
+1	team16	pass16	Team 16 Name	true
+1	team17	pass17	Team 17 Name	true
+1	team18	pass18	Team 18 Name	true
+1	team19	pass19	Team 19 Name	true
+1	team20	pass20	Team 20 Name	true
+1	team21	pass21	Team 21 Name	true

@@ -1,0 +1,35 @@
+Scenario # 1
+
+Scenario # 2
+  321 -- new intrusion
+
+Scenario # 3
+
+Scenario # 4
+ 1298 -- domain exited
+
+Scenario # 5
+ 1299 -- domain exited
+
+Scenario # 6
+ 1301 -- domain loss
+
+Scenario # 7
+ 1298 -- new intrusion
+
+Scenario # 8
+ 1299 -- new intrusion
+
+Scenario # 9
+ 1301 -- new aloft
+
+Scenario # 10
+   13 -- domain loss
+  222 -- equipment warning
+  333 -- new aloft
+  777 -- new intrusion
+ 1496 -- domain exited
+
+Scenario # 11
+
+

@@ -1,0 +1,158 @@
+PROGRAM SAMPLEINPUT;
+
+VAR
+  TEMP : RECORD
+    FIRST, SECOND : REAL;
+    END;
+
+BEGIN {Ignore this }
+TEMP.FIRST := 5.0E-2;
+READLN(TEMP.SECOND);
+WRITELN('THE ANSWER IS', TEMP.FIRST * TEMP.SECOND : 7 : 3)
+END.
+~~A. N. Onymous
+program SAMPleinput;
+
+VAR
+  TEMP : RECORD
+    FIRST, SECOND : 0..1000;
+    END;
+  ch : array [1..1] of Char;
+  chptr : ^char;
+  _r1, r_2, _r_3_ : REAL
+
+BEGIN {Ignore this 'and this'}
+_r1 := 5E2;
+r_2:=-55E-2;
+_r_3_ := 455E+22;
+_r_3_ := 52342342.222;
+_r_3_ := -52342342.222;
+chptr := @ch[1];
+ch[1] := '''';
+TEMP.FIRST := -5;
+READLN(TEMP.SECOND);
+WRITELN('{THE} '' ANSWER IS''', TEMP.FIRST * TEMP.SECOND : 7)
+END.
+~~A
+PROGRAM ppl(input, output);
+
+VAR
+   aline : string;
+   tot : INTEGER;
+   legal : SET OF CHAR;
+
+BEGIN
+WHILE NOT eof DO
+   BEGIN
+   tot := 0;
+   REPEAT
+      readln(aline);
+      IF pos('~~', aline) <> 1 THEN
+         BEGIN
+	 WHILE aline <> '' DO
+	    BEGIN
+	    CASE aline[1] OF
+	     'a'..'z', 'A'..'Z', '_':
+	       BEGIN
+	       inc(tot);
+	       WHILE (aline <> '') AND (aline[1] IN ['_', '0'..'9',
+		                        'a'..'z', 'A'..'Z']) DO
+		  delete(aline, 1, 1);
+	       END;
+	     '+', '-', '*', '/', '=', '@', '^', '[':
+	       BEGIN
+	       inc(tot);
+	       delete(aline, 1, 1);
+	       END;
+	     '<':
+	       BEGIN
+	       inc(tot);
+	       delete(aline, 1, 1);
+	       IF (aline <> '') AND (aline[1] IN ['>', '=']) THEN
+		  delete(aline, 1, 1);
+	       END;
+	     '>':
+	       BEGIN
+	       inc(tot);
+	       delete(aline, 1, 1);
+	       IF (aline <> '') AND (aline[1] IN ['=']) THEN
+		  delete(aline, 1, 1);
+	       END;
+	     ':':
+	       BEGIN
+	       delete(aline, 1, 1);
+	       IF (aline <> '') AND (aline[1] = '=') THEN
+		  BEGIN
+		  inc(tot);
+		  delete(aline, 1, 1);
+		  END;
+	       END;
+	     '{':
+	       BEGIN
+	       WHILE pos('}', aline) = 0 DO
+		  readln(aline);
+	       delete(aline, 1, pos('}', aline));
+	       END;
+	     '(':
+	       BEGIN
+	       delete(aline, 1, 1);
+	       IF (aline <> '') AND (aline[1] = '*') THEN
+		  BEGIN
+		  WHILE pos('*)', aline) = 0 DO
+		     readln(aline);
+		  delete(aline, 1, pos('*)', aline));
+	          END
+ 	       ELSE
+		  inc(tot);
+	       END;
+	     '''':
+	       BEGIN
+	       inc(tot);
+	       WHILE (aline <> '') AND (pos('''', aline) = 1) DO
+		  BEGIN
+		  delete(aline,  1, 1);
+	 	  delete(aline, 1, pos('''', aline));
+		  END;
+	       END;
+	     '$':
+	       BEGIN
+	       delete(aline, 1, 1);
+	       inc(tot);
+	       WHILE (aline <> '') AND (aline[1] IN ['0'..'9', 'a'..'f',
+			                'A'..'F']) DO
+		  delete(aline, 1, 1);
+	       END;
+	     '0'..'9':
+	       BEGIN
+	       inc(tot);
+	       legal := ['0'..'9', '.'];
+	       WHILE (aline <> '') AND (aline[1] IN legal) DO
+	  	  BEGIN
+		  IF aline[1] = '.' THEN
+		     legal := ['0'..'9'];
+		  delete(aline, 1, 1);
+	   	  END;
+	       IF (aline <> '') AND (aline[1] IN ['e', 'E']) THEN
+		  BEGIN
+		  delete(aline, 1, 1);
+		  WHILE (aline <> '') AND (aline[1] = ' ') DO
+		     delete(aline, 1, 1);
+		  IF (aline <> '') AND (aline[1] IN ['+', '-']) THEN
+		     delete(aline, 1, 1);
+		  WHILE (aline <> '') AND (aline[1] = ' ') DO
+		     delete(aline, 1, 1);
+		  WHILE (aline <> '') AND (aline[1] IN ['0'..'9']) DO
+		     delete(aline, 1, 1);
+		  END;
+	       END;
+	     OTHERWISE
+	       delete(aline, 1, 1);
+	    END;
+	 END;
+      END;
+   UNTIL pos('~~', aline) = 1;
+
+   writeln('Program by ', copy(aline, 3, 1000), ' contains ', tot:1, ' units.');
+   END;
+END.
+~~soln

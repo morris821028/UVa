@@ -1,0 +1,24 @@
+120926 164147.610|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin\logs directory.
+120926 164147.611|INFO|AWT-EventQueue-0|info|
+120926 164147.611|INFO|AWT-EventQueue-0|info|Version 9.1.6 20100929 (Wednesday, September 29th 2010 03:53 UTC) Java ver 1.7.0_03 build 2136 Windows 7 6.1 (x86) 
+120926 164147.611|INFO|AWT-EventQueue-0|info|Login: team41 (aka team41)
+120926 164147.611|INFO|AWT-EventQueue-0|login|Working directory is C:\Users\owner\Desktop\ProgramContest\pc2-9.1.6\bin
+120926 164147.612|INFO|AWT-EventQueue-0|info|Contacting server at 140.116.82.173:50002 as TEAM41 @ site 0
+120926 164147.612|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM41 @ site 0
+120926 164147.612|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #2 TEAM41 @ site 0 -> SERVER0 @ site 0
+120926 164147.613|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #2 TEAM41 @ site 0 -> SERVER0 @ site 0
+120926 164147.613|INFO|Thread-6|run|send(Serializable)
+120926 164147.613|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+120926 164148.150|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+120926 164148.153|INFO|Thread-7|info| receiveObject(S) start got Packet[LOGIN_FAILED] #521 SERVER0 @ site 1 -> TEAM41 @ site 0
+120926 164148.153|INFO|Thread-7|dumpPacket|Packet LOGIN_FAILED (Seq #521 ) recieveObject
+120926 164148.153|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1
+120926 164148.153|INFO|Thread-7|dumpPacket|    To: TEAM41 @ site 0
+120926 164148.154|INFO|Thread-7|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+120926 164148.154|INFO|Thread-7|info|handlePacket start Packet[LOGIN_FAILED] #521 SERVER0 @ site 1 -> TEAM41 @ site 0
+120926 164148.154|INFO|Thread-7|dumpPacket|Packet LOGIN_FAILED (Seq #521 ) handlePacket
+120926 164148.154|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1
+120926 164148.154|INFO|Thread-7|dumpPacket|    To: TEAM41 @ site 0
+120926 164148.154|INFO|Thread-7|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+120926 164148.156|INFO|Thread-7|info|handlePacket end Packet[LOGIN_FAILED] #521 SERVER0 @ site 1 -> TEAM41 @ site 0
+120926 164148.156|INFO|Thread-7|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #521 SERVER0 @ site 1 -> TEAM41 @ site 0

@@ -1,0 +1,56 @@
+fill B 
+pour B A 
+empty A 
+pour B A 
+fill B 
+pour B A 
+success 
+fill A 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+success 
+fill A 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+success 
+fill A 
+pour A B 
+fill A 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+fill A 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+success 
+fill A 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+success 
+fill A 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+fill A 
+pour A B 
+empty B 
+pour A B 
+success 
+fill B 
+success 

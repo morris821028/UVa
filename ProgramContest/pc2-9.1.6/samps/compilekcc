@@ -1,0 +1,11 @@
+#!/bin/csh
+
+# $HeadURL$
+
+
+set mainfile=$1
+
+#echo bc++ -A $mainfile
+bc++ -A $mainfile
+
+# eof 

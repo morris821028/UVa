@@ -1,0 +1,21 @@
+a(b(c(d(e(f(g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(v(w(x(y(z(a(b(c(d(e(f(g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(v(w(x(y(z(a(b(c(d(e(f(g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(v(w(x(y(z(a(b)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))));
+
+a(b(c(d(e(f,g),e(f,g)),d(e(f,g),e(f,g))),c(d(e(f,g),e(f,g)),d(e(f,g),e(f,g)))),
+  b(c(d(e(f,g),e(f,g)),d(e(f,g),e(f,g))),c(d(e(f,g),e(f,g)),d(e(f,g),e(f,g)))));
+
+r ( A(B(C,D),E) , a(b(c(d,e),f),g) );
+
+r ( a(b,c),
+t(u(v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z))),
+    v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z)))),
+  u(v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z))),
+    v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z))))) );
+
+r (
+t(u(v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z))),
+    v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z)))),
+  u(v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z))),
+    v(w(x(y,z),x(y,z)),w(x(y,z),x(y,z))))),
+a(b,c));
+
+q(z(h(a(o(t(k)),l),z),v(e(h(f(b,s(a,c)),v(o(j(e,b),z))),l),e(x,s))),g(s(f(x),f(c(y(d,g(m(k,i))),j(t,b(k(d,q),i))),x)),t(i(o,c(o(m(k(u(r)),z(d(w(s)))),i),g(t(t(w,p)),k))),s(w)))).

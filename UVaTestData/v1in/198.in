@@ -1,0 +1,62 @@
+ hugo3 := sammy + ZuRiCH 
+ sammy := 3 
+ ZuRiCH := 5 
+ PRINT d 
+ PRINT hugo3 
+ sammy := 8 
+ PRINT hugo3 
+ RESET 
+ PRINT hugo3 
+
+RESET
+hugo3:=sammy+ZuRiCH
+sammy:=3
+ZuRiCH:=5
+PRINT d
+PRINT hugo3
+sammy:=8
+PRINT hugo3
+RESET
+PRINT hugo3
+
+RESET
+hugo3:=hugo3
+PRINT hugo3
+
+RESET
+hugo3 := 1 + ( 2 + ( 3 + ( 4 + 5 * 6 ) * 7 ) * 8 )
+PRINT hugo3
+sammy := 1931 - 1000 - 900 - 30
+PRINT sammy
+ZuRiCH := sammy - hugo3
+PRINT ZuRiCH
+sammy := 1930
+PRINT ZuRiCH
+
+RESET
+hugo3:=1+(2+(3+(4+5*6)*7)*8)
+PRINT hugo3
+sammy:=1931-1000-900-30
+PRINT sammy
+ZuRiCH:=sammy-hugo3
+PRINT ZuRiCH
+sammy:=1930
+PRINT ZuRiCH
+
+RESET
+
+sepp:=karin + frosch
+frosch := sepp - karin
+karin := frosch - sepp
+PRINT sepp
+PRINT frosch
+PRINT karin
+frosch :=34
+sepp:=-34
+PRINT karin
+
+RESET
+octern := 35--5
+PRINT octern
+ttT:=40+-5
+PRINT ttT

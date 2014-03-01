@@ -1,0 +1,10 @@
+This is a test file for MARKUP.C
+\s3.4a\sb\s.5c\s100.d\s12e
+\*\b no translation should occur *\\ \b*\s3.*\*
+/i/b/s\bb\ii\ss
+\**\\***\\*\*\*
+\*
+\\
+\*
+\\ \n\o\ \p\r\ob\l\e\m\*s\*
+\* close literal text by end-of-file\

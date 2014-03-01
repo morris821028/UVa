@@ -1,0 +1,23 @@
+clone WILLIAM from ADAM 
+clone BOB from ADAM mutating BLD ELB 
+clone SAM from ADAM mutating EYE NOS EAR LEG 
+clone BILL from ANN mutating LEG 
+clone ANN from ADAM mutating LEG 
+clone WILL from ANN mutating EYE 
+clone SUE from SAM mutating LEG 
+clone HILDEGARDE from SUE mutating ARM HAI FIN 
+clone JERRY from ADAM 
+clone CHARLES from HILDEGARDE 
+clone ABEL from JERRY mutating ARM HAI FIN LEG NOS EAR 
+clone CAIN from WILL mutating ARM LEG 
+clone GEORGE from SID mutating EYE LEG 
+clone SID from CAIN mutating EYE LEG 
+clone ENOS from ABEL mutating ABC ABD ABE ABF ABG ABH ABI ABJ ABK ABL 
+clone ISRAEL from ENOS mutating ABL 
+clone HAIFA from ENOS mutating EAR 
+clone ABC from ENOS mutating CAB CBB 
+clone BCD from ABC mutating DCB DCC 
+clone CDE from BCD mutating EAR DCB CBA 
+clone EFD from BCD mutating CBA DCB 
+clone EFG from BCD mutating XYZ QRS DCC EAR 
+

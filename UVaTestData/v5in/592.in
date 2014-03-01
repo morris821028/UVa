@@ -1,0 +1,142 @@
+1
+A: I am divine.
+1
+A: I am lying.
+1
+A: I am evil.
+3
+A: B is human.
+B: A is evil.
+A: B is evil.
+4
+A: B is human.
+B: C is human.
+C: A is human.
+C: I am evil.
+1
+A: A is evil.
+2
+D: E is human.
+D: E is evil.
+2
+B: It is day.
+B: It is night.
+1
+A: E is evil.
+2
+B: It is night.
+B: I am human.
+1
+C: I am lying.
+1
+D: I am not divine.
+8
+A: B is evil.
+B: C is not human.
+C: E is lying.
+C: E is not divine.
+D: I am not human.
+E: I am not lying.
+D: It is night.
+D: A is divine.
+2
+A: B is lying.
+A: B is divine.
+2
+B: I am not evil.
+B: I am not human.
+2
+B: C is not evil.
+B: C is not divine.
+3
+E: I am not human.
+E: A is not lying.
+A: It is night.
+2
+A: B is not evil.
+A: B is lying.
+2
+A: I am not divine.
+A: I am not human.
+3
+A: B is lying.
+B: C is lying.
+C: A is lying.
+5
+A: B is lying.
+B: C is lying.
+C: D is lying.
+D: A is lying.
+C: A is not evil.
+3
+A: B is human.
+A: B is not lying.
+A: It is night.
+3
+A: B is human.
+A: B is lying.
+A: It is day.
+3
+A: B is lying.
+A: It is day.
+B: I am human.
+3
+A: I am human.
+B: A is not divine.
+B: It is day.
+3
+E: I am not human.
+D: E is evil.
+D: It is day.
+50
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+A: It is night.
+B: It is day.
+A: B is lying.
+B: A is lying.
+A: B is divine.
+0

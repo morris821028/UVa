@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# Purpose: resets contest status.
+# Author : pc2@ecs.csus.edu
+# $HeadURL: http://pc2.ecs.csus.edu/repos/pc2v9/branches/PC2_RELEASE_9_1_x/bin/pc2reset $
+#
+
+. `dirname $0`/pc2env
+
+if [ -d logs -a -d packets ] ; then
+    `dirname $0`/pc2zip
+    rm -fr logs packets reports db db.* execute*
+else
+    echo Not in directory to reset, should be run from dir with logs and packets
+fi 
+
+
+# eof pc2reset $Id: pc2reset 606 2007-05-07 21:53:53Z boudreat $ 

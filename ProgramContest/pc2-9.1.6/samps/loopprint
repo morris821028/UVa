@@ -1,0 +1,36 @@
+#!/bin/sh 
+
+# CUSTOMIZE HERE
+# this is the local print queue
+# test with: lp -d thisvalue file_to_print
+#
+# $HeadURL$
+
+PRINTER=balloon
+
+# use this value in the balloon "Print Device(Port)"
+# may need to change this to a user writable directory
+FIFO=/dev/balloonprinter
+
+# the rest should not change
+
+if [ -e $FIFO ]; then
+	if [ ! -p $FIFO ]; then
+		echo $FIFO is not a pipe, cannot continue
+		exit 2
+	fi
+else
+	# make the pipe
+	mkfifo $FIFO
+	# attempt to clean up after ourselves
+	trap 'rm -f $FIFO;exit 0' 0
+fi
+
+while /bin/true
+do
+
+	cat $FIFO | lp -d $PRINTER
+
+done
+
+# eof $Id$

@@ -1,0 +1,18 @@
+21
+move 2 onto 1
+move 3 onto 2
+move 4 onto 3
+move 5 over 1
+pile 1 over 10
+move 9 over 8
+move 11 over 8
+pile 3 over 8
+pile 8 over 3
+move 20 over 19
+pile 19 over 18
+pile 18 onto 15
+move 15 over 3
+pile 20 onto 19
+pile 19 onto 18
+pile 18 over 17
+quit
