@@ -7,6 +7,7 @@ $DESCRIPTION
 */
 #include <iostream>
 #include <cstring>
+#include <stdio.h>
 using namespace std;
 
 typedef long long int lli;
@@ -206,6 +207,8 @@ int run()
 
 int main()
 {
+	freopen("in.txt", "r+t", stdin);
+	freopen("out.txt", "w+t", stdout);
     int T;
     for (cin>>T;T;T--) run();
 }
