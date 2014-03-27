@@ -1,70 +1,139 @@
-#include <iostream>
-#include <fstream>
-#include <map>
+#include <stdio.h> 
+#include <stdlib.h>
 #include <vector>
-#include <cstring>
-#include <algorithm> //std::find
+#include <map>
+#include <set>
+#include <queue>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
 using namespace std;
-
-int main() {
-    fstream fin("DFA1.txt");
-    string buf;
-    vector<char> sigma;
-    map<string, int> str2num;
-    //<sigma>
-    getline(fin, buf);
-    for(int i = 1; i < buf.length(); i += 2)
-        sigma.push_back(buf[i]);
-    //</sigma>
-    //<read table>
-    int table[1000][sigma.size()], tsize = 0;
-    int acceptTable[1000] = {};
-    memset(table, 0, sizeof(table));
-    while(getline(fin, buf)) {
-        string left, right;
-        int pos = buf.find(")"), prev;
-        left = buf.substr(0, pos+1);
-        prev = pos;
-        int &x = str2num[left];
-        if(x == 0)  x = ++tsize;
-        if(left[1] == '*')  acceptTable[x] = 1;
-        for(int i = 0; i < sigma.size(); i++) {
-            pos = buf.find(")", prev+1);
-            right = buf.substr(prev+1, pos-prev);
-            prev = pos;
-            int &y = str2num[right];
-            if(y == 0)  y = ++tsize;
-            table[x][i] = y;
-            if(right[1] == '*')  acceptTable[y] = 1;
-        }
-    }
-    //</read table>
-    fin.close();
-    cout << "¿é¤J¤§token:";
-    cin >> buf;
-    int error = 0, nowState = 1, nextState;
-    for(int i = 0; i < buf.length(); i++) {
-        int sigmaIdx = find(sigma.begin(), sigma.end(), buf[i])-sigma.begin();
-        if(sigmaIdx >= sigma.size()) {//not found char
-            error = 1;
-            break;
-        }
-        nextState = table[nowState][sigmaIdx];
-        if(nextState == 0) {//no state translate
-            error = 1;
-            break;
-        }
-        nowState = nextState;
-    }
-    cout << "¿é¥X:";
-    if(error) {
-        puts("error");
-    } else {
-        error = !acceptTable[nowState];
-        if(error)
-            puts("error");
-        else
-            puts("vaild");
-    }
-    return 0;
+class State {
+	public:
+		State(int ac=0) {
+			accepted = ac;
+		}
+		bool accepted;
+		int nameLabel;
+		map<char, vector<State*> > trans;
+};
+class DFA {
+	public:
+		State* Q0;
+		vector<State*> Q, F;
+		int runDFA(const char s[]);
+};
+int DFA::runDFA(const char s[]) {
+	State *p;
+	p = Q0;
+	for(int i = 0; s[i]; i++) {
+		if(p->trans.find(s[i]) == p->trans.end())
+			return 0;
+		p = p->trans[s[i]][0];
+	}
+	return p->accepted;
 }
+vector<char> parsingAlphabetSet(char s[]) {
+#define isValidAlpha(x)	((x) != ',' && (x) != '(' && (x) != ')' && !((x) >= '0' && (x) <= '9'))
+	for(int i = 0; s[i]; i++) {
+		if(!isValidAlpha(s[i]))
+			s[i] = ' ';
+	}
+	vector<char> ret;
+	stringstream sin(s);
+	string token;
+	while(sin >> token)
+		ret.push_back(token[0]);
+	return ret;
+}
+int parsingStateTrans(char s[], int column, vector< vector< string > > &table) {
+	for(int i = 0; s[i]; i++) {
+		if(s[i] == '(' || s[i] == ')')
+			s[i] = ' ';
+	}
+	stringstream sin(s);
+	vector< string > R;
+	for(int i = 0; i < column + 1; i++) {
+		string token;
+		sin >> token;
+		R.push_back(token);
+	}
+	table.push_back(R);
+	int ac = 0;
+	for(int i = 0; i < R[0].length(); i++)
+		if(R[0][i] == '*')
+			ac = 1;
+	return ac;
+}
+int main() {
+	DFA dfa;
+	char s[1024];
+	gets(s);
+	vector<char> alpha = parsingAlphabetSet(s);
+	
+	int state_count = 0;
+	vector< vector< string > > table;
+	vector<int> hasStar;
+	while(gets(s)) {
+		int ac = parsingStateTrans(s, alpha.size(), table);
+		hasStar.push_back(ac);
+		state_count++;	
+	}
+	for(int i = 0; i < state_count; i++) {
+		dfa.Q.push_back(new State(hasStar[i]));
+		dfa.Q[i]->nameLabel = i;
+		if(hasStar[i])	dfa.F.push_back(dfa.Q[i]);
+	}
+	dfa.Q0 = dfa.Q[0];
+	int i = 0;
+	for(vector< vector< string > >::iterator it = table.begin();
+		it != table.end(); it++, i++) {
+		string start = table[i][0];
+		for(int j = 1; j <= alpha.size(); j++) {
+			string end = table[i][j];
+			for(int k = 0; k < table.size(); k++) {
+				if(table[k][0] == end)
+					dfa.Q[i]->trans[alpha[j-1]].push_back(dfa.Q[k]);
+			}
+		}
+	}
+	gets(s);
+	puts(dfa.runDFA(s) ? "valid" : "invalid");
+	return 0;
+}
+/*
+(l,a,b,2)
+(2,0)(3,0)(0,0)
+(0,0)(4,5)(0,0)
+(0,0)(0,0)(4,0)
+(0,0)(5,0)(5,0)
+(*,*)(*,*)(*,*)
+
+(l,a,b,2)
+(3,0)(4,0)(0,0)
+(0,0)(3,1)(2,0)
+(2,0)(0,0)(4,0)
+(3,*)(4,*)(*,*)
+
+(l,a,b,2) 
+(2,4,6)(0)(0)
+(0)(3)(0)
+(6)(0)(0)
+(0)(0)(5)
+(6)(0)(0)
+(1)(7)(0)
+(*)(*)(*)
+-------- output -------
+
+(a,b)
+(1,2)(*3,4,5)(0)
+(*3,4,5)(*5)(*4,5)
+(*5)(0)(0)
+(*4,5)(*5)(*5)
+
+(a,b)
+(1,2,3)(*1,2,3,4)(*2,3,4)
+(*1,2,3,4)(*1,2,3,4)(*2,3,4)
+(*2,3,4)(*1,2,3,4)(*2,3,4)
+
+*/
