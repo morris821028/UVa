@@ -66,6 +66,8 @@ int parsingStateTrans(char s[], int column, vector< vector< string > > &table) {
 	return ac;
 }
 int main() {
+	freopen("DFAjudge.txt", "r+t", stdin);
+	freopen("DFAresult.txt", "w+t", stdout);
 	DFA dfa;
 	char s[1024];
 	gets(s);
@@ -75,6 +77,7 @@ int main() {
 	vector< vector< string > > table;
 	vector<int> hasStar;
 	while(gets(s)) {
+		if(s[0] != '(')	break;
 		int ac = parsingStateTrans(s, alpha.size(), table);
 		hasStar.push_back(ac);
 		state_count++;	
@@ -97,43 +100,33 @@ int main() {
 			}
 		}
 	}
-	gets(s);
-	puts(dfa.runDFA(s) ? "valid" : "invalid");
+	puts(dfa.runDFA(s) ? "valid" : "error");
 	return 0;
 }
 /*
-(l,a,b,2)
-(2,0)(3,0)(0,0)
-(0,0)(4,5)(0,0)
-(0,0)(0,0)(4,0)
-(0,0)(5,0)(5,0)
-(*,*)(*,*)(*,*)
-
-(l,a,b,2)
-(3,0)(4,0)(0,0)
-(0,0)(3,1)(2,0)
-(2,0)(0,0)(4,0)
-(3,*)(4,*)(*,*)
-
-(l,a,b,2) 
-(2,4,6)(0)(0)
-(0)(3)(0)
-(6)(0)(0)
-(0)(0)(5)
-(6)(0)(0)
-(1)(7)(0)
-(*)(*)(*)
--------- output -------
+Sample Input: 
+(a,b)
+(1,2)(*3,4,5)(0)
+(*3,4,5)(*5)(*4,5)
+(*5)(0)(0)
+(*4,5)(*5)(*5)
+abbbb
 
 (a,b)
 (1,2)(*3,4,5)(0)
 (*3,4,5)(*5)(*4,5)
 (*5)(0)(0)
 (*4,5)(*5)(*5)
+ab
 
 (a,b)
 (1,2,3)(*1,2,3,4)(*2,3,4)
 (*1,2,3,4)(*1,2,3,4)(*2,3,4)
 (*2,3,4)(*1,2,3,4)(*2,3,4)
-
+a
+------------------
+Sample Output:
+error
+valid
+valid
 */

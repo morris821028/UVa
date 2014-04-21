@@ -10,105 +10,47 @@
 using namespace std;
 class State {
 	public:
-		void setAccepted(bool b) {
-			accepted = b;
+		State(int ac=0) {
+			accepted = ac;
 		}
-		bool isAccepted() {
-			return accepted;
-		}
-		State() {
-			accepted = 0;
-		}
-	private:
 		bool accepted;
+		int nameLabel;
+		map<char, vector<State*> > trans;
 };
 class DFA {
 	public:
-		int start_state;
-		vector<char> alphabet;
-		vector<State> states;
-		vector< map<char, int> > trans_func;
+		State* Q0;
+		vector<State*> Q, F;
 };
 class NFA {
 	public:
 		static char lambda;
-		int start_state;
-		vector<char> alphabet;
-		vector<State> states;
-		vector< map<char, vector<int> > > trans_func;
-		void setAlphabetSet(vector<char> s) {
-			alphabet = s;
-		}
-		void setStateSet(vector<State> s) {
-			states = s;
-		}
-		void setStartState(int index) {
-			start_state = index;
-		}
-		void setTransFunc(int state_idx, map<char, vector<int> > state_trans) {
-			while(trans_func.size() <= state_idx)
-				trans_func.push_back(map<char, vector<int> >());
-			trans_func[state_idx] = state_trans;
-		}
-		void print() {
-			printf("Start state : %d\n", start_state);
-			printf("Accept states : {");
-			for(int i = 0, j = 0; i < states.size(); i++) {
-				if(states[i].isAccepted()) {
-					if(j)	putchar(',');
-					printf("%d", i), j = 1;
-				}
-			}
-			puts("}");
-			printf("Alphabet set : {");
-			for(int i = 0; i < alphabet.size(); i++) {
-				if(alphabet[i] == this->lambda)
-					putchar('~');
-				else
-					putchar(alphabet[i]);
-				printf(i == alphabet.size() -1 ? "}\n" : ", ");
-			}
-			puts("Transition Table :");
-			puts("---------+---------------------");
-			puts("State[x] | (alpha, State[y])");
-			puts("---------+---------------------");
-			for(int i = 0; i < states.size(); i++) {
-				printf("State[%d] | ", i, states[i].isAccepted());
-				for(map<char, vector<int> >::iterator jt = trans_func[i].begin();
-					jt != trans_func[i].end(); jt++) {
-					char alpha = jt->first;
-					if(alpha == this->lambda)
-						alpha = '~';
-					for(int j = 0; j < jt->second.size(); j++) {
-						printf("(%c, %d)", alpha, jt->second[j]);
-					}
-				}
-				puts("");
-			}
-			puts("---------+---------------------");
-		}
+		State* Q0;
+		vector<State*> Q, F;
+		vector< vector<State*> > make_deterministic(DFA &M, vector<char> alpha);
+	private:
+		vector<State*> getSetOf(vector<State*> set_of_states, char c);
+		vector<State*> getClose(vector<State*> set_of_states);
 };
 char NFA::lambda = 0;
 /*
- * Add to S all states reachable from it
- * using only 'c' transitions of N
+ * @return delta(S, c)
  */
-vector<int> getSetOf(vector<int> set_of_states, NFA &N, char c) {
-	set<int> h;
-	vector<int> ret;
-	queue<int> q;
-	int index;
+vector<State*> NFA::getSetOf(vector<State*> set_of_states, char c) {
+	set<State*> h;
+	vector<State*> ret;
+	queue<State*> q;
+	State* index;
 	for(int i = 0; i < set_of_states.size(); i++) {
 		index = set_of_states[i];
 		q.push(index);
 	}
 	while(!q.empty()) {
 		index = q.front(), q.pop();
-		vector<int> state_trans = N.trans_func[index][c];
+		vector<State*> state_trans = index->trans[c];
 		for(int i = 0; i < state_trans.size(); i++) {
 			if(h.find(state_trans[i]) == h.end()) {
 				h.insert(state_trans[i]);
-				q.push(state_trans[i]);
 				ret.push_back(state_trans[i]);
 			}
 		}
@@ -118,12 +60,13 @@ vector<int> getSetOf(vector<int> set_of_states, NFA &N, char c) {
 /*
  * Add to S all states reachable from it
  * using only lembda transitions of N
+ * @return S union delta(S, lambda)
  */
-vector<int> getClose(vector<int> set_of_states, NFA &N) {
-	set<int> h;
-	vector<int> ret;
-	queue<int> q;
-	int index;
+vector<State*> NFA::getClose(vector<State*> set_of_states) {
+	set<State*> h;
+	vector<State*> ret;
+	queue<State*> q;
+	State* index;
 	for(int i = 0; i < set_of_states.size(); i++) {
 		index = set_of_states[i];
 		q.push(index), h.insert(index);
@@ -131,7 +74,7 @@ vector<int> getClose(vector<int> set_of_states, NFA &N) {
 	while(!q.empty()) {
 		index = q.front(), q.pop();
 		ret.push_back(index);
-		vector<int> state_trans = N.trans_func[index][NFA::lambda];
+		vector<State*> state_trans = index->trans[NFA::lambda];
 		for(int i = 0; i < state_trans.size(); i++) {
 			if(h.find(state_trans[i]) == h.end()) {
 				h.insert(state_trans[i]);
@@ -142,29 +85,28 @@ vector<int> getClose(vector<int> set_of_states, NFA &N) {
 	sort(ret.begin(), ret.end());
 	return ret;
 }
-
-vector< vector<int> > make_deterministic(NFA N, DFA &M) {
-	vector< vector<int> > T;
-	vector<int> next_state;
-	next_state.push_back(N.start_state);
-	vector<int> init_state = getClose(next_state, N);
+/*
+ * @return NFA to DFA
+ */
+vector< vector<State*> > NFA::make_deterministic(DFA &M, vector<char> alpha) {
+	vector< vector<State*> > T;
+	vector<State*> stateSet;
+	stateSet.push_back(Q0);
+	vector<State*> init_state = getClose(stateSet);
 	T.push_back(init_state);
-	M.start_state = 0;
-	for(int i = 0; i < N.alphabet.size(); i++) {
-		if(N.alphabet[i] != NFA::lambda) {
-			M.alphabet.push_back(N.alphabet[i]);
-		}
-	}
+	M.Q.push_back(new State());
 	for(int i = 0; i < T.size(); i++) {
-		State state;
-		map<char, int> state_trans;
+		State* state = M.Q[i];
 		for(int j = 0; j < T[i].size(); j++)
-			if(N.states[T[i][j]].isAccepted())
-				state.setAccepted(true);
-		M.states.push_back(state);
-		for(int j = 0; j < M.alphabet.size(); j++) {
-			vector<int> next_state = getSetOf(T[i], N, M.alphabet[j]);
-			next_state = getClose(next_state, N);
+			if(T[i][j]->accepted)
+				state->accepted = 1;
+		state->nameLabel = i;
+		if(state->accepted)	M.F.push_back(state);
+		for(int j = 0; j < alpha.size(); j++) {
+			if(alpha[j] == NFA::lambda)
+				continue;
+			vector<State*> next_state = getSetOf(T[i], alpha[j]);
+			next_state = getClose(next_state);
 			int existIdx = -1;
 			for(int k = 0; k < T.size(); k++) {
 				if(T[k] == next_state) {
@@ -174,14 +116,16 @@ vector< vector<int> > make_deterministic(NFA N, DFA &M) {
 			}
 			if(existIdx < 0) {
 				T.push_back(next_state);
+				M.Q.push_back(new State());
 				existIdx = T.size()-1;
 			}
-			state_trans[M.alphabet[j]] = existIdx;
+			M.Q[i]->trans[alpha[j]].push_back(M.Q[existIdx]);
 		}
-		M.trans_func.push_back(state_trans);
 	}
+	M.Q0 = M.Q[0];
 	return T;
 }
+
 
 vector<char> parsingAlphabetSet(char s[]) {
 #define isValidAlpha(x)	((x) != ',' && (x) != '(' && (x) != ')' && !((x) >= '0' && (x) <= '9'))
@@ -200,76 +144,134 @@ vector<char> parsingAlphabetSet(char s[]) {
 	}
 	return ret;
 }
-void parsingStateTrans(char s[], map<char, vector<int> >& state_trans, State &state, NFA &nfa) {
+int parsingStateTrans(char s[], int column, vector< vector< vector<int> > > &table) {
 	for(int i = 0; s[i]; i++) {
 		if(s[i] == '(' || s[i] == ')')
 			s[i] = ' ';
 	}
 	stringstream sin(s);
-	for(int i = 0; i < nfa.alphabet.size(); i++) {
+	int ac = 0;
+	vector< vector<int> > R;
+	for(int i = 0; i < column; i++) {
 		string token, state_index;
 		sin >> token;
 		for(int j = 0; j < token.length(); j++)
 			if(token[j] == ',')
 				token[j] = ' ';
 		stringstream sin2(token);
+		vector<int> S;
 		while(sin2 >> state_index) {
 			if(state_index == "*") {
-				state.setAccepted(true);
+				ac = 1;
 			} else {
 				int numeric_idx;
 				numeric_idx = atoi(state_index.c_str());
 				if(numeric_idx > 0) { // ignore zero.
-					state_trans[nfa.alphabet[i]].push_back(numeric_idx - 1);
+					S.push_back(numeric_idx-1);
 				}
 			}
 		}
+		R.push_back(S);
 	}
+	table.push_back(R);
+	return ac;
 }
-void printfState(int accepted, vector<int> mask) {
+bool cmp(const State* a, const State* b) {
+	return a->nameLabel < b->nameLabel;
+}
+void printfState(int accepted, vector<State*> mask) {
 	printf("(");
 	if(accepted)
 		printf("*");
+	sort(mask.begin(), mask.end(), cmp);
 	for(int j = 0; j < mask.size(); j++) {
-		printf("%d", mask[j] + 1);
+		printf("%d", mask[j]->nameLabel + 1);
 		printf("%c", j == mask.size()-1 ? ')' : ',');
 	}
 	if(mask.size() == 0)
 		printf("0)");
 }
 int main() {
+	//freopen("NFA.txt", "r+t", stdin);
+	//freopen("DFA.txt", "w+t", stdout);
+	
 	NFA nfa;
 	DFA dfa;
 	char s[1024];
-	gets(s);
-	nfa.setAlphabetSet(parsingAlphabetSet(s));
-	
 	int state_count = 0;
-	vector<State> states;
+	vector< vector< vector<int> > > table;
+	vector<int> hasStar; // integer state label
+	vector<char> alpha;
+	// read alpha set 
+	gets(s);
+	alpha = parsingAlphabetSet(s);
+	
+	// read table
 	while(gets(s)) {
-		State state;
-		map<char, vector<int> > state_trans;
-		parsingStateTrans(s, state_trans, state, nfa);
-		nfa.setTransFunc(state_count, state_trans);
-		states.push_back(state);
+		int ac = parsingStateTrans(s, alpha.size(), table);
+		hasStar.push_back(ac);
 		state_count++;	
 	}
-	nfa.setStateSet(states);
-	nfa.setStartState(0);
-	vector< vector<int> > mask = make_deterministic(nfa, dfa);
-	for(int i = 0; i < dfa.states.size(); i++) {
-		if(mask[i].size() == 0)
+	// build basic NFA states
+	for(int i = 0; i < state_count; i++) {
+		nfa.Q.push_back(new State(hasStar[i]));
+		nfa.Q[i]->nameLabel = i;
+		if(hasStar[i])	nfa.F.push_back(nfa.Q[i]);
+	}
+	// init start state
+	nfa.Q0 = nfa.Q[0];
+	// build translate table.
+	int i = 0;
+	for(vector< vector< vector<int> > >::iterator it = table.begin();
+		it != table.end(); it++, i++) {
+		int j = 0;
+		for(vector< vector<int> >::iterator jt = it->begin();
+			jt != it->end(); jt++, j++) {
+			for(vector<int>::iterator kt = jt->begin();
+				kt != jt->end(); kt++) {
+				nfa.Q[i]->trans[alpha[j]].push_back(nfa.Q[*kt]);
+			}
+		}
+	}
+	// start process NFA to DFA
+	vector< vector<State*> > mask = nfa.make_deterministic(dfa, alpha);
+	
+	// output result
+	for(map<char, vector<State*> >::iterator it = dfa.Q[0]->trans.begin(); 
+			it != dfa.Q[0]->trans.end(); it++) {
+		printf("%c%c", it == dfa.Q[0]->trans.begin() ? '(' : ',', it->first);
+	}
+	puts(")");
+	for(int i = 0; i < dfa.Q.size(); i++) {
+		if(mask[dfa.Q[i]->nameLabel].size() == 0)
 			continue;
-		printfState(dfa.states[i].isAccepted(), mask[i]);
-		for(int j = 0; j < dfa.alphabet.size(); j++) {
-			int sidx = dfa.trans_func[i][dfa.alphabet[j]];
-			printfState(dfa.states[sidx].isAccepted(), mask[sidx]);
+		printfState(dfa.Q[i]->accepted, mask[dfa.Q[i]->nameLabel]);
+		for(map<char, vector<State*> >::iterator it = dfa.Q[i]->trans.begin(); 
+			it != dfa.Q[i]->trans.end(); it++) {
+			State *ptr = it->second[0];
+			printfState(ptr->accepted, mask[ptr->nameLabel]);
 		}
 		puts("");
-	}	
-	//nfa.print();
+	}
 	return 0;
 }
+/*
+		void print() {
+			printf("start[%p]\n", Q0);
+			for(int i = 0; i < Q.size(); i++) {
+				printf("Q[%p][%d] : ", Q[i], Q[i]->nameLabel);
+				for(map<char, vector<State*> >::iterator it = Q[i]->trans.begin(); 
+					it != Q[i]->trans.end(); it++) {
+					printf("[%c,", it->first == 0 ? '~' : it->first);
+					for(vector<State*>::iterator jt = it->second.begin();
+						jt != it->second.end(); jt++) {
+						printf(" %d", (*jt)->nameLabel);
+					}
+					printf("]");
+				}
+				puts("");
+			}
+		}*/
 /*
 (l,a,b,2)
 (2,0)(3,0)(0,0)
@@ -293,4 +295,16 @@ int main() {
 (6)(0)(0)
 (1)(7)(0)
 (*)(*)(*)
+
+(l,a,b,2)
+(0)(1,2)(1)
+(0)(0)(3)
+(*)(0,0)(0,0)
+
+(l,a,b,2)
+(*,0)(2)(0)
+(0)(0)(3)
+(0)(1,4,5)(0)
+(0)(5)(0)
+(0)(1)(0)
 */
