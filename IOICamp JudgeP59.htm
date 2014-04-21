@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="IOICamp%20JudgeP59_files/bootstrap.css" rel="stylesheet">
+    <script src="IOICamp%20JudgeP59_files/jquery-1.js"></script>
+    <script src="IOICamp%20JudgeP59_files/bootstrap.js"></script>
+    <script src="IOICamp%20JudgeP59_files/pangu.js"></script>
+    <script src="IOICamp%20JudgeP59_files/MathJax.js"></script>
+    <link href="IOICamp%20JudgeP59_files/solarized_light.css" rel="stylesheet">
+    <script src="IOICamp%20JudgeP59_files/highlight.js"></script>
+    <title>IOICamp Judge</title>
+    <style type="text/css">
+      body {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        background-color: lavender;
+      }
+      pre.sourceCode {
+        padding: 0;
+      }
+      #input-source_code {
+        font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+      }
+    </style>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+    </script>
+  <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Main; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype'); font-weight: bold}
+@font-face {font-family: MathJax_Main; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Math; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Caligraphic; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('http://ioicamp-judge.csie.org/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+  <body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div style="display: none;" id="MathJax_Message"></div>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://ioicamp-judge.csie.org/">IOICamp Judge</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="http://ioicamp-judge.csie.org/problems">Problems</a>
+          </li>
+          <li>
+            <a href="http://ioicamp-judge.csie.org/submissions">Submissions</a>
+          </li>
+          <li>
+            <a href="http://ioicamp-judge.csie.org/contests">Contests</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="http://ioicamp-judge.csie.org/users/46">jackyliuxx</a>
+          </li>
+          <li id="logout">
+            <a href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container"><h2 class="text-center">
+  程度差距 EX
+</h2>
+<p class="text-center">
+  Time Limit: 2000 ms<br>
+  Memory Limit: 262144 KB
+</p>
+<h3>
+  Description
+</h3>
+<p>湯湯身為貼心的正妹名師， 一向很關心班上的程度差距， 但是因為湯湯太有名了，班上學生超級多， 湯湯覺得非常苦惱，希望你可以幫幫他。</p>
+<p>湯湯為了估量學生的程度差距， 決定算出任兩個學生的程度差距中的中位數， 為了方便起見，如果差距的個數為偶數，則取大的作為中位數。</p>
+<p>舉例來說，如果現在有 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-1-Frame" class="MathJax"><nobr><span style="width: 0.589em; display: inline-block;" id="MathJax-Span-1" class="math"><span style="display: inline-block; position: relative; width: 0.476em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.942em, 1000em, 2.976em, -0.508em); top: -2.798em; left: 0em;"><span id="MathJax-Span-2" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-3" class="mn">4</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.955em; vertical-align: -0.071em;"></span></span></nobr></span><script id="MathJax-Element-1" type="math/tex">4</script> 個學生，程度分別為 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-2-Frame" class="MathJax"><nobr><span style="width: 4.018em; display: inline-block;" id="MathJax-Span-4" class="math"><span style="display: inline-block; position: relative; width: 3.333em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.953em, 1000em, 3.17em, -0.453em); top: -2.798em; left: 0em;"><span id="MathJax-Span-5" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-6" class="mn">1</span><span style="font-family: MathJax_Main;" id="MathJax-Span-7" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-8" class="mn">3</span><span style="font-family: MathJax_Main;" id="MathJax-Span-9" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-10" class="mn">5</span><span style="font-family: MathJax_Main;" id="MathJax-Span-11" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-12" class="mn">8</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.175em; vertical-align: -0.304em;"></span></span></nobr></span><script id="MathJax-Element-2" type="math/tex">1, 3, 5, 8</script>， 那麼任兩個學生的差距為 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-3-Frame" class="MathJax"><nobr><span style="width: 6.304em; display: inline-block;" id="MathJax-Span-13" class="math"><span style="display: inline-block; position: relative; width: 5.238em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.942em, 1000em, 3.17em, -0.486em); top: -2.798em; left: 0em;"><span id="MathJax-Span-14" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-15" class="mn">2</span><span style="font-family: MathJax_Main;" id="MathJax-Span-16" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-17" class="mn">4</span><span style="font-family: MathJax_Main;" id="MathJax-Span-18" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-19" class="mn">7</span><span style="font-family: MathJax_Main;" id="MathJax-Span-20" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-21" class="mn">2</span><span style="font-family: MathJax_Main;" id="MathJax-Span-22" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-23" class="mn">5</span><span style="font-family: MathJax_Main;" id="MathJax-Span-24" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-25" class="mn">3</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.188em; vertical-align: -0.304em;"></span></span></nobr></span><script id="MathJax-Element-3" type="math/tex">2, 4, 7, 2, 5, 3</script>， 排序後為 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-4-Frame" class="MathJax"><nobr><span style="width: 6.304em; display: inline-block;" id="MathJax-Span-26" class="math"><span style="display: inline-block; position: relative; width: 5.238em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.942em, 1000em, 3.17em, -0.486em); top: -2.798em; left: 0em;"><span id="MathJax-Span-27" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-28" class="mn">2</span><span style="font-family: MathJax_Main;" id="MathJax-Span-29" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-30" class="mn">2</span><span style="font-family: MathJax_Main;" id="MathJax-Span-31" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-32" class="mn">3</span><span style="font-family: MathJax_Main;" id="MathJax-Span-33" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-34" class="mn">4</span><span style="font-family: MathJax_Main;" id="MathJax-Span-35" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-36" class="mn">5</span><span style="font-family: MathJax_Main;" id="MathJax-Span-37" class="mo">,</span><span style="font-family: MathJax_Main; padding-left: 0.167em;" id="MathJax-Span-38" class="mn">7</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.188em; vertical-align: -0.304em;"></span></span></nobr></span><script id="MathJax-Element-4" type="math/tex">2, 2, 3, 4, 5, 7</script>， 中位數為 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-5-Frame" class="MathJax"><nobr><span style="width: 0.589em; display: inline-block;" id="MathJax-Span-39" class="math"><span style="display: inline-block; position: relative; width: 0.476em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.942em, 1000em, 2.976em, -0.508em); top: -2.798em; left: 0em;"><span id="MathJax-Span-40" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-41" class="mn">4</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.955em; vertical-align: -0.071em;"></span></span></nobr></span><script id="MathJax-Element-5" type="math/tex">4</script>。</p>
+
+<h3>
+  Input Format
+</h3>
+<p>第一行有一個正整數 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-6-Frame" class="MathJax"><nobr><span style="width: 0.875em; display: inline-block;" id="MathJax-Span-42" class="math"><span style="display: inline-block; position: relative; width: 0.714em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.704em, 1000em, 2.738em, -0.515em); top: -2.56em; left: 0em;"><span id="MathJax-Span-43" class="mrow"><span style="font-family: MathJax_Math; font-style: italic;" id="MathJax-Span-44" class="mi">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.56em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.955em; vertical-align: -0.071em;"></span></span></nobr></span><script id="MathJax-Element-6" type="math/tex">T</script> <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-7-Frame" class="MathJax"><nobr><span style="width: 7.375em; display: inline-block;" id="MathJax-Span-45" class="math"><span style="display: inline-block; position: relative; width: 6.131em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.869em, 1000em, 3.226em, -0.442em); top: -2.798em; left: 0em;"><span id="MathJax-Span-46" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-47" class="mo">(</span><span style="font-family: MathJax_Main;" id="MathJax-Span-48" class="mn">1</span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-49" class="mo">≤</span><span style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;" id="MathJax-Span-50" class="mi">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-51" class="mo">≤</span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-52" class="mn">500</span><span style="font-family: MathJax_Main;" id="MathJax-Span-53" class="mo">)</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.343em; vertical-align: -0.371em;"></span></span></nobr></span><script id="MathJax-Element-7" type="math/tex">(1 \leq T \leq 500)</script>，代表有幾組測試資料。</p>
+<p>每組測試資料第一行有一個正整數 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-8-Frame" class="MathJax"><nobr><span style="width: 0.732em; display: inline-block;" id="MathJax-Span-54" class="math"><span style="display: inline-block; position: relative; width: 0.595em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.939em, 1000em, 2.749em, -0.515em); top: -2.56em; left: 0em;"><span id="MathJax-Span-55" class="mrow"><span style="font-family: MathJax_Math; font-style: italic;" id="MathJax-Span-56" class="mi">n</span></span><span style="display: inline-block; width: 0px; height: 2.56em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.686em; vertical-align: -0.085em;"></span></span></nobr></span><script id="MathJax-Element-8" type="math/tex">n</script> <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-9-Frame" class="MathJax"><nobr><span style="width: 7.232em; display: inline-block;" id="MathJax-Span-57" class="math"><span style="display: inline-block; position: relative; width: 6.012em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.755em, 1000em, 3.226em, -0.442em); top: -2.798em; left: 0em;"><span id="MathJax-Span-58" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-59" class="mo">(</span><span style="font-family: MathJax_Main;" id="MathJax-Span-60" class="mn">2</span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-61" class="mo">≤</span><span style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;" id="MathJax-Span-62" class="mi">n</span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-63" class="mo">≤</span><span style="padding-left: 0.278em;" id="MathJax-Span-64" class="msubsup"><span style="display: inline-block; position: relative; width: 1.444em; height: 0px;"><span style="position: absolute; clip: rect(1.953em, 1000em, 2.998em, -0.453em); top: -2.798em; left: 0em;"><span style="font-family: MathJax_Main;" id="MathJax-Span-65" class="mn">10</span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span><span style="position: absolute; top: -2.774em; left: 1.012em;"><span style="font-size: 70.7%; font-family: MathJax_Main;" id="MathJax-Span-66" class="mn">5</span><span style="display: inline-block; width: 0px; height: 2.381em;"></span></span></span></span><span style="font-family: MathJax_Main;" id="MathJax-Span-67" class="mo">)</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.48em; vertical-align: -0.371em;"></span></span></nobr></span><script id="MathJax-Element-9" type="math/tex">(2\leq n \leq 10^5)</script>， 接下來一行，有 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-10-Frame" class="MathJax"><nobr><span style="width: 0.732em; display: inline-block;" id="MathJax-Span-68" class="math"><span style="display: inline-block; position: relative; width: 0.595em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.939em, 1000em, 2.749em, -0.515em); top: -2.56em; left: 0em;"><span id="MathJax-Span-69" class="mrow"><span style="font-family: MathJax_Math; font-style: italic;" id="MathJax-Span-70" class="mi">n</span></span><span style="display: inline-block; width: 0px; height: 2.56em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.686em; vertical-align: -0.085em;"></span></span></nobr></span><script id="MathJax-Element-10" type="math/tex">n</script> 個正整數 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-11-Frame" class="MathJax"><nobr><span style="width: 0.732em; display: inline-block;" id="MathJax-Span-71" class="math"><span style="display: inline-block; position: relative; width: 0.595em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.939em, 1000em, 2.749em, -0.501em); top: -2.56em; left: 0em;"><span id="MathJax-Span-72" class="mrow"><span style="font-family: MathJax_Math; font-style: italic;" id="MathJax-Span-73" class="mi">x</span></span><span style="display: inline-block; width: 0px; height: 2.56em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.686em; vertical-align: -0.085em;"></span></span></nobr></span><script id="MathJax-Element-11" type="math/tex">x</script> <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-12-Frame" class="MathJax"><nobr><span style="width: 7.161em; display: inline-block;" id="MathJax-Span-74" class="math"><span style="display: inline-block; position: relative; width: 5.952em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.755em, 1000em, 3.226em, -0.442em); top: -2.798em; left: 0em;"><span id="MathJax-Span-75" class="mrow"><span style="font-family: MathJax_Main;" id="MathJax-Span-76" class="mo">(</span><span style="font-family: MathJax_Main;" id="MathJax-Span-77" class="mn">1</span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-78" class="mo">≤</span><span style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;" id="MathJax-Span-79" class="mi">x</span><span style="font-family: MathJax_Main; padding-left: 0.278em;" id="MathJax-Span-80" class="mo">≤</span><span style="padding-left: 0.278em;" id="MathJax-Span-81" class="msubsup"><span style="display: inline-block; position: relative; width: 1.444em; height: 0px;"><span style="position: absolute; clip: rect(1.953em, 1000em, 2.998em, -0.453em); top: -2.798em; left: 0em;"><span style="font-family: MathJax_Main;" id="MathJax-Span-82" class="mn">10</span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span><span style="position: absolute; top: -2.774em; left: 1.012em;"><span style="font-size: 70.7%; font-family: MathJax_Main;" id="MathJax-Span-83" class="mn">8</span><span style="display: inline-block; width: 0px; height: 2.381em;"></span></span></span></span><span style="font-family: MathJax_Main;" id="MathJax-Span-84" class="mo">)</span></span><span style="display: inline-block; width: 0px; height: 2.798em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.48em; vertical-align: -0.371em;"></span></span></nobr></span><script id="MathJax-Element-12" type="math/tex">(1 \leq x \leq 10^8)</script>， 代表湯湯班中 <span class="MathJax_Preview"></span><span style="" aria-readonly="true" role="textbox" id="MathJax-Element-13-Frame" class="MathJax"><nobr><span style="width: 0.732em; display: inline-block;" id="MathJax-Span-85" class="math"><span style="display: inline-block; position: relative; width: 0.595em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.939em, 1000em, 2.749em, -0.515em); top: -2.56em; left: 0em;"><span id="MathJax-Span-86" class="mrow"><span style="font-family: MathJax_Math; font-style: italic;" id="MathJax-Span-87" class="mi">n</span></span><span style="display: inline-block; width: 0px; height: 2.56em;"></span></span></span><span style="border-left: 0em solid; display: inline-block; overflow: hidden; width: 0px; height: 0.686em; vertical-align: -0.085em;"></span></span></nobr></span><script id="MathJax-Element-13" type="math/tex">n</script> 個學生的程度。</p>
+<p>由於測試資料有不少小型數據，保證總大小不會超過 5MB 。</p>
+
+<h3>
+  Output Format
+</h3>
+<p>每筆測資請輸出一行，包含一個整數，代表學生程度差距中的中位數。</p>
+
+<h3>
+  Sample Input
+</h3>
+<pre>2
+4
+1 3 5 8
+3
+1 2 3
+</pre>
+<h3>
+  Sample Output
+</h3>
+<pre>4
+1
+</pre>
+<a class="btn btn-primary" href="http://ioicamp-judge.csie.org/problems/17/submit">Submit</a>
+    </div>
+    <script type="text/javascript">
+      pangu.page_spacing();
+      $('#logout').click(function() {
+        $('<form action="/logout" method="POST">').appendTo("body").submit();
+      });
+    </script>
+  
+<div style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px none; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: italic; font-size-adjust: none; font-family: 'MathJax_Math',sans-serif;" id="MathJax_Font_Test"></div></body></html>
