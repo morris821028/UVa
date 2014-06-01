@@ -1,21 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 #include <algorithm>
 using namespace std;
 struct Pt {
-    long long x, y;
+    int x, y;
+    Pt(int a = 0, int b = 0):
+        x(a), y(b) {}
+    bool operator <(const Pt &a) const {
+        if(x != a.x)       
+            return x < a.x;
+        return y < a.y;
+    }   
+    bool operator ==(const Pt &a) const {
+        return x == a.x && y == a.y;
+    }
 };
-double cross(Pt o, Pt a, Pt b) {
-    return ((double)(a.x-o.x))*(b.y-o.y)-((double)(a.y-o.y))*(b.x-o.x);
+int cross(Pt o, Pt a, Pt b) {
+    return (a.x-o.x)*(b.y-o.y)-(a.y-o.y)*(b.x-o.x);
 }
-bool cmp(Pt a, Pt b) {
-    if(a.x != b.x)
-        return a.x < b.x;
-    return a.y < b.y;
-}
-int monotone(Pt p[], int n, Pt ch[]) {
-    sort(p, p+n, cmp);
+int monotone(int n, Pt p[], Pt ch[]) {
+    sort(p, p+n);
     int i, m = 0, t;
     for(i = 0; i < n; i++) {
         while(m >= 2 && cross(ch[m-2], ch[m-1], p[i]) <= 0)
@@ -27,16 +30,39 @@ int monotone(Pt p[], int n, Pt ch[]) {
             m--;
         ch[m++] = p[i];
     }
-    return m;
+    return m - 1;
 }
-Pt p[500000], ch[500000];
+Pt D[100005], C[100005<<1], p;
+Pt I[100005];
 int main() {
-    char s[105];
-    int n = 0, i;
-    while(scanf("%lld, %lld", &p[n].x, &p[n].y) == 2)
-        n++;
-    n = monotone(p, n, ch);
-    for(i = 0; i < n; i++)
-        printf("%lld, %lld\n", ch[i].x, ch[i].y);
+	int cases = 0;
+	char s[1024];
+	while(gets(s)) {
+		if(cases++ > 0)
+			puts("");
+		int n = 0, m, x, y;
+		sscanf(s, "%d, %d", &x, &y);
+		I[n] = D[n] = Pt(x, y);
+		n++;
+		while(gets(s) && s[0] != '\0') {
+			sscanf(s, "%d, %d", &x, &y);
+			I[n] = D[n] = Pt(x, y);
+			n++;
+		}
+		m = monotone(n, D, C);
+		int mark = -1;
+		for(int i = 0; i < n && mark == -1; i++) {
+			for(int j = 0; j < m; j++)
+				if(C[j] == I[i]) {
+					mark = j;
+					break;
+				}
+		}
+		for(int i = mark; i < m; i++)
+			printf("%d, %d\n", C[i].x, C[i].y);	
+		for(int i = 0; i <= mark; i++)
+			printf("%d, %d\n", C[i].x, C[i].y);	
+	}
+	
     return 0;
 }
