@@ -1,64 +1,58 @@
 #include <stdio.h>
-#include <vector>
-#include <queue>
+#include <algorithm>
+#include <string.h>
 using namespace std;
-struct Arc {
-    int to;
-};
-struct ele {
-    int node, v;
-};
-int C[1001], TC[1001];
-struct cmp {
-    bool operator() (ele a, ele b) {
-        if(a.v != b.v)
-            return a.v < b.v;
-        return C[a.node] < C[b.node];
-    }
-};
-vector<Arc> myLink[1001];
-void dfs(int node) {
-    for(vector<Arc>::iterator i = myLink[node].begin(); i != myLink[node].end(); i++) {
-        dfs(i->to);
-        TC[node] += TC[i->to];
-    }
-}
+
 int main() {
-    int N, R, i, from, to;
-    while(scanf("%d %d", &N, &R) == 2) {
-        if(N == 0 && R == 0)
-            break;
-        for(i = 1; i <= N; i++) {
-            scanf("%d", C+i);
-            TC[i] = C[i];
-            myLink[i].clear();
+    int N, R;
+    int W[1024], father[1024], exists[1024], time[1024], cost[1024];
+    int x, y;
+    while (scanf("%d %d", &N, &R), N + R) {
+        for (int i = 1; i <= N; i++) {
+            scanf("%d", &W[i]);
         }
-        Arc tmp;
-        for(i = 1; i < N; i++) {
-            scanf("%d %d", &from, &to);
-            tmp.to = to;
-            myLink[from].push_back(tmp);
+        for (int i = 1; i < N; i++) {
+            scanf("%d %d", &x, &y);
+            father[y] = x;
         }
-        dfs(R);
-        priority_queue<ele, vector<ele>, cmp> Q;
-        ele tn;
-        tn.node = R, tn.v = TC[R];
-        Q.push(tn);
-        int ans = 0, F = 1, node;
-        while(!Q.empty()) {
-            tn = Q.top();
-            Q.pop();
-            ans += F*C[tn.node];
-            node = tn.node;
-            printf("%d %d %d\n", node, tn.v, F*C[node]);
-            for(vector<Arc>::iterator i = myLink[node].begin(); i != myLink[node].end(); i++) {
-                tn.v = TC[i->to];
-                tn.node = i->to;
-                Q.push(tn);
+        
+        for (int i = 1; i <= N; i++) {
+            exists[i] = 1;
+            time[i] = 1;
+            cost[i] = W[i];
+        }
+        
+        for (int i = 1; i < N; i++) {
+            int maxW = -1, maxX = 1;
+            double maxP = -1;
+            for (int j = 1; j <= N; j++) {
+                if (exists[j] && maxP < (double)W[j]/time[j] && j != R) {
+                    maxW = W[j], maxX = j;
+                    maxP = (double)W[j]/time[j];
+                }
             }
-            F++;
+            for (int j = 1; j <= N; j++) {
+                if (father[j] == maxX) {
+                    father[j] = father[maxX];
+                }
+            }
+            W[father[maxX]] += W[maxX];
+            cost[father[maxX]] += time[father[maxX]] * W[maxX] + cost[maxX];
+            time[father[maxX]] += time[maxX];
+            exists[maxX] = 0;
+            // printf("merge %d to %d. W = %d, cost = %d\n", maxX, father[maxX], maxW, cost[father[maxX]]);
         }
-        printf("%d\n", ans);
+        int ret = cost[R];
+        printf("%d\n", ret);
     }
     return 0;
 }
+/*
+ 5 1
+ 1 2 1 2 4
+ 1 2
+ 1 3
+ 2 4
+ 3 5
+ 0 0
+*/
