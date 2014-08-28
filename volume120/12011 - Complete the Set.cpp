@@ -1,36 +1,65 @@
 #include <stdio.h>
-#include <string.h>
+#include <math.h>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <queue>
+#include <map>
 #include <set>
+#include <string.h>
+#include <assert.h>
 using namespace std;
-int A[50], n, tn;
-set<int> dp;
-void dfs(int idx, int st, int val) {
-    if(idx == n) {
-        if(dp.find(val) == dp.end() && st == 0) {
-            tn++;
-            dp.insert(val);
-        }
-        return;
-    }
-    if(st)
-        dfs(idx+1, 0, A[idx]);
-    else
-        dfs(idx+1, 0, val&A[idx]);
-    dfs(idx+1, 0, val|A[idx]);
-    dfs(idx+1, st, val);
-}
+
 int main() {
-    int t, i, j;
-    int cases = 0;
-    scanf("%d", &t);
-    while(t--) {
+    int testcase, cases = 0;
+    int n, x;
+    scanf("%d", &testcase);
+    while (testcase--) {
         scanf("%d", &n);
-        dp.clear();
-        tn = 0;
-        for(i = 0; i < n; i++)
-            scanf("%d", &A[i]);
-        dfs(0, 1, 0);
-        printf("Case #%d: %d\n", ++cases, tn-n);
+        set<int> S;
+        int A[32] = {}, all = (1<<18) - 1; // used i-th bits minimum attachment.
+        memset(A, -1, sizeof(A));
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &x);
+            S.insert(x);
+            all &= x; // used mask = 0
+            for (int j = 0; j < 18; j++) {
+                if ((x>>j)&1) {
+                    if (A[j] == -1)
+                        A[j] = x;
+                    else
+                        A[j] = A[j] & x;
+                }
+            }
+        }
+        S.insert(all);
+        int m = 0;
+        for (int i = 0; i < 18; i++) {
+            if (A[i] != -1)
+                A[m++] = A[i];
+        }
+        for (int i = 1; i < (1<<m); i++) { // used mask
+            int num = 0;
+            for (int j = 0; j < m; j++) {
+                if ((i>>j)&1) {
+                    num |= A[j];
+                }
+            }
+            S.insert(num);
+        }
+        printf("Case #%d: %d\n", ++cases, (int)S.size() - n);
     }
     return 0;
 }
+
+/*
+ 4
+ 5
+ 0 1 3 5 7
+ 2
+ 2 4
+ 3
+ 3 7 11
+ 3
+ 1 2 4
+ */
