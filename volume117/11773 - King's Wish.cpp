@@ -2,18 +2,18 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-#define maxL (1000000>>5)+1
-#define GET(x) (mark[(x)>>5]>>((x)&31)&1)
-#define SET(x) (mark[(x)>>5] |= 1<<((x)&31))
+#define maxL (10000000>>5)+1
+#define GET(x) (mark[x>>5]>>(x&31)&1)
+#define SET(x) (mark[x>>5] |= 1<<(x&31))
 int mark[maxL];
-long long P[100000], Pt = 0;
+int P[32767], Pt = 0;
 void sieve() {
-    register int i, j, k, l;
+    register int i, j, k;
     SET(1);
-    int n = 1000000;
+    int n = 50000;
     for(i = 2; i <= n; i++) {
         if(!GET(i)) {
-            for(j = i + i; j <= n; j += i)
+            for(k = n/i, j = i*k; k >= i; k--, j -= i)
                 SET(j);
             P[Pt++] = i;
         }
