@@ -3,9 +3,9 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-vector<int> g[1024];
+vector<int> g[32767];
 
-int visited[1024], depth[1024];
+int visited[32767], depth[32767];
 vector< pair<int, int> > bridge;
 int findBridge(int u, int p, int dep) {
 	visited[u] = 1, depth[u] = dep;
