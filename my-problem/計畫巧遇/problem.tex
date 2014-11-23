@@ -1,0 +1,104 @@
+\documentclass[12pt,psfig,epsf]{article}
+\setlength{\topmargin}{-1in}
+\setlength{\textheight}{10in}
+\setlength{\textwidth}{5.5in}
+\usepackage{epsfig}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{graphicx}
+\begin{document}
+
+\begin{center}
+   {\Large\bfseries Problem M}\\			% Problem Number
+   {\large\bf Tree Switch}\\			% Problem Name
+   {\large Input File: {\em test.in}}\\		% Input file name
+   {\large Time Limit: {\em 1 Second}}\\	% Time limit in seconds
+\end{center}
+
+
+% Problem description here
+
+Given a tree, root node with label 0
+
+\begin{verbatim}
+Operation M x : switch node x (0->1 or 1->0)
+Operation S x : get the path from x to root, first 1.
+\end{verbatim}
+
+% Technical Specification and constraints
+
+%\vspace*{.3in} \noindent {\large \bfseries Technical Specification}
+%\begin{enumerate}
+%\item The . . .
+%\end{enumerate}
+
+% Input File Format
+\vspace*{.3in} \noindent {\large \bfseries Input File Format}\\
+
+Input consists of several datasets.  ...
+
+% Output File Format
+\vspace*{.3in} \noindent {\large \bfseries Output Format}\\
+
+For each dataset, ....
+
+% Sample Input
+\vspace*{.3in} \noindent {\large \bfseries Sample Input} 
+\begin{verbatim}
+31
+0 1
+0 2
+0 3
+1 4
+1 5
+2 6 
+2 7
+3 8
+4 9
+4 10
+4 11
+6 12
+6 13
+12 14
+12 15
+13 16
+13 17
+14 18
+14 19
+14 20
+17 21
+17 22
+20 23
+21 24
+21 25
+22 26
+22 27
+23 28
+24 29
+24 30
+10
+M 6
+S 29
+S 9
+M 0
+S 9
+S 6
+S 2
+M 6
+S 29
+S 6
+\end{verbatim}
+
+% Sample Output
+\vspace*{.3in} \noindent {\large \bfseries Output for the Sample Input}
+\begin{verbatim}
+6
+-1
+0
+6
+0
+0
+\end{verbatim}
+
+\end{document}
+

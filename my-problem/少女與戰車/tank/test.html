@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+    <style type="text/css">
+    body {
+      background: black
+    }
+    </style>
+  <body>
+    <style type="text/css">
+    .profile {
+        float: right;
+        border-radius: 50%;
+        border: 5px solid #2D2D2D;
+        width: 50px;
+        height: 50px;
+        background-position: center center;
+        background-size: 90px;
+        background-repeat: no-repeat;
+    }
+    .battlefield {
+        background-color: black;
+        background-image: url('snowbackground.jpg'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+        margin: 15px;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    .battlefield .tank {
+        display: block;
+        height: 60px;
+        width: 60px;
+        background-position: center center;
+    }
+    </style>
+    <div class="battlefield">
+      <button id="example1">Play</button>
+      <div class="tank" id="ex1-tank0"><div class='profile' style="background-image: url(pp1.png)"></div></div>
+      <div class="tank" id="ex1-tank1"><div class='profile' style="background-image: url(pp2.png)"></div></div>
+      <div class="tank" id="ex1-tank2"><div class='profile' style="background-image: url(pp3.jpg)"></div></div>
+    </div>
+    <div class="battlefield">
+      <button id="example2">Play</button>
+      <div class="tank" id="ex2-tank0"><div class='profile' style="background-image: url(pp4.jpg)"></div></div>
+      <div class="tank" id="ex2-tank1"><div class='profile' style="background-image: url(pp5.png)"></div></div>
+      <div class="tank" id="ex2-tank2"><div class='profile' style="background-image: url(pp6.png)"></div></div>
+      <div class="tank" id="ex2-tank3"><div class='profile' style="background-image: url(pp7.jpg)"></div></div>
+      <div class="tank" id="ex2-tank4"><div class='profile' style="background-image: url(pp8.png)"></div></div>
+      <div class="tank" id="ex2-tank5"><div class='profile' style="background-image: url(pp9.jpg)"></div></div>
+    </div>
+    <div class="battlefield">
+      <button id="example3">Play</button>
+      <div class="tank" id="ex3-tank0"><div class='profile' style="background-image: url(pp10.jpg)"></div></div>
+      <div class="tank" id="ex3-tank1"><div class='profile' style="background-image: url(pp11.png)"></div></div>
+      <div class="tank" id="ex3-tank2"><div class='profile' style="background-image: url(pp1.png)"></div></div>
+    </div>
+    <div class="battlefield">
+      <button id="example4">Play</button>
+      <div class="tank" id="ex4-tank0"><div class='profile' style="background-image: url(pp2.png)"></div></div>
+      <div class="tank" id="ex4-tank1"><div class='profile' style="background-image: url(pp3.jpg)"></div></div>
+      <div class="tank" id="ex4-tank2"><div class='profile' style="background-image: url(pp4.jpg)"></div></div>
+      <div class="tank" id="ex4-tank3"><div class='profile' style="background-image: url(pp5.png)"></div></div>
+    </div>
+    <script>
+        $(function() {
+            function run(x, v, n, testId) {
+                var timeoutId;
+                for (var i = 0; i < n; i++) {
+                  $('#ex' + testId + '-tank' + i).css({ 
+                    "width" : ( x[i] * 3 + 200) + 'px'
+                  });
+                }
+                timeoutId = setInterval(function(){
+                  for (var i = 0; i < n; i++) {
+                      x[i] += v[i];
+                      $('#ex' + testId + '-tank' + i).css({ 
+                        "width" : ( x[i] * 3 + 200) + 'px'
+                      });
+                  }
+                  var stop = false;
+                  for (var i = 0; i < n; i++) {
+                      if (x[i] * 3 + 200 < 60)    stop = true;
+                      if (x[i] * 3 + 200 > 600)  stop = true;
+                  }
+                  if (stop) {
+                      clearTimeout(timeoutId);
+                      return;
+                  }
+                  var j = 0;
+                  for (var i = 0; i < n; i++) {
+                      if (x[i] > x[j])  j = i;
+                      $('#ex' + testId + '-tank' + i + ' .profile').css({ 
+                          'border-color' : '#2D2D2D'
+                      });    
+                  }
+                  $('#ex' + testId + '-tank' + j + ' .profile').css({ 
+                        'border-color' : '#800000'
+                  });
+                }, 100);
+            }
+            $('#example1').click(function() {
+                var x = [5.0, 1.0, 3.0], v = [-1.0, 2.0, -3.0];
+                var n = 3;
+                run(x, v, n, 1);
+            });
+            $('#example2').click(function() {
+                var x = [16, 14, 18, 4, 12, 6], v = [0.125, 0.2727, -0.125, 0.8333, 0.3, 0.5714];
+                var n = 6;
+                run(x, v, n, 2);
+            });
+            $('#example3').click(function() {
+                var x = [4, 4, 0], v = [1, 0.5, 2.25];
+                var n = 3;
+                run(x, v, n, 3);
+            });
+            $('#example4').click(function() {
+                var x = [3, 5, 0, 1], v = [0, -1, 0.75, 0.5];
+                var n = 4;
+                run(x, v, n, 4);
+            });
+        });
+    </script>
+  </body>
+
+</html>
