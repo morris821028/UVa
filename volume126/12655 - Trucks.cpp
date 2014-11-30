@@ -31,6 +31,14 @@ int joint(int x, int y) {
     return 1;
 }
 int kruscal(int n, int m) {
+	struct E {
+int x, y, v;
+E(int a=0, int b=0, int c=0):
+x(a), y(b), v(c) {}
+bool operator<(const E &a) const {
+return v > a.v;
+}
+};
     int sum = 0;
     
     sort(D, D+m);
