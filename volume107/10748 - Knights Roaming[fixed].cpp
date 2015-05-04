@@ -72,7 +72,7 @@ int main() {
 				if (i == j)	continue;
 				d = min(d, max(abs(x[i] - x[j]) + abs(y[i] - y[j]) - 3 * (step[i] + step[j]), 0));
 			}
-			if (d > step[i])
+			if (d > 0)
 				independent += h[step[i]], step[i] = -1;
 		}
 				
