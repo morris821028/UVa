@@ -9,7 +9,7 @@
 using namespace std;
 #define MAXN 1024
 #define MAXM 32767
-#define INF 0x3f3f3f3f
+#define INF 1LL<<60
 struct Node {
     Node *l, *r;
     vector< pair<long long, long long> > v;
@@ -38,6 +38,7 @@ void dfs(Node *u) {
         for (int i = 0, j = 0; i < lson->v.size(); i++) {
             while (j < rson->v.size() && rson->v[j].first <= lson->v[i].first)
                 rmin = min(rmin, rson->v[j].second), j++;
+            if (rmin == INF)    continue;
             w = lson->v[i].first;
             h = lson->v[i].second + rmin;
             u->v.push_back(make_pair(w, h));
@@ -45,6 +46,7 @@ void dfs(Node *u) {
         for (int i = 0, j = 0; i < rson->v.size(); i++) {
             while (j < lson->v.size() && lson->v[j].first <= rson->v[i].first)
                 lmin = min(lmin, lson->v[j].second), j++;
+            if (lmin == INF)    continue;
             w = rson->v[i].first;
             h = rson->v[i].second + lmin;
             u->v.push_back(make_pair(w, h));
@@ -55,6 +57,7 @@ void dfs(Node *u) {
         for (int i = 0, j = 0; i < lson->v.size(); i++) {
             while (j < rson->v.size() && rson->v[j].second <= lson->v[i].second)
                 rmin = min(rmin, rson->v[j].first), j++;
+            if (rmin == INF)    continue;
             w = lson->v[i].first + rmin;
             h = lson->v[i].second;
             u->v.push_back(make_pair(w, h));
@@ -62,6 +65,7 @@ void dfs(Node *u) {
         for (int i = 0, j = 0; i < rson->v.size(); i++) {
             while (j < lson->v.size() && lson->v[j].second <= rson->v[i].second)
                 lmin = min(lmin, lson->v[j].first), j++;
+            if (lmin == INF)    continue;
             w = rson->v[i].first + lmin;
             h = rson->v[i].second;
             u->v.push_back(make_pair(w, h));
@@ -174,7 +178,7 @@ int main() {
  3 2
  7 9
  1 1
-  1 2 H 3 4 H V 5 6 V H 7 8 H 9 10 H V 11 12 V H V 13 14 H 15 16 H V 17 18 V H 19 20 H 21 22 H V 23 24 V H V H
+ 1 2 H 3 4 H V 5 6 V H 7 8 H 9 10 H V 11 12 V H V 13 14 H 15 16 H V 17 18 V H 19 20 H 21 22 H V 23 24 V H V H
  
  42
  2 3
