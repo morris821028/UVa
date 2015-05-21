@@ -98,10 +98,10 @@ int checkCoverAll(double c) {
 	map<double, int> RY;
 	for (int i = 0; i < N; i++) {
 		double x1, x2, y1, y2;
-		x1 = min(max(X[i] - K[i] * c, 0.0), W);
-		x2 = min(max(X[i] + K[i] * c, 0.0), W);
-		y1 = min(max(Y[i] - K[i] * c, 0.0), H);
-		y2 = min(max(Y[i] + K[i] * c, 0.0), H);
+		x1 = min(max(X[i] - round(K[i] * c), 0.0), W);
+		x2 = min(max(X[i] + round(K[i] * c), 0.0), W);
+		y1 = min(max(Y[i] - round(K[i] * c), 0.0), H);
+		y2 = min(max(Y[i] + round(K[i] * c), 0.0), H);
 		events.push_back(Event(x1, y1, y2,  1));
 		events.push_back(Event(x2, y1, y2, -1));
 		VY.push_back(y1), VY.push_back(y2);
@@ -144,7 +144,7 @@ int main() {
 	int testcase, cases = 0;
 	int sqrtK[128];
 	for (int i = 1; i < 128; i++)
-		sqrtK[i] = (int) round(sqrt(i));
+		sqrtK[i] = sqrt(i);
 	scanf("%d", &testcase);
 	while (testcase--) {
 		scanf("%lf %lf", &W, &H);
