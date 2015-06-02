@@ -3,14 +3,20 @@
 #include <algorithm>
 #include <map>
 #include <iostream>
-
 using namespace std;
+
 inline int toIndex(int x) { // [0...36]
 	if ('0' <= x && x <= '9')
 		return x - '0';
 	if ('A' <= x && x <= 'Z')
 		return x + 10 - 'A';
 	return 36;
+}
+int __mbuiltin_popcount(unsigned int x) {
+	int v = 0;
+	for (int i = 0; i < 32; i++)
+		v += x&1, x >>= 1;
+	return v;
 }
 const int MOD = 1874161; // 37^4
 int FUZZY[MOD];
@@ -37,7 +43,7 @@ int main() {
 			
 			// find pair
 			for (int j = 0; j < (1<<4); j++) {
-				if (__builtin_popcount(j) >= same) {
+				if (__mbuiltin_popcount(j) >= same) {
 					int s1 = 0;
 					for (int k = 0; k < 4; k++) {
 						if ((j>>k)&1)
@@ -46,7 +52,7 @@ int main() {
 							s1 = s1 * 37 + toIndex('_');
 					}
 					int &r = FUZZY[s1];
-					int v = __builtin_popcount(j);
+					int v = __mbuiltin_popcount(j);
 					if ((v - same)%2 == 0)
 						ret += r * C[v][same];
 					else

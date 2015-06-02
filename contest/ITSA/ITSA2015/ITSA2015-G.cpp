@@ -7,7 +7,7 @@
 #include <assert.h>
 #include <set>
 using namespace std;
-const int MAXV = 40010;
+const int MAXV = 1024;
 const int MAXE = MAXV * 200 * 2;
 const int INF = 1<<29;
 typedef struct Edge {
@@ -92,8 +92,8 @@ int main() {
 		for (int i = 0; i < m; i++)
 			scanf("%d %d", &mx[i], &my[i]);
 			
-		int source = n+m, sink = n+m+1;
-		g.Init(n+m+2);
+		int source = n+m+1, sink = n+m+2;
+		g.Init(n+m+20);
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				if (abs(nx[i]-mx[j]) + abs(ny[i]-my[j]) <= 5)

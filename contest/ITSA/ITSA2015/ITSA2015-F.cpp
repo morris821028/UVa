@@ -2,7 +2,9 @@
 #include <assert.h>
 #include <string.h>
 #include <set>
+#include <vector>
 #include <algorithm>
+#include <iostream>
 using namespace std;
 
 const int MAXP = 1<<21;
@@ -47,7 +49,7 @@ void dfs(int dep, int idx[], int v) {
 
 // 
 #define MAXCHAR (52 + 10)
-#define MAXNODE (1048576<<1)
+#define MAXNODE (131072)
 class Trie {
 public:
     struct Node {
@@ -115,7 +117,6 @@ void dfsLCS(int idx[], int v, Trie::Node *u) {
 		return ;
 	
 	if (arg_dp[v][0] >= -1) {
-//		s[dp[v]-1] = arg_dp[v][1];	
 		int vidx = tool.toIndex(arg_dp[v][1]);
 		if (u->next[vidx] == NULL)	
 			u->next[vidx] = tool.getNode();
@@ -148,16 +149,27 @@ void dfsLCS(int idx[], int v, Trie::Node *u) {
 	}
 }
 
-void printLCS(int dep, Trie::Node *u, char *s) {
+void printLCS(int dep, Trie::Node *u, char *s, vector<string> &ret) {
 	if (u == NULL)	return;
 	if (dep == -1) {
-		puts(s+1);
+		ret.push_back(s+1);
 		return;
 	}
 	for (int i = 0; i < MAXCHAR; i++) {
 		*s = tool.toChar(i);
-		printLCS(dep-1, u->next[i], s-1);
+		printLCS(dep-1, u->next[i], s-1, ret);
 	}
+}
+int countLCS(int dep, Trie::Node *u, char *s) {
+	if (u == NULL)	return 0;
+	if (dep == -1)
+		return 1;
+	int ret = 0;
+	for (int i = 0; i < MAXCHAR; i++) {
+		*s = tool.toChar(i);
+		ret += countLCS(dep-1, u->next[i], s-1);
+	}
+	return ret;
 }
 int main() {
 	int testcase;
@@ -184,7 +196,12 @@ int main() {
 		for (int i = 0; i < n; i++)
 			idx[i] = pwdLen[i]-1;
 		dfsLCS(idx, f, tool.root);
-		printLCS(dp[f]-1, tool.root, s + dp[f]-1);
+		printf("%d\n", countLCS(dp[f]-1, tool.root, s + dp[f]-1));
+		vector<string> ret;
+		printLCS(dp[f]-1, tool.root, s + dp[f]-1, ret);
+		sort(ret.begin(), ret.end());
+		for (int i = 0; i < ret.size(); i++)
+			printf("%s\n", ret[i].c_str());
 	}
 	return 0;
 }
@@ -197,7 +214,11 @@ dcbadcbadcbadcbahgfehgfehgfehgfe
 abcdabcdabcdabcd
 dcbadcbadcbadcba
 
+999
+
 2
+abcabcaa
+acbacba
 2
 abcdfgh
 abccfdsg
