@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+*{margin:0;padding:0;}
+body {
+	font:13.34px "Times New Roman", "Microsoft YaHei", helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: white;
+	padding: 0.7em;
+}
+p {
+	margin:1em 0;
+	line-height:1.5em;
+}
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
+}
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
+}
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<title>耍小聰明是罪過</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+
+
+<p><link rel="stylesheet" href="http://jmblog.github.io/color-themes-for-highlightjs/css/themes/tomorrow-night-eighties.css"></p>
+
+<script>
+hljs.initHighlightingOnLoad();
+</script>
+
+
+<p></p>
+
+<h1>耍小聰明是罪過</h1>
+
+<h2>Description</h2>
+
+<blockquote><p>我要代替小月來懲罰你 ～ – 球球</p></blockquote>
+
+<p>以下為無關題目的廢話 (以下廢話純屬虛構，若有相似的部分純屬巧合)</p>
+
+<p>「哦？小月你是在說偶爾耍耍小聰明也不錯？但我認為，耍小聰明是種罪過。」</p>
+
+<p>「你想想看，聰明就是聰明嘛！何必多一個 <strong>小</strong> 字去修飾它呢？你會多使用這個小字，不就代表還不足以使用聰明兩個字來形容自己的所作所為？」</p>
+
+<p>今天球球正在一如往常的逛 FB 和 BBS，發現小月在他的個版上抱怨上禮拜所參加的台大培訓班比賽。有一題很奇怪，小月他看了好多份獲得 AC 的程式碼，卻無法理解為什麼那些程式碼會對，但小月似乎放棄理解那些程式碼了。</p>
+
+<p>球球身為正義的夥伴，在這篇抱怨文中聞到了罪惡的氣息，因為那是道關於平面圖的題目，球球心想「該不會大家都仗著平面圖的測試資料很難出，於是耍小聰明寫假解法來竊取 AC 吧」於是球球看一看這些程式碼，發現其中確實有詐，這怎麼行呢？就讓球球代替小月來懲罰你們吧！之後球球把這件事上報給培訓班的助教蚯蚓，最終這題被 rejudge，八個原本 AC 這題的隊伍中只剩兩隊還存活著。</p>
+
+<p>球球身為小月的知心好友，也是正義的夥伴，當然要教教小月那些錯誤的程式碼到底發生什麼事，於是就挑了一份似乎最好讀懂的程式碼來強迫小月練習 hack 它。</p>
+
+<p>大家也跟著小月的步伐一起 hack 這份程式碼吧！</p>
+
+<h3>Original Description</h3>
+
+<p>給一無向平面圖 $$$G=(V,E)$$$，求 $$$G$$$ 的最大團 (clique)。</p>
+
+<h2>Original Input Format</h2>
+
+<p>輸入第一行有一個正整數 $$$T$$$，代表共有幾組測試資料。每組測試資料共有 $$$M+1$$$ 行。每組第一行有兩個正整數 $$$N$$$ 和 $$$M$$$，分別代表圖 $$$G$$$ 的點數和邊數。接下來 $$$M$$$ 行中，每行包含兩個數 $$$A_i,B_i$$$，代表 $$$G$$$ 的第 $$$i$$$ 條邊連接點 $$$A_i$$$ 和 $$$B_i$$$。</p>
+
+<ul>
+<li>$$$1 \le T \le 20$$$</li>
+<li>$$$1 \le N \le 200,000$$$</li>
+<li>$$$0 \le A_i,B_i &lt; N,A_i \neq B_i $$$</li>
+<li>$$$G$$$ 是個簡單平面圖</li>
+</ul>
+
+
+<h2>Original Output Format</h2>
+
+<p>￼
+每組測試資料請輸出一個數於一行，代表最大團的數目。</p>
+
+<h2>Sample Input</h2>
+
+<pre><code>2
+5 6
+0 1
+1 2
+2 0
+2 3
+3 4
+4 2
+10 6
+0 1
+0 2
+0 3
+1 2
+1 3
+2 3
+</code></pre>
+
+<h2>Sample Output</h2>
+
+<pre><code>3
+4
+</code></pre>
+
+<h2>Hacked Program</h2>
+
+<p>給小月的程式碼如下：</p>
+
+<pre><code>// written by tenyoku8478
+#include &lt;cstdio&gt;
+#include &lt;vector&gt;
+#include &lt;stack&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int n, m;
+vector&lt;int&gt; G[200010];
+
+int ans;
+int st[200010];
+bool used[200010];
+void dfs(int root, int lev = 0, int num = 0)
+{
+    used[root] = true;
+    st[lev] = root;
+    int tmp = 1;
+    for(; tmp&lt;=num; ++tmp)
+    {
+        int i = lower_bound(G[root].begin(), G[root].end(), st[lev-tmp]) - G[root].begin();
+        if(i==G[root].size() || G[root][i] != st[lev-tmp])
+            break;
+    }
+    ans = max(ans, tmp);
+    for(int i=0; i&lt;G[root].size(); ++i)
+        if(!used[G[root][i]])
+            dfs(G[root][i], lev+1, tmp);
+}
+
+int main()
+{
+    int T;
+    scanf("%d", &amp;T);
+    while(T--&gt;0)
+    {
+        scanf("%d %d", &amp;n, &amp;m);
+        for(int i=0; i&lt;n; ++i) G[i].clear();
+        while(m--&gt;0)
+        {
+            int a, b;
+            scanf("%d %d", &amp;a, &amp;b);
+            G[a].push_back(b);
+            G[b].push_back(a);
+        }
+        ans = 0;
+        for(int i=0; i&lt;n; ++i)
+        {
+            used[i] = false;
+            sort(G[i].begin(), G[i].end());
+        }
+        for(int i=0; i&lt;n; ++i)
+            if(!used[i]) dfs(i);
+        printf("%d\n", ans);
+    }
+}
+</code></pre>
+
+<h2>Judge Method</h2>
+
+<p>會 WA 的測試資料就是會 WA，要張顯球球的正義，只需要一組測資就夠了，所以請輸出一個 $$$T=1$$$ 的合法測資，使得此份程式碼 WA 掉。</p>
+
+<h2>Sample Program</h2>
+
+<p>以下程式碼能產生本題合法但不一定 AC 的測試資料</p>
+
+<pre><code>#include&lt;cstdio&gt;
+int main(){
+    int T=1;
+    printf("%d\n",T);
+    while(T--){
+        puts("3 3");
+        for(int i=0;i&lt;3;i++)printf("%d %d\n",i,(i+1)%3);
+    }
+    return 0;
+}
+</code></pre>
+</body>
+</html>

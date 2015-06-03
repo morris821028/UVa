@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+*{margin:0;padding:0;}
+body {
+	font:13.34px "Times New Roman", "Microsoft YaHei", helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: white;
+	padding: 0.7em;
+}
+p {
+	margin:1em 0;
+	line-height:1.5em;
+}
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
+}
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
+}
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<title>出題是種態度</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+
+
+<p><link rel="stylesheet" href="http://jmblog.github.io/color-themes-for-highlightjs/css/themes/tomorrow-night-eighties.css"></p>
+
+<script>
+hljs.initHighlightingOnLoad();
+</script>
+
+
+<p></p>
+
+<h1>出題是種態度</h1>
+
+<h2>Description</h2>
+
+<blockquote><p>「過去的小月是個常常寫假解 AC 後還暗自竊喜的小廢物，直到小月和球球相遇，小月才知道何謂 <strong> 演算法的正義 </strong> 」– 小月</p></blockquote>
+
+<p>大家好，我是小月，正在辛苦的出題中唷！大家可能會想「出一個 debug 的比賽不是很簡單嘛？」去 Codeforces 或一些競賽網站上找一些簡單題，看看有哪些人在短時間內從 WA 變成 AC，把那些程式碼抓下來，再複製一下測試資料，最後把題目翻譯成中文，就完成了！</p>
+
+<p>這樣子就輕鬆出完一場比賽不是？過去的小月或許會這麼做，但直到了小月與球球相遇。</p>
+
+<p>記得小月和球球第一次相遇是在國中二年級的暑假。那時小月匆匆忙忙地上了火車，準備遠赴台北這個大都市參加一個學術活動。
+火車的門關上後不久卻又重新打開，只見一個全身散發出霸氣的人走了進來，大家都因為他帥氣的身影吸走了目光。這次是小月第一次體會到，英雄總是在最後一刻登場的涵義。</p>
+
+<p>相信認識球球的人一定都心有戚戚焉，小月很高興那時有鼓起勇氣去和球球交談，在那之後也從球球身上學到許多東西。
+時隔好多年的今日，和球球分開已久，但小月相信球球一定還是在世界某個角落發光發熱。</p>
+
+<p>球球有一個座右銘：「演算法即正義」這同時也是球球的生活態度，小月想要把他的態度，傳達給在座的每一位。請大家原諒小月，在出題過程塞了那麼多話在題目敘述裡，小月只是希望大家能想想看球球說過的話有什麼涵義。請大家在思考題目的同時也看看小月與球球的故事吧！</p>
+
+<p>在故事開始前，先給大家看看球球給小月的第一個教訓：「若平常習慣靠些偷吃步 AC，在關鍵時刻遇到擁有演算法的正義的出題者時，一定會後悔莫及。」例如小月以前在寫最遠點對的問題時，都會先使用凸包模版刷掉一些不須要考慮的點，之後直接枚舉所有點對計算距離。因為小月在還未與球球相遇前，總是相信大多數出題者測資大概都隨便亂生吧。球球在知道這件事後，立刻給小月一個當頭棒喝，生出了一個讓小月 TLE 的測資。</p>
+
+<p>請大家重現球球當初對小月做的事吧!</p>
+
+<h3>Original Description</h3>
+
+<p>給 $$$N$$$ 個平面座標上的點，請求出當中相距最遠的兩個點的距離。為了方便起見，請輸出距離的平方。</p>
+
+<h2>Original Input Format</h2>
+
+<p>測試資料共有 $$$N + 1$$$ 行。第一行有一個正整數 $$$N$$$，代表平面上點的個數。
+接下來的 $$$N$$$ 行，每行有兩個整數 $$$x_i$$$, $$$y_i$$$,代表第 $$$i$$$ 個點的座標是 $$$(x_i, y_i)$$$。</p>
+
+<ul>
+<li>$$$2 \le N \le 1,000,000$$$</li>
+<li>$$$−10^9 \le x_i,y_i \le 10^9$$$</li>
+</ul>
+
+
+<h2>Original Output Format</h2>
+
+<p>￼
+對於每組測資輸出一行答案，最遠點距離的平方。</p>
+
+<h2>Sample Input</h2>
+
+<h3>範例 1</h3>
+
+<pre><code>2 
+0 0 
+10 0
+</code></pre>
+
+<h3>範例 2</h3>
+
+<pre><code>4
+-1000000000 -1000000000 
+-1000000000 1000000000
+1000000000 -1000000000
+1000000000 1000000000
+</code></pre>
+
+<h2>Sample Output</h2>
+
+<h3>範例 1</h3>
+
+<pre><code>100
+</code></pre>
+
+<h3>範例 2</h3>
+
+<pre><code>8000000000000000000
+</code></pre>
+
+<h2>Hacked Program</h2>
+
+<pre><code>//bcw0x1bd2 {{{
+#include&lt;bits/stdc++.h&gt;
+using namespace std;
+#define FZ(n) memset((n),0,sizeof(n))
+#define FMO(n) memset((n),-1,sizeof(n))
+#define MC(n,m) memcpy((n),(m),sizeof(n))
+#define F first
+#define S second
+#define MP make_pair
+#define PB push_back
+#define FOR(x,y) for(__typeof(y.begin())x=y.begin();x!=y.end();x++)
+#define IOS ios_base::sync_with_stdio(0); cin.tie(0);
+// Let's Fight! }}}
+
+const int MXN = 1000005;
+
+struct Point{
+  typedef long long T;
+  T x, y;
+
+  Point() : x(0), y(0) {}
+  Point(T _x, T _y) : x(_x), y(_y) {}
+
+  bool operator &lt; (const Point &amp;b) const{
+    return tie(x,y) &lt; tie(b.x,b.y);
+  }
+  bool operator == (const Point &amp;b) const{
+    return tie(x,y) == tie(b.x,b.y);
+  }
+  Point operator + (const Point &amp;b) const{
+    return Point(x+b.x, y+b.y);
+  }
+  Point operator - (const Point &amp;b) const{
+    return Point(x-b.x, y-b.y);
+  }
+  T operator * (const Point &amp;b) const{
+    return x*b.x + y*b.y;
+  }
+  T operator % (const Point &amp;b) const{
+    return x*b.y - y*b.x;
+  }
+  Point operator * (const T &amp;b) const{
+    return Point(x*b, y*b);
+  }
+  double abs(){
+    return sqrt(abs2());
+  }
+  T abs2(){
+    return x*x + y*y;
+  }
+};
+
+long long cross(Point o, Point a, Point b){
+  return (a-o) % (b-o);
+}
+vector&lt;Point&gt; convex_hull(vector&lt;Point&gt; pt){
+  sort(pt.begin(),pt.end());
+  int top=0;
+  vector&lt;Point&gt; stk(2*pt.size());
+  for (int i=0; i&lt;(int)pt.size(); i++){
+    while (top &gt;= 2 &amp;&amp; cross(stk[top-2],stk[top-1],pt[i]) &lt;= 0)
+      top--;
+    stk[top++] = pt[i];
+  }
+  for (int i=pt.size()-2, t=top+1; i&gt;=0; i--){
+    while (top &gt;= t &amp;&amp; cross(stk[top-2],stk[top-1],pt[i]) &lt;= 0)
+      top--;
+    stk[top++] = pt[i];
+  }
+  stk.resize(top-1);
+  return stk;
+}
+
+int main(){
+    int N;
+    while (~scanf("%d", &amp;N) &amp;&amp; N){
+        vector&lt;Point&gt; ip, ret;
+        for (int i=0,x,y; i&lt;N; i++){
+            scanf("%d%d", &amp;x, &amp;y);
+            ip.PB(Point(x,y));
+        }
+        ret = convex_hull(ip);
+        long long ans = 0;
+        for (auto p1 : ret)
+            for (auto p2: ret)
+                ans = max(ans, (p1-p2).abs2());
+        printf("%lld\n", ans);
+    }
+    return 0;
+}
+</code></pre>
+
+<h2>Judge Method</h2>
+
+<p>請構造出一組測試資料，使得使用上述程式碼凸包後，點數仍至少有 $$$1,000,000$$$ 個點。</p>
+
+<h2>Sample Program</h2>
+
+<p>以下程式碼能產生本題合法但不一定 AC 的測試資料</p>
+
+<pre><code>#include&lt;cstdio&gt;
+#include&lt;cstdlib&gt;
+#define LL long long
+const int MAX = 1000000000;
+LL myrand(){
+    LL res = ((LL)rand()&lt;&lt;48)^((LL)rand()&lt;&lt;32)^((LL)rand()&lt;&lt;16)^rand();
+    if(res&lt;0)res=-(res+1);
+    return res;
+}
+int main(){
+    int N = 1000000;
+    printf("%d\n",N);
+    for(int i=0;i&lt;N;i++){
+        printf("%d %d\n",(int)(myrand()%(2*MAX+1)-MAX),(int)(myrand()%(2*MAX+1)-MAX));
+    }
+    return 0;
+}
+</code></pre>
+</body>
+</html>

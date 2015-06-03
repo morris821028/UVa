@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+*{margin:0;padding:0;}
+body {
+	font:13.34px "Times New Roman", "Microsoft YaHei", helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: white;
+	padding: 0.7em;
+}
+p {
+	margin:1em 0;
+	line-height:1.5em;
+}
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
+}
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
+}
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<title>建圖可是不能偷懶的</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+
+
+<p><link rel="stylesheet" href="http://jmblog.github.io/color-themes-for-highlightjs/css/themes/tomorrow-night-eighties.css"></p>
+
+<script>
+hljs.initHighlightingOnLoad();
+</script>
+
+
+<p></p>
+
+<h1>建圖可是不能偷懶的</h1>
+
+<h2>Description</h2>
+
+<blockquote><p>請時常想想球球死前說過的話 – 球球</p></blockquote>
+
+<p>這一年進入尾聲，培訓班的助教的工作也進入尾聲，球球和小月正在準備一年一度的台大校內 PK 賽。但世界的變化總是突然臨來，忽然間，球球和小月被熊熊烈火包圍住了！</p>
+
+<p>有聲音空中傳來：「由於屬於紅色的 Codeforces 參賽者愈來愈多，系統已不勝負荷，決鬥吧！被配對到的兩個紅人中，決鬥失敗的人就會永遠從這個世界消失！」這什麼情況？世界觀怎能這樣亂搞。</p>
+
+<p>只見小月戰戰兢兢向空中問道：「要我們決鬥 ... 是怎麼個決鬥法呢 ....」</p>
+
+<p>有聲音空中傳來：「請在心中想像符合自己靈魂形式的題目！當雙方都想像完成後，題目會自動出現在對方筆電內，先獲得 AC 者勝利！不過要注意，不正確的上傳會有罰時 (penalty)。另外，測試資料的強度將會與出題者的正義值成正比。」</p>
+
+<p>看來，彼此的廝殺已無可避免。</p>
+
+<p>「小月！不要懼怕，放馬過來吧！我們都有演算法競賽者的尊嚴不是。」</p>
+
+<p>「是 ... 好的 ... 我絕對會盡全力的。」小月如此地回答道。</p>
+
+<p>戰鬥就這樣開始，還記得球球是身為隊花吧？屬於球球的靈魂形式，題目肯定是網路流題，於是在小月心中想了如下的題目：</p>
+
+<blockquote><p>有一個圖，一剛開始有 $$$N$$$ 個黑點，但沒有任何邊。之後有 $$$N$$$ 個階段，每個階段會插入一個紅點進圖中，並且插入的紅點會和某些黑點相連 (同色點永不相鄰)。在每個階段一結束，必須立刻回答目前該圖的最大匹配，回答正確才會進入下個階段。</p></blockquote>
+
+<p>想像完畢後，球球筆電內出現了小月所想像的題目，球球瞇眼一看「不就是個最短路變型題而已嘛！」剛才的謎之聲說，測試資料的強度和正義值成正比，想必選擇好寫的大致正確的程式就能 AC 了吧。</p>
+
+<p>於是球球先傳了一個最好寫的假解，但是卻得到 RE，球球又加強一些地方並重傳了幾次，但仍無法獲得 AC。</p>
+
+<p>球球無奈之下「好吧，雖然浪費這麼多時間，還是把程式碼全部砍掉，重新寫了一個絕對正確的方法。」在最終獲得 AC 前，得了七次不正確的的罰時。</p>
+
+<p>這時看向小月似乎還在低頭苦思，偶爾翻翻滑鼠滾輪，難道是在讀相關論文？或許他連正解都想不到，看來雖然球球不小心做了些蠢事，但勝利還是在球球手中的！</p>
+
+<p>約莫過了一個小時，小月依舊沒有觸碰鍵盤，只要再過十分鐘，就肯定是球球獲勝！再過了五分鐘，忽見小月點了一下滑鼠，同時，天空中由火焰排列而成一些中文字：</p>
+
+<pre><code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 勝利者 — 小月 &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+</code></pre>
+
+<p>「什麼？其實小月早就寫完程式碼了嗎？原來，小月已成長到這個地步了啊 ...」原來剛才一個多小時都只是在確認自己的程式碼是否有 Bug，球球不斷地為此感到欣慰。</p>
+
+<p>小月拖著沈重的身體，眼睛也瞇得比以往還細，在快變成直線的視線範圍內，慢慢地朝球球走來。</p>
+
+<p>「對不起 .... 以及謝謝 ... 謝謝你過去教給我那麼多東西。」這些話語尾消失之後，小月的嘴巴似乎又不時的稍微地張開又閉起來，大概是想要再說什麼卻又不知道能說什麼吧。</p>
+
+<p>「現在相信小月的正義值以不遜於球球了，你也應該要再更有自信些，畢竟由你的靈魂形式所構成的測試資料可是如此的強悍呢。」</p>
+
+<p>「希望其他的正義夥伴們，不要像我一樣驕矜自滿，能隨時全力以赴。光有正義感是不夠的，必須實踐出來啊！」</p>
+
+<p>「小月請幫我轉達給其他正義的夥伴們，要時常想想球球死前說的話。」</p>
+
+<p>有聲音空中傳來：「失敗者」球球就像是被掏空靈魂似的慢慢地闔上了眼睛。</p>
+
+<p>我們來看看球球第一份上傳的程式碼，是否球球真的太過忽了呢？果然這是份任誰都可以輕鬆 hack 成功的程式碼吧。</p>
+
+<h3>Original Description</h3>
+
+<p>給一有向圖 $$$G=(V,E)$$$ 以及一個起點和終點，求出前 K 短的路徑長度。一條路徑可經過同一個點或邊任意多次。</p>
+
+<h2>Original Input Format</h2>
+
+<p>輸入第一行有一個正整數 $$$T$$$，代表共有幾組測試資料。</p>
+
+<p>每組測試資料第一行包含三個正整數 $$$N,M,K$$$，$$$N$$$ 為圖 $$$G$$$ 的點數， $$$M$$$ 為圖 $$$G$$$ 的邊數。第二行包含兩個正整數 $$$s$$$ 和 $$$t$$$，代表所求路徑的起點和終點。接下來有 $$$M$$$ 行，每行包含三個正整數 $$$x_i,y_i,v_i$$$，代表圖 $$$G$$$ 含有一條由 $$$x_i$$$ 指向 $$$y_i$$$ 且長度為 $$$v_i$$$ 的有向邊。</p>
+
+<ul>
+<li>$$$1 \le T \le 15 $$$</li>
+<li>$$$2 \le N \le 10000 $$$</li>
+<li>$$$1 \le K \le 10000 $$$</li>
+<li>$$$1 \le s, t \le 10000 $$$</li>
+<li>$$$1 \le x_i, y_i \le 10000 $$$</li>
+<li>$$$1 \le v_i \le 1000 $$$</li>
+</ul>
+
+
+<h2>Original Output Format</h2>
+
+<p>￼
+每筆測試資料請輸出 $$$K$$$ 行，第 $$$i$$$ 行為第 $$$i$$$ 短路徑的長度，若 $$$s$$$ 到 $$$t$$$ 的路徑數不足 $$$K$$$，請在剩餘行數輸出 $$$−1$$$。</p>
+
+<h2>Sample Input</h2>
+
+<pre><code>2
+4 4 4
+1 4
+1 2 10
+2 3 10
+3 4 10
+3 2 10
+2 2 5
+1 2
+1 2 5
+2 1 7
+</code></pre>
+
+<h2>Sample Output</h2>
+
+<pre><code>30
+50
+70
+90
+5
+17
+29
+41
+53
+</code></pre>
+
+<h2>Hacked Program</h2>
+
+<p>球球最初所傳的程式碼如下：</p>
+
+<pre><code>#include&lt;bits/stdc++.h&gt;
+const int SIZE = 10010;
+#define LL long long
+using namespace std;
+struct data{
+    LL v;
+    int id;
+    data(LL _v,int _id):v(_v),id(_id){}
+    bool operator&lt;(const data&amp; b)const{return v&gt;b.v;}
+};
+vector&lt;pair&lt;int,int&gt; &gt;e[SIZE];
+int N,M,K;
+int s,t;
+void input(){
+    scanf("%d%d%d",&amp;N,&amp;M,&amp;K);
+    for(int i=0;i&lt;N;i++)e[i].clear();
+    scanf("%d%d",&amp;s,&amp;t);
+    s--;t--;
+    for(int i=0;i&lt;M;i++){
+        int x,y,v;
+        scanf("%d%d%d",&amp;x,&amp;y,&amp;v);
+        x--;y--;
+        e[x].push_back(make_pair(y,v));
+    }
+}
+int main(){
+    int T;
+    scanf("%d",&amp;T);
+    while(T--){
+        input();
+        priority_queue&lt;data&gt;pq;
+        pq.push(data(0,s));
+        while(K&gt;0&amp;&amp;!pq.empty()){
+            data me=pq.top();pq.pop();
+            if(me.id==t){
+                printf("%lld\n",me.v);
+                K--;
+            }
+            for(int i=0;i&lt;e[me.id].size();i++){
+                int y=e[me.id][i].first;
+                pq.push(data(me.v+e[me.id][i].second,y));
+            }
+        }
+        while(K&gt;0){
+            K--;
+            puts("-1");
+        }
+    }
+}
+</code></pre>
+
+<h2>Judge Method</h2>
+
+<p>雖然原題的 $$$T$$$ 的範圍限制高達 $$$15$$$，但為了突顯球球的疏忽，請輸出一個 $$$T=1$$$ 的合法測資，使得球球的程式碼中 <code>while()</code> 至少進入了 $$$108$$$ 次，或是 <code>priority_queue</code> 內在某個瞬間超過 $$$10^7$$$ 個元素。</p>
+
+<h2>Sample Program</h2>
+
+<p>以下程式碼能產生本題合法但不一定 AC 的測試資料</p>
+
+<pre><code>#include&lt;cstdio&gt;
+int main(){
+    int T=1;
+    printf("%d\n",T);
+    while(T--){
+        printf("2 2 2\n");
+        printf("1 2\n");
+        printf("1 2 2\n");
+        printf("2 1 2\n");
+    }
+    return 0;
+}
+</code></pre>
+</body>
+</html>
