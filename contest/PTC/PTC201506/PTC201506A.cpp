@@ -45,13 +45,19 @@ int main() {
 			RB[s]++;
 		}
 		
-		long long ret = 0;
+		long long ret = 0, sum = 0;
+
+		for (auto&x : RB)
+			sum += x.second;
 		for (auto&x : RA) {
 			long long inv_x = inv(x.first, MOD);
 			long long t = (K * inv_x)%MOD;
-			if (RB.count(t))
+			if (K == 0 && x.first == 0)
+				ret += sum * x.second;
+			else if (RB.count(t))
 				ret += RB[t] * x.second;
 		}
+		
 		ret += RB[K] + RA[K];
 		
 		printf("%lld\n", ret);
@@ -67,5 +73,11 @@ int main() {
 2 3
 10 100000001
 
-
+999
+5 0
+1 0 0 0 0 
+5 0
+0 0 0 0 1
+5 0
+0 0 0 0 0
 */
