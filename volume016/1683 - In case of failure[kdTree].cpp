@@ -87,13 +87,13 @@ public:
                 h[k] = old_hk;
             }
         } else {
+            if(u->rson != NULL)
+                findNearest(u->rson, (k+1)%K, h);
             if (u->lson != NULL) {
                 h[k] = (pt[u->label].d[k] - Q[k]) * (pt[u->label].d[k] - Q[k]);
                 findNearest(u->lson, (k+1)%K, h);
                 h[k] = old_hk;
             }
-            if(u->rson != NULL)
-                findNearest(u->rson, (k+1)%K, h);
         }
     }
     void randomSearch(int ban) {
