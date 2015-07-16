@@ -5,7 +5,7 @@
 #include <map>
 #include <vector>
 using namespace std;
-#define eps 1e-8
+#define eps 1e-12 
 struct Pt {
     double x, y;
     Pt(double a = 0, double b = 0):

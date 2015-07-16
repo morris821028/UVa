@@ -74,11 +74,10 @@ double CMP::sin = 0, CMP::cos = 0;
 Pt CMP::base = Pt();
 const double pi = acos(-1);
 int main() {	
-	freopen("in.txt", "r+t", stdin);
-	freopen("out.txt", "w+t", stdout);
 	int n;
 	double sx, sy, ex, ey;
-	
+	freopen("in.txt", "r+t", stdin);
+	freopen("out.txt", "w+t", stdout);
 	while (scanf("%d", &n) == 1) {
 		int visual[32767] = {};
 		seg D[32767];

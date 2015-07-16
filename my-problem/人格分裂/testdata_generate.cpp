@@ -99,19 +99,20 @@ main() {
 	srand ( time(NULL));
 	freopen("in.txt", "w+t", stdout);
 
-	int T = 5;
+	int T = 1;
 	while(T--) {
-		n = 10000;
+		n = 30000;
 		printf("%d\n", n);
 		seg segs[32767];
 		for (int i = 0; i < n; i++) {
 			int ok = 0;
+			
 			do {
 				ok = 1;
-				segs[i].s.x = rand()%5000 - 2500;
-				segs[i].s.y = rand()%5000 - 2500;
-				segs[i].e.x = segs[i].s.x + rand()%10 - 5;
-				segs[i].e.y = segs[i].s.y + rand()%10 - 5;
+				segs[i].s.x = rand()%30000 * 2 - 30000;
+				segs[i].s.y = rand()%30000 * 2 - 30000;
+				segs[i].e.x = segs[i].s.x + rand()%50 - 25;
+				segs[i].e.y = segs[i].s.y + rand()%50 - 25;
 				if (segs[i].s.x == segs[i].e.x)
 					ok = 0;
 				if (onSeg(segs[i].s, segs[i].e, Pt(0, 0)))
