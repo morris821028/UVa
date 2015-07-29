@@ -5,13 +5,11 @@
 #include <string.h>
 #include <algorithm>
 using namespace std;
-const int MAXN = 40005;
+const int MAXN = 1024;
 int N, D, K;
-vector<int> Comb[128];
+vector< vector<int> > C;
 struct Product {
     int v[8], id;
-    Product() {
-    }
     bool operator<(const Product &a) const {
         return sum() > a.sum();
     }
@@ -21,24 +19,14 @@ struct Product {
             s += v[i];
         return s;
     }
-    int dist(Product &u) {
-        int ret = 0;
-        for (int i = 0; i < D; i++)
-            ret += abs(v[i] - u.v[i]);
-        return ret;
-    }
-    int domain(Product &u, int K) {
-        vector<int> &C = Comb[K];
-        for (int i = (int) C.size()-1; i >= 0; i--) {
+    int domain(Product &u) {
+        for (auto &x : C) {
             int h1 = 1, h2 = 0;
-            for (int j = 0; j < D && h1; j++) {
-                if ((C[i]>>j)&1) {
-                    h1 &= v[j] >= u.v[j];
-                    h2 |= v[j] >  u.v[j];
-                }
+            for (auto &e : x) {
+                h1 &= v[e] >= u.v[e];
+                h2 |= v[e] >  u.v[e];
             }
-            if (h1 && h2)
-                return 1;
+            if (h1 && h2)   return 1;
         }
         return 0;
     }
@@ -54,12 +42,18 @@ int main() {
                 scanf("%d", &item[i].v[j]);
             item[i].id = i;
         }
+        sort(item, item+N);
         
-        for (int i = 0; i <= D; i++)
-            Comb[i].clear();
+        C.clear();
         for (int i = 0; i < (1<<D); i++) {
-            int s = __builtin_popcount(i);
-            Comb[s].push_back(i);
+            if (__builtin_popcount(i) == K) {
+                vector<int> A;
+                for (int j = 0; j < D; j++) {
+                    if ((i>>j)&1)
+                        A.push_back(j);
+                }
+                C.push_back(A);
+            }
         }
         
         vector<Product> filter;
@@ -67,52 +61,29 @@ int main() {
         for (int i = 0; i < N; i++)
             used[i] = 0;
         for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                    if (used[j] == 0 && item[i].domain(item[j], K))
+            if (used[i] == 0) {
+                filter.push_back(item[i]);
+                for (int j = i+1; j < N; j++) {
+                    if (used[j] == 0 && item[i].domain(item[j]))
                         used[j] = 1;
+                }
             }
         }
-        for (int i = 0; i < N; i++) {
-            if (used[i] == 0) {
-                ret.push_back(item[i].id);
+        for (int i = 0; i < filter.size(); i++) {
+            int ok = 1;
+            for (int j = 0; j < N && ok; j++) {
+                if (item[j].domain(filter[i]))
+                    ok = 0;
             }
+            if (ok == 1)
+                ret.push_back(filter[i].id);
         }
         
         sort(ret.begin(), ret.end());
         printf("Case #%d:", ++cases);
         for (int i = 0; i < ret.size(); i++)
             printf(" %d", ret[i]+1);
-        if (ret.size() == 0)
-            puts(" NONE");
-        else
-            puts("");
+        puts(ret.size() ? "" : " NONE");
     }
     return 0;
 }
-/*
- 4
- 
- 2 3 1
- 20 20 20
- 20 20 20
- 
- 2 5 1
- 20 5 20 20 20
- 5 20 20 20 20
- 
- 4 6 5
- 9 4 9 7 7 9
- 9 7 9 6 5 4
- 9 6 9 8 3 3
- 1 2 3 9 2 2
- 
- 8 6 5
- 3 3 5 6 6 8
- 9 4 9 7 7 9
- 8 4 7 9 2 7
- 5 6 8 9 5 9
- 9 7 9 6 2 4
- 6 6 6 5 3 5
- 5 7 3 8 4 6
- 4 4 8 6 6 4
- */
