@@ -7,7 +7,7 @@
 using namespace std;
 const int MAXN = 40005;
 int N, D, K;
-vector<int> Comb[128];
+vector< vector<int> > C;
 struct Product {
     int v[8], id;
     Product() {
@@ -56,6 +56,9 @@ int main() {
         }
         sort(item, item+N);
         
+        C.clear();
+        for (int i = 0; i <= D; i++)
+            Comb[i].clear();
         for (int i = 0; i < (1<<D); i++) {
             int s = __builtin_popcount(i);
             Comb[s].push_back(i);
