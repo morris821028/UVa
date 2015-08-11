@@ -1,4 +1,6 @@
-#include <bits/stdc++.h> 
+#include <stdio.h> 
+#include <map>
+#include <algorithm> 
 using namespace std;
 
 void exgcd(long long x, long long y, long long &g, long long &a, long long &b) {
@@ -22,9 +24,20 @@ int main() {
 	while (testcase--) {
 		scanf("%lld %lld", &N, &K);
 		for (int i = 0; i < N; i++)
-			scanf("%lld", &A[i]);
-			
-		unordered_map<long long, int> RA, RB;
+			scanf("%lld", &A[i]), A[i] %= MOD;
+		sort(A, A+N);
+		if (K == 0) {
+			int zero = 0, noz = 0;
+			for (int i = 0; i < N; i++)
+				zero += A[i] == 0;
+			noz = N - zero;
+			long long ret = 0;
+			ret += (1LL<<zero)-1; // itself
+			ret += ((1LL<<zero)-1)*((1LL<<noz)-1);
+			printf("%lld\n", ret);
+			continue;
+		}
+		map<long long, int> RA, RB;
 		int div1 = N/2;
 		int div2 = N - N/2;
 		
@@ -47,15 +60,19 @@ int main() {
 		
 		long long ret = 0, sum = 0;
 
-		for (auto&x : RB)
+		for (map<long long, int>::iterator it = RB.begin();
+			it != RB.end(); it++) {
+			pair<long long, int> x = *it;
 			sum += x.second;
-		for (auto&x : RA) {
+		}
+		for (map<long long, int>::iterator it = RA.begin();
+			it != RA.end(); it++) {
+			pair<long long, int> x = *it;
+			if (x.first == 0)
+				continue;
 			long long inv_x = inv(x.first, MOD);
 			long long t = (K * inv_x)%MOD;
-			if (K == 0 && x.first == 0)
-				ret += sum * x.second;
-			else if (RB.count(t))
-				ret += RB[t] * x.second;
+			ret += (long long) RB[t] * x.second;
 		}
 		
 		ret += RB[K] + RA[K];
@@ -64,20 +81,4 @@ int main() {
 	}
 	return 0;
 }
-/*
-3
-3 4
-2 2 2
-8 24
-1 2 3 4 5 6 7 8
-2 3
-10 100000001
 
-999
-5 0
-1 0 0 0 0 
-5 0
-0 0 0 0 1
-5 0
-0 0 0 0 0
-*/
