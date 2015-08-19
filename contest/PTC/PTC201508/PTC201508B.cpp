@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <vector>
 #include <algorithm>
+#include <assert.h>
 using namespace std;
 const int MAXN = 131072;
 struct Edge {
@@ -33,14 +34,23 @@ int main() {
 	int testcase;
 	scanf("%d", &testcase);
 	while (testcase--) {
-		int K, N, M, x, y, v;
+		int K, N, M, x, y, v, mxv = 0;
 		vector<Edge> A;
 		scanf("%d %d %d", &K, &N, &M);
 		for (int i = 0; i < M; i++) {
 			scanf("%d %d %d", &x, &y, &v);
 			A.push_back(Edge(x, y, v));
+			mxv = max(mxv, v);
 		}
 		sort(A.begin(), A.end());
+		if (K == 1) {
+			printf("%d\n", 0);
+			continue;
+		}
+		if (K >= N) {
+			printf("%d\n", mxv);
+			continue;
+		}
 		init(N);
 		int cc = N, ret = 0;
 		for (int i = 0; i < A.size(); i++) {
@@ -49,7 +59,10 @@ int main() {
 			ret = A[i].v;
 			if (cc < K)		break;
 		}
-		printf("%d\n", ret);
+		if (cc >= K)
+			printf("0\n");
+		else
+			printf("%d\n", ret);
 	}
 	return 0;
 }

@@ -10,7 +10,7 @@ int C, K[MAXK];
 long long E[MAXC][MAXK], T[MAXC][MAXK], I[MAXN];
 int N, Re, Rt;
 void schedule() {
-	long long CPUcount[MAXC] = {};
+	long long CPUcount[MAXC];
 	long long MIN_COST = 0;
 	multiset< pair<long long, int> > scheduler;
 	for (int i = 0; i < C; i++)
@@ -20,7 +20,8 @@ void schedule() {
 		long long mnv = LONG_LONG_MAX;
 		for (int j = 0; j < K[i]; j++)
 			mnv = min(mnv, T[i][j] + E[i][j]);
-		scheduler.insert({mnv, i});
+		scheduler.insert(make_pair(mnv, i));
+		CPUcount[i] = 0;
 	}
 	sort(I, I + N);
 	for (int i = N-1; i >= 0; i--) {	// reverse arrange
@@ -36,7 +37,7 @@ void schedule() {
 		mnv = LONG_LONG_MAX;
 		for (int j = 0; j < K[chCPU]; j++)
 			mnv = min(mnv, T[chCPU][j] * (CPUcount[chCPU]+1) + E[chCPU][j]);
-		scheduler.insert({mnv, chCPU});
+		scheduler.insert(make_pair(mnv, chCPU));
 	}
 	printf("%lld\n", MIN_COST);
 }

@@ -6,6 +6,17 @@
 #include <algorithm>
 using namespace std;
 
+int __mbuiltin_popcount(int x) {
+	int ret = 0;
+	for (int i = 0; i < 32; i++) {
+		if ((x>>i)&1)
+			ret++;
+	}
+	return ret;
+}
+long long mllabs(long long x) {
+	return x < 0 ? -x : x; 
+}
 int main() {
 	int testcase;
 	int N;
@@ -18,7 +29,7 @@ int main() {
 		for (int i = 0; i < N; i++)
 			scanf("%lld", &B[i]);
 		if (N == 1) {
-			printf("%lld\n", llabs(A[0] - A[0]));
+			printf("%lld\n", min(mllabs(A[0]), mllabs(B[0])));
 			continue;
 		}
 		
@@ -33,7 +44,7 @@ int main() {
 				else
 					b += B[j]; 
 			}
-			S1[__builtin_popcount(i)].insert(a - b);
+			S1[__mbuiltin_popcount(i)].insert(a - b);
 		}
 		for (int i = 0; i < (1<<div2); i++) {
 			long long a = 0, b = 0;
@@ -42,8 +53,8 @@ int main() {
 					a += A[j+div1];
 				else
 					b += B[j+div1]; 
-			}
-			S2[__builtin_popcount(i)].insert(a - b);
+			};
+			S2[__mbuiltin_popcount(i)].insert(a - b);
 		}
 		set<long long>::iterator it, jt, kt;
 		int a, b;
@@ -51,26 +62,32 @@ int main() {
 		else		a = N/2, b = N/2;
 		for (int i = a; i <= b; i++) {
 			for (int j = 0; j <= i; j++) {
+				if (S2[i-j].size() == 0)	continue;
 				for (it = S1[j].begin(); it != S1[j].end(); it++) {
 					long long d1 = *it, d2;
 					jt = S2[i-j].lower_bound(-d1);
 					if (jt != S2[i-j].end()) {
 						d2 = *jt;
-						ret = min(ret, llabs(d1+d2));
+						ret = min(ret, mllabs(d1+d2));
 					}
 					if (jt != S2[i-j].begin()) {
 						jt--;
 						d2 = *jt;
-						ret = min(ret, llabs(d1+d2));
+						ret = min(ret, mllabs(d1+d2));
 					}
 				}
 			}
 		}
-		printf("%d\n", ret);
+		printf("%lld\n", ret);
 	}
 	return 0;
 }
 /*
+999
+3
+100000000 100000000 100000000  
+0 0 0 
+
 2
 3
 3 5 4
