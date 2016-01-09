@@ -11,6 +11,10 @@
    +- etc
    |
    +- bin
+      |
+      +- arch
+      |
+      +- cat
 +- morris
    |
    +- workspace
@@ -27,4 +31,8 @@
    +- etc
    |
    +- bin
+      |
+      +- arch
+      |
+      +- cat
 +- workspace

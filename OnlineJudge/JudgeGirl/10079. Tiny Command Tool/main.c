@@ -34,7 +34,9 @@ int main() {
 					newDir("workspace", 0)),
 				newDir("stephanie", 0))
 			, newDir("etc", 0)
-			, newDir("bin", 0)
+			, newDir("bin", 2
+				, newDir("arch", 0)
+				, newDir("cat", 0))
 		);
 	tree(fs);
 	
