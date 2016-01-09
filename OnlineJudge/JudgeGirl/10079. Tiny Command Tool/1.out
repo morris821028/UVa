@@ -1,0 +1,30 @@
++- root
+   |
+   +- home
+   |  |
+   |  +- morris
+   |  |  |
+   |  |  +- workspace
+   |  |
+   |  +- stephanie
+   |
+   +- etc
+   |
+   +- bin
++- morris
+   |
+   +- workspace
++- root
+   |
+   +- home
+   |  |
+   |  +- morris
+   |  |  |
+   |  |  +- workspace
+   |  |
+   |  +- stephanie
+   |
+   +- etc
+   |
+   +- bin
++- workspace

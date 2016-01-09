@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+import os
+import sys
+
+import const
+
+def get(filename):
+	assert os.system('butler \'%s\'' % filename) == 0
+
+def exit(scr, vd, cpu, mem, dtl):
+	sys.stdout.write('00%d\n%d\n%d\n%d\n' % (scr, vd, cpu, mem))
+	sys.stdout.flush()
+	sys.stdout.buffer.write(dtl)
+	quit()
+
+def read(filename):
+	with open(filename, 'rb') as fp: return fp.read()
+
+def run(tl, ml, ol, ifn):
+	if lid == 0:
+		c = '../app/a.out'
+	else:
+		assert False
+	return os.system('sandbox %d %d %s <\'%s\' 2>/dev/null | tiger %d' % (tl, ml, c, ifn, ol))
+
+def build():
+	T = '(%s 2>&1; echo $? >es) | tiger 4096; exit `cat es`'
+	while True:
+		if lid == 0:
+			#os.system('cp ~c2014/judgesister/testdata/21/main.c .')
+			if os.system(T % 'gcc -std=c99 -O2 tct.c main.c -lm') != 0: break
+			assert os.system('mv a.out /sandbox/sandbox/app') == 0
+		else:
+			exit(0, const.CE, 0, 0, b'unsupported language\n')
+		return
+	exit(0, const.CE, 0, 0, read('/run/shm/slave.out'))
+
+def main():
+	assert len(sys.argv) == 2
+	global lid
+	lid = int(sys.argv[1])
+	build()
+	get('subtasks.py')
+	get('special')
+	scr, vd, cpu, mem, dtl = 0, const.AC, 0, 0, ''
+	for subtask in eval(read('subtasks.py')):
+		dtl += 'Subtask (%dpt)\n\n' % subtask[0]
+		flg = True
+		for trial in subtask[1:]:
+			ifn, ofn, tl, ml, ol = trial
+			get(ifn)
+			res = run(tl, ml, ol, ifn)
+			log = read('/run/shm/slave.log').decode().split()
+			cpu = max(cpu, int(log[1]))
+			mem = max(mem, int(log[2]))
+			if res != 0:
+				tvd = const.OLE
+			elif log[0] == 'MLE':
+				tvd = const.MLE
+			elif log[0] == 'RE':
+				tvd = const.RE
+			elif log[0] == 'TLE':
+				tvd = const.TLE
+			else:
+				assert log[0] == 'OK'
+				get(ofn)
+				if os.system('./special \'%s\' \'%s\' /run/shm/slave.out >/dev/null 2>&1' % (ifn, ofn)) != 0:
+					tvd = const.WA
+				else:
+					tvd = const.AC
+			dtl += '%s\ncpu %d ms\nmem %d B\n%s\n\n' % (ifn, int(log[1]), int(log[2]), const.res[tvd])
+			vd = min(vd, tvd)
+			if tvd != const.AC:
+				#if subtask[0] == 0: exit(scr, vd, cpu, mem, (dtl + 'failed to pass the sample\n').encode())
+				flg = False
+		if flg: scr += subtask[0]
+	exit(scr, vd, cpu, mem, dtl.encode())
+
+if __name__ == '__main__': main()
