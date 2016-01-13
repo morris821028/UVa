@@ -1,0 +1,1 @@
+awk '{ sub("\r$", ""); print }' out.txt > output.txt
