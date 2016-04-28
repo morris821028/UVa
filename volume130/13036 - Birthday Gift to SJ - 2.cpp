@@ -27,11 +27,9 @@ int main() {
 		F[i] = F[i-1] + F[i-2];
 		assert(F[i] / MAXV == 0);
 	}
-	int split = 9;
+	int split = 6;
 	bfs(0, split, S1);
 	bfs(split, MAXN, S2);
-	return 0;
-	printf("%d %d\n", S1.size(), S2.size());
 	int testcase;
 	scanf("%d", &testcase);
 	while (testcase--) {
@@ -70,4 +68,5 @@ int main() {
 1
 5231711 13073137
 */
+
 
