@@ -41,6 +41,5 @@ int main()
 		build(quad, 0, 0, 32);
 		cout << "There are " << cnt << " black pixels." << '\n';
 	}
-	system("pause");
 	return 0;
 }
