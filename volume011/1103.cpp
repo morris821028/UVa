@@ -24,7 +24,7 @@ char bin[256][5];
 int H, W, pic[maxh][maxw], color[maxh][maxw];  
 char line[maxw];  
   
-// 解码成一个01矩阵  
+// 解码成一个01矩阵
 void decode(char ch, int row, int col)  
 {  
     for (int i = 0; i < 4; i++) {  
