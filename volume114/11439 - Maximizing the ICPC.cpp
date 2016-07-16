@@ -1,73 +1,125 @@
-#include <stdio.h>
-#include <string.h>
-#include <set>
+#include <bits/stdc++.h>
 using namespace std;
-int g[105][105], gt[105];
-int mx[105], my[105], used[105];
-int dfs(int now) {
-    printf("%d\n", now);
-    int i, x;
-    for(i = 0; i < gt[now]; i++) {
-        x = g[now][i];
-        if(!used[x]) {
-            used[x] = 1;
-            if(my[x] == 0 || dfs(my[x])) {
-                mx[now] = x, my[x] = now;
-                return 1;
-            }
-        }
-    }
-    return 0;
+namespace Edmonds {
+	const int MAXN = 505;
+	vector<int> g[MAXN];
+	int parent[MAXN], match[MAXN], belong[MAXN], state[MAXN];
+	int n;
+	// virtual node label: 0
+	// state: -1 not used, 0: even, 1: odd vertex
+	int lca(int u, int v) {
+		static int cases = 0, used[MAXN] = {};
+		for (++cases; ; swap(u, v)) {
+			if (u == 0)
+				continue;
+			if (used[u] == cases)
+				return u;
+			used[u] = cases;
+			u = belong[parent[match[u]]];
+		}
+	}
+	void flower(int u, int v, int l, queue<int> &q) {
+		while (belong[u] != l) {
+			parent[u] = v, v = match[u];
+			if (state[v] == 1)
+				q.push(v), state[v] = 0;
+			belong[u] = belong[v] = l, u = parent[v];
+		}
+	}
+	bool bfs(int u) {
+		for (int i = 0; i <= n; i++)
+			belong[i] = i;
+		memset(state, -1, sizeof(state[0])*(n+1));
+		queue<int> q;
+		q.push(u), state[u] = 0;
+		while (!q.empty()) {
+			u = q.front(), q.pop();
+			for (int i = 0; i < g[u].size(); i++) {
+				int v = g[u][i];
+				if (state[v] == -1) {
+					parent[v] = u, state[v] = 1;
+					if (match[v] == 0) {
+						for (int prev; u; v = prev, u = parent[v]) {
+							prev = match[u];
+							match[u] = v;
+							match[v] = u;
+						}
+						return 1;
+					}
+					q.push(match[v]), state[match[v]] = 0;
+				} else if (state[v] == 0 && belong[v] != belong[u]) {
+					int l = lca(u, v);
+					flower(v, u, l, q);
+					flower(u, v, l, q);
+				}
+			}
+		}
+		return 0;
+	}
+	int bloosom() {
+		memset(parent, 0, sizeof(parent[0])*(n+1));
+		memset(match, 0, sizeof(match[0])*(n+1));
+		int ret = 0;
+		for (int i = 1; i <= n; i++) {
+			if (match[i] == 0 && bfs(i))
+				ret++;
+		}
+		return ret;
+	}
+	void addEdge(int x, int y) {
+		g[x].push_back(y), g[y].push_back(x);
+	}
+	void init(int n) {
+		Edmonds::n = n;
+		for (int i = 0; i <= n; i++)
+			g[i].clear();
+	}
 }
-int check(int n) {
-    memset(mx, 0, sizeof(mx));
-    memset(my, 0, sizeof(my));
-    int matched = 0, i;
-    for(i = 1; i <= n; i++) {
-        if(!mx[i]) {
-            printf("xx");
-            memset(used, 0, sizeof(used));
-            if(dfs(i))
-                matched++;
-        }
-    }
-    return matched;
-}
+using namespace Edmonds;
 int main() {
-    int testcase;
-    int A[100][100], C[10000];
-    int n, m, i, j, k;
-    scanf("%d", &testcase);
-    while(testcase--) {
-        scanf("%d", &n);
-        m = 1<<n;
-        set<int> B;
-        for(i = 1; i <= m; i++) {
-            for(j = i+1; j <= m; j++) {
-                scanf("%d", &A[i][j]);
-                B.insert(A[i][j]);
-            }
-        }
-        n = 0;
-        for(set<int>::iterator it = B.begin();
-            it != B.end(); it++) {
-            C[n++] = *it;
-        }
-        int l = 0, r = n-1, mid, ok = 0;
-        while(l <= r) {
-            mid = (l+r)/2;
-            memset(gt, 0, sizeof(gt));
-            printf("C[] = %d\n", C[mid]);
-            for(i = 1; i <= m; i++)
-                for(j = i+1; j <= m; j++)
-                    if(A[i][j] >= C[mid])
-                        g[i][gt[i]++] = m+j;
-            if(check(m) == m)
-                l = mid+1, ok = mid;
-            else
-                r = mid-1;
-        }
-        printf("%d\n", C[ok]);
-    }
-    return 0;
+	int testcase, cases = 0, n;
+	scanf("%d", &testcase);
+	while (testcase--) {
+		scanf("%d", &n);
+		n = 1<<n;
+		vector<int> A;
+		int w[128][128];
+		for (int i = 0; i < n; i++) {
+			for (int j = i+1; j < n; j++) {
+				scanf("%d", &w[i][j]);
+				A.push_back(w[i][j]);
+			}
+		}
+		
+		sort(A.begin(), A.end());
+		A.resize(unique(A.begin(), A.end()) - A.begin());
+		int l = 0, r = A.size()-1, mid;
+		int ret = 0;
+		while (l <= r) {
+			mid = (l + r)/2;
+			int least = A[mid];
+			init(n);
+			for (int i = 0; i < n; i++) {
+				for (int j = i+1; j < n; j++) {
+					if (w[i][j] >= least)
+						addEdge(i+1, j+1);
+				}
+			}
+			int ff = bloosom();
+			if (ff >= n/2)
+				l = mid+1, ret = least;
+			else
+				r = mid-1;
+		}
+		printf("Case %d: %d\n", ++cases, ret);
+	}
+	return 0;
 }
+/*
+1
+
+2
+300 300 300
+100 200
+100
+*/
