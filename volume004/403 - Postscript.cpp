@@ -36,7 +36,7 @@ int main() {
     int row, col, i, j, k;
     scanf("%s", cmd);
     do {
-        if(!strcmp(cmd, ".EOP")) {
+        if (!strcmp(cmd, ".EOP")) {
             for(i = 0; i < 60; i++) {
                 for(j = 0; j < 60; j++) {
                     putchar(text[i][j]);
@@ -95,6 +95,7 @@ int main() {
                 for(j = 0; j < 5; j++) {
                     for(k = 0; k < 6; k++) {
                         if(col+k-6+6*i >= 0 && col+k-6+6*i < 60 && row+j >= 0 && row+j < 60)
+                        	if (C5[msg[i]-'A'][j][k] == '*')
                             text[row+j][col+k-6+6*i] = C5[msg[i]-'A'][j][k];
                     }
                 }

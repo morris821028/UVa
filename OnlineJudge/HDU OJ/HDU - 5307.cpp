@@ -134,7 +134,7 @@ int main() {
         
         s = sum[n];
         memset(ret, 0, sizeof(ret[0]) * (s+1));
-        for (m = 1; m < (s<<1); m <<= 1);
+        for (m = 1; m <= (s<<1); m <<= 1);
         
         memset(a, 0, sizeof(a[0])*m);
         memset(b, 0, sizeof(b[0])*m);
