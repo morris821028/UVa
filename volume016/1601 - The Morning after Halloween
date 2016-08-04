@@ -18,7 +18,7 @@ public:
 };
 
 const int next[2][4] = { { 0, 1, 0, -1 },
-						 { 1, 0, -1, 0 } };
+			 { 1, 0, -1, 0 } };
 int w, h, n, num;
 int link[20][20], conn[305][7], vis[305][305][305];
 int beg[3], end[3];
