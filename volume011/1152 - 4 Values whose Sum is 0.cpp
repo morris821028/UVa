@@ -1,75 +1,75 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#define hashR 2000000
+#include <cstdio>
+#include <cstring>
+#include <cmath>
+using namespace std;
 
-int hash[hashR], size;
-struct Node {
-    int v, t, next;
-} Node[16000000];
-void addHash(int v) {
-    int m = abs(v)%hashR;
-    int head, prev;
-    prev = 0;
-    head = hash[m];
-    while(head != 0) {
-        if(Node[head].v == v) {
-            Node[head].t++;
-            return;
-        } else if(Node[head].v < v) {
-            prev = head;
-            head = Node[head].next;
-        } else
-            break;
-    }
-    ++size;
-    if(!prev)
-        hash[m] = size;
-    else
-        Node[prev].next = size;
-    Node[size].v = v, Node[size].t = 1;
-    Node[size].next = head;
+class hashTab{
+public:
+	int v, next = 0, num = 0;
+} hashNode[16000001];
+
+int menu[33554433], d;
+
+void creatHash(int x){
+	int idx = (int)(abs(x)) % 33554432;
+	int cur, pre = 0;
+	cur = menu[idx];
+	while (cur != 0){
+		if (hashNode[cur].v == x){
+			hashNode[cur].num++;
+			return;
+		}
+		else {
+			pre = cur;
+			cur = hashNode[cur].next;
+		}
+	}
+	++d;
+	if (!pre)
+		menu[idx] = d;
+	else
+		hashNode[pre].next = d;
+
+	hashNode[d].v = x;
+	hashNode[d].num = 1;
+	hashNode[d].next = 0;
 }
-int getHash(int v) {
-    int m = abs(v)%hashR;
-    int head, prev;
-    prev = 0;
-    head = hash[m];
-    while(head != 0) {
-        if(Node[head].v == v) {
-            return Node[head].t;
-        } else if(Node[head].v < v) {
-            prev = head;
-            head = Node[head].next;
-        } else
-            return 0;
-    }
+
+int getCnt(int x){
+	int idx = (int)(abs(x)) % 33554432;
+	int cur, pre = 0;
+	cur = menu[idx];
+	while (cur != 0){
+		if (hashNode[cur].v == x)
+			return hashNode[cur].num;
+		else{
+			pre = cur;
+			cur = hashNode[cur].next;
+		}
+	}
+	return 0;
 }
-int main() {
-    int t, n, A[4000], B[4000], C[4000], D[4000];
-    int i, j;
-    scanf("%d", &t);
-    while(t--) {
-        scanf("%d", &n);
-        memset(hash, 0, sizeof(hash));
-        size = 0;
-        for(i = 0; i < n; i++) {
-            scanf("%d %d %d %d", &A[i], &B[i], &C[i], &D[i]);
-        }
-        for(i = 0; i < n; i++) {
-            for(j = 0; j < n; j++) {
-                addHash(A[i]+B[j]);
-            }
-        }
-        int ans = 0;
-        for(i = 0; i < n; i++) {
-            for(j = 0; j < n; j++) {
-                ans += getHash(-C[i]-D[j]);
-            }
-        }
-        printf("%d\n", ans);
-        if(t)
-            puts("");
-    }
-    return 0;
+
+int main(){
+	int cas,n,ans;
+	int A[4000], B[4000], C[4000], D[4000];
+	scanf("%d", &cas);
+	while (cas--){
+		ans = d = 0;
+		memset(menu, 0, sizeof(menu));
+		scanf("%d", &n);
+		for (int i = 0; i < n; ++i)
+			scanf("%d%d%d%d", &A[i], &B[i], &C[i], &D[i]);
+		for (int i = 0; i < n; ++i)
+		for (int j = 0; j < n; ++j)
+			creatHash(A[i] + B[j]);
+		
+		for (int i = 0; i < n; ++i)
+		for (int j = 0; j < n; ++j)
+			ans += getCnt(- C[i] - D[j]);
+		printf("%d\n", ans);
+
+		if (cas) putchar('\n');
+	}
+	return 0;
 }
