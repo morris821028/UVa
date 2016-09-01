@@ -14,9 +14,8 @@ int insertTrie(const char *str) {
             memset(&Node[TrieSize], 0, sizeof(Node[0]));
             Node[idx].link[str[i]-'a'] = TrieSize;
         }
-        Node[idx].cnt++;
         idx = Node[idx].link[str[i]-'a'];
-
+        Node[idx].cnt++;
     }
     Node[idx].n = true;
     return 0;
