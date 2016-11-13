@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+#define likely(x)       __builtin_expect((x),1)
+#define unlikely(x)     __builtin_expect((x),0)
 /**
  * Van Emde Boas tree
  */
-static inline int log2int(int x) {
+static inline char log2int(int x) {
 	return __builtin_clz((int) 1) - __builtin_clz(x); 
 }
 static inline void divHL_bit(int u, int x, int &H, int &L) {
@@ -26,13 +27,11 @@ struct Node {
 		mem_pool = mem_pool + sizeof(Node);
 		ret->build(logN);
 		return ret;
-//		return new Node(logN);
 	}
 	static Node** newSons(int n) {
 		Node **ret = (Node **) mem_pool;
 		mem_pool = mem_pool + (n * sizeof(Node*));
 		return ret;
-//		return (Node **) malloc(n*sizeof(Node*));
 	}
 	Node(int logN) {build(logN);}
 	void build(int logN) {
@@ -43,7 +42,7 @@ struct Node {
 			return ;
 		}
 		u = 1<<logN;
-		
+
 		int auxN = (logN+1)>>1;
 		summary = newNode(auxN);
 		cluster = newSons(1<<auxN);
@@ -51,7 +50,7 @@ struct Node {
 			cluster[i] = newNode(logN>>1);
 	}
 };
-struct vEB {	
+struct vEB {    
 	Node *root;
 	void build(int n) {
 		int logN = log2int(n);
@@ -67,9 +66,11 @@ struct vEB {
 	int prev(int x) {return _prev(root, x);}
 	int count(int x) {return _count(root, x);}
 	// method
-	static int _min(Node *u) {return u->mn;}
-	static int _max(Node *u) {return u->mx;}
+	static inline int _min(Node *u) {return u->mn;}
+	static inline int _max(Node *u) {return u->mx;}
 	static void _insert(Node *u, int x) {
+		if (u->mn == x || u->mx == x)
+			return ;
 		if (u->mn == -1) {
 			u->mn = u->mx = x;
 			return ;
@@ -79,8 +80,8 @@ struct vEB {
 			swap(x, u->mn);
 		if (x > u->mx)
 			u->mx = x;
-		
-		if (u->u > 2) {
+
+		if (likely(u->u > 2)) {
 			int H, L;
 			divHL_bit(u->u, x, H, L);
 			if (_min(u->cluster[H]) == -1) {
@@ -96,7 +97,7 @@ struct vEB {
 			u->mn = u->mx = -1;
 			return ;
 		}
-		if (u->u == 2) {
+		if (unlikely(u->u == 2)) {
 			u->mn = u->mx = !x;
 		} else {
 			if (x == u->mn) {
@@ -122,15 +123,15 @@ struct vEB {
 		}
 	}
 	static int _prev(Node *u, int x) {
-		if (u->u == 2) {
+		if (unlikely(u->u == 2)) {
 			if (x == 1 && u->mn == 0)
 				return 0;
 			return -1;
 		}
-		
+
 		if (u->mx != -1 && x > u->mx)
 			return u->mx;
-		
+
 		int H, L, Hmn;
 		divHL_bit(u->u, x, H, L);
 		Hmn = _min(u->cluster[H]);
@@ -153,10 +154,10 @@ struct vEB {
 				return 1;
 			return -1;
 		}
-		
+
 		if (u->mn != -1 && x < u->mn)
 			return u->mn;
-		
+
 		int H, L, Hmx;
 		divHL_bit(u->u, x, H, L);
 		Hmx = _max(u->cluster[H]);
@@ -165,6 +166,8 @@ struct vEB {
 		} else {
 			int next_cluster = _next(u->summary, H);
 			if (next_cluster == -1) {
+				if (u->mx != -1 && x < u->mx)
+					return u->mx;
 				return -1;
 			} else {
 				return index_bit(u->u, next_cluster, _min(u->cluster[next_cluster]));
@@ -184,75 +187,75 @@ struct vEB {
 };
 
 namespace {
-    inline int readchar() {
-        const int N = 1048576;
-        static char buf[N];
-        static char *p = buf, *end = buf;
-        if(p == end) {
-            if((end = buf + fread(buf, 1, N, stdin)) == buf) return EOF;
-            p = buf;
-        }
-        return *p++;
-    }
-    inline int ReadInt(int *x) {
-        static char c, neg;
-        while((c = readchar()) < '-')    {if(c == EOF) return 0;}
-        neg = (c == '-') ? -1 : 1;
-        *x = (neg == 1) ? c-'0' : 0;
-        while((c = readchar()) >= '0')
-            *x = (*x << 3) + (*x << 1) + c-'0';
-        *x *= neg;
-        return 1;
-    }
-    class Print {
-    public:
-        static const int N = 1048576;
-        char buf[N], *p, *end;
-        Print() {
-            p = buf, end = buf + N - 1;
-        }
-        void printInt(int x, char padding) {
-        	if (x < 0) {
-        		*p = '-', p++;
-        		if (p == end)
-        			*p = '\0', printf("%s", buf), p = buf;
-        		*p = '1', p++;
-        		if (p == end)
-        			*p = '\0', printf("%s", buf), p = buf;
-        		*p = padding, p++;
-        		if (p == end)
-        			*p = '\0', printf("%s", buf), p = buf;
-        		return ;
+	inline int readchar() {
+		const int N = 1048576;
+		static char buf[N];
+		static char *p = buf, *end = buf;
+		if(p == end) {
+			if((end = buf + fread(buf, 1, N, stdin)) == buf) return EOF;
+			p = buf;
+		}
+		return *p++;
+	}
+	inline int ReadInt(int *x) {
+		static char c, neg;
+		while((c = readchar()) < '-')    {if(c == EOF) return 0;}
+		neg = (c == '-') ? -1 : 1;
+		*x = (neg == 1) ? c-'0' : 0;
+		while((c = readchar()) >= '0')
+			*x = (*x << 3) + (*x << 1) + c-'0';
+		*x *= neg;
+		return 1;
+	}
+	class Print {
+		public:
+			static const int N = 1048576;
+			char buf[N], *p, *end;
+			Print() {
+				p = buf, end = buf + N - 1;
 			}
-            static char stk[16];
-            int idx = 0;
-            stk[idx++] = padding;
-            if (!x)	
-                stk[idx++] = '0';
-            while (x)
-                stk[idx++] = x%10 + '0', x /= 10;
-            while (idx) {
-                if (p == end) {
-                    *p = '\0';
-                    printf("%s", buf), p = buf;
-                }
-                *p = stk[--idx], p++;
-            }
-        }
-        static inline void online_printInt(int x) {
-            static char ch[16];
-            static int idx;
-            idx = 0;
-            if (x == 0)	ch[++idx] = 0;
-            while (x > 0) ch[++idx] = x % 10, x /= 10;
-            while (idx) 
-                putchar(ch[idx--]+48);
-        }
-        ~Print() {
-            *p = '\0';
-            printf("%s", buf);
-        }
-    } bprint;
+			void printInt(int x, char padding) {
+				if (x < 0) {
+					*p = '-', p++;
+					if (p == end)
+						*p = '\0', printf("%s", buf), p = buf;
+					*p = '1', p++;
+					if (p == end)
+						*p = '\0', printf("%s", buf), p = buf;
+					*p = padding, p++;
+					if (p == end)
+						*p = '\0', printf("%s", buf), p = buf;
+					return ;
+				}
+				static char stk[16];
+				int idx = 0;
+				stk[idx++] = padding;
+				if (!x) 
+					stk[idx++] = '0';
+				while (x)
+					stk[idx++] = x%10 + '0', x /= 10;
+				while (idx) {
+					if (p == end) {
+						*p = '\0';
+						printf("%s", buf), p = buf;
+					}
+					*p = stk[--idx], p++;
+				}
+			}
+			static inline void online_printInt(int x) {
+				static char ch[16];
+				static int idx;
+				idx = 0;
+				if (x == 0) ch[++idx] = 0;
+				while (x > 0) ch[++idx] = x % 10, x /= 10;
+				while (idx) 
+					putchar(ch[idx--]+48);
+			}
+			~Print() {
+				*p = '\0';
+				printf("%s", buf);
+			}
+	} bprint;
 }
 vEB tree;
 int main() {
@@ -286,4 +289,3 @@ int main() {
 	}
 	return 0;
 }
-
