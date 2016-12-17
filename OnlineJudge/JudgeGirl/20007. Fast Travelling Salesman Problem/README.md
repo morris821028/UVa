@@ -1,7 +1,26 @@
 ## README ##
 
-Travelling Salesman Problem is a NP-Complete problem.
+Travelling Salesman Problem 是一道 NP-Complete 的問題，沒有辦法在多項式時間完成。
 
-I use bound-and-bound algrithm with Dancing Links.
+### 方法 1 ###
 
+使用一般動態規劃完成 TSP 問題，複雜度為 O(2^n n^2)，當 n > 25 以上時，使用的記憶體空間為 2^25 * 25，效能越來越低落。
+
+### 方法 2 ###
+
+一般使用 DFS 搜索，複雜度落在 O(n!)，搭配剪枝通常會快上很多。
+
+剪枝方法：
+
+* 計算起點到當前點路徑長 g
+* 計算當前點到終點的最短路徑長為 h
+* 當 g + h 大於等於當前答案時，不繼續搜索
+
+這個方法相當依賴搜索順序
+
+### 方法 3 ###
+
+branch and bound 算法，這方法可以算是一種特化的剪枝方法，它將嘗試把問題的 lower bound 隨著蒐索而增加，而目前已知解為 upper bound，只要 lower bound 大於等於 upper bound 退回。
+
+唯一不同的地方在於 lower bound 計算更為精準且耗時，雖然計算較為耗時，但對於龐大的問題集合中找最佳解提供了更強大的篩選策略。
 
