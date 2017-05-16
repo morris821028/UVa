@@ -15,5 +15,8 @@ test:
 	perf stat ./main img_background.ppm img_target.ppm img_mask.pgm 130 600 output.ppm
 	python ppm2jpg.py
 
+diff:
+	python ./diff-img.py output.jpg output-standard.jpg
+
 server:
 	python -m SimpleHTTPServer 8888
