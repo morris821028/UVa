@@ -4,16 +4,16 @@ public:
         unordered_map<int, int> A;
         int ret = 0;
         for (auto x : nums) {
-            int mx = 1;
-            unordered_map<int, int>::iterator it;
-            it = A.find(x-1);
-            if (it != A.end())  mx = max(mx, it->second+1);
-            it = A.find(x);
-            if (it != A.end())  mx = max(mx, it->second+1);
-            it = A.find(x+1);
-            if (it != A.end())  mx = max(mx, it->second+1);
-            ret = max(ret, mx);
-            A[x] = mx;
+            A[x]++;
+        }
+        
+        for (auto x : A) {
+            int val = x.first;
+            int cnt = x.second;
+            if (A.count(val+1)) {
+                cnt += A[val+1];
+                ret = max(ret, cnt);
+            }
         }
         return ret;
     }
