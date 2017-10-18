@@ -2,23 +2,41 @@
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
+#include <stdint.h>
+#include <algorithm>
 
-
-const int MAXT = (1e+7) + 5;
-struct BIT {
-    int tree[MAXT], n, _sum;
+const int MAXT = (5e+6) + 5;
+const int MAXS = ((MAXT)>>5)+5;
+struct BitBIT {
+    int tree[MAXS], n, m, _sum;
+    uint32_t mask[MAXS];
+    int prev_zero;
     void init(int n) {
         this->n = n;
+        m = (n>>5)+5;
         _sum = 0;
-        memset(tree, 0, sizeof(tree[0])*n);
+        memset(mask, 0, sizeof(mask[0])*m);
+        memset(tree, 0, sizeof(tree[0])*m);
+        prev_zero = 0;
     }
-    void add(int x, int val) {
-        _sum += val;
-        for (; x < n; x += x&(-x))
-            tree[x] += val;
+    void cast(int x) {
+        _sum++;
+        mask[(x>>5)+1] |= 1<<(x&31);
+        x = (x>>5)+1;
+        for (; x < m; x += x&(-x))
+            tree[x]++;
     }
-    int query(int x) {
+    void erase(int x) {
+        _sum--;
+        mask[(x>>5)+1] ^= 1<<(x&31);
+        x = (x>>5)+1;
+        for (; x < m; x += x&(-x))
+            tree[x]--;
+    }
+    int prefix(int x) {
         int ret = 0;
+        ret = __builtin_popcount(mask[(x>>5)+1]&((x&31) >= 31 ? -1 : (1U<<((x&31)+1))-1));
+        x = (x>>5);
         for (; x; x -= x&(-x))
             ret += tree[x];
         return ret;
@@ -38,7 +56,7 @@ void access(int addr) {
     if (st <= cached) {
         allmiss++;
     } else {
-        int cnt = tree.sum() - tree.query(st-1);
+        int cnt = tree.sum() - tree.prefix(st-1);
         if (cnt > cache[n-1]) {
             allmiss++;
             cached = st;
@@ -46,10 +64,10 @@ void access(int addr) {
             for (int i = 0; i < n && cnt > cache[i]; i++)
                 miss[i]++;
         }
-        tree.add(st, -1);
+        tree.erase(st);
     }
     st = ++mtime;
-    tree.add(st, 1);
+    tree.cast(st);
 }
 
 int main() {
