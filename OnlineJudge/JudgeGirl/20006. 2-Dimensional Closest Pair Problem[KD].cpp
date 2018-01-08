@@ -128,11 +128,10 @@ int main() {
         tree.query(p, i);
     }
     printf("%.2f %d\n", sqrt(tree.max_dist), tree.report.size());
+    sort(tree.report.begin(), tree.report.end());
     for (int i = 0; i < tree.report.size(); i++) {
     	pair<int, int> t = tree.report[i];
     	printf("%d %d\n", t.first+1, t.second+1);
     }
     return 0;
 }
-
-
