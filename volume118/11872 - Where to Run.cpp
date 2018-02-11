@@ -59,8 +59,8 @@ int main() {
 		for (int i = 0; i < n; i++)
 			sort(g[i].begin(), g[i].end());
 		for (int i = 0; i < (1<<n); i++) {
-			fill(dp[i], dp[i]+sizeof(dp[i]), -1);
-			fill(ej[i], ej[i]+sizeof(ej[i]), -1);
+			fill(dp[i], dp[i]+MAXN, -1);
+			fill(ej[i], ej[i]+MAXN, -1);
 		}
 		double ret = dfs(((1<<n)-1)-1, 0);
 		printf("Case %d: %.10lf\n", ++cases, ret);
