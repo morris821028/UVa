@@ -87,9 +87,10 @@ public:
 		}
 		return 0;
 	}
-    pair<int, int> Mincost(int s, int t) {
+    pair<int, int> Mincost(int s, int t, int runSPFA = 1) {
     	st = s, ed = t;
-        Spfa();
+    	if (runSPFA)
+        	Spfa();
         mncost = 0, mxflow = 0;
         for (int i = 0; i < n; i++)	arc[i] = adj[i];
         
@@ -140,7 +141,17 @@ void test(int x, int &ret) {
 	for (int i = 0; i < m; i++)
 		g.Addedge(i+n, sink, y, 0);
 
-	auto cost = g.Mincost(source, sink);
+	static int dist[MAXV];
+	if (x == m) {
+		g.st = source, g.ed = sink;
+		g.Spfa();
+		for (int i = 0; i <= g.n; i++)
+			dist[i] = g.dist[i];
+	} else {
+		for (int i = 0; i <= g.n; i++)
+			g.dist[i] = dist[i];
+	}
+	auto cost = g.Mincost(source, sink, 0);
 	ret = min(ret, cost.first + ones);
 }
 
