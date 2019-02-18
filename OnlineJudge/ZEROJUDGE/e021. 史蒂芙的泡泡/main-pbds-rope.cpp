@@ -24,29 +24,35 @@ static const int MAXN = 1e5 + 5;
 } mesh;
 
 class Rope {
-	rope<int> r;
 public:
+	rope<int> r;
 	void init() {
 		r.clear();
 	}
-	tuple<int, int, int> insert(int data, int pos) {	// make [pos] = data
-		assert (pos <= r.size());
+	int next(rope<int>::const_iterator it) {
+		it++;
+		if (it == r.end())
+			return *r.begin();
+		return *it;
+	}
+	int prev(rope<int>::const_iterator it) {
+		if (it == r.begin())
+			return *r.rbegin();
+		it--;
+		return *it;
+	}
+	tuple<int, int, int> insert(int data, int pos) {
 		r.insert(pos, data);
-		int p = r.at((pos-1+r.size())%r.size());
-		int q = r.at((pos+1+r.size())%r.size());
+		auto it = r.begin() + pos;
+		int p = prev(it);
+		int q = next(it);
 		return make_tuple(p, data, q);
 	}
 	tuple<int, int, int> remove(int pos) {
-		assert(pos < r.size());
-		int del = r.at(pos);
-		int p, q;
-		if (r.size() == 1) {
-			p = q = del;
-		} else {
-			assert(r.size() > 0);
-			p = r.at((pos-1+r.size())%r.size());
-			q = r.at((pos+1+r.size())%r.size());
-		}
+		auto it = r.begin() + pos;
+		int del = *it;
+		int p = prev(it);
+		int q = next(it);
 		r.erase(pos, 1);
 		return make_tuple(p, del, q);
 	}
@@ -155,7 +161,7 @@ struct SegSeg {
 		else if (s.first.p.x >= mesh.X[m])	insert(u->rson, m, r, s);
 		else	insert(u->lson, l, m, s), insert(u->rson, m, r, s);
 	}
-	void remove(Node* u, int l, int r, pair<PtP, int> s) {
+	void remove(Node* &u, int l, int r, pair<PtP, int> s) {
 		if (u == NULL)
 			return;
 		if (s.first.p.x <= mesh.X[l] && mesh.X[r] <= s.first.q.x) {
