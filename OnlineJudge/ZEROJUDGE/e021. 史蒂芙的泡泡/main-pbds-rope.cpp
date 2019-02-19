@@ -100,9 +100,6 @@ struct SegSeg {
 	Node* newNode() {
 		return new Node();
 	}
-	void freeNode(Node *u) {
-		free(u);
-	}
 	void init() {
 		root = NULL;
 		xn = mesh.X.size();

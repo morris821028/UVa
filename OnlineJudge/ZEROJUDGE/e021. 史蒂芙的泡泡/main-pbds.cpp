@@ -154,7 +154,7 @@ public:
 			q->fa = EMPTY, root = q;
 		}
 		int del = x->data;
-		free(x);
+		delete x;
 		if (p == EMPTY)	p = maxNode(root);
 		if (q == EMPTY)	q = minNode(root);
 		return make_tuple(p->data, del, q->data);
@@ -235,8 +235,6 @@ struct SegSeg {
 		int ret = 0;
 		if ((mesh.X[l] > x) != (mesh.X[r] > x))
 			ret += u->segs.order_of_key({PtP(Pt(x, y), Pt(x, y)), -1});
-		if (l == r)
-			return ret;
 		int m = (l+r)/2;
 		if (x <= mesh.X[m])
 			ret += count(u->lson, l, m, x, y);
@@ -260,8 +258,6 @@ struct SegSeg {
 			u->segs.insert(s);
 			return;
 		}
-		if (l == r)
-			return;
 		int m = (l+r)/2;
 		if (s.first.q.x <= mesh.X[m])			insert(u->lson, l, m, s);
 		else if (s.first.p.x >= mesh.X[m])	insert(u->rson, m, r, s);
@@ -275,8 +271,6 @@ struct SegSeg {
 			u->segs.erase(s);
 			return;
 		}
-		if (l == r)
-			return;
 		int m = (l+r)/2;
 		if (s.first.q.x <= mesh.X[m])			remove(u->lson, l, m, s);
 		else if (s.first.p.x >= mesh.X[m])	remove(u->rson, m, r, s);
