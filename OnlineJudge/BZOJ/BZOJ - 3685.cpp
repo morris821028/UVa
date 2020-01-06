@@ -6,7 +6,7 @@ using namespace std;
  * Van Emde Boas tree
  */
 static inline char log2int(int x) {
-	return __builtin_clz((int) 1) - __builtin_clz(x); 
+	return 31 - __builtin_clz(x); 
 }
 static inline void divHL_bit(int u, int x, int &H, int &L) {
 	int t = log2int(u)>>1;
