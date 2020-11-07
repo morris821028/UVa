@@ -29,18 +29,16 @@ int main() {
 		tmp = pre, pre = cur, cur = tmp;
 		n++;
 	}
-	while(1) {
-		for(i = 0; i < 26; i++) {
-			for(j = 0; j < 26; j++)
-				if(Map[j][i])
-					break;
-			if(j == 26 && App[i])	break;
-		}
-		if(i == 26) break;
-		App[i] = 0;
-		for(j = 0; j < 26; j++)	Map[i][j] = 0;
-		printf("%c", i+'A');
+	for(i = 0; i < 26; i++) {
+		for(j = 0; j < 26; j++)
+			if(Map[j][i])
+				break;
+		if(j == 26 && App[i])	break;
 	}
+	if(i == 26) break;
+	App[i] = 0;
+	for(j = 0; j < 26; j++)	Map[i][j] = 0;
+	printf("%c", i+'A');
 	if(n == 1) printf("%c", pre[0]);
 	puts("");
     return 0;
